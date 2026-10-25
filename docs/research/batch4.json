@@ -1,0 +1,621 @@
+{
+  "outOfBatch": [
+    "Welcome Swallow incubation was not checked: that species is not in this batch.",
+    "Magpie-lark presence in Tasmania was not checked: that species is not in this batch.",
+    "Little Raven natural predators were not checked: that species is not in this batch."
+  ],
+  "birds": [
+    {
+      "commonName": "Laughing Kookaburra",
+      "scientificName": "Dacelo novaeguineae",
+      "verdict": "corrected",
+      "fields": {
+        "origins": "Native to eastern mainland Australia. The scientific name is a misnomer: Sonnerat claimed New Guinea, but the bird does not occur there. It has been introduced to Tasmania, the extreme south-west of Western Australia and New Zealand, where it is naturalised.",
+        "distribution": "Eastern Australia from Cape York to Cape Otway, on both sides of the Divide, and west to the Yorke Peninsula and Flinders Ranges. Introduced in Tasmania (mainly the north-east), south-western Western Australia, Flinders Island, Kangaroo Island and New Zealand. Sedentary. The Blue-winged Kookaburra replaces it in central northern and north-western Australia, with overlap in Queensland.",
+        "habitat": "Most places with suitable trees, including open sclerophyll forest and woodland with an open understorey, farmland, wetlands, parks and gardens.",
+        "breeding": "August to January. A bare chamber in a tree hollow, or a burrow dug in an arboreal termite mound. Pairs often have helpers, usually young from the previous one or two years. BirdLife Australia gives a clutch of 2–3 and incubation of 25 days. Wikipedia gives a usual clutch of three and incubation of 24–26 days, with peak laying from September to November and later attempts if the first clutch fails. New Zealand Birds Online also gives 2–3 eggs and 24–26 days, but its laying months are a New Zealand account.",
+        "diet": "Mostly insects, worms and crustaceans, taken by pouncing from a perch, and also small snakes, mammals, frogs and birds. Larger prey is bashed before it is swallowed. Wikipedia and BirdLife Australia also include lizards and other small reptiles.",
+        "threats": "Clearing of eucalypt woodland and removal of hollow-bearing trees. BirdLife Australia also lists climate change, habitat destruction and invasive species. Where introduced, kookaburras take hollows used by parrots and owls and prey on small reptiles, mammals and nestlings. Road strikes are not in these accounts.",
+        "size": "40–45 cm, average 42 cm, in the Australian Museum and Birds in Backyards. Wikipedia gives 41–47 cm and New Zealand Birds Online 39–45 cm.",
+        "conservation": "Least Concern on the IUCN Red List, with a decreasing trend on the 2024 assessment reported by the San Diego Zoo Wildlife Alliance fact sheet and on the IUCN genus search. Not listed as threatened under the EPBC Act on the list current at 28 August 2026, and not on Victoria's FFG Act Threatened List of July 2026."
+      },
+      "errorsInDraft": [
+        "Breeding is given as September–January. Birds in Backyards, the Australian Museum and BirdLife Australia all start the season in August.",
+        "Clutch is given as 1–5. BirdLife Australia and New Zealand Birds Online give 2–3, and Wikipedia says the usual clutch is three. Eggs of one or five were not found in the pages read.",
+        "Diet omits crustaceans and birds. Lizards are in the Wikipedia diet and in BirdLife Australia's note on small reptiles, but not in the Australian Museum or Birds in Backyards diet sentence, which names snakes rather than lizards.",
+        "Distribution omits New Zealand, which the origins sentence includes, and omits the Flinders Island and Kangaroo Island introductions. Habitat is narrowed to open forest, woodland and towns.",
+        "Road strikes are not documented in Birds in Backyards, the Australian Museum, BirdLife Australia or the hollow-loss account cited by the San Diego Zoo Wildlife Alliance fact sheet."
+      ],
+      "conflicts": [
+        "Length: Australian Museum and Birds in Backyards 40–45 cm; Wikipedia 41–47 cm; New Zealand Birds Online 39–45 cm.",
+        "Clutch and incubation: BirdLife Australia 2–3 eggs and 25 days; Wikipedia usual clutch of three and 24–26 days; New Zealand Birds Online 2–3 eggs and 24–26 days.",
+        "Season: August–January on the Australian pages; Wikipedia peak laying September–November, with nest-building from August and later clutches if the first fails. New Zealand Birds Online gives laying from November to May and says New Zealand breeding success is not yet documented.",
+        "Population: the San Diego Zoo Wildlife Alliance fact sheet says populations were considered large and stable (BirdLife International 2016) and, on the same page, that the 2024 assessment trend is decreasing."
+      ],
+      "notWellDocumented": [
+        "A breeding window special to southern Victoria, beyond the general August–January season and the September–November laying peak.",
+        "Clutch extremes of one and five. They are not in the Australian Museum, Birds in Backyards, BirdLife Australia, Wikipedia or New Zealand Birds Online pages read.",
+        "The exact day of the 2024 IUCN assessment. The species page did not render; the year and the decreasing trend come from the San Diego Zoo Wildlife Alliance fact sheet citing BirdLife International 2024, and from the IUCN genus search result labelled Decreasing, Least Concern.",
+        "Road strikes as a threat.",
+        "HANZAB volume 4 is cited by the Australian Museum and Birds in Backyards, but the handbook page itself returned HTTP 401 and was not read."
+      ],
+      "sources": [
+        {
+          "url": "https://www.birdsinbackyards.net/species/Dacelo-novaeguineae",
+          "title": "Laughing Kookaburra — Birds in Backyards",
+          "accessed": "2026-10-25",
+          "supports": "40–45 cm, average 42 cm; August to January; eastern Australia, introduced to Tasmania, extreme south-west Western Australia and New Zealand; most areas with suitable trees; insects, worms and crustaceans, also small snakes, mammals, frogs and birds; hollow or arboreal termite burrow; helpers. No clutch or incubation on this page. Cites HANZAB volume 4. Federal and state status Secure, including Victoria, Tasmania and Western Australia; Northern Territory Not present."
+        },
+        {
+          "url": "https://australian.museum/learn/animals/birds/laughing-kookaburra/",
+          "title": "Laughing Kookaburra — Australian Museum",
+          "accessed": "2026-10-25",
+          "supports": "Same size, season, range, habitat, diet, nest and helpers as Birds in Backyards. Cites Higgins 1999, HANZAB volume 4."
+        },
+        {
+          "url": "https://birdlife.org.au/bird-profiles/laughing-kookaburra/",
+          "title": "Laughing Kookaburra — BirdLife Australia",
+          "accessed": "2026-10-25",
+          "supports": "Average 42 cm; same distribution and habitat; clutch 2–3; incubation 25 days; August to January; IUCN Least Concern; not EPBC-listed on the profile. Risks recorded as climate change, habitat destruction and invasive species. Introduced birds in Tasmania and Western Australia compete for hollows and prey on small reptiles, mammals and nestlings."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Laughing_kookaburra",
+          "title": "Laughing kookaburra — Wikipedia",
+          "accessed": "2026-10-25",
+          "supports": "41–47 cm; native Cape York to Cape Otway and west to the Yorke Peninsula and Flinders Ranges; introduced south-west Western Australia, Tasmania, Flinders Island and Kangaroo Island; usual clutch three; incubation 24–26 days; diet includes lizards, insects, worms, snakes and mice; name is a New Guinea misnomer; Least Concern on the lead status line, without a year or trend."
+        },
+        {
+          "url": "https://www.nzbirdsonline.org.nz/species/laughing-kookaburra",
+          "title": "Laughing kookaburra — New Zealand Birds Online",
+          "accessed": "2026-10-25",
+          "supports": "Introduced and naturalised; length 39–45 cm; clutch 2–3; incubation 24–26 days; New Zealand laying described as November to May, with breeding success not yet documented there."
+        },
+        {
+          "url": "https://ielc.libguides.com/sdzg/factsheets/laughingkookaburra/population",
+          "title": "Laughing Kookaburra population and conservation — San Diego Zoo Wildlife Alliance",
+          "accessed": "2026-10-25",
+          "supports": "Least Concern, 2024 assessment, trend decreasing, citing BirdLife International 2024. Also says populations were considered large and stable, citing BirdLife International 2016. Threat named is habitat destruction and loss of hollow trees (Moloney et al. 2002)."
+        },
+        {
+          "url": "https://www.iucnredlist.org/search?taxonomies=22674516&searchType=species",
+          "title": "IUCN Red List search — genus Dacelo",
+          "accessed": "2026-10-25",
+          "supports": "Laughing Kookaburra listed as Least Concern with a decreasing trend. The species assessment page itself was not retrieved."
+        },
+        {
+          "url": "https://www.environment.vic.gov.au/__data/assets/pdf_file/0028/793801/FFG_Threatened_List_July_2026.pdf",
+          "title": "Flora and Fauna Guarantee Act 1988 Threatened List, July 2026 — DEECA",
+          "accessed": "2026-10-25",
+          "supports": "July 2026 list. No match for Laughing Kookaburra or Dacelo novaeguineae."
+        },
+        {
+          "url": "https://data.gov.au/data/dataset/ae652011-f39e-4c6c-91b8-1dc2d2dfee8f/resource/78401dce-1f40-49d3-92c4-3713d6e34974/download/20260828spcs.csv",
+          "title": "EPBC Act List of Threatened Fauna and Flora, extracted 28 August 2026 — data.gov.au",
+          "accessed": "2026-10-25",
+          "supports": "No row for Dacelo novaeguineae or Laughing Kookaburra. Date extracted 2026-Aug-28."
+        }
+      ]
+    },
+    {
+      "commonName": "Brown Falcon",
+      "scientificName": "Falco berigora",
+      "verdict": "corrected",
+      "fields": {
+        "origins": "Native to Australia, New Guinea and Indonesia. The Australian Museum and Birds in Backyards say throughout Australia and north to New Guinea. IUCN lists Australia, Indonesia and Papua New Guinea as extant breeding.",
+        "distribution": "Throughout Australia, including Tasmania, in open country. Birds may stay all year or shift locally. Subspecies accounts differ: Wikipedia uses two, with F. b. novaeguineae in central and eastern New Guinea and coastal northern Australia, and F. b. berigora in the rest of Australia and Tasmania. Birds of the World also recognises F. b. occidentalis in south-western and central-western Australia.",
+        "habitat": "All but the densest forests. Preferred habitat is open grassland and farmland with scattered trees or poles. IUCN habitats also include savanna, desert, marine intertidal flats and artificial land, from sea level to 3,000 m.",
+        "breeding": "June to November in the south, and November to April in the north, so June–November is the published southern window. The usual nest is an old stick nest of another hawk; the pair may build their own, and birds occasionally use an open tree hollow. Wikipedia says an old nest of a larger passerine or another hawk, occasionally a hollow limb. Clutch 2–6, usually 3, and incubation 30 days, in Birds in Backyards. Wikipedia says two to five eggs. Both sexes incubate.",
+        "diet": "Small mammals, insects and reptiles, and less often small birds, usually taken from a perch. Wikipedia adds house mice, young rabbits in summer, lizards, snakes, and a winter diet dominated by insects such as caterpillars, grasshoppers, crickets and beetles, often chased on the ground.",
+        "threats": "IUCN says numbers are declining slightly in places from occasional shooting or trapping, and from poisoning of prey or pesticide use. Road strikes are not in the Australian Museum, Birds in Backyards or that IUCN text.",
+        "size": "41–51 cm, average 46 cm, in Birds in Backyards and the Australian Museum. Wikipedia says adults are usually 40–50 cm.",
+        "conservation": "Least Concern on the IUCN Red List (assessed 12 June 2024; trend decreasing). Not listed as threatened under the EPBC Act on the list current at 28 August 2026, and not on Victoria's FFG Act Threatened List of July 2026. Birds in Backyards marks it Secure federally and in every state and territory."
+      },
+      "errorsInDraft": [
+        "Origins stop at Australia and New Guinea. IUCN also lists Indonesia as native and extant breeding.",
+        "Diet lists birds without the 'less often' used by the Australian Museum and Birds in Backyards.",
+        "The nest sentence stops at an old stick nest. The same sources say the falcon may build its own stick nest and occasionally uses an open tree hollow.",
+        "Road strikes are not documented in the preferred pages or in the IUCN threat sentence, which does support occasional persecution and poisoning of prey or pesticide use."
+      ],
+      "conflicts": [
+        "Length: Birds in Backyards and the Australian Museum 41–51 cm; Wikipedia usually 40–50 cm.",
+        "Clutch: Birds in Backyards 2–6, usually 3; Wikipedia two to five.",
+        "Subspecies: Wikipedia and Oiseaux.net use two forms; Birds of the World also lists F. b. occidentalis for south-western and central-western Australia, and extends F. b. novaeguineae to north-coast islands of New Guinea."
+      ],
+      "notWellDocumented": [
+        "A southern Victorian season narrower than June–November.",
+        "Road strikes.",
+        "No BirdLife Australia profile was published for this species (the profile slug returned empty).",
+        "HANZAB was not opened. The Australian Museum cites Olsen et al. 1993, Pizzey and Knight 1997, and Reader's Digest 1990."
+      ],
+      "sources": [
+        {
+          "url": "https://www.birdsinbackyards.net/species/Falco-berigora",
+          "title": "Brown Falcon — Birds in Backyards",
+          "accessed": "2026-10-25",
+          "supports": "41–51 cm, average 46 cm; June–November in the south and November–April in the north; clutch 2–6, usually 3; incubation 30 days; throughout Australia and north to New Guinea; all but the densest forests, preferring open grassland and farmland; may be resident or move locally; diet small mammals, insects, reptiles and, less often, small birds; old hawk nest, own stick nest, or occasionally an open hollow. Secure in every state and territory."
+        },
+        {
+          "url": "https://australian.museum/learn/animals/birds/brown-falcon/",
+          "title": "Brown Falcon — Australian Museum",
+          "accessed": "2026-10-25",
+          "supports": "Same range, habitat, diet and nest account as Birds in Backyards."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Brown_falcon",
+          "title": "Brown falcon — Wikipedia",
+          "accessed": "2026-10-25",
+          "supports": "Usually 40–50 cm; breeds June–November in an old nest of a larger passerine or another hawk, occasionally a hollow limb; clutch two to five; diet includes house mice, young rabbits, small birds, lizards, snakes and insects; two subspecies as quoted in the subspecies section."
+        },
+        {
+          "url": "https://www.iucnredlist.org/species/22696354/263619384",
+          "title": "Falco berigora — IUCN Red List",
+          "accessed": "2026-10-25",
+          "supports": "Least Concern, assessed 12 June 2024, trend decreasing. Native extant breeding in Australia, Indonesia and Papua New Guinea. Local decline attributed to shooting or trapping and to poisoning of prey or pesticide use."
+        },
+        {
+          "url": "https://birdsoftheworld.org/bow/species/brofal1/cur/introduction",
+          "title": "Brown Falcon — Birds of the World",
+          "accessed": "2026-10-25",
+          "supports": "Three subspecies: novaeguineae in central and eastern New Guinea, north-coast islands and coastal northern Australia; berigora in Australia except the south-west, and Tasmania; occidentalis in south-western and central-western Australia. Full text is behind a subscription, so only the subspecies ranges were read."
+        },
+        {
+          "url": "https://www.environment.vic.gov.au/__data/assets/pdf_file/0028/793801/FFG_Threatened_List_July_2026.pdf",
+          "title": "Flora and Fauna Guarantee Act 1988 Threatened List, July 2026 — DEECA",
+          "accessed": "2026-10-25",
+          "supports": "No match for Brown Falcon or Falco berigora."
+        },
+        {
+          "url": "https://data.gov.au/data/dataset/ae652011-f39e-4c6c-91b8-1dc2d2dfee8f/resource/78401dce-1f40-49d3-92c4-3713d6e34974/download/20260828spcs.csv",
+          "title": "EPBC Act List of Threatened Fauna and Flora, extracted 28 August 2026 — data.gov.au",
+          "accessed": "2026-10-25",
+          "supports": "No row for Falco berigora or Brown Falcon."
+        }
+      ]
+    },
+    {
+      "commonName": "Sulphur-crested Cockatoo",
+      "scientificName": "Cacatua galerita",
+      "verdict": "corrected",
+      "fields": {
+        "origins": "Native to northern and eastern Australia, Tasmania, New Guinea and nearby islands, including the Aru Islands. IUCN lists Australia, Indonesia and Papua New Guinea as native. Birds in Backyards and the Australian Museum instead say it was introduced to Indonesia, and also to New Zealand. Wikipedia adds introduced populations in Perth (outside the natural range), Singapore, Palau and New Zealand. IUCN also records introduced birds, including Puerto Rico.",
+        "distribution": "Northern and eastern mainland Australia and Tasmania, mostly staying in the same area all year, plus New Guinea and nearby islands. A small population is established around Perth. A Tasmanian parks account says it avoids treeless arid inland country.",
+        "habitat": "Timbered habitats and country around settlements, including pasture, crops and parkland. A former Parks and Wildlife Service Tasmania page says it has benefited from clearing, cropping and water.",
+        "breeding": "August to January in the south and May to September in the north. Both sexes prepare a tree hollow, incubate and care for the young, and family groups stay together. Birds in Backyards gives a clutch of one to three and incubation of 30 days. Wikipedia gives two to three eggs and incubation of 25–27 days.",
+        "diet": "The Australian Museum and Birds in Backyards give the normal diet as berries, seeds, nuts and roots, plus human handouts. Other accounts add grain, bulbs, corms, rhizomes, leaves, flowers and insect larvae. A Melbourne study found mostly grass seeds and roots, bulbs and corms, and tree fruits, flowers and seeds, and cites Higgins 1999 for insect larvae and crop seeds.",
+        "threats": "Sometimes shot or poisoned as pests, which needs a Commonwealth permit because the species is protected. Urban birds damage timber on houses. IUCN suspects a decline from ongoing habitat destruction. A Tasmanian parks account says the species has benefited from clearing, so loss of large hollows is not the threat those pages name.",
+        "size": "45–50 cm, average 48 cm, in Birds in Backyards and the Australian Museum. Wikipedia gives 44–55 cm, with Australian birds larger than New Guinea birds.",
+        "conservation": "Least Concern on the IUCN Red List (assessed 9 August 2018; trend decreasing). Not listed as threatened under the EPBC Act on the list current at 28 August 2026, and not on Victoria's FFG Act Threatened List of July 2026. Birds in Backyards marks it Secure federally and in every state and territory."
+      },
+      "errorsInDraft": [
+        "Origins say only Australia and New Guinea. They omit the Aru Islands, the Perth population, New Zealand, and the conflict over whether Indonesian birds are native or introduced.",
+        "Distribution omits Perth and narrows the habitat to woodland and farmland.",
+        "Diet leads with grain, bulbs and insect larvae. The Australian Museum and Birds in Backyards lead with berries, seeds, nuts and roots. Grain, bulbs and larvae are in other accounts, including a study that cites HANZAB.",
+        "Loss of large hollow trees is not the threat named by the Australian Museum, Birds in Backyards or the Tasmanian parks page, which says the species has benefited from clearing. Culling as a pest is supported."
+      ],
+      "conflicts": [
+        "Incubation: Birds in Backyards 30 days; Wikipedia 25–27 days.",
+        "Clutch: Birds in Backyards one to three; Wikipedia two to three.",
+        "Length: Birds in Backyards and the Australian Museum 45–50 cm; Wikipedia 44–55 cm.",
+        "Indonesia: Birds in Backyards and the Australian Museum say introduced; IUCN lists Indonesia as native, and Wikipedia treats New Guinea and some Indonesian islands, including the Aru Islands, as part of the natural range while listing other introductions separately.",
+        "Trend cause: IUCN suspects a decline from habitat destruction, while the Tasmanian parks account says the species has benefited from clearing and cropping."
+      ],
+      "notWellDocumented": [
+        "Whether loss of hollow trees, as distinct from broader habitat destruction, is driving the species decline.",
+        "A southern Victorian season narrower than August–January.",
+        "HANZAB volume itself was not opened. The clutch, incubation and larval diet in Higgins 1999 are cited by later papers, not read here.",
+        "World Parrot Trust says the species is not protected in Australia and that culls occur. Wikipedia says a government permit is required because it is protected under Commonwealth law. Those two statements were not reconciled from a statute page."
+      ],
+      "sources": [
+        {
+          "url": "https://www.birdsinbackyards.net/species/Cacatua-galerita",
+          "title": "Sulphur-crested Cockatoo — Birds in Backyards",
+          "accessed": "2026-10-25",
+          "supports": "45–50 cm; August–January in the south and May–September in the north; clutch one to three; incubation 30 days; northern and eastern mainland, Tasmania, Perth, New Guinea, Aru Islands, introduced New Zealand and Indonesia; berries, seeds, nuts and roots; tree hollow; Secure in every state and territory. Cage escapes have extended the range; urban birds damage timber."
+        },
+        {
+          "url": "https://australian.museum/learn/animals/birds/sulphur-crested-cockatoo/",
+          "title": "Sulphur-crested Cockatoo — Australian Museum",
+          "accessed": "2026-10-25",
+          "supports": "Same range, habitat and diet as Birds in Backyards."
+        },
+        {
+          "url": "https://birdlife.org.au/bird-profiles/sulphur-crested-cockatoo/",
+          "title": "Sulphur-crested Cockatoo — BirdLife Australia",
+          "accessed": "2026-10-25",
+          "supports": "Same distribution, habitat and diet text as Birds in Backyards. IUCN Least Concern on the profile. No EPBC flag and no risk terms on the profile record."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Sulphur-crested_cockatoo",
+          "title": "Sulphur-crested cockatoo — Wikipedia",
+          "accessed": "2026-10-25",
+          "supports": "44–55 cm; native Australia, New Guinea and some Indonesian islands, including the Aru Islands; introduced Perth, Singapore, Palau and New Zealand; clutch two to three; incubation 25–27 days; sometimes shot or poisoned under a Commonwealth permit."
+        },
+        {
+          "url": "https://www.iucnredlist.org/species/22684781/131914971",
+          "title": "Cacatua galerita — IUCN Red List",
+          "accessed": "2026-10-25",
+          "supports": "Least Concern, assessed 9 August 2018, trend decreasing, suspected because of ongoing habitat destruction. Native extant breeding in Australia, Indonesia and Papua New Guinea. Introduced populations include Puerto Rico."
+        },
+        {
+          "url": "https://web.archive.org/web/20170326112218/http:/www.parks.tas.gov.au/?base=19344",
+          "title": "Sulphur-crested Cockatoo — Parks and Wildlife Service Tasmania (archived)",
+          "accessed": "2026-10-25",
+          "supports": "Diet includes berries, seeds, nuts, roots, leaves, stems, flowers, bark, bulbs, rhizomes and insect larvae. Benefited from clearing, cropping and water. Avoids treeless arid inland areas. Introduced to New Zealand, Singapore, Palau and Indonesia."
+        },
+        {
+          "url": "https://absa.asn.au/wp-content/uploads/2021/03/FINAL_Paper_2_V45_Lill_Sulphur_C_Cockatoo_V4.pdf",
+          "title": "Lill, urban foraging of Sulphur-crested Cockatoos — Australian Bird Study Association",
+          "accessed": "2026-10-25",
+          "supports": "Cites Higgins 1999 for seeds, fruits, bulbs, corms, insect larvae and crop damage. Melbourne birds ate mainly grass seeds and roots, bulbs and corms, and tree fruits, flowers and seeds."
+        },
+        {
+          "url": "https://www.environment.vic.gov.au/__data/assets/pdf_file/0028/793801/FFG_Threatened_List_July_2026.pdf",
+          "title": "Flora and Fauna Guarantee Act 1988 Threatened List, July 2026 — DEECA",
+          "accessed": "2026-10-25",
+          "supports": "No match for Sulphur-crested Cockatoo or Cacatua galerita."
+        },
+        {
+          "url": "https://data.gov.au/data/dataset/ae652011-f39e-4c6c-91b8-1dc2d2dfee8f/resource/78401dce-1f40-49d3-92c4-3713d6e34974/download/20260828spcs.csv",
+          "title": "EPBC Act List of Threatened Fauna and Flora, extracted 28 August 2026 — data.gov.au",
+          "accessed": "2026-10-25",
+          "supports": "No row for Cacatua galerita or Sulphur-crested Cockatoo."
+        }
+      ]
+    },
+    {
+      "commonName": "Long-billed Corella",
+      "scientificName": "Cacatua tenuirostris",
+      "verdict": "corrected",
+      "fields": {
+        "origins": "Native, and naturally endemic, to south-eastern Australia. Populations outside that range are treated as established escapes or introductions. IUCN lists it as native only in Australia.",
+        "distribution": "Natural range from south-eastern South Australia through western Victoria to southern New South Wales, including the central Murray and, on the Australian Faunal Directory, spread through the Riverina. Established populations are described around the southern Mount Lofty Ranges, the Gawler River, Sydney, Brisbane and Perth. Tasmania is disputed: Birds in Backyards says Not present, the Australian Faunal Directory says an apparently rare visitor, and Wikipedia says it now occurs in Tasmania.",
+        "habitat": "Grassy woodland and grassland, including pasture, crops and urban parks. Wikipedia also mentions red gum woodland.",
+        "breeding": "July to December in Birds in Backyards. Wikipedia says July to November. Nests are hollows in large old eucalypts and sometimes cavities in loose gravelly cliffs, with eggs on decayed wood. Clutch 1–4 and incubation 24 days in Birds in Backyards. Wikipedia says 2–3 eggs and about 24 days. Both parents incubate and feed the young.",
+        "diet": "Grass seeds are preferred, especially grain. Birds also eat corms, bulbs and roots, particularly onion grass (Romulea), insects, and native murnong (Microseris lanceolata). Birds in Backyards says about 90 percent of the diet is now introduced plants.",
+        "threats": "Loss of old hollow trees may be reducing numbers in the original range, even where feral populations are doing well. Permits are sometimes issued to shoot birds that damage grain and fruit. Wikipedia says the Perth population may hybridise with the Western Corella, which is a risk to that species.",
+        "size": "38–41 cm, average 40 cm, in Birds in Backyards. The Australian Museum says up to 41 cm.",
+        "conservation": "Least Concern on the IUCN Red List (assessed 15 January 2024; trend increasing). Not listed as threatened under the EPBC Act on the list current at 28 August 2026, and not on Victoria's FFG Act Threatened List of July 2026. Birds in Backyards marks it Secure federally and in New South Wales, Victoria, South Australia and Western Australia, and Not present in the Northern Territory, Queensland and Tasmania."
+      },
+      "errorsInDraft": [
+        "Distribution says western Victoria and southern New South Wales and leaves out south-eastern South Australia, which Birds in Backyards and the Australian Faunal Directory include in the natural range.",
+        "The nest sentence mentions only tree hollows. Birds in Backyards and the Australian Museum also describe cavities in loose gravelly cliffs.",
+        "Diet leads with roots, bulbs and corms. Birds in Backyards says grass seeds, particularly grain, are preferred, with corms, bulbs, roots and insects as well.",
+        "'Feral populations elsewhere' does not name the documented Sydney, Brisbane, Mount Lofty, Gawler and Perth populations, and it does not show the conflict over Tasmania."
+      ],
+      "conflicts": [
+        "Season: Birds in Backyards July–December; Wikipedia July–November.",
+        "Clutch: Birds in Backyards 1–4; Wikipedia 2–3 dull white eggs.",
+        "Tasmania: Birds in Backyards Not present; Australian Faunal Directory apparently a rare visitor; Wikipedia present.",
+        "Queensland: Birds in Backyards Not present; Australian Faunal Directory established around Brisbane; Wikipedia south-east Queensland.",
+        "Trend: IUCN 2024 increasing; Birds in Backyards says the overall population may decline because old hollow trees are being lost in the original range."
+      ],
+      "notWellDocumented": [
+        "A southern Victorian season narrower than the July–December or July–November figures.",
+        "Incubation other than about 24 days was not found on the pages read this session.",
+        "No BirdLife Australia profile was published (the profile slug returned empty).",
+        "HANZAB was not opened."
+      ],
+      "sources": [
+        {
+          "url": "https://www.birdsinbackyards.net/species/Cacatua-tenuirostris",
+          "title": "Long-billed Corella — Birds in Backyards",
+          "accessed": "2026-10-25",
+          "supports": "38–41 cm; July–December; clutch 1–4; incubation 24 days; south-eastern South Australia through western Victoria to southern New South Wales, plus established populations elsewhere; grassy woodland, grassland, pasture, crops and parks; grass seeds and grain preferred, also onion-grass corms, bulbs, roots, insects and murnong, about 90 percent introduced plants; hollows and gravelly cliffs; hollow loss and shooting permits. Secure in NSW, SA, VIC and WA; Not present in NT, QLD and TAS."
+        },
+        {
+          "url": "https://australian.museum/learn/animals/birds/long-billed-corella/",
+          "title": "Long-billed Corella — Australian Museum",
+          "accessed": "2026-10-25",
+          "supports": "Up to 41 cm; south-eastern Australia; nests in large eucalypt hollows and sometimes loose gravelly cliffs. No clutch or incubation on this page."
+        },
+        {
+          "url": "https://biodiversity.org.au/afd/taxa/Cacatua_%28Licmetis%29_tenuirostris",
+          "title": "Cacatua (Licmetis) tenuirostris — Australian Faunal Directory",
+          "accessed": "2026-10-25",
+          "supports": "Natural range from south-eastern South Australia across western Victoria to the central Murray and Riverina. Apparently a rare visitor to Tasmania. Introduced and locally established in the southern Mount Lofty Ranges, at the mouth of the Gawler River, and around Sydney and Brisbane."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Long-billed_corella",
+          "title": "Long-billed corella — Wikipedia",
+          "accessed": "2026-10-25",
+          "supports": "Now in Tasmania, South Australia and south-east Queensland, with a feral Perth population that may hybridise with the Western Corella. Breeding July–November; 2–3 eggs; incubation about 24 days; hollows and occasionally loose gravelly cliffs; roots, seeds, corms and bulbs, especially onion grass."
+        },
+        {
+          "url": "https://www.iucnredlist.org/species/22684820/254000283",
+          "title": "Cacatua tenuirostris — IUCN Red List",
+          "accessed": "2026-10-25",
+          "supports": "Least Concern, assessed 15 January 2024, trend increasing. Habitats forest and grassland."
+        },
+        {
+          "url": "https://www.environment.vic.gov.au/__data/assets/pdf_file/0028/793801/FFG_Threatened_List_July_2026.pdf",
+          "title": "Flora and Fauna Guarantee Act 1988 Threatened List, July 2026 — DEECA",
+          "accessed": "2026-10-25",
+          "supports": "No match for Long-billed Corella or Cacatua tenuirostris."
+        },
+        {
+          "url": "https://data.gov.au/data/dataset/ae652011-f39e-4c6c-91b8-1dc2d2dfee8f/resource/78401dce-1f40-49d3-92c4-3713d6e34974/download/20260828spcs.csv",
+          "title": "EPBC Act List of Threatened Fauna and Flora, extracted 28 August 2026 — data.gov.au",
+          "accessed": "2026-10-25",
+          "supports": "No row for Cacatua tenuirostris or Long-billed Corella. Rows containing the epithet tenuirostris are Australian Lesser Noddy and Great Knot."
+        }
+      ]
+    },
+    {
+      "commonName": "Common Bronzewing",
+      "scientificName": "Phaps chalcoptera",
+      "verdict": "corrected",
+      "fields": {
+        "origins": "Native and endemic to Australia, including Tasmania and many offshore islands. The Australian Faunal Directory also notes an introduction on Kangaroo Island, where the species occurs as well.",
+        "distribution": "Throughout Australia except treeless deserts and the upper Cape York Peninsula, and except the densest rainforests. Rarely far from water. Sedentary, or wanders locally and sometimes regionally to seasonal food.",
+        "habitat": "Almost any wooded habitat with an open understorey, including woodland, scrub, mallee, mulga and arid scrub, forest that is not dense rainforest, and country near water. The draft's woodland and scrub is only part of that.",
+        "breeding": "Opportunistic, so nesting can fall in any month when conditions suit, but published peaks differ and none is fixed for southern Victoria. Alice Springs Desert Park says any time, mostly August–December, with incubation of 16 days. M Dahlem says almost any time, with a table of August–February and incubation of 16–18 days, and notes that the season may depend on latitude. Oiseaux-birds says mainly August–January, sometimes extended, and about two weeks. Birds in Backyards and the Australian Museum give no months. Clutch is two. Those two pages give incubation of 15 days; Wikipedia says roughly 14–16 days. The nest is an untidy stick platform, usually low in a tree or bush and sometimes up to 15–20 m. Both parents incubate and feed crop milk.",
+        "diet": "Seeds and other vegetable matter, taken on the ground, with frequent drinking. Wikipedia says seeds and all varieties of vegetables. Ausemade, a secondary page, names native grasses, acacia and cassia, and says wattle seeds are favoured. Acacia is not named on the Australian Museum, Birds in Backyards or Australian Faunal Directory pages read. Oiseaux-birds also lists berries, weeds, grass seeds, sometimes leaves and small invertebrates.",
+        "threats": "Foxes, cats and habitat clearing are not stated on the Australian Museum, Birds in Backyards, Wikipedia or Australian Faunal Directory pages read. The 2016 IUCN text treats the population as stable and not close to threatened thresholds. Predators of this species are not well documented in the preferred pages.",
+        "size": "30–36 cm, average 33 cm, in Birds in Backyards and the Australian Museum, matching Wikipedia. Alice Springs Desert Park gives 33–36 cm.",
+        "conservation": "Least Concern on the IUCN Red List. The assessment text retrieved was dated 1 October 2016, with a stable trend, and the same page notes a latest assessment in 2024 that remains Least Concern. The 2024 trend was not in the text retrieved. Not listed as threatened under the EPBC Act on the list current at 28 August 2026, and not on Victoria's FFG Act Threatened List of July 2026."
+      },
+      "errorsInDraft": [
+        "Distribution says resident and limits the gaps to the driest deserts. The Australian Faunal Directory excludes treeless deserts and upper Cape York and says birds wander locally or regionally. Dense rainforest is also excluded.",
+        "Habitat is limited to woodland and scrub.",
+        "Incubation is given as about 14–16 days. Birds in Backyards and the Australian Museum both say 15 days. The 14–16 day span matches Wikipedia, not that preferred pair.",
+        "Diet says seeds especially of acacias. The Australian Museum and Birds in Backyards say seeds and other vegetable matter and do not name acacia.",
+        "Foxes, cats and habitat clearing are not documented in the preferred sources read."
+      ],
+      "conflicts": [
+        "Incubation: Birds in Backyards and the Australian Museum 15 days; Wikipedia roughly 14–16 days; Alice Springs Desert Park 16 days; M Dahlem 16–18 days; Oiseaux-birds about two weeks.",
+        "Season: no months on the Australian Museum or Birds in Backyards; Alice Springs any time, mostly August–December; M Dahlem almost any time, table August–February; Oiseaux-birds mainly August–January, extendable; Australian Faunal Directory seasonal or opportunistic.",
+        "Length: 30–36 cm on the museum, Birds in Backyards and Wikipedia; Alice Springs Desert Park 33–36 cm.",
+        "Acacia: absent from the preferred diet sentences; Ausemade says wattle seeds are favoured, along with native grasses and cassia.",
+        "IUCN: the retrieved assessment is 1 October 2016, trend stable, while the same page notes a 2024 assessment that is still Least Concern, without a 2024 trend in the text retrieved."
+      ],
+      "notWellDocumented": [
+        "A breeding peak special to southern Victoria. Temperate peaks in secondary accounts fall somewhere between August and February.",
+        "Predators. Foxes and cats were not found on the preferred pages.",
+        "Whether acacia seed is a principal food. It is a secondary-page claim, not in the Australian Museum, Birds in Backyards or the Australian Faunal Directory text read. Frith's diet papers are cited by the directory but were not read.",
+        "The 2024 IUCN trend.",
+        "No BirdLife Australia profile was published (the profile slug returned empty)."
+      ],
+      "sources": [
+        {
+          "url": "https://www.birdsinbackyards.net/species/Phaps-chalcoptera",
+          "title": "Common Bronzewing — Birds in Backyards",
+          "accessed": "2026-10-25",
+          "supports": "30–36 cm, average 33 cm; clutch 2; incubation 15 days; no breeding months; seeds and other vegetable matter; untidy stick nest, usually low and up to 20 m; almost every habitat except the most barren areas and densest rainforests, rarely far from water. Secure in every state and territory, including Tasmania."
+        },
+        {
+          "url": "https://australian.museum/learn/animals/birds/common-bronzewing/",
+          "title": "Common Bronzewing — Australian Museum",
+          "accessed": "2026-10-25",
+          "supports": "Same size, diet and nest account. Calls it one of the most plentiful pigeons in Australia. Cites Crome and Shields 1992, Pizzey and Knight 1997, and Reader's Digest 1990."
+        },
+        {
+          "url": "https://biodiversity.org.au/afd/taxa/Phaps_%28Phaps%29_chalcoptera",
+          "title": "Phaps (Phaps) chalcoptera — Australian Faunal Directory",
+          "accessed": "2026-10-25",
+          "supports": "Throughout Australia except treeless deserts and upper Cape York, plus offshore islands, and introduced on Kangaroo Island. Seasonal or opportunistic breeder; ground seeds in wooded habitats with open understorey except dense forest; sedentary or wanders locally and regionally; nests to 15 m. No acacia in the text read."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Common_bronzewing",
+          "title": "Common bronzewing — Wikipedia",
+          "accessed": "2026-10-25",
+          "supports": "Endemic Australian pigeon; 30–36 cm; almost any habitat except very barren areas and dense rainforests; seeds and vegetables; rough twig nest; hatch after roughly 14–16 days; crop milk. No acacia, fox or cat sentence in the text read."
+        },
+        {
+          "url": "https://alicespringsdesertpark.com.au/connect-with-nature/animals/animals/common-bronzewing",
+          "title": "Common bronzewing — Alice Springs Desert Park",
+          "accessed": "2026-10-25",
+          "supports": "Can breed any time if conditions suit, mostly August–December; two eggs; incubation 16 days; 33–36 cm; flimsy twig platform."
+        },
+        {
+          "url": "https://www.mdahlem.net/birds/11/cbrwing.php",
+          "title": "Common Bronzewing — M Dahlem",
+          "accessed": "2026-10-25",
+          "supports": "Breeding table August–February; can breed almost any time given the right conditions; season may depend on latitude; clutch 2; incubation 16–18 days."
+        },
+        {
+          "url": "https://www.oiseaux-birds.com/card-common-bronzewing.html",
+          "title": "Common Bronzewing — Oiseaux-birds",
+          "accessed": "2026-10-25",
+          "supports": "Mainly August–January, may extend through the year; clutch 2; incubation about two weeks; seeds and other plant matter, sometimes leaves and small invertebrates."
+        },
+        {
+          "url": "https://ausemade.com.au/flora-fauna/fauna/birds/dove-pigeon-columbidae/common-bronzewing-phaps-chalcoptera/",
+          "title": "Common Bronzewing — Ausemade",
+          "accessed": "2026-10-25",
+          "supports": "Secondary page. Seeds of native grasses, acacia and cassia, with wattle seeds favoured; can breed all year when conditions are good."
+        },
+        {
+          "url": "https://www.iucnredlist.org/species/22690667/93282812",
+          "title": "Phaps chalcoptera — IUCN Red List",
+          "accessed": "2026-10-25",
+          "supports": "Least Concern. Assessment text dated 1 October 2016, trend stable. The same page notes a latest assessment of 2024, still Least Concern. The 2024 trend was not in the retrieved text."
+        },
+        {
+          "url": "https://www.environment.vic.gov.au/__data/assets/pdf_file/0028/793801/FFG_Threatened_List_July_2026.pdf",
+          "title": "Flora and Fauna Guarantee Act 1988 Threatened List, July 2026 — DEECA",
+          "accessed": "2026-10-25",
+          "supports": "No match for Common Bronzewing or Phaps chalcoptera."
+        },
+        {
+          "url": "https://data.gov.au/data/dataset/ae652011-f39e-4c6c-91b8-1dc2d2dfee8f/resource/78401dce-1f40-49d3-92c4-3713d6e34974/download/20260828spcs.csv",
+          "title": "EPBC Act List of Threatened Fauna and Flora, extracted 28 August 2026 — data.gov.au",
+          "accessed": "2026-10-25",
+          "supports": "No row for Phaps chalcoptera or Common Bronzewing."
+        }
+      ]
+    },
+    {
+      "commonName": "Rufous Whistler",
+      "scientificName": "Pachycephala rufiventris",
+      "verdict": "corrected",
+      "fields": {
+        "origins": "Native to mainland Australia and New Caledonia. It is not a Tasmanian bird, and the IUCN range retrieved does not include Papua New Guinea.",
+        "distribution": "Throughout mainland Australia, absent from Tasmania. Many eastern birds move south in spring and north in autumn; others are sedentary.",
+        "habitat": "Forests, woodlands and shrublands with a shrubby understorey, and also gardens, farmland with trees, and remnant bush.",
+        "breeding": "July to February. The female builds a fragile cup of twigs, grass and vines, bound and attached to a fork with spider web. Clutch usually 2, sometimes 3. Incubation about 13 days. Both sexes incubate and care for the young, and two broods are possible. That season is the one published for the species, including southern Australia; a narrower southern Victorian window was not found.",
+        "diet": "Mainly insects, and sometimes seeds, fruit or leaves. Wikipedia also says occasionally grasses. Birds in Backyards says it forages higher than other whistlers and is rarely on the ground. Wikipedia says it never forages on the ground.",
+        "threats": "Land clearing and urban development. BirdLife Australia's profile records habitat destruction, and IUCN tentatively links a decline to habitat loss. No predator list was found on these pages.",
+        "size": "16–18 cm, average 17 cm, in Birds in Backyards and on the BirdLife Australia profile.",
+        "conservation": "Least Concern on the IUCN Red List (assessed 7 August 2018; trend decreasing). Not listed as threatened under the EPBC Act on the list current at 28 August 2026, and not on Victoria's FFG Act Threatened List of July 2026. Birds in Backyards marks Tasmania Not present and the other states Secure."
+      },
+      "errorsInDraft": [
+        "Diet says only insects and larvae gleaned from foliage. Birds in Backyards and BirdLife Australia add seeds, fruit and leaves, and describe foraging as higher in the vegetation, rarely on the ground, rather than only gleaning from foliage.",
+        "Threats mention habitat clearing and omit urban development, which Birds in Backyards pairs with land clearing."
+      ],
+      "conflicts": [
+        "Foraging: Birds in Backyards and BirdLife Australia say rarely on the ground; Wikipedia says never on the ground.",
+        "Diet extras: Wikipedia adds grasses to seeds, fruit and leaves. The Australian pages stop at seeds, fruit or leaves.",
+        "Some secondary accounts place the species in New Guinea. The IUCN page retrieved lists Australia as extant breeding and New Caledonia as extant resident, and does not list Papua New Guinea. Wikipedia's range sentence is Australia and New Caledonia."
+      ],
+      "notWellDocumented": [
+        "A southern Victorian season narrower than July–February.",
+        "Named predators. None were on the preferred pages read.",
+        "The Australian Museum has no species page for the Rufous Whistler (the expected URL returned not found).",
+        "HANZAB volume 6 is cited by Birds in Backyards, but the handbook page returned HTTP 401 and was not read. The 13-day incubation is the Birds in Backyards figure, which cites that volume."
+      ],
+      "sources": [
+        {
+          "url": "https://www.birdsinbackyards.net/species/Pachycephala-rufiventris",
+          "title": "Rufous Whistler — Birds in Backyards",
+          "accessed": "2026-10-25",
+          "supports": "16–18 cm; July–February; clutch usually 2, sometimes 3; incubation 13 days; mainland Australia and New Caledonia; Tasmania Not present; forests, woodlands and shrublands, gardens and farmland; eastern birds move south in spring and north in autumn; insects, sometimes seeds, fruit or leaves; rarely on the ground; spider-web cup; land clearing and urban development. Cites HANZAB volume 6."
+        },
+        {
+          "url": "https://birdlife.org.au/bird-profiles/rufous-whistler/",
+          "title": "Rufous Whistler — BirdLife Australia",
+          "accessed": "2026-10-25",
+          "supports": "Same range, habitat, diet and nest text. IUCN Least Concern. No EPBC flag. Profile states include Victoria and exclude Tasmania."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Rufous_whistler",
+          "title": "Rufous whistler — Wikipedia",
+          "accessed": "2026-10-25",
+          "supports": "Australia and New Caledonia; breeding July–February; incubation about 13 days; diet primarily insects, also seeds, fruit and occasionally leaves and grasses; never forages on the ground. IUCN citation BirdLife International 2018."
+        },
+        {
+          "url": "https://www.iucnredlist.org/species/22705537/130405979",
+          "title": "Pachycephala rufiventris — IUCN Red List",
+          "accessed": "2026-10-25",
+          "supports": "Least Concern, assessed 7 August 2018, trend decreasing, tentatively because of habitat loss. Australia extant breeding; New Caledonia extant resident."
+        },
+        {
+          "url": "https://www.environment.vic.gov.au/__data/assets/pdf_file/0028/793801/FFG_Threatened_List_July_2026.pdf",
+          "title": "Flora and Fauna Guarantee Act 1988 Threatened List, July 2026 — DEECA",
+          "accessed": "2026-10-25",
+          "supports": "No match for Rufous Whistler or Pachycephala rufiventris. Red-lored Whistler is a different species and was not scored as this bird."
+        },
+        {
+          "url": "https://data.gov.au/data/dataset/ae652011-f39e-4c6c-91b8-1dc2d2dfee8f/resource/78401dce-1f40-49d3-92c4-3713d6e34974/download/20260828spcs.csv",
+          "title": "EPBC Act List of Threatened Fauna and Flora, extracted 28 August 2026 — data.gov.au",
+          "accessed": "2026-10-25",
+          "supports": "No row for Pachycephala rufiventris or Rufous Whistler."
+        }
+      ]
+    },
+    {
+      "commonName": "Yellow-rumped Thornbill",
+      "scientificName": "Acanthiza chrysorrhoa",
+      "verdict": "corrected",
+      "fields": {
+        "origins": "Native and endemic to Australia.",
+        "distribution": "Eastern and south-eastern Australia, including Tasmania, southern parts of the Northern Territory, and the Nullarbor Plain in Western Australia. Sedentary. Sparse in the tropics, the arid zone, and east of the Great Dividing Range. Wikipedia's absences are the north coast of Western Australia, parts of central Australia, northern Queensland, and central and northern Northern Territory.",
+        "habitat": "Open country with some trees: woodland, forest, shrubland and grassland, and also farmland, watercourses, roadsides, parks and gardens. It feeds mainly on the ground near cover.",
+        "breeding": "Any month, mainly July to December, in Birds in Backyards and the Australian Museum. Wikipedia gives July to December only. The nest is a bulky grass-and-bark structure with an upper false cup and a lower domed chamber with a hooded entrance. The purpose of the false cup is not settled. Clutch two to five, usually three or four, and incubation 17 days, in Birds in Backyards. Wikipedia says three or four eggs and about 16–18 days. A pair may have one or two helpers. The female incubates. That is the published season; a southern Victorian window inside it was not separated out.",
+        "diet": "Mainly insects, sometimes seeds. Wikipedia adds ants, beetles, bugs, lerps, spiders and flies.",
+        "threats": "Eaten by cats and sometimes hit by cars. Urban development around large cities has caused declines, and extensive clearing has done so in Western Australia, although the species uses urban and farm habitats where native vegetation remains. Wikipedia adds nest predators (red wattlebirds, currawongs, Australian magpies and ravens), honeyeaters that pull nests apart for material, and parasitism by Shining Bronze-Cuckoo and Fan-tailed Cuckoo. Clearing of understorey is not the pressure these pages name.",
+        "size": "10–12 cm, average 11 cm, in Birds in Backyards and the Australian Museum.",
+        "conservation": "Least Concern on the IUCN Red List (assessed 15 January 2024; trend decreasing). Not listed as threatened under the EPBC Act on the list current at 28 August 2026, and not on Victoria's FFG Act Threatened List of July 2026. Birds in Backyards marks it Secure federally and in every state and territory, including Tasmania."
+      },
+      "errorsInDraft": [
+        "Distribution says much of southern and eastern Australia and omits Tasmania, the southern Northern Territory and the Nullarbor Plain, and the note that the bird is sparse in the tropics, the arid zone and east of the Divide.",
+        "Habitat is limited to open woodland and grassland edges. The sources include open forest, shrubland, grassland with some trees, farmland, roadsides, parks and gardens.",
+        "Threats say cats and clearing of understorey. Cats are supported. Understorey clearing is not. The documented pressures are cats, cars, urban development and, in Western Australia, extensive clearing. Wikipedia also names nest predators and two cuckoos."
+      ],
+      "conflicts": [
+        "Season: Birds in Backyards and the Australian Museum any month, mainly July–December; Wikipedia July–December only.",
+        "Clutch: Birds in Backyards two to five, usually three or four; Wikipedia three or four.",
+        "Incubation: Birds in Backyards 17 days; Wikipedia about 16–18 days.",
+        "Helpers: Birds in Backyards one or two; Wikipedia one to three.",
+        "Range wording: Birds in Backyards and the Australian Museum stress the east, south-east, Tasmania, southern Northern Territory and the Nullarbor, and say the bird is sparse in the tropics and arid zone. Wikipedia says western, southern and eastern Australia and Tasmania, with stated absences in the north-west, centre and north."
+      ],
+      "notWellDocumented": [
+        "A southern Victorian season inside the July–December peak. The 'any month' statement is national.",
+        "What the false nest is for. Birds in Backyards lists several theories and says the function is not clearly understood.",
+        "No BirdLife Australia profile was published (the profile slug returned empty).",
+        "HANZAB volume 6 is cited by Birds in Backyards and the Australian Museum, but the handbook page was not opened."
+      ],
+      "sources": [
+        {
+          "url": "https://www.birdsinbackyards.net/species/Acanthiza-chrysorrhoa",
+          "title": "Yellow-rumped Thornbill — Birds in Backyards",
+          "accessed": "2026-10-25",
+          "supports": "10–12 cm; any month, mainly July–December; clutch two to five, usually three or four; incubation 17 days; eastern and south-eastern Australia including Tasmania, southern Northern Territory and the Nullarbor; open habitats and farmland; mainly insects, sometimes seeds; false cup over a domed chamber; cats and cars; urban decline and extensive clearing in Western Australia. Secure in every state and territory. Cites HANZAB volume 6."
+        },
+        {
+          "url": "https://australian.museum/learn/animals/birds/yellow-rumped-thornbill/",
+          "title": "Yellow-rumped Thornbill — Australian Museum",
+          "accessed": "2026-10-25",
+          "supports": "Same distribution, sedentary habit, diet, nest and helper account as Birds in Backyards."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Yellow-rumped_thornbill",
+          "title": "Yellow-rumped thornbill — Wikipedia",
+          "accessed": "2026-10-25",
+          "supports": "Western, southern and eastern Australia and Tasmania, with stated northern and central absences; July–December; clutch three or four; incubation about 16–18 days; one to three helpers; insects including ants, beetles, bugs and lerps, also spiders, flies and seeds; Shining Bronze-Cuckoo and Fan-tailed Cuckoo; nest predators include red wattlebirds, currawongs, Australian magpies and ravens."
+        },
+        {
+          "url": "https://www.iucnredlist.org/species/22704647/253984557",
+          "title": "Acanthiza chrysorrhoa — IUCN Red List",
+          "accessed": "2026-10-25",
+          "supports": "Least Concern, assessed 15 January 2024, trend decreasing. Earlier assessments include 2017, also Least Concern."
+        },
+        {
+          "url": "https://www.environment.vic.gov.au/__data/assets/pdf_file/0028/793801/FFG_Threatened_List_July_2026.pdf",
+          "title": "Flora and Fauna Guarantee Act 1988 Threatened List, July 2026 — DEECA",
+          "accessed": "2026-10-25",
+          "supports": "No match for Yellow-rumped Thornbill or Acanthiza chrysorrhoa. Slender-billed Thornbill is a different species."
+        },
+        {
+          "url": "https://data.gov.au/data/dataset/ae652011-f39e-4c6c-91b8-1dc2d2dfee8f/resource/78401dce-1f40-49d3-92c4-3713d6e34974/download/20260828spcs.csv",
+          "title": "EPBC Act List of Threatened Fauna and Flora, extracted 28 August 2026 — data.gov.au",
+          "accessed": "2026-10-25",
+          "supports": "No row for Acanthiza chrysorrhoa or Yellow-rumped Thornbill."
+        }
+      ]
+    }
+  ],
+  "queries": [
+    "Laughing Kookaburra Dacelo novaeguineae breeding incubation clutch distribution BirdLife Australia",
+    "Brown Falcon Falco berigora incubation clutch size distribution New Guinea IUCN",
+    "Sulphur-crested Cockatoo Cacatua galerita incubation clutch distribution New Guinea introduced New Zealand",
+    "Long-billed Corella Cacatua tenuirostris endemic distribution incubation clutch FFG",
+    "Common Bronzewing Phaps chalcoptera incubation clutch breeding season distribution Tasmania",
+    "Rufous Whistler Pachycephala rufiventris New Caledonia incubation clutch distribution Tasmania",
+    "Yellow-rumped Thornbill Acanthiza chrysorrhoa incubation clutch nest false cup distribution",
+    "site:birdsinbackyards.net Laughing Kookaburra Dacelo novaeguineae breeding incubation clutch size distribution habitat diet",
+    "site:birdlife.org.au Laughing Kookaburra profile size distribution breeding diet conservation",
+    "site:australian.museum Rufous Whistler Pachycephala rufiventris",
+    "Laughing Kookaburra IUCN Red List Dacelo novaeguineae Least Concern assessed",
+    "\"Common Bronzewing\" incubation OR \"incubate\" days HANZAB OR \"Frith\" clutch season Victoria",
+    "Sulphur-crested Cockatoo Cacatua galerita diet insect larvae grain bulbs HANZAB clutch incubation 25 OR 27 OR 30",
+    "Brown Falcon Falco berigora secondary poisoning roadkill OR \"road\" threat OR pesticide HANZAB OR \"Birds of Prey\"",
+    "Long-billed Corella Cacatua tenuirostris \"south-eastern South Australia\" OR Tasmania introduced range HANZAB OR \"Australian Museum\" OR BirdLife",
+    "FFG Act Threatened List July 2026 DEECA Victoria filetype:xlsx OR \"FFG_Threatened_List\"",
+    "\"FFG Threatened List\" July 2026 \"Dacelo novaeguineae\" OR \"Falco berigora\" OR \"Cacatua tenuirostris\" OR \"Phaps chalcoptera\" OR \"Acanthiza chrysorrhoa\" OR \"Pachycephala rufiventris\" OR \"Cacatua galerita\"",
+    "site:datazone.birdlife.org Laughing Kookaburra factsheet Dacelo novaeguineae Least Concern",
+    "site:datazone.birdlife.org \"Yellow-rumped Thornbill\" OR \"Common Bronzewing\" OR \"Rufous Whistler\" OR \"Sulphur-crested Cockatoo\" factsheet Least Concern",
+    "Falco berigora IUCN Red List Least Concern assessed 2024 trend",
+    "Dacelo novaeguineae IUCN Red List assessment year population trend Least Concern",
+    "Cacatua galerita IUCN Red List Least Concern trend assessed year",
+    "Cacatua tenuirostris IUCN Red List Least Concern trend 2024",
+    "Phaps chalcoptera IUCN Red List Least Concern assessment trend",
+    "Pachycephala rufiventris IUCN Red List assessed 2018 trend Least Concern",
+    "Acanthiza chrysorrhoa IUCN Red List Least Concern assessment year trend",
+    "\"Laughing Kookaburra\" \"Dacelo novaeguineae\" \"Last assessed\" IUCN site:iucnredlist.org",
+    "Phaps chalcoptera IUCN \"Latest assessment\" 2024 trend stable OR decreasing",
+    "Falco berigora IUCN native \"Papua New Guinea\" Indonesia Australia range",
+    "\"Dacelo novaeguineae\" \"The IUCN Red List of Threatened Species\" 2024 assessed",
+    "Common Bronzewing Phaps chalcoptera breeding season \"any month\" OR \"all year\" OR \"throughout the year\" Frith incubation",
+    "Sulphur-crested Cockatoo diet \"insect larvae\" OR bulbs grain HANZAB OR \"Australian Museum\" OR \"Parks and Wildlife\" Tasmania"
+  ]
+}

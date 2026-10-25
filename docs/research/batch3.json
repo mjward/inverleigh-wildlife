@@ -1,0 +1,690 @@
+{
+  "outOfBatch": [
+    "Welcome Swallow incubation was not checked: that species is not in this batch.",
+    "Little Raven natural predators were not checked: that species is not in this batch.",
+    "Magpie-lark presence in Tasmania is covered under that species."
+  ],
+  "birds": [
+    {
+      "commonName": "Yellow-faced Honeyeater",
+      "scientificName": "Caligavis chrysops",
+      "verdict": "corrected",
+      "fields": {
+        "origins": "A breeding endemic of Australia, native only there, in eastern and south-eastern mainland Australia from northern Queensland to eastern South Australia.",
+        "distribution": "Widespread on the eastern and south-eastern mainland. Many south-eastern birds move north in autumn and return in spring, travelling along ridges, dunes, valleys and rivers.",
+        "habitat": "Open forest and woodland, often near water, including creek lines, remnant bush, parks, gardens and weedy thickets such as broom and blackberry.",
+        "breeding": "July to March. The female builds a neat, sometimes fragile cup of green material such as moss, also described with grass, bark and cobweb, in the understorey or in a hedge, vine or garden shrub. The clutch is two or three, rarely one, and she incubates for about 14 days.",
+        "diet": "Nectar, pollen, fruit, seeds, honeydew and insects, taken in flowers and foliage rather than on the ground. One account puts the mix near 40 percent nectar and 60 percent insects.",
+        "threats": "Nests fail from brown snakes, cats and currawongs, and from Pallid, Brush, Fan-tailed, Shining Bronze and Horsfield's Bronze cuckoos. Clearing, grazing and weeds reduce the woodland they use, and cats injure birds.",
+        "size": "About 16–17 cm in the Australian Museum and Birds in Backyards. Other accounts give 15–17.5 cm and a body up to 18 cm.",
+        "conservation": "Least Concern on the IUCN Red List (assessed 7 August 2018; trend decreasing). Not listed as threatened under the EPBC Act on the list current at 28 August 2026, and not on Victoria's FFG Act Threatened List of July 2026."
+      },
+      "errorsInDraft": [
+        "Breeding season July–February ends a month early. The Australian Museum and Birds in Backyards give July to March.",
+        "Diet omits pollen and seeds. Honeydew is in the Wikipedia diet list; Birds in Backyards says nectar, pollen, fruit, seeds, insects and their products.",
+        "Threats omit cats, brood-parasitic cuckoos, and grazing and weeds alongside clearing.",
+        "The span 15–18 cm covers conflicting measurements rather than one published range."
+      ],
+      "conflicts": [
+        "Length: Australian Museum and Birds in Backyards 16–17 cm; Wikipedia 15–17.5 cm; Museums Victoria, on the ALA species page, body up to 18 cm.",
+        "Birds in Backyards marks Tasmania Secure in its status table, but the same page limits the distribution to mainland Australia from northern Queensland to eastern South Australia."
+      ],
+      "notWellDocumented": [
+        "A breeding window special to southern Victoria, beyond the general July–March season.",
+        "Incubation beyond the Birds in Backyards figure of 14 days. Wikipedia says around two weeks."
+      ],
+      "sources": [
+        {
+          "url": "https://www.birdsinbackyards.net/species/Lichenostomus-chrysops",
+          "title": "Yellow-faced Honeyeater — Birds in Backyards",
+          "accessed": "2026-10-25",
+          "supports": "16–17 cm; July to March; clutch two to three, rarely one; incubation 14 days; mainland eastern and south-eastern Australia; nectar, pollen, fruit, seeds, insects and their products; fragile moss cup; cuckoo hosts; cats. Cites HANZAB volume 5. Status table marks Tasmania Secure, which conflicts with the range text."
+        },
+        {
+          "url": "https://australian.museum/learn/animals/birds/yellow-faced-honeyeater/",
+          "title": "Yellow-faced Honeyeater — Australian Museum",
+          "accessed": "2026-10-25",
+          "supports": "16–17 cm; July to March; same diet, nest and cuckoo list; partial migrant, north in autumn and south in spring; injured by cats."
+        },
+        {
+          "url": "https://birdlife.org.au/bird-profiles/yellow-faced-honeyeater/",
+          "title": "Yellow-faced Honeyeater — BirdLife Australia",
+          "accessed": "2026-10-25",
+          "supports": "Caligavis chrysops; eastern and south-eastern mainland; autumn movement north along the Divide and return in spring; IUCN Least Concern."
+        },
+        {
+          "url": "https://datazone.birdlife.org/species/factsheet/22704052",
+          "title": "Yellow-faced Honeyeater — BirdLife DataZone",
+          "accessed": "2026-10-25",
+          "supports": "Breeding endemic yes; full migrant; Least Concern; decreasing; native breeding only in Australia."
+        },
+        {
+          "url": "https://www.iucnredlist.org/species/22704052/130247974",
+          "title": "Caligavis chrysops — IUCN Red List",
+          "accessed": "2026-10-25",
+          "supports": "Least Concern, assessed 7 August 2018, trend decreasing, Australia."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Yellow-faced_honeyeater",
+          "title": "Yellow-faced honeyeater — Wikipedia",
+          "accessed": "2026-10-25",
+          "supports": "15–17.5 cm; July to March; clutch one to three and about two weeks to hatch; diet includes honeydew; nest failure from brown snakes, cats, currawongs and cuckoos; clearing, grazing and weeds."
+        },
+        {
+          "url": "https://bie.ala.org.au/species/ALA_DR31896_10095",
+          "title": "Caligavis chrysops — Atlas of Living Australia (Museums Victoria profile)",
+          "accessed": "2026-10-25",
+          "supports": "Native; eastern mainland Australia; body up to 18 cm; nectar, pollen and invertebrates; part-migratory."
+        },
+        {
+          "url": "https://www.environment.vic.gov.au/__data/assets/excel_doc/0030/793803/FFG_Threatened_List-July_2026.xlsx",
+          "title": "FFG Act Threatened List, July 2026 — DEECA Excel",
+          "accessed": "2026-10-25",
+          "supports": "No row for Caligavis chrysops or Yellow-faced Honeyeater. The file states the list was updated in July 2026."
+        },
+        {
+          "url": "https://data.gov.au/data/dataset/ae652011-f39e-4c6c-91b8-1dc2d2dfee8f/resource/78401dce-1f40-49d3-92c4-3713d6e34974/download/20260828spcs.csv",
+          "title": "EPBC Act threatened species list, 28 August 2026 — data.gov.au",
+          "accessed": "2026-10-25",
+          "supports": "No row for Caligavis chrysops or Lichenostomus chrysops."
+        }
+      ]
+    },
+    {
+      "commonName": "Magpie-lark",
+      "scientificName": "Grallina cyanoleuca",
+      "verdict": "corrected",
+      "fields": {
+        "origins": "Native to Australia, southern New Guinea and Timor. It was introduced to Lord Howe Island in 1924 and is established there, and there is one accepted vagrant record from New Zealand.",
+        "distribution": "Throughout the Australian mainland except the driest deserts, including some desert in far north-western Western Australia, plus southern New Guinea and Timor. It is not a Tasmanian resident: Birds in Backyards calls it only a rare vagrant and marks Tasmania Not present, a western Victorian guide calls it rare and vagrant, Wikipedia treats it as absent, and the Australian Faunal Directory omits Tasmania. Non-breeding birds and young form nomadic flocks that move mainly north in autumn and winter and south in spring and summer.",
+        "habitat": "Almost anywhere with bare ground, mud and a tree, from the coast to semi-desert, including lawns, ovals and dams. It avoids rainforest and the driest deserts.",
+        "breeding": "On the western Victorian plains the season is August to February, especially after rain, which matches the fertile-south account; Birds in Backyards gives a general season of August to December, sometimes outside that. Both adults build a mud bowl on a horizontal branch, often to 20 m, lined with grass, feathers and fur. The clutch is 3–5. Incubation is shared and lasts 18 days in the plains guide, or up to 18 days in a general account. Birds in Backyards does not give the number of days.",
+        "diet": "Insects and their larvae, earthworms and freshwater invertebrates, taken on the ground.",
+        "threats": "A common host of the Eastern Koel, whose chick ejects the Magpie-lark eggs or young. Siblings also push each other from the small nest. The IUCN suspects an increase because clearing creates suitable open habitat. Predators of adult birds were not named in the sources checked.",
+        "size": "About 26–30 cm (Birds in Backyards, average 28 cm). Wikipedia gives 25–30 cm.",
+        "conservation": "Least Concern on the IUCN Red List (assessed 9 August 2018; trend increasing). Not listed as threatened under the EPBC Act on the list current at 28 August 2026, and not on Victoria's FFG Act Threatened List of July 2026."
+      },
+      "errorsInDraft": [
+        "Throughout Australia except the driest deserts, and resident, imply a Tasmanian population. Tasmania has only rare vagrant records, and many non-breeding birds migrate.",
+        "The mud bowl is lined with feathers and fur as well as grass.",
+        "Freshwater snails are more specific than the sources, which say freshwater invertebrates.",
+        "Threats omit Eastern Koel parasitism. Clearing is thought to create habitat, so few other threats undersells both the cuckoo and that story.",
+        "Origins omit the introduced Lord Howe Island population and the New Zealand vagrant."
+      ],
+      "conflicts": [
+        "Tasmania: Birds in Backyards distribution text says rare vagrant, and its status table says Not present. The western Victorian plains guide says rare and vagrant. Wikipedia says absent from Tasmania. The Australian Faunal Directory does not list Tasmania for Grallina cyanoleuca cyanoleuca.",
+        "Length: Birds in Backyards 26–30 cm; Wikipedia 25–30 cm.",
+        "Season: Birds in Backyards generally August–December; western Victorian plains and Wikipedia's fertile-south account August–February.",
+        "Incubation: western Victorian guide 18 days; Wikipedia up to 18 days; a secondary site says 17–18 days. Birds in Backyards gives no figure."
+      ],
+      "notWellDocumented": [
+        "Freshwater snails as a named prey.",
+        "An incubation period of 17 days in the preferred sources.",
+        "Predators of adult Magpie-larks."
+      ],
+      "sources": [
+        {
+          "url": "https://www.birdsinbackyards.net/species/Grallina-cyanoleuca",
+          "title": "Magpie-lark — Birds in Backyards",
+          "accessed": "2026-10-25",
+          "supports": "26–30 cm; clutch 3–5; Australia including a rare vagrant to Tasmania, southern New Guinea and Timor; status table Tasmania Not present; habitat except rainforest and the driest deserts; nomadic non-breeding flocks; insects, larvae, earthworms and freshwater invertebrates; mud bowl lined with feathers and grasses; season generally August–December; both sexes incubate. No incubation length."
+        },
+        {
+          "url": "https://bwvp.ecolinc.vic.edu.au/fieldguide/fauna/magpie-lark",
+          "title": "Magpie-lark — Biodiversity of the Western Volcanic Plains",
+          "accessed": "2026-10-25",
+          "supports": "Mainland Australia, rare and vagrant to Tasmania, also southern New Guinea and Timor. August–February, clutch 3–5, incubation 18 days by both parents. Insects, larvae, earthworms and freshwater invertebrates. Not listed under FFG or EPBC on that page."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Magpie-lark",
+          "title": "Magpie-lark — Wikipedia",
+          "accessed": "2026-10-25",
+          "supports": "25–30 cm; absent from Tasmania and some far north-western desert; southern New Guinea and Timor; introduced Lord Howe Island 1924; one New Zealand vagrant; lining of grass, feathers and fur; August–February in the fertile south; clutch 3–5; incubation up to 18 days."
+        },
+        {
+          "url": "https://www.biodiversity.org.au/afd/taxa/d4958ac2-7102-496a-96a8-c34b72af4c69",
+          "title": "Grallina cyanoleuca cyanoleuca — Australian Faunal Directory",
+          "accessed": "2026-10-25",
+          "supports": "States listed are ACT, NSW, NT, Queensland, SA, Victoria and WA. Tasmania is not listed."
+        },
+        {
+          "url": "https://www.iucnredlist.org/species/22707425/131945945",
+          "title": "Grallina cyanoleuca — IUCN Red List",
+          "accessed": "2026-10-25",
+          "supports": "Least Concern, assessed 9 August 2018, trend increasing because habitat degradation creates suitable habitat (Higgins et al. 2006)."
+        },
+        {
+          "url": "https://australian.museum/learn/animals/birds/eastern-koel/",
+          "title": "Eastern Koel — Australian Museum",
+          "accessed": "2026-10-25",
+          "supports": "Common hosts include the Magpie-lark. The chick forces the other eggs and hatchlings out of the nest."
+        },
+        {
+          "url": "https://www.theanimalfacts.com/birds/magpie-lark/",
+          "title": "Magpie Lark — The Animal Facts",
+          "accessed": "2026-10-25",
+          "supports": "Secondary account only: incubation 17–18 days and season August–February. Not used as the preferred figure."
+        },
+        {
+          "url": "https://www.environment.vic.gov.au/__data/assets/excel_doc/0030/793803/FFG_Threatened_List-July_2026.xlsx",
+          "title": "FFG Act Threatened List, July 2026 — DEECA Excel",
+          "accessed": "2026-10-25",
+          "supports": "No row for Grallina cyanoleuca or Magpie-lark."
+        },
+        {
+          "url": "https://data.gov.au/data/dataset/ae652011-f39e-4c6c-91b8-1dc2d2dfee8f/resource/78401dce-1f40-49d3-92c4-3713d6e34974/download/20260828spcs.csv",
+          "title": "EPBC Act threatened species list, 28 August 2026 — data.gov.au",
+          "accessed": "2026-10-25",
+          "supports": "No row for Grallina cyanoleuca."
+        }
+      ]
+    },
+    {
+      "commonName": "Eastern Yellow Robin",
+      "scientificName": "Eopsaltria australis",
+      "verdict": "corrected",
+      "fields": {
+        "origins": "Native and endemic to the eastern and south-eastern Australian mainland, from about Cooktown through eastern New South Wales and Victoria to the far south-east of South Australia. Absent from Tasmania, Western Australia and the Northern Territory.",
+        "distribution": "Eastern and south-eastern mainland Australia, mostly on the coast and adjacent inland country. Pairs hold a territory and do not migrate far, but they make local movements and shift to lower ground in winter.",
+        "habitat": "Dry woodland to rainforest, and also heath, mallee, acacia scrub and sclerophyll forest, most often in damper shaded places, plus parks and gardens. A shrubby understorey is used, but the habitat is wider than that.",
+        "breeding": "Birds in Backyards gives July to January. Nest-record cards show laying from late July or early August to the end of December, with more early nests in Victoria than at Moruya. The female builds a cup of bark, grass and other vegetation bound with spider web, often disguised with lichen, moss, bark or leaves, usually within 5 m and sometimes to 20 m. The clutch is 2 or 3 (study means about 2.2–2.3). Incubation is about 16 days: 15.9 days in a southern Victorian woodland, just under 16 days on nest-record cards, and 15–17 days (mean and mode 16) in a New South Wales study.",
+        "diet": "Insects, spiders and other arthropods, mostly pounced on the ground from a low perch.",
+        "threats": "Nest predation is the main measured loss: half the nests in a southern Victorian woodland were preyed on. Named predators are the pied currawong, an eastern ringtail possum, and possibly the Australian magpie, and a red wattlebird has been filmed attacking a nest. Clearing and fragmentation reduce nesting habitat. Cats were not named.",
+        "size": "About 15–16 cm in one account and 15–17 cm in Birds in Backyards.",
+        "conservation": "Least Concern. The IUCN page assessed on 1 May 2012 is marked as superseded and says the latest assessment, in 2024, is also Least Concern; the 2024 trend text was not opened. Not listed as threatened under the EPBC Act on the list current at 28 August 2026, and not on Victoria's FFG Act Threatened List of July 2026."
+      },
+      "errorsInDraft": [
+        "Sedentary misses the winter shift to lower ground and other local movements.",
+        "Forest and woodland with a shrubby understorey is narrower than the published habitats.",
+        "Size 15–16 cm matches Wikipedia and not Birds in Backyards, which gives 15–17 cm.",
+        "Cats were not found as documented predators. The named nest predators are pied currawong, eastern ringtail possum and possibly Australian magpie."
+      ],
+      "conflicts": [
+        "Length: Wikipedia 15–16 cm; Birds in Backyards 15–17 cm.",
+        "Season: Birds in Backyards July–January; Marchant nest-record cards from late July or early August to the end of December.",
+        "Incubation: Debus 15–17 days (mean and mode 16) in northern New South Wales; Berry 15.9 days in southern Victorian woodland; Marchant just under 16 days. Birds in Backyards does not state a figure. The draft span 15–17 days matches Debus and brackets the Victorian mean."
+      ],
+      "notWellDocumented": [
+        "Cats as predators of this species.",
+        "The population trend in the 2024 IUCN assessment, whose full text was not opened. The 2012 page only records that the 2024 category is still Least Concern."
+      ],
+      "sources": [
+        {
+          "url": "https://www.birdsinbackyards.net/species/Eopsaltria-australis",
+          "title": "Eastern Yellow Robin — Birds in Backyards",
+          "accessed": "2026-10-25",
+          "supports": "15–17 cm; July to January; clutch 2–3; east and south-east mainland; Tasmania Not present; dry woodland to rainforest, parks and gardens; altitudinal movement to lower areas in winter; insects, spiders and other arthropods; cup of bark and grass bound with spider web. No incubation length on the page."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Eastern_yellow_robin",
+          "title": "Eastern yellow robin — Wikipedia",
+          "accessed": "2026-10-25",
+          "supports": "15–16 cm; local seasonal movements rather than a long migration; heath, mallee, acacia scrub, woodland and sclerophyll forest, often damper places; nest disguised with lichen, moss, bark or leaves."
+        },
+        {
+          "url": "https://www.tandfonline.com/doi/abs/10.1071/MU00043",
+          "title": "Berry 2001. Breeding biology of the Eastern Yellow Robin in southern Victorian woodland — Emu",
+          "accessed": "2026-10-25",
+          "supports": "Southern Victorian woodland: mean clutch 2.3; incubation 15.9 days; nestling period 12.9 days; 50 percent of nests preyed upon."
+        },
+        {
+          "url": "https://www.tandfonline.com/doi/abs/10.1071/MU9840167",
+          "title": "Marchant 1984. Nest-records of the Eastern Yellow Robin — Emu",
+          "accessed": "2026-10-25",
+          "supports": "Mean clutch 2.33; incubation just under 16 days; season from late July or early August to the end of December; more nests before 31 August in Victoria than at Moruya."
+        },
+        {
+          "url": "https://www.une.edu.au/staff-profiles/ers/sdebus/files/debus-robins-corella.pdf",
+          "title": "Debus 2006. Breeding of the Eastern Yellow Robin near Armidale — Corella",
+          "accessed": "2026-10-25",
+          "supports": "Clutch mean 2.2; incubation 15–17 days, mean and mode 16. Pied currawong took a brood, and an Australian magpie was a possible predator."
+        },
+        {
+          "url": "https://www.ecolsoc.org.au/blog/first-evidence-of-eastern-yellow-robin-nestling-predation/",
+          "title": "Yu 2024. Eastern Yellow Robin nestling predation — Ecological Society of Australia",
+          "accessed": "2026-10-25",
+          "supports": "Camera evidence of an eastern ringtail possum and a pied currawong each taking a nestling, and a red wattlebird attacking the nest. Macquarie Park, New South Wales."
+        },
+        {
+          "url": "https://www.iucnredlist.org/species/22704849/38456359",
+          "title": "Eopsaltria australis — IUCN Red List (2012 page)",
+          "accessed": "2026-10-25",
+          "supports": "Assessed 1 May 2012 as Least Concern. The page says this is not the latest assessment and that the latest assessment, in 2024, is also Least Concern."
+        },
+        {
+          "url": "https://www.environment.vic.gov.au/__data/assets/excel_doc/0030/793803/FFG_Threatened_List-July_2026.xlsx",
+          "title": "FFG Act Threatened List, July 2026 — DEECA Excel",
+          "accessed": "2026-10-25",
+          "supports": "No row for Eopsaltria australis or Eastern Yellow Robin."
+        },
+        {
+          "url": "https://data.gov.au/data/dataset/ae652011-f39e-4c6c-91b8-1dc2d2dfee8f/resource/78401dce-1f40-49d3-92c4-3713d6e34974/download/20260828spcs.csv",
+          "title": "EPBC Act threatened species list, 28 August 2026 — data.gov.au",
+          "accessed": "2026-10-25",
+          "supports": "No row for Eopsaltria australis."
+        }
+      ]
+    },
+    {
+      "commonName": "Red-browed Finch",
+      "scientificName": "Neochmia temporalis",
+      "verdict": "corrected",
+      "fields": {
+        "origins": "Native to eastern Australia. The IUCN lists it as introduced and resident in French Polynesia, and it is recorded on Tahiti. The Marquesas were not confirmed. Wikipedia also says it is introduced near Perth and in the Darling Ranges, while Birds in Backyards marks Western Australia Not present.",
+        "distribution": "Mostly east of the Great Dividing Range, from Cape York to the Mount Lofty Ranges and Kangaroo Island, not only to south-eastern South Australia. Largely sedentary.",
+        "habitat": "Grassy areas beside dense shrubs, often along creeks, and also heath, coastal scrub and weedy corridors such as railway lines.",
+        "breeding": "October to April. A large domed nest of twigs and grass with a side entrance in a dense shrub. Birds in Backyards places it 1–2 m up, with a clutch of 4–5 incubated by both parents for 14 days. Wikipedia places the nest at 2–3 m and gives a clutch of 4–6.",
+        "diet": "Seeds and insects, taken on the ground and sometimes from grass heads. Insects are part of the usual diet, not only food for young. Grass and sedge seed, including seed of non-native plants, makes up most of it.",
+        "threats": "No key threatening process is named. Birds decline or disappear where shrub cover is cleared or grazed, especially in drought. A possible minor competitor in northern Queensland is the nutmeg mannikin. Cats were not named.",
+        "size": "About 10–12 cm (Birds in Backyards; average 11 cm). Wikipedia gives 11–12 cm.",
+        "conservation": "Least Concern on the IUCN Red List (assessed 9 August 2018; trend stable). Not listed as threatened under the EPBC Act on the list current at 28 August 2026, and not on Victoria's FFG Act Threatened List of July 2026."
+      },
+      "errorsInDraft": [
+        "Introduced to Tahiti and the Marquesas overstates the sources. IUCN names French Polynesia, and Tahiti is documented. The Marquesas were not confirmed.",
+        "South-eastern South Australia is short of the western limit in the Mount Lofty Ranges and on Kangaroo Island, and of the pattern mostly east of the Divide.",
+        "Size 11–12 cm drops the 10 cm lower figure used by Birds in Backyards.",
+        "Some insects when feeding young is narrower than Birds in Backyards, which lists seeds and insects as the ordinary diet.",
+        "Cats were not found as a documented threat. Loss of dense shrub cover is supported.",
+        "The contested introduced population in south-western Australia is omitted."
+      ],
+      "conflicts": [
+        "Introduced range: IUCN says introduced resident in French Polynesia, and birds are recorded on Tahiti. Wikipedia and popular accounts also say near Perth and the Darling Ranges. Birds in Backyards marks Western Australia Not present. The Marquesas are not named by IUCN.",
+        "Length: Birds in Backyards 10–12 cm; Wikipedia 11–12 cm.",
+        "Clutch: Birds in Backyards 4–5; Wikipedia 4–6. A personal field diary gives 5–8, which is an outlier.",
+        "Nest height: Birds in Backyards 1–2 m; Wikipedia 2–3 m.",
+        "Incubation: Birds in Backyards 14 days. A personal field diary gives 13–15 days, and captive accounts give about 12–14 days."
+      ],
+      "notWellDocumented": [
+        "An established population in the Marquesas. French Polynesia is the country IUCN names.",
+        "Whether the south-western Australian birds are established. Wikipedia says they are; Birds in Backyards marks Western Australia Not present.",
+        "Cats as predators."
+      ],
+      "sources": [
+        {
+          "url": "https://www.birdsinbackyards.net/species/Neochmia-temporalis",
+          "title": "Red-browed Finch — Birds in Backyards",
+          "accessed": "2026-10-25",
+          "supports": "10–12 cm; October–April; clutch 4–5; incubation 14 days; mostly east of the Divide from Cape York to the Mount Lofty Ranges; Western Australia and Tasmania Not present; seeds and insects; domed nest with a side tunnel at 1–2 m; both parents incubate."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Red-browed_finch",
+          "title": "Red-browed finch — Wikipedia",
+          "accessed": "2026-10-25",
+          "supports": "11–12 cm; introduced near Perth and in the Darling Ranges, and feral in French Polynesia; domed nest at 2–3 m; clutch four to six; October–April."
+        },
+        {
+          "url": "https://www.iucnredlist.org/species/22719666/132130886",
+          "title": "Neochmia temporalis — IUCN Red List",
+          "accessed": "2026-10-25",
+          "supports": "Least Concern, assessed 9 August 2018, trend stable. Native breeding in Australia. Introduced resident in French Polynesia."
+        },
+        {
+          "url": "https://www.scientificlib.com/en/Biology/Animalia/Chordata/Aves/NeochmiaTemporalis01.html",
+          "title": "Neochmia temporalis — compiled species account",
+          "accessed": "2026-10-25",
+          "supports": "No key threatening process; nutmeg mannikin a possible minor threat in northern Queensland (the text says N. lateralis, which looks like a slip); declines where cleared or grazed, especially with drought; needs shrub cover. Mirrors the Wikipedia conservation paragraph."
+        },
+        {
+          "url": "https://www.flickr.com/photos/arthur_chapman/36495215155",
+          "title": "Red-browed Firetail on Tahiti Iti — Arthur Chapman",
+          "accessed": "2026-10-25",
+          "supports": "Introduced bird photographed near Teahupoo, Tahiti Iti, on 22 July 2017."
+        },
+        {
+          "url": "https://mdahlem.net/birds/24/rbfinch.php",
+          "title": "Red-browed Finch — M. Dahlem",
+          "accessed": "2026-10-25",
+          "supports": "Personal field account: 11–12 cm; season October–March; eggs 5–8; incubation 13–15 days; nest 1–3 m. Treated as a weaker outlier on clutch size."
+        },
+        {
+          "url": "https://www.environment.vic.gov.au/__data/assets/excel_doc/0030/793803/FFG_Threatened_List-July_2026.xlsx",
+          "title": "FFG Act Threatened List, July 2026 — DEECA Excel",
+          "accessed": "2026-10-25",
+          "supports": "No row for Neochmia temporalis or Red-browed Finch."
+        },
+        {
+          "url": "https://data.gov.au/data/dataset/ae652011-f39e-4c6c-91b8-1dc2d2dfee8f/resource/78401dce-1f40-49d3-92c4-3713d6e34974/download/20260828spcs.csv",
+          "title": "EPBC Act threatened species list, 28 August 2026 — data.gov.au",
+          "accessed": "2026-10-25",
+          "supports": "No row for Neochmia temporalis."
+        }
+      ]
+    },
+    {
+      "commonName": "Black-faced Cuckooshrike",
+      "scientificName": "Coracina novaehollandiae",
+      "verdict": "corrected",
+      "fields": {
+        "origins": "Native to Australia and southern New Guinea, and resident in Indonesia, Papua New Guinea and the Solomon Islands. It breeds in Australia, is a non-breeding visitor to Timor-Leste, and is a vagrant to New Caledonia and New Zealand. The Tasmanian subspecies breeds in Tasmania and on Bass Strait islands and spends the non-breeding season in south-eastern Australia.",
+        "distribution": "Throughout mainland Australia and Tasmania, in almost any wooded country except rainforest, including suburbs. Some birds are nomadic or move north, and Tasmanian breeders move to the south-eastern mainland after breeding.",
+        "habitat": "Woodland, open forest, farmland with trees, and suburbs. It avoids rainforest.",
+        "breeding": "August to February in the general account, and different in arid country. A south-eastern diary gives August to January, and a handbook summary gives September to March. The nest is a very small shallow saucer of sticks and bark bound with cobweb, on a fork or exposed branch. The clutch is 2–3, or usually 2 in one diary. Incubation is about three weeks: 21–22 days in that diary, about 21.5–22 days in compiled tables, and 20–24 days for the genus Coracina in a HANZAB family summary. Birds in Backyards gives a nestling period of 21 days and does not state clutch or incubation. Both sexes build, incubate and care for the young.",
+        "diet": "Insects and other invertebrates, caught in the air, in foliage or on the ground, plus some fruit and seeds.",
+        "threats": "The 2025 IUCN assessment does not identify a decline that would meet a threatened threshold, and the trend is stable. Few major threats is a fair species-level summary. It is listed as marine under section 248 of the EPBC Act, which is not a threatened category.",
+        "size": "About 32–34 cm (Birds in Backyards; average 33 cm). Museums Victoria gives 32.5 cm, and one field account gives 32–35 cm.",
+        "conservation": "Least Concern on the IUCN Red List (assessed 5 June 2025; trend stable). Listed marine under the EPBC Act, and not listed as threatened on the list current at 28 August 2026. Not on Victoria's FFG Act Threatened List of July 2026. The Ground Cuckoo-shrike, Coracina maxima, is on that FFG list and is a different species."
+      },
+      "errorsInDraft": [
+        "Breeds in Australia, with some wintering in New Guinea and Indonesia, misses the resident range in southern New Guinea, Indonesia and the Solomon Islands, and the non-breeding range in Timor-Leste.",
+        "Many southern birds are migratory, arriving in spring, reverses the Tasmanian subspecies, which breeds in Tasmania and the Bass Strait islands and is non-breeding in south-eastern Australia.",
+        "33 cm is the Birds in Backyards average. The published range is about 32–34 cm.",
+        "Diet omits seeds. Birds in Backyards and BirdLife include some fruits and seeds."
+      ],
+      "conflicts": [
+        "Season: August–February (Birds in Backyards and BirdLife); August–January in the south-east (M. Dahlem); September–March (Birds Queensland, citing Higgins et al. 2006).",
+        "Clutch: 2–3 (Higgins et al. 2006, via Birds Queensland); usually 2, with a photo of three chicks (M. Dahlem); 2 in a compiled life-history table.",
+        "Incubation: 21–22 days (M. Dahlem); 22 days and 21.5 days in compiled tables; 20–24 days for Coracina in a HANZAB family introduction; about 20 days on a secondary species page. The nestling period is also about 21 days, so the two intervals are easy to mix. Birds in Backyards does not state incubation.",
+        "Length: 32–34 cm (Birds in Backyards and Wikipedia); 32.5 cm (Museums Victoria on ALA); 32–35 cm (Birds Queensland, citing Hardy 2020); 32–36 cm (M. Dahlem and a secondary profile)."
+      ],
+      "notWellDocumented": [
+        "A clutch size or incubation period on the Birds in Backyards or BirdLife species pages. Those pages give the nestling period as 21 days and leave incubation to the handbook sources.",
+        "Species-specific threats beyond the stable Least Concern assessment."
+      ],
+      "sources": [
+        {
+          "url": "https://www.birdsinbackyards.net/species/Coracina-novaehollandiae",
+          "title": "Black-faced Cuckoo-shrike — Birds in Backyards",
+          "accessed": "2026-10-25",
+          "supports": "32–34 cm, average 33; August–February, varying in arid areas; nestling period 21 days; Tasmania Secure; almost any wooded habitat except rainforest; insects and other invertebrates, some fruits and seeds; shallow saucer of sticks and bark bound with cobwebs. No clutch or incubation figure."
+        },
+        {
+          "url": "https://birdlife.org.au/bird-profiles/black-faced-cuckoo-shrike/",
+          "title": "Black-faced Cuckoo-shrike — BirdLife Australia",
+          "accessed": "2026-10-25",
+          "supports": "Nationwide; partial nomad with some northward migration; same nest, diet and August–February season; nestling period 21 days; IUCN Least Concern."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Black-faced_cuckooshrike",
+          "title": "Black-faced cuckooshrike — Wikipedia",
+          "accessed": "2026-10-25",
+          "supports": "Native to Australia and southern New Guinea; 32–34 cm; breeding chiefly August–February; young leave about three weeks after hatching."
+        },
+        {
+          "url": "https://birdsoftheworld.org/bow/species/bkfcus1/cur/introduction",
+          "title": "Black-faced Cuckooshrike — Birds of the World",
+          "accessed": "2026-10-25",
+          "supports": "Subspecies melanops in much of Australia and locally south-eastern New Guinea, non-breeding through Wallacea to the western Solomons; subspecies novaehollandiae breeds in Tasmania and on King Island and the Furneaux Group and is non-breeding in south-eastern Australia."
+        },
+        {
+          "url": "https://www.iucnredlist.org/species/22706495/280985712",
+          "title": "Coracina novaehollandiae — IUCN Red List",
+          "accessed": "2026-10-25",
+          "supports": "Least Concern, assessed 5 June 2025, trend stable. Breeding in Australia; non-breeding in Timor-Leste; resident in Indonesia, Papua New Guinea and the Solomon Islands; vagrant to New Caledonia and New Zealand."
+        },
+        {
+          "url": "https://www.nzbirdsonline.org.nz/assets/95597/1725855241-318_black-faced-20cuckoo-shrike.pdf",
+          "title": "Campephagidae family text — New Zealand Birds Online (citing HANZAB)",
+          "accessed": "2026-10-25",
+          "supports": "Coracina incubation 20–24 days. Black-faced Cuckoo-shrike laying interval 24 hours or more, and it can raise three broods."
+        },
+        {
+          "url": "https://birdsqueensland.org.au/bird/black-faced-cuckoo-shrike/",
+          "title": "Black-faced Cuckoo-shrike — Birds Queensland",
+          "accessed": "2026-10-25",
+          "supports": "Cites Higgins et al. 2006: season September–March; shallow nests with 2–3 eggs on exposed eucalypt or acacia branches. Length 32–35 cm citing Hardy 2020."
+        },
+        {
+          "url": "https://mdahlem.net/birds/22/bfcshrk.php",
+          "title": "Black-faced Cuckoo-shrike — M. Dahlem",
+          "accessed": "2026-10-25",
+          "supports": "South-eastern season August–January; usually 2 eggs; incubation 21–22 days; fledging about 21 days; nest on the angle of a fork. Length given as 32–36 cm."
+        },
+        {
+          "url": "https://absa.asn.au/wp-content/uploads/2014/12/Black-faced-Cuckoo-shrike-1.pdf",
+          "title": "Black-faced Cuckoo-shrike — Australian Bird Study Association, Bird in the Hand",
+          "accessed": "2026-10-25",
+          "supports": "Cites HANZAB 7A. Both sexes incubate. Tasmanian subspecies migrates to the mainland after breeding. No incubation period on the sheet."
+        },
+        {
+          "url": "https://bie.ala.org.au/species/https:/biodiversity.org.au/afd/taxa/69c22b10-ff42-4bef-bb0f-88dc01a8f96c",
+          "title": "Coracina novaehollandiae — Atlas of Living Australia (Museums Victoria profile)",
+          "accessed": "2026-10-25",
+          "supports": "Across Australia; 32.5 cm; mostly invertebrates, some fruit and plant material."
+        },
+        {
+          "url": "http://www.environment.gov.au/cgi-bin/sprat/public/publicspecies.pl?taxon_id=647",
+          "title": "Coracina novaehollandiae — EPBC SPRAT",
+          "accessed": "2026-10-25",
+          "supports": "EPBC Act listing status is Listed marine, under the section 248 marine list. Not a threatened listing. IUCN Least Concern on the 2026.1 list."
+        },
+        {
+          "url": "https://www.environment.vic.gov.au/__data/assets/excel_doc/0030/793803/FFG_Threatened_List-July_2026.xlsx",
+          "title": "FFG Act Threatened List, July 2026 — DEECA Excel",
+          "accessed": "2026-10-25",
+          "supports": "No row for Coracina novaehollandiae or Black-faced Cuckoo-shrike. Coracina maxima, the Ground Cuckoo-shrike, is listed and is a different species."
+        },
+        {
+          "url": "https://data.gov.au/data/dataset/ae652011-f39e-4c6c-91b8-1dc2d2dfee8f/resource/78401dce-1f40-49d3-92c4-3713d6e34974/download/20260828spcs.csv",
+          "title": "EPBC Act threatened species list, 28 August 2026 — data.gov.au",
+          "accessed": "2026-10-25",
+          "supports": "No threatened-list row for Coracina novaehollandiae. Listed marine is a separate EPBC category and is not on this threatened-species CSV."
+        }
+      ]
+    },
+    {
+      "commonName": "Red-rumped Parrot",
+      "scientificName": "Psephotus haematonotus",
+      "verdict": "corrected",
+      "fields": {
+        "origins": "Native and endemic to south-eastern mainland Australia. Aviary escapes may have added birds around the New South Wales Central Coast and Sydney.",
+        "distribution": "Most of New South Wales and Victoria, less so on the wetter coast, plus southern Queensland and an isolated population in north-eastern South Australia and south-western Queensland. It is not limited to country west of the Great Dividing Range. Birds are sedentary, and the grassy western Victorian plains are within the range.",
+        "habitat": "Open grassland, lightly timbered plains, mallee farmland and watercourses with access to water, including paddocks, parks and roadsides.",
+        "breeding": "Birds in Backyards, citing HANZAB volume 4, gives August to December, a clutch of 3–7 (usually 5) and incubation of 21 days by the female, in a eucalypt hollow or sometimes a nest-box, with the eggs on decayed wood. The western Victorian plains guide extends the season to January and adds fence posts and stumps, without an incubation figure. Other accounts give a usual peak of September–November, inland breeding after rain, clutches of 4–6 or 4–7, and incubation from about 18–20 days up to 20–25 days.",
+        "diet": "Seeds and leaves of grasses and other herbaceous plants, both native and introduced, plus fruits and flowers taken in trees.",
+        "threats": "Often hit by cars and killed by cats. Common Mynas and European Starlings, and also Eastern and Crimson Rosellas, compete for hollows. The species has also spread where pasture and cereal crops replaced forest, and the IUCN trend is increasing.",
+        "size": "About 26–27 cm (Birds in Backyards). A western Victorian guide and Museums Victoria give 25–28 cm.",
+        "conservation": "Least Concern on the IUCN Red List (assessed 15 January 2024; trend increasing). Not listed as threatened under the EPBC Act on the list current at 28 August 2026, and not on Victoria's FFG Act Threatened List of July 2026."
+      },
+      "errorsInDraft": [
+        "West of the Great Dividing Range is too absolute. The range includes most of Victoria and New South Wales away from the wetter coast, and the bird is a resident of the western Victorian plains.",
+        "Size 26–28 cm runs past the Birds in Backyards maximum of 27 cm, though 28 cm is the top of a field-guide range.",
+        "Weed seeds is narrower than seeds of native and introduced grasses and herbs, and the diet omits fruits and flowers.",
+        "Threats omit cars and cats. Loss of hollow-bearing trees is not the framing in the sources: the documented hollow problem is competition, and clearing for farmland has also suited the species."
+      ],
+      "conflicts": [
+        "Length: Birds in Backyards 26–27 cm; western Victorian plains guide and Museums Victoria 25–28 cm; a personal field diary gives 27–30 cm.",
+        "Season: Birds in Backyards August–December; western Victorian plains and World Parrot Trust August–January; Wikipedia usually September–November, and any time after rain inland.",
+        "Clutch: Birds in Backyards 3–7, usually 5; Wikipedia and World Parrot Trust 4–6; M. Dahlem 4–7.",
+        "Incubation: 21 days in Birds in Backyards, which cites HANZAB volume 4; Wikipedia about 20–25 days; aviculture accounts about 19–20 days; M. Dahlem 18–20 days; a compiled table 18.5–19 days."
+      ],
+      "notWellDocumented": [
+        "One agreed incubation period. The figure to prefer for the site is 21 days, because that is the HANZAB-cited Birds in Backyards value, but shorter and longer published ranges exist."
+      ],
+      "sources": [
+        {
+          "url": "https://www.birdsinbackyards.net/species/Psephotus-haematonotus",
+          "title": "Red-rumped Parrot — Birds in Backyards",
+          "accessed": "2026-10-25",
+          "supports": "26–27 cm; August–December; clutch 3–7, usually 5; incubation 21 days; most of New South Wales and Victoria, less so on the coast, plus north-eastern South Australia and south-western Queensland; sedentary; seeds and leaves of grasses, and seeds, fruits and flowers in trees; eucalypt hollow; female incubates; killed by cars and cats. References include HANZAB volume 4. Red rump is on the male."
+        },
+        {
+          "url": "https://bwvp.ecolinc.vic.edu.au/fieldguide/fauna/red-rumped-parrot",
+          "title": "Red-rumped Parrot — Biodiversity of the Western Volcanic Plains",
+          "accessed": "2026-10-25",
+          "supports": "25–28 cm; August–January; eucalypt hollow, fence post or stump; south-eastern Australia to southern Queensland; grassy woodland, farm paddocks and river red gum watercourses. Not listed under FFG or EPBC on that page."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Red-rumped_parrot",
+          "title": "Red-rumped parrot — Wikipedia",
+          "accessed": "2026-10-25",
+          "supports": "Most of New South Wales and Victoria, parts of southern Queensland and eastern South Australia; avoids the coast and wetter, heavily wooded areas; clutch 4–6; usual season September–November; incubation about 20–25 days by the female; seeds and leaves of native and introduced herbaceous plants, plus some fruit, shoots and flowers; cars, cats, Common Myna and European Starling, and also Eastern and Crimson Rosellas, compete for hollows."
+        },
+        {
+          "url": "https://www.iucnredlist.org/species/22685139/254012516",
+          "title": "Psephotus haematonotus — IUCN Red List",
+          "accessed": "2026-10-25",
+          "supports": "Least Concern, assessed 15 January 2024, trend increasing, Australia."
+        },
+        {
+          "url": "https://parrots.org/encyclopedia/red-rumped-parrot/",
+          "title": "Red-rumped Parrot — World Parrot Trust",
+          "accessed": "2026-10-25",
+          "supports": "Season August–January; clutch 4–6; range expanded after the 1950s as forest clearance and cereal crops created habitat. Least Concern."
+        },
+        {
+          "url": "https://mdahlem.net/birds/12/redrump.php",
+          "title": "Red-rumped Parrot — M. Dahlem",
+          "accessed": "2026-10-25",
+          "supports": "Personal field account: 27–30 cm; September–December; eggs 4–7; incubation 18–20 days."
+        },
+        {
+          "url": "https://bie.ala.org.au/species/https:/biodiversity.org.au/afd/taxa/7890d5ed-3830-435e-98cb-88c6a1103a91",
+          "title": "Psephotus haematonotus — Atlas of Living Australia (Museums Victoria profile)",
+          "accessed": "2026-10-25",
+          "supports": "South-eastern mainland Australia; average body size 25–28 cm; hollow nest; clutch 3–7; seeds, leaves, grasses, fruit and flowers."
+        },
+        {
+          "url": "https://www.environment.vic.gov.au/__data/assets/excel_doc/0030/793803/FFG_Threatened_List-July_2026.xlsx",
+          "title": "FFG Act Threatened List, July 2026 — DEECA Excel",
+          "accessed": "2026-10-25",
+          "supports": "No row for Psephotus haematonotus or Red-rumped Parrot."
+        },
+        {
+          "url": "https://data.gov.au/data/dataset/ae652011-f39e-4c6c-91b8-1dc2d2dfee8f/resource/78401dce-1f40-49d3-92c4-3713d6e34974/download/20260828spcs.csv",
+          "title": "EPBC Act threatened species list, 28 August 2026 — data.gov.au",
+          "accessed": "2026-10-25",
+          "supports": "No row for Psephotus haematonotus. Other Psephotus rows are the Golden-shouldered Parrot and the Paradise Parrot."
+        }
+      ]
+    },
+    {
+      "commonName": "White-eared Honeyeater",
+      "scientificName": "Nesoptilotis leucotis",
+      "verdict": "corrected",
+      "fields": {
+        "origins": "A breeding endemic of Australia. It lives on the eastern and southern mainland, from south-eastern Queensland to Victoria and eastern South Australia, on Kangaroo Island, and in southern Western Australia. It is not in Tasmania.",
+        "distribution": "Mainland eastern and southern Australia: coastal forests from south-eastern Queensland to Victoria and south-eastern South Australia, inland mallee, Kangaroo Island, and southern Western Australia. Many birds are sedentary, with local movements and an altitudinal shift in the Southern Alps.",
+        "habitat": "Dry eucalypt forest and woodland with a well-developed understorey, including mallee, heath and scrub, from the coast to the treeline. It is uncommon on farms but enters gardens, orchards and vineyards, and mangroves around Sydney. It avoids sites that are heavily degraded, recently burnt, or without an understorey.",
+        "breeding": "The Australian Museum and Birds in Backyards say most months, with an August–October peak around Sydney. Wikipedia gives July to March. A Canberra-region note gives October to March in the highlands. No separate southern Victorian window was found. The nest is a deep cup low in a shrub, bracken or grass, about 0.5–5 m up, lined with fur, hair, down or feathers. The clutch is usually two, sometimes three, and the female incubates. The incubation period is not stated by Birds in Backyards, the Australian Museum or Wikipedia.",
+        "diet": "Mainly insects taken under bark and at wounds on trunks, plus nectar, fruit, manna, lerp and honeydew.",
+        "threats": "Habitat destruction, fire and loss of understorey. It declined in the Western Australian wheatbelt after clearing. Nests are parasitised by Fan-tailed, Pallid, Horsfield's Bronze and Shining Bronze cuckoos. The IUCN trend is decreasing, but the species remains Least Concern.",
+        "size": "About 20–21 cm (Australian Museum and Birds in Backyards). Wikipedia gives 19–22 cm.",
+        "conservation": "Least Concern on the IUCN Red List (assessed 15 January 2024; trend decreasing). The species is not on the EPBC Act threatened list current at 28 August 2026. The Kangaroo Island subspecies Nesoptilotis leucotis thomasi is EPBC Endangered and does not occur at Inverleigh. Not on Victoria's FFG Act Threatened List of July 2026."
+      },
+      "errorsInDraft": [
+        "Size 17–22 cm starts too low. Published figures are 20–21 cm or 19–22 cm.",
+        "Sedentary misses local movements and altitudinal migration in the Southern Alps.",
+        "July–January is shorter than July–March and shorter than most months of the year.",
+        "Incubation about 14–16 days is not given by Birds in Backyards, the Australian Museum or Wikipedia.",
+        "Diet omits fruit and lerp. Honeydew and manna are supported.",
+        "Loss of woodland habitat omits fire, loss of understorey and cuckoo parasitism.",
+        "Appearance says yellow below. The Australian Museum and Birds in Backyards say lighter green underparts. Wikipedia describes the coastal belly as light greenish-yellow."
+      ],
+      "conflicts": [
+        "Length: Australian Museum and Birds in Backyards 20–21 cm; Wikipedia 19–22 cm.",
+        "Season: most months, and August–October around Sydney (Australian Museum and Birds in Backyards); July–March (Wikipedia); October–March in the highlands near Canberra (a regional key).",
+        "Underparts: lighter green (Australian Museum and Birds in Backyards) versus light greenish-yellow belly on coastal birds (Wikipedia)."
+      ],
+      "notWellDocumented": [
+        "Incubation period. Birds in Backyards, the Australian Museum and Wikipedia do not state it. A personal field site marks 14–15 days with a question mark. Secondary pages that state 14–16 days were not relied on, because some of them also place the species in Tasmania, which the Australian sources reject.",
+        "A breeding season measured in southern Victoria, as distinct from the general and Sydney figures."
+      ],
+      "sources": [
+        {
+          "url": "https://www.birdsinbackyards.net/species/Lichenostomus-leucotis",
+          "title": "White-eared Honeyeater — Birds in Backyards",
+          "accessed": "2026-10-25",
+          "supports": "20–21 cm; lighter green underparts; mainland eastern and southern Australia including southern Western Australia; Tasmania Not present; dry eucalypt forest and woodland with understorey, heath and scrub; sedentary with local and altitudinal movement; insects, nectar, fruit, manna, lerp and honeydew; clutch usually two, sometimes three; breeds most months, August–October in Sydney; cup lined with fur or hair; cuckoo hosts. No incubation period."
+        },
+        {
+          "url": "https://australian.museum/learn/animals/birds/white-eared-honeyeater/",
+          "title": "White-eared Honeyeater — Australian Museum",
+          "accessed": "2026-10-25",
+          "supports": "20–21 cm; olive-green above with lighter green underparts; same range, season, nest lining and cuckoo hosts as Birds in Backyards."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/White-eared_honeyeater",
+          "title": "White-eared honeyeater — Wikipedia",
+          "accessed": "2026-10-25",
+          "supports": "19–22 cm; olive-green body; coastal birds light greenish-yellow on the belly; July–March; nest 0.5–5 m, lined with down, feathers, hair or fur; clutch typically 2 or 3; sedentary, nomadic or locally migratory; threats are habitat degradation, fire and loss of understorey. No incubation period."
+        },
+        {
+          "url": "https://datazone.birdlife.org/species/factsheet/22704070",
+          "title": "White-eared Honeyeater — BirdLife DataZone",
+          "accessed": "2026-10-25",
+          "supports": "Breeding endemic yes; not a migrant; Least Concern, last assessed 2024; decreasing, linked to habitat destruction (Higgins et al. 2001); native resident only in Australia."
+        },
+        {
+          "url": "https://www.iucnredlist.org/species/22704070/253993105/pdf",
+          "title": "Nesoptilotis leucotis — IUCN Red List assessment PDF",
+          "accessed": "2026-10-25",
+          "supports": "Least Concern, assessed 15 January 2024, published 2024. Native resident in Australia. Decline suspected from habitat destruction, but thresholds for a threatened category are not met."
+        },
+        {
+          "url": "https://birdsoftheworld.org/bow/species/whehon1/cur/introduction",
+          "title": "White-eared Honeyeater — Birds of the World",
+          "accessed": "2026-10-25",
+          "supports": "Subspecies leucotis in coastal forests from south-eastern Queensland to Victoria and south-eastern South Australia; depauperata in inland mallee; thomasi on Kangaroo Island; novaenorciae in the south-west."
+        },
+        {
+          "url": "https://keyserver.lucidcentral.org/key-server/data/03050501-000c-4503-8203-0a030507090d/media/Html/Lichenostomus_leucotis.htm",
+          "title": "White-eared Honeyeater — Canberra region key",
+          "accessed": "2026-10-25",
+          "supports": "19–22 cm; breeding near Canberra in the highlands from October to March; clutch 2–3; female incubates. No incubation length."
+        },
+        {
+          "url": "https://mdahlem.net/birds/18/whearhon.php",
+          "title": "White-eared Honeyeater — M. Dahlem",
+          "accessed": "2026-10-25",
+          "supports": "19–22 cm; season August–January; eggs 2–3; incubation marked 14–15 days with a question mark. Not treated as a firm period."
+        },
+        {
+          "url": "http://www.environment.gov.au/cgi-bin/sprat/public/publicspecies.pl?taxon_id=86394",
+          "title": "Nesoptilotis leucotis thomasi — EPBC SPRAT",
+          "accessed": "2026-10-25",
+          "supports": "Linked from the EPBC CSV. Kangaroo Island White-eared Honeyeater, taxon 86394. This is the subspecies, not the species at Inverleigh."
+        },
+        {
+          "url": "https://www.environment.vic.gov.au/__data/assets/excel_doc/0030/793803/FFG_Threatened_List-July_2026.xlsx",
+          "title": "FFG Act Threatened List, July 2026 — DEECA Excel",
+          "accessed": "2026-10-25",
+          "supports": "No row for Nesoptilotis leucotis, Lichenostomus leucotis or White-eared Honeyeater."
+        },
+        {
+          "url": "https://data.gov.au/data/dataset/ae652011-f39e-4c6c-91b8-1dc2d2dfee8f/resource/78401dce-1f40-49d3-92c4-3713d6e34974/download/20260828spcs.csv",
+          "title": "EPBC Act threatened species list, 28 August 2026 — data.gov.au",
+          "accessed": "2026-10-25",
+          "supports": "The only matching row is Nesoptilotis leucotis thomasi, Kangaroo Island White-eared Honeyeater, Endangered, taxon 86394. The species is not listed."
+        }
+      ]
+    }
+  ],
+  "queries": [
+    "Yellow-faced Honeyeater Caligavis chrysops breeding incubation clutch size distribution Birds in Backyards OR BirdLife OR \"Australian Museum\"",
+    "Magpie-lark Grallina cyanoleuca Tasmania breeding incubation clutch size distribution BirdLife \"Birds in Backyards\"",
+    "Eastern Yellow Robin Eopsaltria australis incubation clutch breeding season size habitat IUCN BirdLife \"Australian Museum\"",
+    "Red-browed Finch Neochmia temporalis incubation clutch breeding introduced Tahiti Marquesas size BirdLife \"Birds in Backyards\"",
+    "Black-faced Cuckooshrike Coracina novaehollandiae incubation clutch breeding size distribution Tasmania BirdLife \"Australian Museum\"",
+    "Red-rumped Parrot Psephotus haematonotus incubation clutch breeding hollow size distribution BirdLife \"Birds in Backyards\"",
+    "White-eared Honeyeater Nesoptilotis leucotis incubation clutch breeding size distribution endemic BirdLife \"Australian Museum\"",
+    "site:australian.museum Magpie-lark OR \"Eastern Yellow Robin\" OR \"Red-browed Finch\" OR \"Black-faced Cuckoo\" OR \"Red-rumped Parrot\" OR \"Yellow-faced Honeyeater\" OR \"White-eared Honeyeater\"",
+    "site:birdlife.org.au Magpie-lark OR \"Eastern Yellow Robin\" OR \"Red-browed Finch\" OR \"Red-rumped Parrot\" OR \"White-eared Honeyeater\" bird profile",
+    "\"Magpie-lark\" OR \"Grallina cyanoleuca\" Tasmania vagrant OR \"rare visitor\" OR \"not present\" BirdLife OR HANZAB OR \"Birds in Backyards\"",
+    "\"Black-faced Cuckoo-shrike\" OR \"Coracina novaehollandiae\" incubation \"days\" clutch eggs HANZAB OR \"2 or 3\" OR \"two or three\"",
+    "\"White-eared Honeyeater\" incubation days clutch HANZAB OR \"14\" OR \"15 days\" OR \"16 days\" nesting Victoria",
+    "\"Eastern Yellow Robin\" incubation \"days\" HANZAB OR Marchant cats predator nest Victoria",
+    "Red-rumped Parrot \"Great Dividing Range\" distribution incubation HANZAB \"21\" OR \"19\" OR \"20 days\" hollow starling OR competition",
+    "Grallina cyanoleuca Tasmania \"vagrant\" OR \"rare\" OR \"absent\" HANZAB OR \"not recorded\" OR \"Birds of Tasmania\"",
+    "Red-browed Finch introduced \"French Polynesia\" OR Tahiti OR Marquesas OR \"Western Australia\" Perth established Neochmia temporalis",
+    "\"Yellow-faced Honeyeater\" Tasmania absent OR vagrant OR \"not recorded\" Caligavis OR Lichenostomus chrysops",
+    "Psephotus haematonotus IUCN Red List Least Concern assessed EPBC FFG \"Caligavis chrysops\" \"Grallina cyanoleuca\" \"Eopsaltria australis\" \"Neochmia temporalis\" \"Coracina novaehollandiae\" \"Nesoptilotis leucotis\"",
+    "\"Neochmia temporalis\" OR \"red-browed finch\" OR \"red-browed firetail\" Tahiti OR Marquesas OR Moorea introduced OR feral",
+    "site:environment.gov.au/cgi-bin/sprat Caligavis chrysops OR \"Grallina cyanoleuca\" OR \"Eopsaltria australis\" OR \"Neochmia temporalis\" OR \"Psephotus haematonotus\" OR \"Nesoptilotis leucotis\" OR \"Lichenostomus leucotis\" EPBC",
+    "FFG Threatened List July 2026 \"White-eared\" OR \"Yellow-faced\" OR \"Magpie-lark\" OR \"Eastern Yellow Robin\" OR \"Red-browed\" OR \"Red-rumped\" OR \"Cuckoo-shrike\" site:environment.vic.gov.au",
+    "\"Psephotus haematonotus\" IUCN \"Date assessed\" OR \"assessed\" Least Concern 2016 OR 2018 OR 2024",
+    "site:environment.gov.au/cgi-bin/sprat/public/publicspecies.pl \"Caligavis chrysops\" OR \"Lichenostomus chrysops\" OR \"Grallina cyanoleuca\" OR \"Eopsaltria australis\" OR \"Neochmia temporalis\" OR \"Psephotus haematonotus\" OR \"Nesoptilotis leucotis\" \"EPBC Act Listing Status\"",
+    "Magpie-lark Grallina cyanoleuca Tasmania vagrant breeding incubation clutch \"Birds in Backyards\"",
+    "Eastern Yellow Robin Eopsaltria australis incubation clutch breeding season size habitat \"Australian Museum\" cats predator",
+    "Red-browed Finch Neochmia temporalis incubation clutch breeding introduced Tahiti Marquesas size \"Birds in Backyards\" OR \"Australian Museum\"",
+    "Black-faced Cuckooshrike Coracina novaehollandiae incubation clutch breeding size distribution \"Australian Museum\" OR BirdLife IUCN 2025",
+    "Red-rumped Parrot Psephotus haematonotus incubation clutch breeding hollow size distribution \"Birds in Backyards\" \"Great Dividing Range\"",
+    "White-eared Honeyeater Nesoptilotis leucotis incubation clutch breeding size distribution \"Australian Museum\" OR \"Birds in Backyards\" IUCN",
+    "\"Eastern Yellow Robin\" incubation \"15\" OR \"16\" OR \"17\" days Debus OR Marchant OR \"Birds in Backyards\" clutch nest predator currawong cat",
+    "Grallina cyanoleuca IUCN Least Concern assessed 2018 trend increasing habitat degradation Higgins Tasmania vagrant list of birds",
+    "\"Neochmia temporalis\" IUCN \"French Polynesia\" Least Concern 2018 threat nutmeg OR cat OR \"not threatened\" Marquesas OR Tahiti introduced Perth",
+    "\"Black-faced Cuckoo-shrike\" OR \"Coracina novaehollandiae\" incubation \"21\" OR \"20-24\" OR \"22 days\" HANZAB Higgins clutch SPRAT \"listed marine\" OR \"Marine\" EPBC",
+    "Eastern Koel \"Magpie-lark\" host Australian Museum OR HANZAB brood parasite",
+    "site:environment.gov.au \"Coracina novaehollandiae\" \"Listed marine\" OR \"EPBC Act status\" SPRAT black-faced cuckoo-shrike",
+    "Eopsaltria australis IUCN Red List \"Date assessed\" OR \"Last assessed\" Least Concern 2012 OR 2016 OR 2018 OR 2024"
+  ]
+}

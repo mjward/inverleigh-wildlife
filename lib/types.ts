@@ -1,0 +1,40 @@
+export type Media = {
+  src: string;
+  author: string;
+  license: string;
+  licenseUrl: string;
+  sourceUrl: string;
+  title: string;
+  source: string;
+  verifiedBy: string;
+};
+export type Photo = Media & { width: number; height: number; sex: string | null };
+export type Audio = Media & { recordedAt?: string | null; xcId?: string; unmodified?: boolean };
+export type Video = { videoId: string; title: string; channel: string; matchedBy: string };
+export type BirdMedia = {
+  slug: string;
+  commonName: string;
+  scientificName: string;
+  alaRecords: number | null;
+  photo: Photo;
+  audio: Audio | null;
+  video: Video | null;
+  sources: { label: string; url: string }[];
+};
+export type BirdText = {
+  size: string;
+  conservation: string;
+  appearance: string;
+  behaviour: string;
+  origins: string;
+  distribution: string;
+  localSpot: string;
+  breeding: string;
+  diet: string;
+  threats: string;
+  habitat?: string;
+  trees?: string;
+  hangouts?: string;
+  tier?: "5km" | "10km";
+};
+export type Bird = BirdMedia & BirdText;

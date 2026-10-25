@@ -1,0 +1,1907 @@
+[
+ {
+  "slug": "australian-magpie",
+  "commonName": "Australian Magpie",
+  "scientificName": "Gymnorhina tibicen",
+  "alaRecords": 2450,
+  "photo": {
+   "src": "/birds/australian-magpie.webp",
+   "width": 800,
+   "height": 640,
+   "author": "Lip Kee Yap",
+   "license": "CC BY-SA 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gymnorhina_tibicen_-Melbourne-8.jpg",
+   "title": "File:Gymnorhina tibicen -Melbourne-8.jpg",
+   "source": "Wikimedia Commons",
+   "verifiedBy": "scientific name in file title/description/categories",
+   "sex": null
+  },
+  "audio": {
+   "src": "/sounds/australian-magpie.mp3",
+   "author": "Justin Watts",
+   "license": "CC BY SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "sourceUrl": "https://xeno-canto.org/934083",
+   "title": "XC934083 \u00b7 Australian Magpie (Gymnorhina tibicen) \u00b7  \u00b7 quality A",
+   "source": "xeno-canto",
+   "verifiedBy": "xeno-canto record XC934083 is identified as Gymnorhina tibicen",
+   "recordedAt": "You Yangs Regional Park, Geelong, Victoria",
+   "xcId": "934083",
+   "unmodified": false
+  },
+  "video": null,
+  "sources": [
+   {
+    "label": "Atlas of Living Australia",
+    "url": "https://bie.ala.org.au/search?q=Gymnorhina+tibicen"
+   },
+   {
+    "label": "BirdLife Australia bird profile",
+    "url": "https://birdlife.org.au/bird-profiles/australian-magpie/"
+   },
+   {
+    "label": "Wikipedia (cross-check)",
+    "url": "https://en.wikipedia.org/wiki/Australian_magpie"
+   }
+  ]
+ },
+ {
+  "slug": "superb-fairywren",
+  "commonName": "Superb Fairywren",
+  "scientificName": "Malurus cyaneus",
+  "alaRecords": 1956,
+  "photo": {
+   "src": "/birds/superb-fairywren.webp",
+   "width": 1280,
+   "height": 854,
+   "author": "JJ Harrison (https://www.jjharrison.com.au/)",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Malurus_cyaneus_cyanochlamys_.jpg",
+   "title": "File:Malurus_cyaneus_cyanochlamys_.jpg",
+   "source": "Wikimedia Commons",
+   "verifiedBy": "scientific name in file title/description/categories",
+   "sex": "male (breeding plumage)"
+  },
+  "audio": {
+   "src": "/sounds/superb-fairywren.mp3",
+   "author": "Romuald Mikusek",
+   "license": "CC BY NC SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "sourceUrl": "https://xeno-canto.org/1173655",
+   "title": "XC1173655 \u00b7 Superb Fairywren (Malurus cyaneus) \u00b7 call \u00b7 quality A",
+   "source": "xeno-canto",
+   "verifiedBy": "xeno-canto record XC1173655 is identified as Malurus cyaneus",
+   "recordedAt": "Devils River, Murrindindi Shire, Victoria",
+   "xcId": "1173655",
+   "unmodified": false
+  },
+  "video": {
+   "videoId": "gKNm9SuUhlY",
+   "title": "Superb Fairywren \u2013 Malurus cyaneus",
+   "channel": "Werrong Lane",
+   "matchedBy": "scientific name in title"
+  },
+  "sources": [
+   {
+    "label": "Atlas of Living Australia",
+    "url": "https://bie.ala.org.au/search?q=Malurus+cyaneus"
+   },
+   {
+    "label": "BirdLife Australia bird profile",
+    "url": "https://birdlife.org.au/bird-profiles/superb-fairywren/"
+   },
+   {
+    "label": "Wikipedia (cross-check)",
+    "url": "https://en.wikipedia.org/wiki/Superb_fairywren"
+   }
+  ]
+ },
+ {
+  "slug": "red-wattlebird",
+  "commonName": "Red Wattlebird",
+  "scientificName": "Anthochaera carunculata",
+  "alaRecords": 1955,
+  "photo": {
+   "src": "/birds/red-wattlebird.webp",
+   "width": 1280,
+   "height": 1280,
+   "author": "Andreas Trepte",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Red_wattlebird.jpg",
+   "title": "File:Red_wattlebird.jpg",
+   "source": "Wikimedia Commons",
+   "verifiedBy": "scientific name in file title/description/categories",
+   "sex": null
+  },
+  "audio": {
+   "src": "/sounds/red-wattlebird.mp3",
+   "author": "James Ray",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Anthochaera_carunculata_-_Red_Wattlebird_XC444505.mp3",
+   "title": "File:Anthochaera carunculata - Red Wattlebird XC444505.mp3",
+   "source": "Wikimedia Commons",
+   "verifiedBy": "scientific name in Commons file title/description/categories",
+   "recordedAt": null
+  },
+  "video": {
+   "videoId": "FNaHzpPaoo0",
+   "title": "Red Wattlebird at suburban train station - Anthochaera carunculata",
+   "channel": "Garden Daydream Man",
+   "matchedBy": "scientific name in title"
+  },
+  "sources": [
+   {
+    "label": "Atlas of Living Australia",
+    "url": "https://bie.ala.org.au/search?q=Anthochaera+carunculata"
+   },
+   {
+    "label": "BirdLife Australia bird profile",
+    "url": "https://birdlife.org.au/bird-profiles/red-wattlebird/"
+   },
+   {
+    "label": "Wikipedia (cross-check)",
+    "url": "https://en.wikipedia.org/wiki/Red_wattlebird"
+   }
+  ]
+ },
+ {
+  "slug": "white-plumed-honeyeater",
+  "commonName": "White-plumed Honeyeater",
+  "scientificName": "Ptilotula penicillata",
+  "alaRecords": 1802,
+  "photo": {
+   "src": "/birds/white-plumed-honeyeater.webp",
+   "width": 1280,
+   "height": 1280,
+   "author": "JJ Harrison (https://www.jjharrison.com.au/)",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ptilotula_penicillata_-_Glen_Davis.jpg",
+   "title": "File:Ptilotula_penicillata_-_Glen_Davis.jpg",
+   "source": "Wikimedia Commons",
+   "verifiedBy": "scientific name in file title/description/categories",
+   "sex": null
+  },
+  "audio": {
+   "src": "/sounds/white-plumed-honeyeater.mp3",
+   "author": "Peter Russell",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ptilotula_penicillata_-_White-plumed_Honeyeater_XC492324.mp3",
+   "title": "File:Ptilotula penicillata - White-plumed Honeyeater XC492324.mp3",
+   "source": "Wikimedia Commons",
+   "verifiedBy": "scientific name in Commons file title/description/categories",
+   "recordedAt": null
+  },
+  "video": {
+   "videoId": "NOTsVk1ue1k",
+   "title": "White-plumed honeyeaters - from nestling to fledgling",
+   "channel": "Paul Shepherd",
+   "matchedBy": "common name in title"
+  },
+  "sources": [
+   {
+    "label": "Atlas of Living Australia",
+    "url": "https://bie.ala.org.au/search?q=Ptilotula+penicillata"
+   },
+   {
+    "label": "BirdLife Australia bird profile",
+    "url": "https://birdlife.org.au/bird-profiles/white-plumed-honeyeater/"
+   },
+   {
+    "label": "Wikipedia (cross-check)",
+    "url": "https://en.wikipedia.org/wiki/White-plumed_honeyeater"
+   }
+  ]
+ },
+ {
+  "slug": "new-holland-honeyeater",
+  "commonName": "New Holland Honeyeater",
+  "scientificName": "Phylidonyris novaehollandiae",
+  "alaRecords": 1558,
+  "photo": {
+   "src": "/birds/new-holland-honeyeater.webp",
+   "width": 1280,
+   "height": 720,
+   "author": "Photo by: Paulweberphoto - paulweberphoto.com",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:New_Holland_honeyeater_().jpg",
+   "title": "File:New_Holland_honeyeater_().jpg",
+   "source": "Wikimedia Commons",
+   "verifiedBy": "scientific name in file title/description/categories",
+   "sex": null
+  },
+  "audio": {
+   "src": "/sounds/new-holland-honeyeater.mp3",
+   "author": "Romuald Mikusek",
+   "license": "CC BY NC SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "sourceUrl": "https://xeno-canto.org/1062952",
+   "title": "XC1062952 \u00b7 New Holland Honeyeater (Phylidonyris novaehollandiae) \u00b7 call \u00b7 quality A",
+   "source": "xeno-canto",
+   "verifiedBy": "xeno-canto record XC1062952 is identified as Phylidonyris novaehollandiae",
+   "recordedAt": "French Island, Victoria",
+   "xcId": "1062952",
+   "unmodified": false
+  },
+  "video": {
+   "videoId": "WSUFrQ8mhdw",
+   "title": "New Holland Honeyeater - Phylidonyris novaehollandiae",
+   "channel": "Let Us Watch Animals",
+   "matchedBy": "scientific name in title"
+  },
+  "sources": [
+   {
+    "label": "Atlas of Living Australia",
+    "url": "https://bie.ala.org.au/search?q=Phylidonyris+novaehollandiae"
+   },
+   {
+    "label": "BirdLife Australia bird profile",
+    "url": "https://birdlife.org.au/bird-profiles/new-holland-honeyeater/"
+   },
+   {
+    "label": "Wikipedia (cross-check)",
+    "url": "https://en.wikipedia.org/wiki/New_Holland_honeyeater"
+   }
+  ]
+ },
+ {
+  "slug": "little-raven",
+  "commonName": "Little Raven",
+  "scientificName": "Corvus mellori",
+  "alaRecords": 1477,
+  "photo": {
+   "src": "/birds/little-raven.webp",
+   "width": 1280,
+   "height": 1184,
+   "author": "Toby Hudson",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Corvus_mellori.jpg",
+   "title": "File:Corvus_mellori.jpg",
+   "source": "Wikimedia Commons",
+   "verifiedBy": "scientific name in file title/description/categories",
+   "sex": null
+  },
+  "audio": {
+   "src": "/sounds/little-raven.mp3",
+   "author": "(c) Thomas Jaeger, some rights reserved (CC BY)",
+   "license": "CC BY",
+   "licenseUrl": "",
+   "sourceUrl": "https://www.inaturalist.org/observations/242423874",
+   "title": "iNaturalist observation 242423874",
+   "source": "iNaturalist",
+   "verifiedBy": "research-grade observation, taxon Corvus mellori",
+   "recordedAt": "Narre Warren North VIC 3804, Australia"
+  },
+  "video": {
+   "videoId": "sdPNOYpxI18",
+   "title": "Little Raven",
+   "channel": "Gonebirding G & G",
+   "matchedBy": "common name in title"
+  },
+  "sources": [
+   {
+    "label": "Atlas of Living Australia",
+    "url": "https://bie.ala.org.au/search?q=Corvus+mellori"
+   },
+   {
+    "label": "BirdLife Australia bird profile",
+    "url": "https://birdlife.org.au/bird-profiles/little-raven/"
+   },
+   {
+    "label": "Wikipedia (cross-check)",
+    "url": "https://en.wikipedia.org/wiki/Little_raven"
+   }
+  ]
+ },
+ {
+  "slug": "eastern-rosella",
+  "commonName": "Eastern Rosella",
+  "scientificName": "Platycercus eximius",
+  "alaRecords": 1462,
+  "photo": {
+   "src": "/birds/eastern-rosella.webp",
+   "width": 1280,
+   "height": 852,
+   "author": "Frankzed from Melbourne, Australia",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Platycercus_eximius_-Melbourne,_Victoria,_Australia-8.jpg",
+   "title": "File:Platycercus eximius -Melbourne, Victoria, Australia-8.jpg",
+   "source": "Wikimedia Commons",
+   "verifiedBy": "scientific name in file title/description/categories",
+   "sex": null
+  },
+  "audio": {
+   "src": "/sounds/eastern-rosella.mp3",
+   "author": "Oceancetaceen Alice Chodura",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Platycercus_eximius_answer.ogg",
+   "title": "File:Platycercus eximius answer.ogg",
+   "source": "Wikimedia Commons",
+   "verifiedBy": "scientific name in Commons file title/description/categories",
+   "recordedAt": null
+  },
+  "video": null,
+  "sources": [
+   {
+    "label": "Atlas of Living Australia",
+    "url": "https://bie.ala.org.au/search?q=Platycercus+eximius"
+   },
+   {
+    "label": "BirdLife Australia bird profile",
+    "url": "https://birdlife.org.au/bird-profiles/eastern-rosella/"
+   },
+   {
+    "label": "Wikipedia (cross-check)",
+    "url": "https://en.wikipedia.org/wiki/Eastern_rosella"
+   }
+  ]
+ },
+ {
+  "slug": "grey-shrike-thrush",
+  "commonName": "Grey Shrike-thrush",
+  "scientificName": "Colluricincla harmonica",
+  "alaRecords": 1421,
+  "photo": {
+   "src": "/birds/grey-shrike-thrush.webp",
+   "width": 1280,
+   "height": 1280,
+   "author": "JJ Harrison (https://www.jjharrison.com.au/)",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Colluricincla_harmonica_-_Brunkerville.jpg",
+   "title": "File:Colluricincla_harmonica_-_Brunkerville.jpg",
+   "source": "Wikimedia Commons",
+   "verifiedBy": "scientific name in file title/description/categories",
+   "sex": null
+  },
+  "audio": {
+   "src": "/sounds/grey-shrike-thrush.mp3",
+   "author": "Yvonne Phillips",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Colluricincla_harmonica_-_Grey_Shrikethrush_XC331182.mp3",
+   "title": "File:Colluricincla harmonica - Grey Shrikethrush XC331182.mp3",
+   "source": "Wikimedia Commons",
+   "verifiedBy": "scientific name in Commons file title/description/categories",
+   "recordedAt": null
+  },
+  "video": {
+   "videoId": "ncfg9yHbtpI",
+   "title": "Grey Shrike  Thrush (Colluricincla harmonica) HD Video clip 1/1 Tim Siggs ABVC",
+   "channel": "Tim Siggs",
+   "matchedBy": "scientific name in title"
+  },
+  "sources": [
+   {
+    "label": "Atlas of Living Australia",
+    "url": "https://bie.ala.org.au/search?q=Colluricincla+harmonica"
+   },
+   {
+    "label": "BirdLife Australia bird profile",
+    "url": "https://birdlife.org.au/bird-profiles/grey-shrike-thrush/"
+   },
+   {
+    "label": "Wikipedia (cross-check)",
+    "url": "https://en.wikipedia.org/wiki/Grey_shrikethrush"
+   }
+  ]
+ },
+ {
+  "slug": "willie-wagtail",
+  "commonName": "Willie Wagtail",
+  "scientificName": "Rhipidura leucophrys",
+  "alaRecords": 1415,
+  "photo": {
+   "src": "/birds/willie-wagtail.webp",
+   "width": 1280,
+   "height": 853,
+   "author": "JJ Harrison (https://www.jjharrison.com.au/)",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rhipidura_leucophrys_-_Glen_Davis.jpg",
+   "title": "File:Rhipidura_leucophrys_-_Glen_Davis.jpg",
+   "source": "Wikimedia Commons",
+   "verifiedBy": "scientific name in file title/description/categories",
+   "sex": null
+  },
+  "audio": {
+   "src": "/sounds/willie-wagtail.mp3",
+   "author": "YouTube user 'peakfiddler'",
+   "license": "CC BY 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Willy_Wagtail.ogg",
+   "title": "File:Willy Wagtail.ogg",
+   "source": "Wikimedia Commons",
+   "verifiedBy": "scientific name in Commons file title/description/categories",
+   "recordedAt": null
+  },
+  "video": {
+   "videoId": "o5uBbdwpWok",
+   "title": "Close Encounters with WILLIE (WILLY) WAGTAILS (Rhipidura leucophrys) - an Australasian bird species",
+   "channel": "Geoterrics Outdoors Australia",
+   "matchedBy": "scientific name in title"
+  },
+  "sources": [
+   {
+    "label": "Atlas of Living Australia",
+    "url": "https://bie.ala.org.au/search?q=Rhipidura+leucophrys"
+   },
+   {
+    "label": "BirdLife Australia bird profile",
+    "url": "https://birdlife.org.au/bird-profiles/willie-wagtail/"
+   },
+   {
+    "label": "Wikipedia (cross-check)",
+    "url": "https://en.wikipedia.org/wiki/Willie_wagtail"
+   }
+  ]
+ },
+ {
+  "slug": "galah",
+  "commonName": "Galah",
+  "scientificName": "Eolophus roseicapilla",
+  "alaRecords": 1346,
+  "photo": {
+   "src": "/birds/galah.webp",
+   "width": 1280,
+   "height": 853,
+   "author": "Charles J. Sharp",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Galah_(Eolophus_roseicapilla_albiceps)_male_Adelaide.jpg",
+   "title": "File:Galah_(Eolophus_roseicapilla_albiceps)_male_Adelaide.jpg",
+   "source": "Wikimedia Commons",
+   "verifiedBy": "scientific name in file title/description/categories",
+   "sex": null
+  },
+  "audio": {
+   "src": "/sounds/galah.mp3",
+   "author": "Ronnievonjohnson",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Eolophus_roseicapilla_-_Pink_and_grey_cockatoo_(galah)_call,_near_the_Swan_River_in_Perth,_Western_Australia.ogg",
+   "title": "File:Eolophus roseicapilla - Pink and grey cockatoo (galah) call, near the Swan River in Perth, Western Australia.ogg",
+   "source": "Wikimedia Commons",
+   "verifiedBy": "scientific name in Commons file title/description/categories",
+   "recordedAt": null
+  },
+  "video": null,
+  "sources": [
+   {
+    "label": "Atlas of Living Australia",
+    "url": "https://bie.ala.org.au/search?q=Eolophus+roseicapilla"
+   },
+   {
+    "label": "BirdLife Australia bird profile",
+    "url": "https://birdlife.org.au/bird-profiles/galah/"
+   },
+   {
+    "label": "Wikipedia (cross-check)",
+    "url": "https://en.wikipedia.org/wiki/Galah"
+   }
+  ]
+ },
+ {
+  "slug": "spotted-pardalote",
+  "commonName": "Spotted Pardalote",
+  "scientificName": "Pardalotus punctatus",
+  "alaRecords": 1062,
+  "photo": {
+   "src": "/birds/spotted-pardalote.webp",
+   "width": 1280,
+   "height": 1280,
+   "author": "JJ Harrison (https://www.jjharrison.com.au/)",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pardalotus_punctatus_2_-_Glen_Davis.jpg",
+   "title": "File:Pardalotus_punctatus_2_-_Glen_Davis.jpg",
+   "source": "Wikimedia Commons",
+   "verifiedBy": "scientific name in file title/description/categories",
+   "sex": null
+  },
+  "audio": {
+   "src": "/sounds/spotted-pardalote.mp3",
+   "author": "James Ray",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pardalotus_punctatus_-_Spotted_Pardalote_XC446209.mp3",
+   "title": "File:Pardalotus punctatus - Spotted Pardalote XC446209.mp3",
+   "source": "Wikimedia Commons",
+   "verifiedBy": "scientific name in Commons file title/description/categories",
+   "recordedAt": null
+  },
+  "video": {
+   "videoId": "Giiikq6PRlk",
+   "title": "spotted pardalote - Pardalotus punctatus",
+   "channel": "Ross Spirou Photography",
+   "matchedBy": "scientific name in title"
+  },
+  "sources": [
+   {
+    "label": "Atlas of Living Australia",
+    "url": "https://bie.ala.org.au/search?q=Pardalotus+punctatus"
+   },
+   {
+    "label": "BirdLife Australia bird profile",
+    "url": "https://birdlife.org.au/bird-profiles/spotted-pardalote/"
+   },
+   {
+    "label": "Wikipedia (cross-check)",
+    "url": "https://en.wikipedia.org/wiki/Spotted_pardalote"
+   }
+  ]
+ },
+ {
+  "slug": "grey-fantail",
+  "commonName": "Grey Fantail",
+  "scientificName": "Rhipidura albiscapa",
+  "alaRecords": 1055,
+  "photo": {
+   "src": "/birds/grey-fantail.webp",
+   "width": 1280,
+   "height": 853,
+   "author": "JJ Harrison (https://www.jjharrison.com.au/)",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Grey_Fantail_-_Brunkerville.jpg",
+   "title": "File:Grey_Fantail_-_Brunkerville.jpg",
+   "source": "Wikimedia Commons",
+   "verifiedBy": "scientific name in file title/description/categories",
+   "sex": null
+  },
+  "audio": {
+   "src": "/sounds/grey-fantail.mp3",
+   "author": "Romuald Mikusek",
+   "license": "CC BY NC SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "sourceUrl": "https://xeno-canto.org/1173777",
+   "title": "XC1173777 \u00b7 Grey Fantail (Rhipidura albiscapa) \u00b7 begging call, call, feeding \u00b7 quality A",
+   "source": "xeno-canto",
+   "verifiedBy": "xeno-canto record XC1173777 is identified as Rhipidura albiscapa",
+   "recordedAt": "Devils River, Murrindindi Shire, Victoria",
+   "xcId": "1173777",
+   "unmodified": false
+  },
+  "video": {
+   "videoId": "4jCJCe7wMJk",
+   "title": "Grey Fantail has no stealth mode \u2013 noisy little cutie Rhipidura albiscapa; Australian birds",
+   "channel": "My Back Yard",
+   "matchedBy": "scientific name in title"
+  },
+  "sources": [
+   {
+    "label": "Atlas of Living Australia",
+    "url": "https://bie.ala.org.au/search?q=Rhipidura+albiscapa"
+   },
+   {
+    "label": "BirdLife Australia bird profile",
+    "url": "https://birdlife.org.au/bird-profiles/grey-fantail/"
+   },
+   {
+    "label": "Wikipedia (cross-check)",
+    "url": "https://en.wikipedia.org/wiki/Grey_fantail"
+   }
+  ]
+ },
+ {
+  "slug": "welcome-swallow",
+  "commonName": "Welcome Swallow",
+  "scientificName": "Hirundo neoxena",
+  "alaRecords": 1017,
+  "photo": {
+   "src": "/birds/welcome-swallow.webp",
+   "width": 1280,
+   "height": 854,
+   "author": "JJ Harrison (https://www.jjharrison.com.au/)",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hirundo_neoxena_risdon.jpg",
+   "title": "File:Hirundo_neoxena_risdon.jpg",
+   "source": "Wikimedia Commons",
+   "verifiedBy": "scientific name in file title/description/categories",
+   "sex": null
+  },
+  "audio": {
+   "src": "/sounds/welcome-swallow.mp3",
+   "author": "nick talbot",
+   "license": "CC BY NC SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "sourceUrl": "https://xeno-canto.org/310916",
+   "title": "XC310916 \u00b7 Welcome Swallow (Hirundo neoxena) \u00b7 song \u00b7 quality A",
+   "source": "xeno-canto",
+   "verifiedBy": "xeno-canto record XC310916 is identified as Hirundo neoxena",
+   "recordedAt": "Port Fairy, Victoria",
+   "xcId": "310916",
+   "unmodified": false
+  },
+  "video": {
+   "videoId": "gOX7wNjytaY",
+   "title": "Welcome swallow in the rain  (Hirundo neoxena) HD Video Clip 1 /1",
+   "channel": "Tim Siggs",
+   "matchedBy": "scientific name in title"
+  },
+  "sources": [
+   {
+    "label": "Atlas of Living Australia",
+    "url": "https://bie.ala.org.au/search?q=Hirundo+neoxena"
+   },
+   {
+    "label": "BirdLife Australia bird profile",
+    "url": "https://birdlife.org.au/bird-profiles/welcome-swallow/"
+   },
+   {
+    "label": "Wikipedia (cross-check)",
+    "url": "https://en.wikipedia.org/wiki/Welcome_swallow"
+   }
+  ]
+ },
+ {
+  "slug": "striated-pardalote",
+  "commonName": "Striated Pardalote",
+  "scientificName": "Pardalotus striatus",
+  "alaRecords": 934,
+  "photo": {
+   "src": "/birds/striated-pardalote.webp",
+   "width": 1280,
+   "height": 1024,
+   "author": "JJ Harrison (https://www.jjharrison.com.au/)",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pardalotus_striatus_-_Risdon_Brook.jpg",
+   "title": "File:Pardalotus striatus - Risdon Brook.jpg",
+   "source": "Wikimedia Commons",
+   "verifiedBy": "scientific name in file title/description/categories",
+   "sex": null
+  },
+  "audio": {
+   "src": "/sounds/striated-pardalote.mp3",
+   "author": "Romuald Mikusek",
+   "license": "CC BY NC SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "sourceUrl": "https://xeno-canto.org/935839",
+   "title": "XC935839 \u00b7 Striated Pardalote (Pardalotus striatus) \u00b7 song \u00b7 quality A",
+   "source": "xeno-canto",
+   "verifiedBy": "xeno-canto record XC935839 is identified as Pardalotus striatus",
+   "recordedAt": "Bimbi Park (near  Cape Otway), Colac Otway Shire, Victoria",
+   "xcId": "935839",
+   "unmodified": false
+  },
+  "video": {
+   "videoId": "jrpido41mWI",
+   "title": "Striated Pardalote (  (Pardalotus striatus) HD Video Clip 1/1 Tim Siggs ABVC",
+   "channel": "Tim Siggs",
+   "matchedBy": "scientific name in title"
+  },
+  "sources": [
+   {
+    "label": "Atlas of Living Australia",
+    "url": "https://bie.ala.org.au/search?q=Pardalotus+striatus"
+   },
+   {
+    "label": "BirdLife Australia bird profile",
+    "url": "https://birdlife.org.au/bird-profiles/striated-pardalote/"
+   },
+   {
+    "label": "Wikipedia (cross-check)",
+    "url": "https://en.wikipedia.org/wiki/Striated_pardalote"
+   }
+  ]
+ },
+ {
+  "slug": "yellow-faced-honeyeater",
+  "commonName": "Yellow-faced Honeyeater",
+  "scientificName": "Caligavis chrysops",
+  "alaRecords": 885,
+  "photo": {
+   "src": "/birds/yellow-faced-honeyeater.webp",
+   "width": 1280,
+   "height": 853,
+   "author": "JJ Harrison (https://tiny.jjharrison.com.au/t/WT321jx3uSS2lGF9)",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Caligavis_chrysops_-_Lake_Parramatta_Reserve.jpg",
+   "title": "File:Caligavis_chrysops_-_Lake_Parramatta_Reserve.jpg",
+   "source": "Wikimedia Commons",
+   "verifiedBy": "scientific name in file title/description/categories",
+   "sex": null
+  },
+  "audio": {
+   "src": "/sounds/yellow-faced-honeyeater.mp3",
+   "author": "James Ray",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Caligavis_chrysops_-_Yellow-faced_Honeyeater_XC442250.mp3",
+   "title": "File:Caligavis chrysops - Yellow-faced Honeyeater XC442250.mp3",
+   "source": "Wikimedia Commons",
+   "verifiedBy": "scientific name in Commons file title/description/categories",
+   "recordedAt": null
+  },
+  "video": null,
+  "sources": [
+   {
+    "label": "Atlas of Living Australia",
+    "url": "https://bie.ala.org.au/search?q=Caligavis+chrysops"
+   },
+   {
+    "label": "BirdLife Australia bird profile",
+    "url": "https://birdlife.org.au/bird-profiles/yellow-faced-honeyeater/"
+   },
+   {
+    "label": "Wikipedia (cross-check)",
+    "url": "https://en.wikipedia.org/wiki/Yellow-faced_honeyeater"
+   }
+  ]
+ },
+ {
+  "slug": "magpie-lark",
+  "commonName": "Magpie-lark",
+  "scientificName": "Grallina cyanoleuca",
+  "alaRecords": 834,
+  "photo": {
+   "src": "/birds/magpie-lark.webp",
+   "width": 1280,
+   "height": 853,
+   "author": "Charles J. Sharp",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Magpie-lark_(Grallina_cyanoleuca_cyanoleuca)_male_Adelaide.jpg",
+   "title": "File:Magpie-lark_(Grallina_cyanoleuca_cyanoleuca)_male_Adelaide.jpg",
+   "source": "Wikimedia Commons",
+   "verifiedBy": "scientific name in file title/description/categories",
+   "sex": "male"
+  },
+  "audio": {
+   "src": "/sounds/magpie-lark.mp3",
+   "author": "Romuald Mikusek",
+   "license": "CC BY NC SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "sourceUrl": "https://xeno-canto.org/953174",
+   "title": "XC953174 \u00b7 Magpie-lark (Grallina cyanoleuca) \u00b7 song \u00b7 quality A",
+   "source": "xeno-canto",
+   "verifiedBy": "xeno-canto record XC953174 is identified as Grallina cyanoleuca",
+   "recordedAt": "Lake Fyans Holiday Park (near  Lake Fyans), Northern Grampians Shire, Victoria",
+   "xcId": "953174",
+   "unmodified": false
+  },
+  "video": {
+   "videoId": "-fJz0VbUMj0",
+   "title": "Magpie Lark (Grallina cyanoleuca)",
+   "channel": "Mostly Nature",
+   "matchedBy": "scientific name in title"
+  },
+  "sources": [
+   {
+    "label": "Atlas of Living Australia",
+    "url": "https://bie.ala.org.au/search?q=Grallina+cyanoleuca"
+   },
+   {
+    "label": "BirdLife Australia bird profile",
+    "url": "https://birdlife.org.au/bird-profiles/magpie-lark/"
+   },
+   {
+    "label": "Wikipedia (cross-check)",
+    "url": "https://en.wikipedia.org/wiki/Magpie-lark"
+   }
+  ]
+ },
+ {
+  "slug": "eastern-yellow-robin",
+  "commonName": "Eastern Yellow Robin",
+  "scientificName": "Eopsaltria australis",
+  "alaRecords": 807,
+  "photo": {
+   "src": "/birds/eastern-yellow-robin.webp",
+   "width": 1280,
+   "height": 853,
+   "author": "JJ Harrison (https://www.jjharrison.com.au/)",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Eopsaltria_australis_-_Mogo_Campground.jpg",
+   "title": "File:Eopsaltria_australis_-_Mogo_Campground.jpg",
+   "source": "Wikimedia Commons",
+   "verifiedBy": "scientific name in file title/description/categories",
+   "sex": null
+  },
+  "audio": {
+   "src": "/sounds/eastern-yellow-robin.mp3",
+   "author": "James Ray",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Eopsaltria_australis_-_Eastern_Yellow_Robin_XC443074.mp3",
+   "title": "File:Eopsaltria australis - Eastern Yellow Robin XC443074.mp3",
+   "source": "Wikimedia Commons",
+   "verifiedBy": "scientific name in Commons file title/description/categories",
+   "recordedAt": null
+  },
+  "video": {
+   "videoId": "olGXJ9v4cZY",
+   "title": "Eastern Yellow Robin \u2013 Eopsaltria australis",
+   "channel": "Werrong Lane",
+   "matchedBy": "scientific name in title"
+  },
+  "sources": [
+   {
+    "label": "Atlas of Living Australia",
+    "url": "https://bie.ala.org.au/search?q=Eopsaltria+australis"
+   },
+   {
+    "label": "BirdLife Australia bird profile",
+    "url": "https://birdlife.org.au/bird-profiles/eastern-yellow-robin/"
+   },
+   {
+    "label": "Wikipedia (cross-check)",
+    "url": "https://en.wikipedia.org/wiki/Eastern_yellow_robin"
+   }
+  ]
+ },
+ {
+  "slug": "red-browed-finch",
+  "commonName": "Red-browed Finch",
+  "scientificName": "Neochmia temporalis",
+  "alaRecords": 800,
+  "photo": {
+   "src": "/birds/red-browed-finch.webp",
+   "width": 1280,
+   "height": 1280,
+   "author": "JJ Harrison (https://www.jjharrison.com.au/)",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Red-browed_Finch_-_Penrith.jpg",
+   "title": "File:Red-browed_Finch_-_Penrith.jpg",
+   "source": "Wikimedia Commons",
+   "verifiedBy": "scientific name in file title/description/categories",
+   "sex": null
+  },
+  "audio": {
+   "src": "/sounds/red-browed-finch.mp3",
+   "author": "(c) clayt_, some rights reserved (CC BY-NC)",
+   "license": "CC BY NC",
+   "licenseUrl": "",
+   "sourceUrl": "https://www.inaturalist.org/observations/238552556",
+   "title": "iNaturalist observation 238552556",
+   "source": "iNaturalist",
+   "verifiedBy": "research-grade observation, taxon Neochmia temporalis",
+   "recordedAt": "Woods Bushland Reserve, Tuerong, VIC, AU"
+  },
+  "video": {
+   "videoId": "zlFSGtMGSzM",
+   "title": "Red Browed Finch(  Neochmia temporalis)",
+   "channel": "Tim Siggs",
+   "matchedBy": "scientific name in title"
+  },
+  "sources": [
+   {
+    "label": "Atlas of Living Australia",
+    "url": "https://bie.ala.org.au/search?q=Neochmia+temporalis"
+   },
+   {
+    "label": "BirdLife Australia bird profile",
+    "url": "https://birdlife.org.au/bird-profiles/red-browed-finch/"
+   },
+   {
+    "label": "Wikipedia (cross-check)",
+    "url": "https://en.wikipedia.org/wiki/Red-browed_finch"
+   }
+  ]
+ },
+ {
+  "slug": "black-faced-cuckooshrike",
+  "commonName": "Black-faced Cuckooshrike",
+  "scientificName": "Coracina novaehollandiae",
+  "alaRecords": 762,
+  "photo": {
+   "src": "/birds/black-faced-cuckooshrike.webp",
+   "width": 1057,
+   "height": 1600,
+   "author": "JJ Harrison (https://www.jjharrison.com.au/)",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Coracina_novaehollandiae.jpg",
+   "title": "File:Coracina_novaehollandiae.jpg",
+   "source": "Wikimedia Commons",
+   "verifiedBy": "scientific name in file title/description/categories",
+   "sex": null
+  },
+  "audio": {
+   "src": "/sounds/black-faced-cuckooshrike.mp3",
+   "author": "Romuald Mikusek",
+   "license": "CC BY NC SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "sourceUrl": "https://xeno-canto.org/1173921",
+   "title": "XC1173921 \u00b7 Black-faced Cuckooshrike (Coracina novaehollandiae) \u00b7 song \u00b7 quality A",
+   "source": "xeno-canto",
+   "verifiedBy": "xeno-canto record XC1173921 is identified as Coracina novaehollandiae",
+   "recordedAt": "Devils River, Murrindindi Shire, Victoria",
+   "xcId": "1173921",
+   "unmodified": false
+  },
+  "video": {
+   "videoId": "C50iU5vRGmc",
+   "title": "Black Faced Cuckoo Shrike (Coracina novaehollandiae)",
+   "channel": "Tim Siggs",
+   "matchedBy": "scientific name in title"
+  },
+  "sources": [
+   {
+    "label": "Atlas of Living Australia",
+    "url": "https://bie.ala.org.au/search?q=Coracina+novaehollandiae"
+   },
+   {
+    "label": "BirdLife Australia bird profile",
+    "url": "https://birdlife.org.au/bird-profiles/black-faced-cuckooshrike/"
+   },
+   {
+    "label": "Wikipedia (cross-check)",
+    "url": "https://en.wikipedia.org/wiki/Black-faced_cuckooshrike"
+   }
+  ]
+ },
+ {
+  "slug": "red-rumped-parrot",
+  "commonName": "Red-rumped Parrot",
+  "scientificName": "Psephotus haematonotus",
+  "alaRecords": 755,
+  "photo": {
+   "src": "/birds/red-rumped-parrot.webp",
+   "width": 1280,
+   "height": 853,
+   "author": "JJ Harrison (https://tiny.jjharrison.com.au/t/BTm96K66KIdKCbXc)",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Psephotus_haematonotus_male_-_Cornwallis_Rd.jpg",
+   "title": "File:Psephotus_haematonotus_male_-_Cornwallis_Rd.jpg",
+   "source": "Wikimedia Commons",
+   "verifiedBy": "scientific name in file title/description/categories",
+   "sex": "male"
+  },
+  "audio": {
+   "src": "/sounds/red-rumped-parrot.mp3",
+   "author": "no rights reserved",
+   "license": "CC0",
+   "licenseUrl": "",
+   "sourceUrl": "https://www.inaturalist.org/observations/57603146",
+   "title": "iNaturalist observation 57603146",
+   "source": "iNaturalist",
+   "verifiedBy": "research-grade observation, taxon Psephotus haematonotus",
+   "recordedAt": "Vineyard NSW 2765, Australia"
+  },
+  "video": null,
+  "sources": [
+   {
+    "label": "Atlas of Living Australia",
+    "url": "https://bie.ala.org.au/search?q=Psephotus+haematonotus"
+   },
+   {
+    "label": "BirdLife Australia bird profile",
+    "url": "https://birdlife.org.au/bird-profiles/red-rumped-parrot/"
+   },
+   {
+    "label": "Wikipedia (cross-check)",
+    "url": "https://en.wikipedia.org/wiki/Red-rumped_parrot"
+   }
+  ]
+ },
+ {
+  "slug": "white-eared-honeyeater",
+  "commonName": "White-eared Honeyeater",
+  "scientificName": "Nesoptilotis leucotis",
+  "alaRecords": 707,
+  "photo": {
+   "src": "/birds/white-eared-honeyeater.webp",
+   "width": 1280,
+   "height": 1280,
+   "author": "JJ Harrison (https://www.jjharrison.com.au/)",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:White-eared_Honeyeater_-_Blackheath.jpg",
+   "title": "File:White-eared_Honeyeater_-_Blackheath.jpg",
+   "source": "Wikimedia Commons",
+   "verifiedBy": "scientific name in file title/description/categories",
+   "sex": null
+  },
+  "audio": {
+   "src": "/sounds/white-eared-honeyeater.mp3",
+   "author": "(c) Sid Miller, some rights reserved (CC BY)",
+   "license": "CC BY",
+   "licenseUrl": "",
+   "sourceUrl": "https://www.inaturalist.org/observations/388675817",
+   "title": "iNaturalist observation 388675817",
+   "source": "iNaturalist",
+   "verifiedBy": "research-grade observation, taxon Nesoptilotis leucotis",
+   "recordedAt": "Plenty Gorge Parklands, Plenty VIC 3090"
+  },
+  "video": {
+   "videoId": "R1LMxwwK9Zg",
+   "title": "White-eared Honeyeater (Nesoptilotis leucotis) | Lysterfield Park, Victoria (AUSTRALIA)",
+   "channel": "Guillaume Thomas Doerig",
+   "matchedBy": "scientific name in title"
+  },
+  "sources": [
+   {
+    "label": "Atlas of Living Australia",
+    "url": "https://bie.ala.org.au/search?q=Nesoptilotis+leucotis"
+   },
+   {
+    "label": "BirdLife Australia bird profile",
+    "url": "https://birdlife.org.au/bird-profiles/white-eared-honeyeater/"
+   },
+   {
+    "label": "Wikipedia (cross-check)",
+    "url": "https://en.wikipedia.org/wiki/White-eared_honeyeater"
+   }
+  ]
+ },
+ {
+  "slug": "laughing-kookaburra",
+  "commonName": "Laughing Kookaburra",
+  "scientificName": "Dacelo novaeguineae",
+  "alaRecords": 704,
+  "photo": {
+   "src": "/birds/laughing-kookaburra.webp",
+   "width": 1280,
+   "height": 853,
+   "author": "Lisatthompson27",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:A_Laughing_Kookaburra_(Dacelo_novaeguineae).jpg",
+   "title": "File:A Laughing Kookaburra (Dacelo novaeguineae).jpg",
+   "source": "Wikimedia Commons",
+   "verifiedBy": "scientific name in file title/description/categories",
+   "sex": null
+  },
+  "audio": {
+   "src": "/sounds/laughing-kookaburra.mp3",
+   "author": "Kuco",
+   "license": "Public domain",
+   "licenseUrl": "",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:LaughingKookaburra.ogg",
+   "title": "File:LaughingKookaburra.ogg",
+   "source": "Wikimedia Commons",
+   "verifiedBy": "scientific name in Commons file title/description/categories",
+   "recordedAt": null
+  },
+  "video": {
+   "videoId": "s1sxrkuur1c",
+   "title": "Kookaburras (Dacelo novaeguineae)",
+   "channel": "Guba na Nature Refuge",
+   "matchedBy": "scientific name in title"
+  },
+  "sources": [
+   {
+    "label": "Atlas of Living Australia",
+    "url": "https://bie.ala.org.au/search?q=Dacelo+novaeguineae"
+   },
+   {
+    "label": "BirdLife Australia bird profile",
+    "url": "https://birdlife.org.au/bird-profiles/laughing-kookaburra/"
+   },
+   {
+    "label": "Wikipedia (cross-check)",
+    "url": "https://en.wikipedia.org/wiki/Laughing_kookaburra"
+   }
+  ]
+ },
+ {
+  "slug": "brown-falcon",
+  "commonName": "Brown Falcon",
+  "scientificName": "Falco berigora",
+  "alaRecords": 644,
+  "photo": {
+   "src": "/birds/brown-falcon.webp",
+   "width": 1280,
+   "height": 1280,
+   "author": "Andreas Trepte",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Brown_falcon.jpg",
+   "title": "File:Brown_falcon.jpg",
+   "source": "Wikimedia Commons",
+   "verifiedBy": "scientific name in file title/description/categories",
+   "sex": null
+  },
+  "audio": {
+   "src": "/sounds/brown-falcon.mp3",
+   "author": "(c) jimchurches, some rights reserved (CC BY-SA)",
+   "license": "CC BY SA",
+   "licenseUrl": "",
+   "sourceUrl": "https://www.inaturalist.org/observations/156488411",
+   "title": "iNaturalist observation 156488411",
+   "source": "iNaturalist",
+   "verifiedBy": "research-grade observation, taxon Falco berigora",
+   "recordedAt": "Tennent ACT 2620, Australia"
+  },
+  "video": {
+   "videoId": "_-LfbsqD-jM",
+   "title": "Brown Falcon",
+   "channel": "Gonebirding G & G",
+   "matchedBy": "common name in title"
+  },
+  "sources": [
+   {
+    "label": "Atlas of Living Australia",
+    "url": "https://bie.ala.org.au/search?q=Falco+berigora"
+   },
+   {
+    "label": "BirdLife Australia bird profile",
+    "url": "https://birdlife.org.au/bird-profiles/brown-falcon/"
+   },
+   {
+    "label": "Wikipedia (cross-check)",
+    "url": "https://en.wikipedia.org/wiki/Brown_falcon"
+   }
+  ]
+ },
+ {
+  "slug": "sulphur-crested-cockatoo",
+  "commonName": "Sulphur-crested Cockatoo",
+  "scientificName": "Cacatua galerita",
+  "alaRecords": 623,
+  "photo": {
+   "src": "/birds/sulphur-crested-cockatoo.webp",
+   "width": 888,
+   "height": 1477,
+   "author": "JJ Harrison (https://www.jjharrison.com.au/)",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cacatua_galerita_Tas_2.jpg",
+   "title": "File:Cacatua_galerita_Tas_2.jpg",
+   "source": "Wikimedia Commons",
+   "verifiedBy": "scientific name in file title/description/categories",
+   "sex": null
+  },
+  "audio": {
+   "src": "/sounds/sulphur-crested-cockatoo.mp3",
+   "author": "Romuald Mikusek",
+   "license": "CC BY NC SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "sourceUrl": "https://xeno-canto.org/1173884",
+   "title": "XC1173884 \u00b7 Sulphur-crested Cockatoo (Cacatua galerita) \u00b7 song \u00b7 quality A",
+   "source": "xeno-canto",
+   "verifiedBy": "xeno-canto record XC1173884 is identified as Cacatua galerita",
+   "recordedAt": "Devils River, Murrindindi Shire, Victoria",
+   "xcId": "1173884",
+   "unmodified": false
+  },
+  "video": {
+   "videoId": "AItIv7E5Yb8",
+   "title": "Close-up: Sulphur-crested Cockatoo (Cacatua galerita) - Queensland",
+   "channel": "Michael Billerbeck - Birds & Nature",
+   "matchedBy": "scientific name in title"
+  },
+  "sources": [
+   {
+    "label": "Atlas of Living Australia",
+    "url": "https://bie.ala.org.au/search?q=Cacatua+galerita"
+   },
+   {
+    "label": "BirdLife Australia bird profile",
+    "url": "https://birdlife.org.au/bird-profiles/sulphur-crested-cockatoo/"
+   },
+   {
+    "label": "Wikipedia (cross-check)",
+    "url": "https://en.wikipedia.org/wiki/Sulphur-crested_cockatoo"
+   }
+  ]
+ },
+ {
+  "slug": "long-billed-corella",
+  "commonName": "Long-billed Corella",
+  "scientificName": "Cacatua tenuirostris",
+  "alaRecords": 614,
+  "photo": {
+   "src": "/birds/long-billed-corella.webp",
+   "width": 1163,
+   "height": 1600,
+   "author": "JJ Harrison (https://www.jjharrison.com.au/)",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Long-billed_Corella.jpg",
+   "title": "File:Long-billed_Corella.jpg",
+   "source": "Wikimedia Commons",
+   "verifiedBy": "scientific name in file title/description/categories",
+   "sex": null
+  },
+  "audio": {
+   "src": "/sounds/long-billed-corella.mp3",
+   "author": "Iain Woxvold",
+   "license": "CC BY NC SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "sourceUrl": "https://xeno-canto.org/602968",
+   "title": "XC602968 \u00b7 Long-billed Corella (Cacatua tenuirostris) \u00b7 call \u00b7 quality A",
+   "source": "xeno-canto",
+   "verifiedBy": "xeno-canto record XC602968 is identified as Cacatua tenuirostris",
+   "recordedAt": "Goldie, Macedon Ranges Shire, Victoria",
+   "xcId": "602968",
+   "unmodified": false
+  },
+  "video": {
+   "videoId": "QDEFWHHrJnY",
+   "title": "Long Billed Corella (Cacatua Tenuirostris)",
+   "channel": "Sounds Of Nature For All",
+   "matchedBy": "scientific name in title"
+  },
+  "sources": [
+   {
+    "label": "Atlas of Living Australia",
+    "url": "https://bie.ala.org.au/search?q=Cacatua+tenuirostris"
+   },
+   {
+    "label": "BirdLife Australia bird profile",
+    "url": "https://birdlife.org.au/bird-profiles/long-billed-corella/"
+   },
+   {
+    "label": "Wikipedia (cross-check)",
+    "url": "https://en.wikipedia.org/wiki/Long-billed_corella"
+   }
+  ]
+ },
+ {
+  "slug": "common-bronzewing",
+  "commonName": "Common Bronzewing",
+  "scientificName": "Phaps chalcoptera",
+  "alaRecords": 567,
+  "photo": {
+   "src": "/birds/common-bronzewing.webp",
+   "width": 1280,
+   "height": 853,
+   "author": "JJ Harrison (https://www.jjharrison.com.au/)",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Common_Bronzewing_male_-_Patchewollock.jpg",
+   "title": "File:Common_Bronzewing_male_-_Patchewollock.jpg",
+   "source": "Wikimedia Commons",
+   "verifiedBy": "scientific name in file title/description/categories",
+   "sex": "male"
+  },
+  "audio": {
+   "src": "/sounds/common-bronzewing.mp3",
+   "author": "Stephen Bushell",
+   "license": "CC BY NC SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "sourceUrl": "https://xeno-canto.org/406033",
+   "title": "XC406033 \u00b7 Common Bronzewing (Phaps chalcoptera) \u00b7 call \u00b7 quality A",
+   "source": "xeno-canto",
+   "verifiedBy": "xeno-canto record XC406033 is identified as Phaps chalcoptera",
+   "recordedAt": "R.D.Egan Lee Reserve, Knoxfield,  Victoria, ",
+   "xcId": "406033",
+   "unmodified": false
+  },
+  "video": {
+   "videoId": "zKHgFqtjKjo",
+   "title": "COMMON BRONZEWING PIGEON",
+   "channel": "AUSSIE CRITTERS Sharon McGrigor",
+   "matchedBy": "common name in title"
+  },
+  "sources": [
+   {
+    "label": "Atlas of Living Australia",
+    "url": "https://bie.ala.org.au/search?q=Phaps+chalcoptera"
+   },
+   {
+    "label": "BirdLife Australia bird profile",
+    "url": "https://birdlife.org.au/bird-profiles/common-bronzewing/"
+   },
+   {
+    "label": "Wikipedia (cross-check)",
+    "url": "https://en.wikipedia.org/wiki/Common_bronzewing"
+   }
+  ]
+ },
+ {
+  "slug": "rufous-whistler",
+  "commonName": "Rufous Whistler",
+  "scientificName": "Pachycephala rufiventris",
+  "alaRecords": 541,
+  "photo": {
+   "src": "/birds/rufous-whistler.webp",
+   "width": 1280,
+   "height": 1024,
+   "author": "JJ Harrison (https://www.jjharrison.com.au/)",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pachycephala_rufiventris_male_1_-_Glen_Davis.jpg",
+   "title": "File:Pachycephala_rufiventris_male_1_-_Glen_Davis.jpg",
+   "source": "Wikimedia Commons",
+   "verifiedBy": "scientific name in file title/description/categories",
+   "sex": "male"
+  },
+  "audio": {
+   "src": "/sounds/rufous-whistler.mp3",
+   "author": "James Ray",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pachycephala_rufiventris_-_Rufous_Whistler_XC445521.mp3",
+   "title": "File:Pachycephala rufiventris - Rufous Whistler XC445521.mp3",
+   "source": "Wikimedia Commons",
+   "verifiedBy": "scientific name in Commons file title/description/categories",
+   "recordedAt": null
+  },
+  "video": {
+   "videoId": "flAk9CVyAgI",
+   "title": "Rufous Whistler",
+   "channel": "Gonebirding G & G",
+   "matchedBy": "common name in title"
+  },
+  "sources": [
+   {
+    "label": "Atlas of Living Australia",
+    "url": "https://bie.ala.org.au/search?q=Pachycephala+rufiventris"
+   },
+   {
+    "label": "BirdLife Australia bird profile",
+    "url": "https://birdlife.org.au/bird-profiles/rufous-whistler/"
+   },
+   {
+    "label": "Wikipedia (cross-check)",
+    "url": "https://en.wikipedia.org/wiki/Rufous_whistler"
+   }
+  ]
+ },
+ {
+  "slug": "yellow-rumped-thornbill",
+  "commonName": "Yellow-rumped Thornbill",
+  "scientificName": "Acanthiza chrysorrhoa",
+  "alaRecords": 521,
+  "photo": {
+   "src": "/birds/yellow-rumped-thornbill.webp",
+   "width": 1200,
+   "height": 800,
+   "author": "sunphlo from South Australia",
+   "license": "CC BY-SA 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Acanthiza_chrysorrhoa_-_Yellow-rumped_Thornbill.jpg",
+   "title": "File:Acanthiza_chrysorrhoa_-_Yellow-rumped_Thornbill.jpg",
+   "source": "Wikimedia Commons",
+   "verifiedBy": "scientific name in file title/description/categories",
+   "sex": null
+  },
+  "audio": {
+   "src": "/sounds/yellow-rumped-thornbill.mp3",
+   "author": "Romuald Mikusek",
+   "license": "CC BY NC SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "sourceUrl": "https://xeno-canto.org/1172238",
+   "title": "XC1172238 \u00b7 Yellow-rumped Thornbill (Acanthiza chrysorrhoa) \u00b7 call, song \u00b7 quality A",
+   "source": "xeno-canto",
+   "verifiedBy": "xeno-canto record XC1172238 is identified as Acanthiza chrysorrhoa",
+   "recordedAt": "Jindabyne, Snowy Monaro Regional Council, New South Wales",
+   "xcId": "1172238",
+   "unmodified": false
+  },
+  "video": {
+   "videoId": "xPOsCWU2FiU",
+   "title": "Yellow-rumped Thornbill",
+   "channel": "Gonebirding G & G",
+   "matchedBy": "common name in title"
+  },
+  "sources": [
+   {
+    "label": "Atlas of Living Australia",
+    "url": "https://bie.ala.org.au/search?q=Acanthiza+chrysorrhoa"
+   },
+   {
+    "label": "BirdLife Australia bird profile",
+    "url": "https://birdlife.org.au/bird-profiles/yellow-rumped-thornbill/"
+   },
+   {
+    "label": "Wikipedia (cross-check)",
+    "url": "https://en.wikipedia.org/wiki/Yellow-rumped_thornbill"
+   }
+  ]
+ },
+ {
+  "slug": "pacific-black-duck",
+  "commonName": "Pacific Black Duck",
+  "scientificName": "Anas superciliosa",
+  "alaRecords": 474,
+  "photo": {
+   "src": "/birds/pacific-black-duck.webp",
+   "width": 1280,
+   "height": 853,
+   "author": "Charles J. Sharp",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pacific_black_duck_(Anas_superciliosa)_male_swimming_Sydney.jpg",
+   "title": "File:Pacific_black_duck_(Anas_superciliosa)_male_swimming_Sydney.jpg",
+   "source": "Wikimedia Commons",
+   "verifiedBy": "scientific name in file title/description/categories",
+   "sex": "male"
+  },
+  "audio": {
+   "src": "/sounds/pacific-black-duck.mp3",
+   "author": "Greg McLachlan",
+   "license": "CC BY NC SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "sourceUrl": "https://xeno-canto.org/373659",
+   "title": "XC373659 \u00b7 Pacific Black Duck (Anas superciliosa) \u00b7 call, rustling, water splashes \u00b7 quality A",
+   "source": "xeno-canto",
+   "verifiedBy": "xeno-canto record XC373659 is identified as Anas superciliosa",
+   "recordedAt": "Royal National Park, New South Wales",
+   "xcId": "373659",
+   "unmodified": false
+  },
+  "video": {
+   "videoId": "F73Urmro0f8",
+   "title": "Pacific black duck (Anas superciliosa)",
+   "channel": "A to Z Animals & Plants",
+   "matchedBy": "scientific name in title"
+  },
+  "sources": [
+   {
+    "label": "Atlas of Living Australia",
+    "url": "https://bie.ala.org.au/search?q=Anas+superciliosa"
+   },
+   {
+    "label": "BirdLife Australia bird profile",
+    "url": "https://birdlife.org.au/bird-profiles/pacific-black-duck/"
+   },
+   {
+    "label": "Wikipedia (cross-check)",
+    "url": "https://en.wikipedia.org/wiki/Pacific_black_duck"
+   }
+  ]
+ },
+ {
+  "slug": "australian-wood-duck",
+  "commonName": "Australian Wood Duck",
+  "scientificName": "Chenonetta jubata",
+  "alaRecords": 452,
+  "photo": {
+   "src": "/birds/australian-wood-duck.webp",
+   "width": 1280,
+   "height": 853,
+   "author": "Charles J. Sharp",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Maned_duck_(Chenonetta_jubata)_male_Sydney.jpg",
+   "title": "File:Maned duck (Chenonetta jubata) male Sydney.jpg",
+   "source": "Wikimedia Commons",
+   "verifiedBy": "scientific name in file title/description/categories",
+   "sex": "male"
+  },
+  "audio": {
+   "src": "/sounds/australian-wood-duck.mp3",
+   "author": "Romuald Mikusek",
+   "license": "CC BY NC SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "sourceUrl": "https://xeno-canto.org/1172787",
+   "title": "XC1172787 \u00b7 Maned Duck (Chenonetta jubata) \u00b7 call \u00b7 quality A",
+   "source": "xeno-canto",
+   "verifiedBy": "xeno-canto record XC1172787 is identified as Chenonetta jubata",
+   "recordedAt": "Birdsland Reserve (near  Belgrave Heights), Yarra Ranges Shire, Victoria",
+   "xcId": "1172787",
+   "unmodified": false
+  },
+  "video": {
+   "videoId": "glcZq1Ztr20",
+   "title": "Australian Wood Duck  \"Chenonetta jubata\" #birds #australiannativebirds #birdsofaustralia",
+   "channel": "Allan Broomhall",
+   "matchedBy": "scientific name in title"
+  },
+  "sources": [
+   {
+    "label": "Atlas of Living Australia",
+    "url": "https://bie.ala.org.au/search?q=Chenonetta+jubata"
+   },
+   {
+    "label": "BirdLife Australia bird profile",
+    "url": "https://birdlife.org.au/bird-profiles/australian-wood-duck/"
+   },
+   {
+    "label": "Wikipedia (cross-check)",
+    "url": "https://en.wikipedia.org/wiki/Australian_wood_duck"
+   }
+  ]
+ },
+ {
+  "slug": "whistling-kite",
+  "commonName": "Whistling Kite",
+  "scientificName": "Haliastur sphenurus",
+  "alaRecords": 437,
+  "photo": {
+   "src": "/birds/whistling-kite.webp",
+   "width": 1280,
+   "height": 853,
+   "author": "JJ Harrison (https://www.jjharrison.com.au/)",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Haliastur_sphenurus_2_-_Pitt_Town.jpg",
+   "title": "File:Haliastur_sphenurus_2_-_Pitt_Town.jpg",
+   "source": "Wikimedia Commons",
+   "verifiedBy": "scientific name in file title/description/categories",
+   "sex": null
+  },
+  "audio": {
+   "src": "/sounds/whistling-kite.mp3",
+   "author": "Stephen Bushell",
+   "license": "CC BY NC SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "sourceUrl": "https://xeno-canto.org/264178",
+   "title": "XC264178 \u00b7 Whistling Kite (Haliastur sphenurus) \u00b7 call \u00b7 quality A",
+   "source": "xeno-canto",
+   "verifiedBy": "xeno-canto record XC264178 is identified as Haliastur sphenurus",
+   "recordedAt": "Mildura, Victoria",
+   "xcId": "264178",
+   "unmodified": false
+  },
+  "video": null,
+  "sources": [
+   {
+    "label": "Atlas of Living Australia",
+    "url": "https://bie.ala.org.au/search?q=Haliastur+sphenurus"
+   },
+   {
+    "label": "BirdLife Australia bird profile",
+    "url": "https://birdlife.org.au/bird-profiles/whistling-kite/"
+   },
+   {
+    "label": "Wikipedia (cross-check)",
+    "url": "https://en.wikipedia.org/wiki/Whistling_kite"
+   }
+  ]
+ },
+ {
+  "slug": "straw-necked-ibis",
+  "commonName": "Straw-necked Ibis",
+  "scientificName": "Threskiornis spinicollis",
+  "alaRecords": 400,
+  "photo": {
+   "src": "/birds/straw-necked-ibis.webp",
+   "width": 1280,
+   "height": 1024,
+   "author": "JJ Harrison (https://www.jjharrison.com.au/)",
+   "license": "CC BY 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Threskiornis_spinicollis_-_Centenary_Lakes.jpg",
+   "title": "File:Threskiornis_spinicollis_-_Centenary_Lakes.jpg",
+   "source": "Wikimedia Commons",
+   "verifiedBy": "scientific name in file title/description/categories",
+   "sex": null
+  },
+  "audio": {
+   "src": "/sounds/straw-necked-ibis.mp3",
+   "author": "Nigel Jackett",
+   "license": "CC BY NC SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "sourceUrl": "https://xeno-canto.org/184702",
+   "title": "XC184702 \u00b7 Straw-necked Ibis (Threskiornis spinicollis) \u00b7 flight call \u00b7 quality B",
+   "source": "xeno-canto",
+   "verifiedBy": "xeno-canto record XC184702 is identified as Threskiornis spinicollis",
+   "recordedAt": "Willare, Western Australia",
+   "xcId": "184702",
+   "unmodified": false
+  },
+  "video": null,
+  "sources": [
+   {
+    "label": "Atlas of Living Australia",
+    "url": "https://bie.ala.org.au/search?q=Threskiornis+spinicollis"
+   },
+   {
+    "label": "BirdLife Australia bird profile",
+    "url": "https://birdlife.org.au/bird-profiles/straw-necked-ibis/"
+   },
+   {
+    "label": "Wikipedia (cross-check)",
+    "url": "https://en.wikipedia.org/wiki/Straw-necked_ibis"
+   }
+  ]
+ },
+ {
+  "slug": "white-winged-chough",
+  "commonName": "White-winged Chough",
+  "scientificName": "Corcorax melanorhamphos",
+  "alaRecords": 397,
+  "photo": {
+   "src": "/birds/white-winged-chough.webp",
+   "width": 1280,
+   "height": 853,
+   "author": "JJ Harrison (https://www.jjharrison.com.au/)",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Corcorax_melanorhamphos_-_Pinegrove_Memorial_Parkt.jpg",
+   "title": "File:Corcorax_melanorhamphos_-_Pinegrove_Memorial_Parkt.jpg",
+   "source": "Wikimedia Commons",
+   "verifiedBy": "scientific name in file title/description/categories",
+   "sex": null
+  },
+  "audio": {
+   "src": "/sounds/white-winged-chough.mp3",
+   "author": "Nick Talbot",
+   "license": "CC BY NC SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "sourceUrl": "https://xeno-canto.org/1137103",
+   "title": "XC1137103 \u00b7 White-winged Chough (Corcorax melanorhamphos) \u00b7 call \u00b7 quality A",
+   "source": "xeno-canto",
+   "verifiedBy": "xeno-canto record XC1137103 is identified as Corcorax melanorhamphos",
+   "recordedAt": "Crusoe Reservoir (near  Kangaroo Flat), Greater Bendigo City, Victoria",
+   "xcId": "1137103",
+   "unmodified": false
+  },
+  "video": {
+   "videoId": "zYBS8K4lTj8",
+   "title": "White-winged Choughs at Creek Pond",
+   "channel": "Victorian Natives",
+   "matchedBy": "common name in title"
+  },
+  "sources": [
+   {
+    "label": "Atlas of Living Australia",
+    "url": "https://bie.ala.org.au/search?q=Corcorax+melanorhamphos"
+   },
+   {
+    "label": "BirdLife Australia bird profile",
+    "url": "https://birdlife.org.au/bird-profiles/white-winged-chough/"
+   },
+   {
+    "label": "Wikipedia (cross-check)",
+    "url": "https://en.wikipedia.org/wiki/White-winged_chough"
+   }
+  ]
+ },
+ {
+  "slug": "wedge-tailed-eagle",
+  "commonName": "Wedge-tailed Eagle",
+  "scientificName": "Aquila audax",
+  "alaRecords": 343,
+  "photo": {
+   "src": "/birds/wedge-tailed-eagle.webp",
+   "width": 1280,
+   "height": 853,
+   "author": "JJ Harrison (https://www.jjharrison.com.au/)",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aquila_audax_-_Captain%27s_Flat.jpg",
+   "title": "File:Aquila_audax_-_Captain's_Flat.jpg",
+   "source": "Wikimedia Commons",
+   "verifiedBy": "scientific name in file title/description/categories",
+   "sex": null
+  },
+  "audio": {
+   "src": "/sounds/wedge-tailed-eagle.mp3",
+   "author": "(c) lauren leviston, some rights reserved (CC BY-NC)",
+   "license": "CC BY NC",
+   "licenseUrl": "",
+   "sourceUrl": "https://www.inaturalist.org/observations/69660349",
+   "title": "iNaturalist observation 69660349",
+   "source": "iNaturalist",
+   "verifiedBy": "research-grade observation, taxon Aquila audax",
+   "recordedAt": "Lethbridge VIC 3332, Australia"
+  },
+  "video": {
+   "videoId": "y9J6B37yDns",
+   "title": "Nullarbor Wedge-tailed Eagle Nest",
+   "channel": "Werrong Lane",
+   "matchedBy": "common name in title"
+  },
+  "sources": [
+   {
+    "label": "Atlas of Living Australia",
+    "url": "https://bie.ala.org.au/search?q=Aquila+audax"
+   },
+   {
+    "label": "BirdLife Australia bird profile",
+    "url": "https://birdlife.org.au/bird-profiles/wedge-tailed-eagle/"
+   },
+   {
+    "label": "Wikipedia (cross-check)",
+    "url": "https://en.wikipedia.org/wiki/Wedge-tailed_eagle"
+   }
+  ]
+ },
+ {
+  "slug": "masked-lapwing",
+  "commonName": "Masked Lapwing",
+  "scientificName": "Vanellus miles",
+  "alaRecords": 333,
+  "photo": {
+   "src": "/birds/masked-lapwing.webp",
+   "width": 1280,
+   "height": 853,
+   "author": "Charles J. Sharp",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Masked_lapwing_(Vanellus_miles_novaehollandiae)_Hobart.jpg",
+   "title": "File:Masked lapwing (Vanellus miles novaehollandiae) Hobart.jpg",
+   "source": "Wikimedia Commons",
+   "verifiedBy": "scientific name in file title/description/categories",
+   "sex": null
+  },
+  "audio": {
+   "src": "/sounds/masked-lapwing.mp3",
+   "author": "Romuald Mikusek",
+   "license": "CC BY NC SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "sourceUrl": "https://xeno-canto.org/935906",
+   "title": "XC935906 \u00b7 Masked Lapwing (Vanellus miles) \u00b7 call \u00b7 quality A",
+   "source": "xeno-canto",
+   "verifiedBy": "xeno-canto record XC935906 is identified as Vanellus miles",
+   "recordedAt": "Griffiths Island Wildlife Platform (near  Port Fairy), Moyne Shire, Victoria",
+   "xcId": "935906",
+   "unmodified": false
+  },
+  "video": {
+   "videoId": "_zXb-38QeGQ",
+   "title": "Masked Lapwing (Vanellus miles)",
+   "channel": "Alan Marshall",
+   "matchedBy": "scientific name in title"
+  },
+  "sources": [
+   {
+    "label": "Atlas of Living Australia",
+    "url": "https://bie.ala.org.au/search?q=Vanellus+miles"
+   },
+   {
+    "label": "BirdLife Australia bird profile",
+    "url": "https://birdlife.org.au/bird-profiles/masked-lapwing/"
+   },
+   {
+    "label": "Wikipedia (cross-check)",
+    "url": "https://en.wikipedia.org/wiki/Masked_lapwing"
+   }
+  ]
+ },
+ {
+  "slug": "silvereye",
+  "commonName": "Silvereye",
+  "scientificName": "Zosterops lateralis",
+  "alaRecords": 319,
+  "photo": {
+   "src": "/birds/silvereye.webp",
+   "width": 1100,
+   "height": 733,
+   "author": "Patrick_K59",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Zosterops_lateralis_-Victoria,_Australia-8.jpg",
+   "title": "File:Zosterops lateralis -Victoria, Australia-8.jpg",
+   "source": "Wikimedia Commons",
+   "verifiedBy": "scientific name in file title/description/categories",
+   "sex": null
+  },
+  "audio": {
+   "src": "/sounds/silvereye.mp3",
+   "author": "Richard Fuller",
+   "license": "CC0 1.0",
+   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "sourceUrl": "https://xeno-canto.org/717687",
+   "title": "XC717687 \u00b7 Silvereye (Zosterops lateralis) \u00b7 nocturnal flight call \u00b7 quality B",
+   "source": "xeno-canto",
+   "verifiedBy": "xeno-canto record XC717687 is identified as Zosterops lateralis",
+   "recordedAt": "Carindale, Brisbane City, Queensland",
+   "xcId": "717687",
+   "unmodified": false
+  },
+  "video": {
+   "videoId": "HHta3iKOiR0",
+   "title": "Silvereye singing ( Zosterops lateralis ) HD Video Clip 1/1 Tim Siggs ABVC",
+   "channel": "Tim Siggs",
+   "matchedBy": "scientific name in title"
+  },
+  "sources": [
+   {
+    "label": "Atlas of Living Australia",
+    "url": "https://bie.ala.org.au/search?q=Zosterops+lateralis"
+   },
+   {
+    "label": "BirdLife Australia bird profile",
+    "url": "https://birdlife.org.au/bird-profiles/silvereye/"
+   },
+   {
+    "label": "Wikipedia (cross-check)",
+    "url": "https://en.wikipedia.org/wiki/Silvereye"
+   }
+  ]
+ },
+ {
+  "slug": "crested-pigeon",
+  "commonName": "Crested Pigeon",
+  "scientificName": "Ocyphaps lophotes",
+  "alaRecords": 289,
+  "photo": {
+   "src": "/birds/crested-pigeon.webp",
+   "width": 1280,
+   "height": 853,
+   "author": "JJ Harrison (https://tiny.jjharrison.com.au/t/YgJqEWUNNzNFpTR5)",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ocyphaps_lophotes_-_Lake_Parramatta_Reserve.jpg",
+   "title": "File:Ocyphaps_lophotes_-_Lake_Parramatta_Reserve.jpg",
+   "source": "Wikimedia Commons",
+   "verifiedBy": "scientific name in file title/description/categories",
+   "sex": null
+  },
+  "audio": {
+   "src": "/sounds/crested-pigeon.mp3",
+   "author": "Peter Russell",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ocyphaps_lophotes_-_Crested_Pigeon_XC496697.mp3",
+   "title": "File:Ocyphaps lophotes - Crested Pigeon XC496697.mp3",
+   "source": "Wikimedia Commons",
+   "verifiedBy": "scientific name in Commons file title/description/categories",
+   "recordedAt": null
+  },
+  "video": {
+   "videoId": "vb2aoN7GLvA",
+   "title": "Crested Pigeon. Ocyphaps lophotes",
+   "channel": "TNM Earth",
+   "matchedBy": "scientific name in title"
+  },
+  "sources": [
+   {
+    "label": "Atlas of Living Australia",
+    "url": "https://bie.ala.org.au/search?q=Ocyphaps+lophotes"
+   },
+   {
+    "label": "BirdLife Australia bird profile",
+    "url": "https://birdlife.org.au/bird-profiles/crested-pigeon/"
+   },
+   {
+    "label": "Wikipedia (cross-check)",
+    "url": "https://en.wikipedia.org/wiki/Crested_pigeon"
+   }
+  ]
+ },
+ {
+  "slug": "sacred-kingfisher",
+  "commonName": "Sacred Kingfisher",
+  "scientificName": "Todiramphus sanctus",
+  "alaRecords": 187,
+  "photo": {
+   "src": "/birds/sacred-kingfisher.webp",
+   "width": 1280,
+   "height": 960,
+   "author": "Vicki Nunn",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sacred_Kingfisher_(Todiramphus_sanctus)_04.jpg",
+   "title": "File:Sacred Kingfisher (Todiramphus sanctus) 04.jpg",
+   "source": "Wikimedia Commons",
+   "verifiedBy": "scientific name in file title/description/categories",
+   "sex": null
+  },
+  "audio": {
+   "src": "/sounds/sacred-kingfisher.mp3",
+   "author": "Romuald Mikusek",
+   "license": "CC BY NC SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "sourceUrl": "https://xeno-canto.org/935791",
+   "title": "XC935791 \u00b7 Sacred Kingfisher (Todiramphus sanctus) \u00b7 song \u00b7 quality A",
+   "source": "xeno-canto",
+   "verifiedBy": "xeno-canto record XC935791 is identified as Todiramphus sanctus",
+   "recordedAt": "Bimbi Park (near  Cape Otway), Colac Otway Shire, Victoria",
+   "xcId": "935791",
+   "unmodified": false
+  },
+  "video": {
+   "videoId": "7hQRt5SpwbY",
+   "title": "Sacred Kingfisher ( Todiramphus sanctus ) HD Video Clip 1/1 Tim Siggs.ABVC",
+   "channel": "Tim Siggs",
+   "matchedBy": "scientific name in title"
+  },
+  "sources": [
+   {
+    "label": "Atlas of Living Australia",
+    "url": "https://bie.ala.org.au/search?q=Todiramphus+sanctus"
+   },
+   {
+    "label": "BirdLife Australia bird profile",
+    "url": "https://birdlife.org.au/bird-profiles/sacred-kingfisher/"
+   },
+   {
+    "label": "Wikipedia (cross-check)",
+    "url": "https://en.wikipedia.org/wiki/Sacred_kingfisher"
+   }
+  ]
+ }
+]

@@ -1,0 +1,654 @@
+{
+  "outOfBatch": [
+    "Welcome Swallow incubation was not checked: that species is not in this batch.",
+    "Magpie-lark presence in Tasmania was not checked: that species is not in this batch.",
+    "Little Raven natural predators were not checked: that species is not in this batch."
+  ],
+  "birds": [
+    {
+      "commonName": "Pacific Black Duck",
+      "scientificName": "Anas superciliosa",
+      "verdict": "corrected",
+      "fields": {
+        "origins": "Native, and not endemic to Australia. Birds in Backyards says it lives in all but the most arid parts of Australia and that the range continues through the Pacific. Museums Victoria lists the Pacific islands, Indonesia, Papua New Guinea, East Timor, New Zealand, mainland Australia except the arid areas, Tasmania and Macquarie Island. New Zealand Birds Online treats the grey duck as the same species and says a split between an Australian rogersi and a New Zealand superciliosa is not supported.",
+        "distribution": "Present across Australia wherever suitable water remains, including Tasmania, and missing from the most arid country. Birds SA describes it as mainly sedentary, dispersing in drought, which is a narrower claim than resident-or-nomadic. Birds in Backyards leaves seasonal movements blank.",
+        "habitat": "Almost any water: forest pools, dams, rivers, estuaries, tidal mudflats and urban ponds. The Australian Museum lists freshwater and intertidal habitat. Fresh water alone is too narrow.",
+        "breeding": "Birds in Backyards says the season is highly variable and gives no incubation period; its clutch field of 16 is not backed by the breeding text. For southern Australia, the Western Volcanic Plains guide gives June to January, a clutch of 7–12, incubation of about 30 days and often two broods, in a hollow or in undergrowth. New Zealand Birds Online, citing HANZAB, gives 8–10 eggs and 26–29 days, in a ground scrape, a tree fork or an epiphyte. Birds SA gives a usual clutch of 7–12 from June to February in South Australia, in a tree hole, an old waterbird nest or on the ground. Museums Victoria gives a usual clutch of 10–12. An archived wildpro account gives July–October in southern Australia, an average of 8–10 eggs (range 3–15) and incubation of 26–32 days.",
+        "diet": "Mostly plant material. Birds in Backyards says seeds of aquatic plants, plus small crustaceans, molluscs and aquatic insects, taken by dabbling and upending, and sometimes on damp grass. The Australian Museum and Museums Victoria also include crayfish. Museums Victoria includes snails.",
+        "threats": "Hybridisation with introduced Mallards is stated by Birds in Backyards, the Australian Museum and Birds SA. In New Zealand the grey duck is Nationally Vulnerable because of that hybridisation, and it is still legally hunted. Wetland loss is not named on the Birds in Backyards or Australian Museum pages.",
+        "size": "50–60 cm, average 55 cm, in Birds in Backyards, the Australian Museum and New Zealand Birds Online. Museums Victoria says bill to tail up to 60 cm.",
+        "conservation": "Least Concern. The IUCN text dated 1 October 2016 says the trend is not known, and the same page labels a 2024 assessment as Least Concern without giving the 2024 trend in the text retrieved. Birds in Backyards marks it Secure federally and in every state and territory, including Victoria. Not listed under the EPBC Act on the list extracted 28 August 2026, and not on Victoria's FFG Act Threatened List of July 2026."
+      },
+      "errorsInDraft": [
+        "Size starts at 47 cm. Birds in Backyards, the Australian Museum and New Zealand Birds Online all start at 50 cm.",
+        "Distribution is limited to fresh water. The same sources include tidal mudflats and other waters, and exclude the most arid regions.",
+        "Movements are given as resident or nomadic with rainfall. Birds SA says mainly sedentary, with dispersal in drought, and Birds in Backyards does not describe the movements.",
+        "The southern season is given as mainly July–December. The Western Volcanic Plains guide gives June–January, and Birds in Backyards says the season is highly variable.",
+        "Incubation is given as about 28 days. Published figures are 26–29 days (New Zealand Birds Online, citing HANZAB), about 30 days (Western Volcanic Plains) and 26–32 days (wildpro).",
+        "Clutch is given only as 8–10. That is the HANZAB summary figure and the wildpro average, but the usual range is also given as 7–12 (Western Volcanic Plains and Birds SA) and 10–12 (Museums Victoria). Birds in Backyards prints 16, which its own breeding text does not support.",
+        "Nests are limited to hollows, grass or reeds. Sources also give old nests, including an Australian Museum photograph of eggs in an old Little Raven nest, tree forks and epiphytes.",
+        "Diet omits molluscs. Birds in Backyards, the Australian Museum and Museums Victoria include them, and the museum accounts say the food is mostly plant material.",
+        "Wetland loss is not stated on the Birds in Backyards or Australian Museum pages. Hybridisation with Mallards is."
+      ],
+      "conflicts": [
+        "Clutch: Birds in Backyards field 16, unsupported by its breeding paragraph; New Zealand Birds Online 8–10; Western Volcanic Plains and Birds SA usually 7–12; Museums Victoria usually 10–12; wildpro average 8–10, range 3–15, wider still in dump nests.",
+        "Incubation: New Zealand Birds Online 26–29 days; Western Volcanic Plains about 30 days; wildpro 26–32 days. Birds in Backyards gives none.",
+        "Southern season: Birds in Backyards highly variable; Western Volcanic Plains June–January; Birds SA June–February in South Australia; wildpro July–October in southern Australia. New Zealand laying in the HANZAB summary is mainly August–October, which is a New Zealand account.",
+        "Subspecies: New Zealand Birds Online says rogersi (Australia) versus superciliosa (New Zealand) is not supported. The name pelewensis is still used by some accounts for Pacific-island birds.",
+        "IUCN trend: the 2016 text says the trend is not known. The page also labels the latest assessment, 2024, as Least Concern, but that assessment's trend was not retrieved."
+      ],
+      "notWellDocumented": [
+        "The 2024 IUCN trend. Only the 2016 justification, which says the trend is not known, and a banner calling the 2024 category Least Concern, were retrieved.",
+        "A single incubation length for southern Victoria. The sources give ranges.",
+        "Wetland loss as an Australian population threat on the preferred pages read.",
+        "The Birds in Backyards clutch of 16. It is not explained by the breeding text on that page.",
+        "The HANZAB species account itself. New Zealand Birds Online cites Marchant and Higgins 1990, but the 46 MB handbook PDF was not read."
+      ],
+      "sources": [
+        {
+          "url": "https://www.birdsinbackyards.net/species/Anas-superciliosa",
+          "title": "Pacific Black Duck — Birds in Backyards",
+          "accessed": "2026-10-25",
+          "supports": "50–60 cm, average 55 cm; season highly variable; clutch field 16 with no incubation figure and no clutch in the breeding text; all but the most arid regions of Australia, range through the Pacific; all types of water, including tidal mudflats; seeds of aquatic plants plus crustaceans, molluscs and aquatic insects; interbreeds with Mallards; two broods often raised. Secure federally and in every state and territory, including Victoria."
+        },
+        {
+          "url": "https://australian.museum/learn/animals/birds/pacific-black-duck/",
+          "title": "Pacific Black Duck — Australian Museum",
+          "accessed": "2026-10-25",
+          "supports": "50–60 cm; all but the most arid regions; freshwater and intertidal; throughout Australia; mostly plant material, also molluscs, crayfish, aquatic insects and larvae; interbreeds with Mallards. Photograph caption: eggs in an old Little Raven nest. Updated 23 July 2024."
+        },
+        {
+          "url": "https://www.nzbirdsonline.org.nz/species/grey-duck",
+          "title": "Grey duck | pārera — New Zealand Birds Online",
+          "accessed": "2026-10-25",
+          "supports": "Same species, Anas superciliosa. Length 50–60 cm. Native in New Zealand and Nationally Vulnerable because of hybridisation with Mallards; still hunted. Clutch 8–10; incubation 26–29 days; nests on the ground or in tree forks or epiphytes; laying mainly August–October in the New Zealand account. Cites Marchant and Higgins 1990, HANZAB volume 1B. Distinction of rogersi from superciliosa not supported. Williams 2013, updated 2023."
+        },
+        {
+          "url": "https://bwvp.ecolinc.vic.edu.au/fieldguide/fauna/pacific-black-duck",
+          "title": "Pacific Black Duck — Biodiversity of the Western Volcanic Plains",
+          "accessed": "2026-10-25",
+          "supports": "Southern Australia: June to January; hollow or undergrowth; clutch 7–12; incubation about 30 days; often two broods; female care. All types of water, including tidal mudflats and urban areas. All but the most arid regions."
+        },
+        {
+          "url": "https://resources.birdssa.au/birddirectory/pacific-black-duck/",
+          "title": "Pacific Black Duck — Birds SA",
+          "accessed": "2026-10-25",
+          "supports": "Mainly sedentary, dispersing in drought. South Australia: June to February; tree holes, old waterbird nests or the ground; usual clutch 7–12. Diet includes molluscs, crayfish and aquatic insects. Also Indonesia, Malaysia, New Guinea and New Zealand. Hybridises with Mallards."
+        },
+        {
+          "url": "https://collections.museumsvictoria.com.au/species/8243",
+          "title": "Anas superciliosa — Museums Victoria",
+          "accessed": "2026-10-25",
+          "supports": "Bill to tail up to 60 cm. Plant material, especially seeds, plus insects, snails and small crayfishes. Usual clutch 10–12 in a tree hollow or a concealed ground site; female incubates. Range: Pacific islands, Indonesia, Papua New Guinea, East Timor, New Zealand, mainland Australia except arid areas, Tasmania and Macquarie Island. Terrestrial wetlands, sheltered estuaries and coastal waters."
+        },
+        {
+          "url": "https://web.archive.org/web/20180317174446/http:/wildpro.twycrosszoo.org/S/0AvAnserif/anatidae/1ACrAvAn_anas/Anas_superciliosa/Anas_superciliosa.htm",
+          "title": "Anas superciliosa — Wildpro (archived)",
+          "accessed": "2026-10-25",
+          "supports": "Southern Australia July–October; average clutch 8–10, range 3–15, more in dump nests; incubation 26–32 days. Mostly sedentary, with dispersal from dry inland Australia."
+        },
+        {
+          "url": "https://www.iucnredlist.org/species/22680217/92849931",
+          "title": "Anas superciliosa — IUCN Red List",
+          "accessed": "2026-10-25",
+          "supports": "2016 assessment, 1 October 2016, Least Concern; trend described as not known; population 180,000–1,200,000 individuals (Wetlands International 2006). The page labels the latest assessment as 2024 — Least Concern. The 2024 trend text was not retrieved."
+        },
+        {
+          "url": "https://www.environment.vic.gov.au/__data/assets/excel_doc/0030/793803/FFG_Threatened_List-July_2026.xlsx",
+          "title": "Flora and Fauna Guarantee Act 1988 Threatened List, July 2026 — DEECA",
+          "accessed": "2026-10-25",
+          "supports": "Workbook titled Flora and Fauna Guarantee Act 1988 - Threatened List, creator Clare Brownridge (DEECA), last modified 1 July 2026. A search of the shared strings found no match for this species."
+        },
+        {
+          "url": "https://data.gov.au/data/dataset/ae652011-f39e-4c6c-91b8-1dc2d2dfee8f/resource/78401dce-1f40-49d3-92c4-3713d6e34974/download/20260828spcs.csv",
+          "title": "EPBC Act List of Threatened Fauna and Flora, extracted 28 August 2026 — data.gov.au",
+          "accessed": "2026-10-25",
+          "supports": "Date extracted 2026-Aug-28. No row for this species. The only eagle row among this batch is Aquila audax fleayi, Endangered."
+        }
+      ]
+    },
+    {
+      "commonName": "Australian Wood Duck",
+      "scientificName": "Chenonetta jubata",
+      "verdict": "corrected",
+      "fields": {
+        "origins": "Native to Australia, and a breeding endemic on the 2024 BirdLife DataZone assessment. That factsheet also lists it as a vagrant to New Zealand and Papua New Guinea, so records exist outside Australia.",
+        "distribution": "Widespread in Australia, including Tasmania (Birds in Backyards). DataZone lists Australia as the resident range and the species as Not a Migrant. The draft's resident-or-nomadic wording is not on those pages.",
+        "habitat": "Grasslands, open woodlands, wetlands, flooded pastures, coastal inlets and bays, farm dams, rice fields, sewage ponds and urban parks. It feeds mostly on land and will use deeper lakes that other ducks do not forage in.",
+        "breeding": "September to November in the south, and after rain in the north. A monogamous pair nests in a tree hole above or near water and often reuses the site. Clutch 8–10; incubation 28 days (Birds in Backyards). Both parents feed the young. Birds in Backyards says the ducklings hatch in down and can enter the water almost at once.",
+        "diet": "Grasses, clover and other herbs, and occasionally insects, taken on land or by dabbling in shallow water (Birds in Backyards).",
+        "threats": "Birds in Backyards says the species has benefited from dams and irrigated crops, and that it can damage crops. A HANZAB extract lists Australian Ravens, White-faced Herons and Laughing Kookaburras taking ducklings, and Peregrine Falcons, Brown Falcons, Brown Goshawks, Wedge-tailed Eagles, foxes and feral cats taking adults. An ANU account also names foxes, dogs and cats attacking young and adults, and black rats, silver gulls, swamp harriers and purple swamphens taking eggs or ducklings. Road strikes are not in those accounts.",
+        "size": "44–50 cm, average 47 cm (Birds in Backyards).",
+        "conservation": "Least Concern on the 2024 BirdLife assessment, trend stable, about 66,000–670,000 mature individuals. Not listed under the EPBC Act on the list extracted 28 August 2026, and not on Victoria's FFG Act Threatened List of July 2026. The Birds in Backyards conservation table did not render on the page fetched."
+      },
+      "errorsInDraft": [
+        "Size is 45–51 cm. Birds in Backyards gives 44–50 cm, average 47 cm.",
+        "Movements are given as resident or nomadic. DataZone says Not a Migrant, and Birds in Backyards does not call it nomadic.",
+        "Endemic is fair for breeding, but DataZone also records vagrants in New Zealand and Papua New Guinea.",
+        "Road strikes are not documented in Birds in Backyards, the HANZAB predator paragraph retrieved, or the ANU account. Foxes are supported, and those accounts also name ravens, herons, kookaburras, other raptors, dogs, cats, rats, gulls, swamp harriers and purple swamphens."
+      ],
+      "conflicts": [
+        "Range outside Australia: DataZone says breeding endemic, and also vagrant to New Zealand (non-breeding) and Papua New Guinea.",
+        "Predators: HANZAB names ravens, herons and kookaburras on ducklings, and falcons, goshawks, Wedge-tailed Eagles, foxes and feral cats on adults. The ANU account names foxes, dogs and cats on young and adults, plus rats, gulls, swamp harriers and purple swamphens. Birds in Backyards names none of these and says the duck has benefited from farms."
+      ],
+      "notWellDocumented": [
+        "Road strikes as a threat. They were not in the pages read.",
+        "The Birds in Backyards state-status table. It did not render.",
+        "A breeding window tighter than September–November for southern Victoria. That is the southern season Birds in Backyards gives.",
+        "The full HANZAB account. Only the predator paragraph returned by search was read."
+      ],
+      "sources": [
+        {
+          "url": "https://www.birdsinbackyards.net/species/Chenonetta-jubata",
+          "title": "Australian Wood Duck — Birds in Backyards",
+          "accessed": "2026-10-25",
+          "supports": "44–50 cm, average 47 cm; September–November in the south, after rain in the north; clutch 8–10; incubation 28 days; widespread including Tasmania; grasslands, open woodland, wetlands, pastures, coasts, dams, rice, sewage ponds and parks; grasses, clover, herbs and occasional insects; tree holes; benefited from dams and irrigated crops and can damage crops. Cites HANZAB volume 1B. Conservation table not rendered."
+        },
+        {
+          "url": "https://datazone.birdlife.org/species/factsheet/22680111",
+          "title": "Maned Duck — BirdLife DataZone",
+          "accessed": "2026-10-25",
+          "supports": "2024 assessment, Least Concern, trend stable, 66,000–670,000 mature individuals. Breeding endemic: yes. Migratory status: Not a Migrant. Australia resident and native; New Zealand and Papua New Guinea extant vagrants."
+        },
+        {
+          "url": "https://www.nzbirdsonline.org.nz/assets/95597/1691920008-021_australian-20wood-20duck.pdf",
+          "title": "Maned Duck — HANZAB extract via New Zealand Birds Online",
+          "accessed": "2026-10-25",
+          "supports": "Predators paragraph: Australian Ravens, White-faced Herons and Laughing Kookaburras seen to take ducklings; Peregrine Falcons, Brown Falcons, Brown Goshawks, Wedge-tailed Eagles, foxes and feral cats take adults."
+        },
+        {
+          "url": "https://keyserver.lucidcentral.org/key-server/data/03050501-000c-4503-8203-0a030507090d/media/Html/Chenonetta_jubata.htm",
+          "title": "Chenonetta jubata — ANU campus key",
+          "accessed": "2026-10-25",
+          "supports": "Foxes, dogs and cats attack young and adults. Black rats, silver gulls and swamp harriers may take birds; purple swamphens may take eggs and ducklings. Shooting is legal in some states in some situations. Young present September to January."
+        },
+        {
+          "url": "https://www.environment.vic.gov.au/__data/assets/excel_doc/0030/793803/FFG_Threatened_List-July_2026.xlsx",
+          "title": "Flora and Fauna Guarantee Act 1988 Threatened List, July 2026 — DEECA",
+          "accessed": "2026-10-25",
+          "supports": "Workbook titled Flora and Fauna Guarantee Act 1988 - Threatened List, creator Clare Brownridge (DEECA), last modified 1 July 2026. A search of the shared strings found no match for this species."
+        },
+        {
+          "url": "https://data.gov.au/data/dataset/ae652011-f39e-4c6c-91b8-1dc2d2dfee8f/resource/78401dce-1f40-49d3-92c4-3713d6e34974/download/20260828spcs.csv",
+          "title": "EPBC Act List of Threatened Fauna and Flora, extracted 28 August 2026 — data.gov.au",
+          "accessed": "2026-10-25",
+          "supports": "Date extracted 2026-Aug-28. No row for this species. The only eagle row among this batch is Aquila audax fleayi, Endangered."
+        }
+      ]
+    },
+    {
+      "commonName": "Whistling Kite",
+      "scientificName": "Haliastur sphenurus",
+      "verdict": "corrected",
+      "fields": {
+        "origins": "Native. Birds in Backyards includes Australia, New Guinea, the Solomon Islands and New Caledonia. The 2025 IUCN assessment lists extant breeding only in Australia, Indonesia, New Caledonia and Papua New Guinea, and does not list the Solomon Islands. Wikipedia's lead also omits the Solomons and Indonesia, and excludes the central mountains and the north-west of New Guinea.",
+        "distribution": "Widespread on mainland Australia. Birds in Backyards says uncommon in Tasmania in the distribution sentence, and Not present in the Tasmania status cell. It describes the kite as partially migratory, and mostly resident in northern and western Australia.",
+        "habitat": "Woodlands, open country and especially wetlands, and also farmland, vineyards and places with carrion, such as abattoirs, rubbish dumps and roadsides. It prefers tall trees for nesting and does not enter dense forest.",
+        "breeding": "July to January in the south, and March to October in the north. A bulky stick nest in a tall tree, reused and enlarged. Clutch one to three, usually two. Incubation 38 days, mostly by the female, though both sexes incubate (Birds in Backyards). Pairs may breed two or three times a year.",
+        "diet": "Birds in Backyards: carrion and small live mammals, birds, fish and insects. Wikipedia adds reptiles, amphibians and crustaceans, and says Australian birds take mostly live prey except in winter, when carrion dominates.",
+        "threats": "Birds in Backyards says clearing has favoured the kite because it avoids dense forest, but that it still needs remnant tall trees, and that wetland destruction and drainage has affected southern populations. Secondary poisoning is not stated there. A Wildlife Health Australia fact sheet includes the Whistling Kite among birds in an anticoagulant-rodenticide dataset, which is not a measured decline. The 2025 IUCN assessment treats the trend as stable.",
+        "size": "50–60 cm, average 55 cm, with a wingspan of 120–145 cm (Birds in Backyards). The draft length matches.",
+        "conservation": "Least Concern, assessed 5 June 2025, trend suspected to be stable (IUCN and BirdLife DataZone). Birds in Backyards marks it Secure federally and in Victoria, and Not present in Tasmania, which conflicts with its own distribution sentence. Not listed under the EPBC Act on the list extracted 28 August 2026, and not on Victoria's FFG Act Threatened List of July 2026."
+      },
+      "errorsInDraft": [
+        "Origins include the Solomon Islands, which matches Birds in Backyards, and omit Indonesia, which the 2025 IUCN country list includes. IUCN does not list the Solomons.",
+        "Tasmania is given only as uncommon. The same Birds in Backyards page also marks Tasmania Not present.",
+        "Movements are given as resident or nomadic. Birds in Backyards says partially migratory, and mostly resident in the north and west.",
+        "Secondary poisoning is not the threat on Birds in Backyards. That page names southern wetland drainage, and the need for remnant nest trees, and says clearing can favour the kite.",
+        "Diet matches Birds in Backyards, and is narrower than Wikipedia, which adds reptiles, amphibians and crustaceans."
+      ],
+      "conflicts": [
+        "Extra-Australian range: Birds in Backyards includes the Solomon Islands and omits Indonesia. IUCN 2025 breeding countries are Australia, Indonesia, New Caledonia and Papua New Guinea, with no Solomon Islands. Wikipedia's lead has Australia including coastal islands, New Caledonia and much of New Guinea, excluding the central mountains and the north-west, and does not name Indonesia or the Solomons.",
+        "Tasmania: distribution text says uncommon; the status table says Not present.",
+        "Diet: Birds in Backyards lists carrion, mammals, birds, fish and insects. Wikipedia adds reptiles, amphibians and crustaceans.",
+        "Threats: Birds in Backyards names wetland drainage in the south and loss of tall nest trees, and says clearing can help. IUCN 2025 gives a stable trend. Secondary poisoning appears only as inclusion in a rodenticide dataset, not as a stated population threat on the preferred pages."
+      ],
+      "notWellDocumented": [
+        "Secondary poisoning as a cause of decline. The Wildlife Health Australia sheet lists the species in a rodenticide dataset and does not give a population effect.",
+        "A HANZAB incubation figure other than the 38 days on Birds in Backyards. The handbook page was not read. Birds in Backyards cites HANZAB volume 1B for this species, which is an odd volume for a raptor.",
+        "Whether the bird is truly absent from Tasmania or only scarce. The one Birds in Backyards page says both."
+      ],
+      "sources": [
+        {
+          "url": "https://www.birdsinbackyards.net/species/Haliastur-sphenurus",
+          "title": "Whistling Kite — Birds in Backyards",
+          "accessed": "2026-10-25",
+          "supports": "50–60 cm, average 55 cm; wingspan 120–145 cm; July–January in the south, March–October in the north; clutch one to three, usually two; incubation 38 days; widespread on the mainland, uncommon in Tasmania, also New Guinea, the Solomons and New Caledonia; status table Tasmania Not present, Victoria Secure, federal Secure; woodlands, open country, wetlands and carrion sites; carrion and small mammals, birds, fish and insects; partially migratory, mostly resident in the north and west; clearing can favour it but remnant tall trees are needed; wetland destruction and drainage has affected southern populations."
+        },
+        {
+          "url": "https://www.iucnredlist.org/species/22695091/281027154",
+          "title": "Haliastur sphenurus — IUCN Red List",
+          "accessed": "2026-10-25",
+          "supports": "Assessed 5 June 2025, published 2025, Least Concern, trend suspected stable. Extant breeding: Australia, Indonesia, New Caledonia, Papua New Guinea. Elevation 0–1,400 m."
+        },
+        {
+          "url": "https://datazone.birdlife.org/species/factsheet/22695091",
+          "title": "Whistling Kite — BirdLife DataZone",
+          "accessed": "2026-10-25",
+          "supports": "2025 assessment, Least Concern, trend suspected stable. Country table: Australia, Indonesia, New Caledonia and Papua New Guinea, all extant, native, breeding. Breeding endemic: no."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Whistling_kite",
+          "title": "Whistling kite — Wikipedia",
+          "accessed": "2026-10-25",
+          "supports": "Throughout Australia including coastal islands, New Caledonia and much of New Guinea, excluding the central mountains and the north-west. Diet: small mammals, birds, fish, reptiles, amphibians, crustaceans, insects and carrion. Australian birds take mostly live prey except in winter. Least Concern on the lead line, citing a 2016 assessment."
+        },
+        {
+          "url": "https://wildlifehealthaustralia.com.au/Portals/0/ResourceCentre/FactSheets/Multiple/Rodenticide_Toxicity_in_Australian_Wildlife.pdf",
+          "title": "Rodenticide toxicity in Australian wildlife — Wildlife Health Australia",
+          "accessed": "2026-10-25",
+          "supports": "Whistling Kite is named in a list of raptors in an anticoagulant-rodenticide dataset. The sheet discusses secondary poisoning of raptors generally and does not give a Whistling Kite population trend. Dated in the file as 2025."
+        },
+        {
+          "url": "https://www.environment.vic.gov.au/__data/assets/excel_doc/0030/793803/FFG_Threatened_List-July_2026.xlsx",
+          "title": "Flora and Fauna Guarantee Act 1988 Threatened List, July 2026 — DEECA",
+          "accessed": "2026-10-25",
+          "supports": "Workbook titled Flora and Fauna Guarantee Act 1988 - Threatened List, creator Clare Brownridge (DEECA), last modified 1 July 2026. A search of the shared strings found no match for this species."
+        },
+        {
+          "url": "https://data.gov.au/data/dataset/ae652011-f39e-4c6c-91b8-1dc2d2dfee8f/resource/78401dce-1f40-49d3-92c4-3713d6e34974/download/20260828spcs.csv",
+          "title": "EPBC Act List of Threatened Fauna and Flora, extracted 28 August 2026 — data.gov.au",
+          "accessed": "2026-10-25",
+          "supports": "Date extracted 2026-Aug-28. No row for this species. The only eagle row among this batch is Aquila audax fleayi, Endangered."
+        }
+      ]
+    },
+    {
+      "commonName": "Straw-necked Ibis",
+      "scientificName": "Threskiornis spinicollis",
+      "verdict": "corrected",
+      "fields": {
+        "origins": "Native, and not endemic. Birds in Backyards: mainland Australia, vagrant to Tasmania, and also Indonesia, New Guinea, Norfolk Island and Lord Howe Island. BirdLife DataZone: breeds in Australia, native in Indonesia and Papua New Guinea, vagrant to New Zealand and Norfolk Island. Breeding endemic: no.",
+        "distribution": "Across mainland Australia and highly nomadic, moving in search of habitat. Vagrant to Tasmania on the Birds in Backyards distribution sentence, although that page's status table says Tasmania Not present. It is not accurately described as throughout Australia.",
+        "habitat": "Wet and dry grasslands, pastures, croplands and the margins of swamps and lagoons. Rarely on coastal shores, mudflats or mangroves, and less adaptable than the Australian White Ibis (Birds in Backyards).",
+        "breeding": "August to January in the south and February to May in the north. Large colonies, often with Australian White Ibises. Low platforms of trampled reeds, rushes and sticks over water, reused for years. Clutch two to five, usually two to three. Incubation 25 days (Birds in Backyards). Both sexes build, incubate and feed the young.",
+        "diet": "Mainly terrestrial invertebrates, especially grasshoppers and locusts, and also frogs, small reptiles and mammals, taken by probing or from the water surface (Birds in Backyards). It rarely scavenges. Snails are not in that list.",
+        "threats": "Birds in Backyards says irrigation may have helped it, and that destruction of freshwater breeding habitat and increased salinity are the negative effects. Drought is not named. The 2016 BirdLife trend is decreasing.",
+        "size": "59–76 cm, average 68 cm (Birds in Backyards). The draft matches.",
+        "conservation": "Least Concern on the 2016 BirdLife assessment, trend decreasing, population estimated at 100,000–1,000,000 individuals (Wetlands International 2018). Birds in Backyards marks it Secure federally and in Victoria, and Not present in Tasmania. Not listed under the EPBC Act on the list extracted 28 August 2026, and not on Victoria's FFG Act Threatened List of July 2026. No assessment newer than 2016 was retrieved."
+      },
+      "errorsInDraft": [
+        "Origins say endemic to Australia, with vagrants in New Guinea. New Guinea and Indonesia are part of the native range. Vagrants on these pages are Tasmania, New Zealand, Norfolk Island and, on Birds in Backyards, Lord Howe Island.",
+        "Distribution says throughout Australia except the driest areas. Birds in Backyards limits the Australian range to the mainland and calls Tasmania a vagrant.",
+        "Clutch 2–5 omits the usual two to three given by Birds in Backyards.",
+        "Diet lists snails, which are not on the Birds in Backyards list, and omits the small reptiles and mammals that are.",
+        "Drought is not the threat named by Birds in Backyards. Loss of freshwater breeding habitat and increased salinity are, and irrigation may have helped."
+      ],
+      "conflicts": [
+        "Tasmania: the distribution sentence says vagrant; the status table says Not present.",
+        "Islands: Birds in Backyards includes Lord Howe Island and does not mention New Zealand. DataZone includes New Zealand and Norfolk Island as vagrants and does not list Lord Howe Island in the country table retrieved.",
+        "Trend: Least Concern, but DataZone says decreasing. Birds in Backyards marks it Secure."
+      ],
+      "notWellDocumented": [
+        "An IUCN assessment newer than 2016. None was retrieved.",
+        "Drought as a named threat on the preferred pages.",
+        "Snails in the diet on Birds in Backyards.",
+        "The HANZAB text. Birds in Backyards cites volume 2, which was not read."
+      ],
+      "sources": [
+        {
+          "url": "https://www.birdsinbackyards.net/species/Threskiornis-spinicollis",
+          "title": "Straw-necked Ibis — Birds in Backyards",
+          "accessed": "2026-10-25",
+          "supports": "59–76 cm, average 68 cm; August–January in the south, February–May in the north; clutch two to five, usually two to three; incubation 25 days; mainland Australia, vagrant to Tasmania, also Indonesia, New Guinea, Norfolk Island and Lord Howe Island; status table Tasmania Not present, Victoria Secure; grasslands, pastures, croplands and swamp margins, rarely coasts; highly nomadic; grasshoppers, locusts, frogs, small reptiles and mammals; trampled reed, rush and stick platforms; irrigation may help, while loss of freshwater breeding habitat and salinity may harm. Cites HANZAB volume 2."
+        },
+        {
+          "url": "http://datazone.birdlife.org/species/factsheet/22697525",
+          "title": "Straw-necked Ibis — BirdLife DataZone",
+          "accessed": "2026-10-25",
+          "supports": "2016 assessment, Least Concern, trend decreasing. Breeding endemic: no. Australia extant native breeding; Indonesia and Papua New Guinea extant native; New Zealand and Norfolk Island extant vagrants. Population 100,000–1,000,000 individuals (Wetlands International 2018)."
+        },
+        {
+          "url": "https://www.environment.vic.gov.au/__data/assets/excel_doc/0030/793803/FFG_Threatened_List-July_2026.xlsx",
+          "title": "Flora and Fauna Guarantee Act 1988 Threatened List, July 2026 — DEECA",
+          "accessed": "2026-10-25",
+          "supports": "Workbook titled Flora and Fauna Guarantee Act 1988 - Threatened List, creator Clare Brownridge (DEECA), last modified 1 July 2026. A search of the shared strings found no match for this species."
+        },
+        {
+          "url": "https://data.gov.au/data/dataset/ae652011-f39e-4c6c-91b8-1dc2d2dfee8f/resource/78401dce-1f40-49d3-92c4-3713d6e34974/download/20260828spcs.csv",
+          "title": "EPBC Act List of Threatened Fauna and Flora, extracted 28 August 2026 — data.gov.au",
+          "accessed": "2026-10-25",
+          "supports": "Date extracted 2026-Aug-28. No row for this species. The only eagle row among this batch is Aquila audax fleayi, Endangered."
+        }
+      ]
+    },
+    {
+      "commonName": "White-winged Chough",
+      "scientificName": "Corcorax melanorhamphos",
+      "verdict": "corrected",
+      "fields": {
+        "origins": "Native and endemic to mainland Australia. Birds in Backyards and the Australian Museum place it through most of eastern and south-eastern Australia, absent from northern Queensland. Wikipedia says southern and eastern Australia. Birds of the World puts the nominate subspecies from the Clarke Range in Queensland through New South Wales and into Victoria, mainly north of the Great Dividing Range, and into south-eastern South Australia, with whiteae on the Eyre Peninsula and Mount Lofty Ranges. Tasmania is Not present on Birds in Backyards.",
+        "distribution": "Eastern and south-eastern mainland Australia, in open forest and woodland. The pages read do not describe migration. Birds in Backyards marks Western Australia Secure, which does not match the eastern and south-eastern range given on that page and by the Australian Museum.",
+        "habitat": "Open forests and woodlands, preferring wetter places with leaf litter for feeding and mud for nests (Birds in Backyards and the Australian Museum).",
+        "breeding": "Birds in Backyards and the Australian Museum do not give the months. They describe a mud bowl on a horizontal branch within 15 m, sometimes built with cattle or emu dung, a usual clutch of three to five and up to ten, incubation of 19 days and a nestling period of 28 days, with helpers from earlier years. Wikipedia says August to December, a grass cup bound with mud or manure up to 10 m up, and three to five eggs. Michael Dahlem gives August to January, 3–5 eggs, 19 days and fledging at 28 days. Oiseaux-birds gives laying in September–December, also after rain, incubation of 19–20 days and a nestling period of 24–30 days. Campbell, transcribed by Museums Victoria, gives August to December and a usual clutch of five to seven, occasionally eight or more.",
+        "diet": "Insects and some seeds, raked from litter by groups of up to about ten (Birds in Backyards and the Australian Museum). Wikipedia adds berries, a wide range of arthropods, snails and worms. Larvae are not named on the museum or Birds in Backyards pages.",
+        "threats": "Newly fledged young cannot fly and are easy prey for feral cats and foxes (Birds in Backyards, the Australian Museum and BirdLife Australia). An ANU account also says removal of leaf litter and undergrowth takes away foraging habitat. Habitat fragmentation is not the threat those pages name.",
+        "size": "43–47 cm, average 45 cm (Birds in Backyards and the Australian Museum). The draft matches. Oiseaux-birds gives 50 cm.",
+        "conservation": "Least Concern, assessed 7 August 2018, trend stable, population size not quantified (IUCN). The Australian Museum also marks Least Concern. Birds in Backyards marks it Secure federally and in Victoria, Not present in Tasmania and the Northern Territory, and Secure in Western Australia, which conflicts with the stated range. Not listed under the EPBC Act on the list extracted 28 August 2026, and not on Victoria's FFG Act Threatened List of July 2026. No assessment newer than 2018 was found."
+      },
+      "errorsInDraft": [
+        "Origins say eastern Australia only. The range also includes south-eastern South Australia, and Wikipedia says southern and eastern Australia. Birds of the World says Victorian birds are mainly north of the Divide.",
+        "Clutch 3–5 matches the usual modern figure and omits Birds in Backyards' clutches of up to ten, and Campbell's usual five to seven.",
+        "August–December matches Wikipedia and Campbell, but it is not stated on Birds in Backyards or the Australian Museum. Dahlem extends the season to January, and oiseaux-birds adds breeding after rain.",
+        "Incubation of about 19 days matches Birds in Backyards. Oiseaux-birds gives 19–20 days.",
+        "Diet adds larvae, which are not in the Birds in Backyards or Australian Museum sentence.",
+        "Habitat fragmentation is not the threat those pages name. Cats and foxes taking flightless young are."
+      ],
+      "conflicts": [
+        "Season: not stated on Birds in Backyards or the Australian Museum; Wikipedia and Campbell August–December; Dahlem August–January; oiseaux-birds September–December, also after rain.",
+        "Clutch: Birds in Backyards usually 3–5, up to 10; Wikipedia and Dahlem 3–5; Campbell usually 5–7, occasionally 8 or more.",
+        "Incubation and nestling period: Birds in Backyards and Dahlem 19 days and 28 days; oiseaux-birds 19–20 days and 24–30 days.",
+        "Nest height: Birds in Backyards within 15 m; Wikipedia up to 10 m; Dahlem 5–15 m.",
+        "Length: Birds in Backyards and the Australian Museum 43–47 cm; oiseaux-birds 50 cm.",
+        "Western Australia: Birds in Backyards status Secure, against an eastern and south-eastern distribution.",
+        "Victoria: Birds of the World says mainly north of the Great Dividing Range. The Australian Museum says eastern and south-eastern mainland Australia without that limit."
+      ],
+      "notWellDocumented": [
+        "A breeding season on Birds in Backyards or the Australian Museum. Both pages omit the months.",
+        "Habitat fragmentation as a measured threat. The pages name cats, foxes and, on the ANU account, loss of litter.",
+        "An IUCN assessment after 7 August 2018. None was found. The 2018 population size is unquantified.",
+        "HANZAB volume 7. The ABSA bird-in-the-hand sheet cites it for measurements, but the handbook text was not read.",
+        "Whether the Western Australian Secure flag on Birds in Backyards is a site error. The distribution text does not include Western Australia."
+      ],
+      "sources": [
+        {
+          "url": "https://www.birdsinbackyards.net/species/Corcorax-melanorhamphos",
+          "title": "White-winged Chough — Birds in Backyards",
+          "accessed": "2026-10-25",
+          "supports": "43–47 cm, average 45 cm; no breeding-season field; clutch usually 3–5, up to 10; incubation 19 days; nestling period 28 days; eastern and south-eastern mainland Australia, absent from northern Queensland; open forest and woodland with litter and mud; insects and some seeds; mud bowl within 15 m, or dung if mud is short; helpers; flightless young taken by cats and foxes. Secure federally and in Victoria; Tasmania and Northern Territory Not present; Western Australia Secure."
+        },
+        {
+          "url": "https://australian.museum/learn/animals/birds/white-winged-chough/",
+          "title": "White-winged Chough — Australian Museum",
+          "accessed": "2026-10-25",
+          "supports": "Least Concern; 43–47 cm; same distribution, habitat, diet, nest, helpers and cat and fox text as Birds in Backyards. No months. Updated 25 July 2024."
+        },
+        {
+          "url": "https://birdlife.org.au/bird-profiles/white-winged-chough/",
+          "title": "White-winged Chough — BirdLife Australia",
+          "accessed": "2026-10-25",
+          "supports": "Same nest, helper and cat-and-fox account. Clutch heading present; the clutch number was not in the text retrieved. Open forests and woodlands with litter and mud."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/White-winged_chough",
+          "title": "White-winged chough — Wikipedia",
+          "accessed": "2026-10-25",
+          "supports": "Native to southern and eastern Australia. Breeding August to December. Nest a deep cup of grasses held with mud or manure, up to 10 m. Clutch three to five. Diet includes seeds, berries, arthropods, snails and worms. Young of other groups are kidnapped."
+        },
+        {
+          "url": "https://mdahlem.net/birds/23/wwchough.php",
+          "title": "White-winged Chough — Michael Dahlem",
+          "accessed": "2026-10-25",
+          "supports": "Breeding August–January; eggs 3–5; incubation 19 days; fledging 28 days; mud bowl 5–15 m; more than one female may lay in a nest."
+        },
+        {
+          "url": "https://www.oiseaux-birds.com/card-white-winged-chough.html",
+          "title": "White-winged Chough — oiseaux-birds",
+          "accessed": "2026-10-25",
+          "supports": "Laying September–December, also after rain in drier areas. Clutch 3–5. Incubation 19–20 days. Nestling period 24–30 days. Length given as 50 cm."
+        },
+        {
+          "url": "https://collections.museumsvictoria.com.au/articles/1563",
+          "title": "Campbell's notes on the White-winged Chough — Museums Victoria",
+          "accessed": "2026-10-25",
+          "supports": "Transcript of Campbell, Nests and Eggs of Australian Birds (1900): breeding August to December; usual clutch five to seven, eight or more occasionally; large mud bowl on a horizontal limb."
+        },
+        {
+          "url": "https://birdsoftheworld.org/bow/species/whwcho1/cur/introduction",
+          "title": "White-winged Chough — Birds of the World",
+          "accessed": "2026-10-25",
+          "supports": "Nominate subspecies: eastern Queensland south of the Clarke Range, New South Wales except the north-west, Victoria mainly north of the Great Dividing Range, and south-eastern South Australia. Subspecies whiteae: Eyre Peninsula and Mount Lofty Ranges. Rowley and Russell 2020."
+        },
+        {
+          "url": "https://www.iucnredlist.org/species/22705382/130392282",
+          "title": "Corcorax melanorhamphos — IUCN Red List",
+          "accessed": "2026-10-25",
+          "supports": "Assessed 7 August 2018, Least Concern, trend stable, population size not quantified. Previously Least Concern in 2016 under the spelling melanoramphos. No later assessment was retrieved."
+        },
+        {
+          "url": "https://keyserver.lucidcentral.org/key-server/data/03050501-000c-4503-8203-0a030507090d/media/Html/Corcorax_melanorhamphos.htm",
+          "title": "Corcorax melanorhamphos — ANU campus key",
+          "accessed": "2026-10-25",
+          "supports": "Cats and foxes hunt the species. Tidying that removes leaf litter and undergrowth reduces habitat. South-east mainland Australia, north to south-east Queensland. Not listed under the EPBC Act on that page."
+        },
+        {
+          "url": "https://www.environment.vic.gov.au/__data/assets/excel_doc/0030/793803/FFG_Threatened_List-July_2026.xlsx",
+          "title": "Flora and Fauna Guarantee Act 1988 Threatened List, July 2026 — DEECA",
+          "accessed": "2026-10-25",
+          "supports": "Workbook titled Flora and Fauna Guarantee Act 1988 - Threatened List, creator Clare Brownridge (DEECA), last modified 1 July 2026. A search of the shared strings found no match for this species."
+        },
+        {
+          "url": "https://data.gov.au/data/dataset/ae652011-f39e-4c6c-91b8-1dc2d2dfee8f/resource/78401dce-1f40-49d3-92c4-3713d6e34974/download/20260828spcs.csv",
+          "title": "EPBC Act List of Threatened Fauna and Flora, extracted 28 August 2026 — data.gov.au",
+          "accessed": "2026-10-25",
+          "supports": "Date extracted 2026-Aug-28. No row for this species. The only eagle row among this batch is Aquila audax fleayi, Endangered."
+        }
+      ]
+    },
+    {
+      "commonName": "Wedge-tailed Eagle",
+      "scientificName": "Aquila audax",
+      "verdict": "corrected",
+      "fields": {
+        "origins": "Native to Australia, including Tasmania, and southern New Guinea. The 2025 IUCN assessment lists extant breeding in Australia, Indonesia and Papua New Guinea. Two subspecies are recognised: A. a. audax on the mainland and in southern New Guinea, and A. a. fleayi in Tasmania.",
+        "distribution": "Throughout mainland Australia, Tasmania and southern New Guinea (Birds in Backyards and the Australian Museum). Breeding pairs hold a territory all year. Young birds disperse, and Birds in Backyards records a movement of more than 850 km.",
+        "habitat": "From sea level to alpine country, preferring wooded and forested land and open country, and generally avoiding rainforest and coastal heath. The nest is usually in the tallest tree. Where tall trees are absent it may be in a small tree, a shrub, a cliff or on the ground.",
+        "breeding": "April to September, mainly July, varying with local food. A huge stick nest, reused and added to for years. Clutch one to three, usually two. Incubation is 45 days in both Birds in Backyards and the Australian Museum, which cites HANZAB volume 2. The draft's note that 45 days is not confirmed in Birds in Backyards is wrong. Usually one young is reared; the older chick may kill the younger if food is short.",
+        "diet": "Live prey and carrion. Rabbits and hares are the main live prey, usually about 30–70% of the diet and up to 92%, plus lizards, birds over 100 g and mammals usually over 500 g. Lambs are a small share, and many lamb reports are scavenging. Carrion, including roadkill, is a major food. Groups can kill animals as large as adult kangaroos. The Australian Museum leads with carrion and then gives the same live prey.",
+        "threats": "Forestry, loss of nest trees where arid country is cleared, and disturbance before laying, which can cause abandonment. Historical poisoning and shooting under bounties: 147,237 birds in Western Australia from 1928 to 1968 and 162,430 in Queensland from 1951 to 1966. Indirect poisoning from dingo baits and pesticides continues. In Tasmania the threats named are habitat loss and deliberate persecution (Birds in Backyards and the Australian Museum). Collisions with vehicles while feeding on roadkill are not the threat those pages name. They do say the eagles eat roadkill.",
+        "size": "87–105 cm, average 96 cm, wingspan given as 2.3 m (Birds in Backyards and the Australian Museum). Females 4.2–5.3 kg and males 3.2–4.0 kg. Avibase quotes a length of up to 1.06 m and a maximum wingspan of 2.84 m. The draft's 89–106 cm matches neither the museum figures nor that maximum on its own.",
+        "conservation": "Least Concern for the species, assessed 12 June 2025, trend unknown (IUCN). The species is not on the EPBC list extracted 28 August 2026. Only Aquila audax fleayi, the Tasmanian Wedge-tailed Eagle, is listed, as Endangered (taxon 64435). Birds in Backyards marks the species federally Endangered, which conflates the subspecies, and marks Tasmania Endangered and Victoria Secure. Neither the species nor fleayi is on Victoria's FFG Act Threatened List of July 2026."
+      },
+      "errorsInDraft": [
+        "Size 89–106 cm does not match Birds in Backyards or the Australian Museum, which give 87–105 cm, average 96 cm.",
+        "The breeding sentence says incubation of about 45 days is not confirmed in Birds in Backyards. Both Birds in Backyards and the Australian Museum state 45 days.",
+        "Diet lists kangaroos beside rabbits, hares and carrion as if they were ordinary prey, and omits lizards and birds. Rabbits, hares and carrion are the staples. Adult kangaroos are killed by groups.",
+        "Vehicle collisions while feeding on roadkill are not the threat in Birds in Backyards or the Australian Museum. Those pages name poisoning, historical persecution, nest disturbance, forestry and loss of nest trees, and in Tasmania habitat loss and persecution.",
+        "Distribution says throughout Australia and resident, and does not spell out Tasmania or southern New Guinea. IUCN also includes Indonesia, which is the western New Guinea part of the range."
+      ],
+      "conflicts": [
+        "Length: Birds in Backyards and the Australian Museum 87–105 cm. Avibase quotes a maximum of 1.06 m and a maximum wingspan of 2.84 m, against the 2.3 m wingspan on the Australian pages.",
+        "Federal status: IUCN Least Concern for the species in 2025, trend unknown. The EPBC list of 28 August 2026 lists only A. a. fleayi as Endangered. Birds in Backyards marks the species federally Endangered.",
+        "Diet emphasis: Birds in Backyards starts with live prey, rabbits and hares first. The Australian Museum starts with carrion and then the same live prey."
+      ],
+      "notWellDocumented": [
+        "Vehicle collisions as a threat to mainland birds. They are not in the Birds in Backyards or Australian Museum threat text. A separate Tasmanian threatened-species account was not re-read for this batch.",
+        "The 2025 population trend. IUCN says unknown. One search snippet mentioned possible declines in eBird records from 2013 to 2021 that monitoring does not support.",
+        "A wingspan of 2.84 m on a primary Australian page. It appears in the Avibase quotation, not in Birds in Backyards or the Australian Museum."
+      ],
+      "sources": [
+        {
+          "url": "https://www.birdsinbackyards.net/species/Aquila-audax",
+          "title": "Wedge-tailed Eagle — Birds in Backyards",
+          "accessed": "2026-10-25",
+          "supports": "87–105 cm, average 96 cm; wingspan 2.3 m; April–September, mainly July; clutch one to three, usually two; incubation 45 days; mainland Australia, Tasmania and southern New Guinea; wooded country and open country, avoiding rainforest and coastal heath; rabbits and hares 30–70% and up to 92%, also lizards, birds over 100 g and mammals over 500 g; carrion including roadkill is major; groups can kill adult kangaroos. Threats: forestry, loss of nest trees, disturbance, historical bounties, ongoing poisoning, and in Tasmania habitat loss and persecution. Federal status field Endangered; Tasmania Endangered; Victoria Secure. Tasmanian subspecies named as federally endangered. Cites HANZAB volume 2."
+        },
+        {
+          "url": "https://australian.museum/learn/animals/birds/wedge-tailed-eagle/",
+          "title": "Wedge-tailed Eagle — Australian Museum",
+          "accessed": "2026-10-25",
+          "supports": "Same size, season, clutch, 45-day incubation, range, habitat and threats. Diet paragraph leads with carrion, then rabbits and hares and the same other prey. Updated 10 December 2025. Cites Marchant and Higgins 1993, HANZAB volume 2."
+        },
+        {
+          "url": "https://www.iucnredlist.org/species/22696064/157447886",
+          "title": "Aquila audax — IUCN Red List",
+          "accessed": "2026-10-25",
+          "supports": "Assessed 12 June 2025, Least Concern, trend unknown. Extant breeding: Australia, Indonesia, Papua New Guinea. Elevation 0–2,000 m. Two subspecies recognised."
+        },
+        {
+          "url": "https://avibase.bsc-eoc.org/species.jsp?avibaseid=5E574D70AC136CC1",
+          "title": "Aquila audax — Avibase",
+          "accessed": "2026-10-25",
+          "supports": "Quotes a length of up to 1.06 m and a maximum wingspan of 2.84 m. Range given as south-central New Guinea and Australia including Tasmania; subspecies audax on the mainland and southern New Guinea, fleayi in Tasmania (Clements)."
+        },
+        {
+          "url": "https://bie.ala.org.au/species/Aquila+(Uroaetus)+audax",
+          "title": "Aquila audax — Atlas of Living Australia",
+          "accessed": "2026-10-25",
+          "supports": "Museums Field Guide profile compiled by Museum Victoria Sciences Staff: most areas, occasionally urban; mainland Australia and Tasmania; native; carrion and live prey."
+        },
+        {
+          "url": "http://www.environment.gov.au/cgi-bin/sprat/public/publicspecies.pl?taxon_id=64435",
+          "title": "Aquila audax fleayi — EPBC SPRAT",
+          "accessed": "2026-10-25",
+          "supports": "Linked from the EPBC list row for taxon 64435, Tasmanian Wedge-tailed Eagle, category Endangered, Tasmania yes, date extracted 2026-Aug-28. The species Aquila audax has no row."
+        },
+        {
+          "url": "https://www.environment.vic.gov.au/__data/assets/excel_doc/0030/793803/FFG_Threatened_List-July_2026.xlsx",
+          "title": "Flora and Fauna Guarantee Act 1988 Threatened List, July 2026 — DEECA",
+          "accessed": "2026-10-25",
+          "supports": "Workbook titled Flora and Fauna Guarantee Act 1988 - Threatened List, creator Clare Brownridge (DEECA), last modified 1 July 2026. A search of the shared strings found no match for this species."
+        },
+        {
+          "url": "https://data.gov.au/data/dataset/ae652011-f39e-4c6c-91b8-1dc2d2dfee8f/resource/78401dce-1f40-49d3-92c4-3713d6e34974/download/20260828spcs.csv",
+          "title": "EPBC Act List of Threatened Fauna and Flora, extracted 28 August 2026 — data.gov.au",
+          "accessed": "2026-10-25",
+          "supports": "Date extracted 2026-Aug-28. No row for this species. The only eagle row among this batch is Aquila audax fleayi, Endangered."
+        }
+      ]
+    },
+    {
+      "commonName": "Masked Lapwing",
+      "scientificName": "Vanellus miles",
+      "verdict": "corrected",
+      "fields": {
+        "origins": "Native to Australia, Indonesia including the Moluccas, New Guinea and New Caledonia, and to New Zealand, which it reached by flying from Australia. New Zealand Birds Online, citing HANZAB, recognises V. m. miles from northern Queensland to New Guinea and the Moluccas, and V. m. novaehollandiae south to Tasmania. New Zealand birds are novaehollandiae, and the first breeding record there was near Invercargill in 1932. BirdLife DataZone also has a factsheet for Black-shouldered Lapwing, Vanellus novaehollandiae, treated as a separate species.",
+        "distribution": "Birds in Backyards says common through northern, central and eastern Australia, and its status table marks every state Secure, including Tasmania, Victoria and Western Australia, so the distribution sentence and the table do not match. Tasmania's NRE says the species is widespread through Australia, southern New Guinea and the Moluccas. The southern, black-shouldered form is the one in Victoria and Tasmania.",
+        "habitat": "Marshes, mudflats, beaches, grasslands and urban parks, ovals and roofs (Birds in Backyards). Grassland and parks alone are too narrow.",
+        "breeding": "Birds in Backyards: any time of year when conditions suit, a ground scrape, clutch 3–5, and no incubation figure. ClimateWatch: 3–5 eggs, 28–30 days, both parents; in southern Australia look from late winter to early spring, though breeding can occur whenever conditions suit. Tasmania NRE: late winter to early spring, territories from May, clutch 3–4, incubation 28–30 days. New Zealand Birds Online: laying usually June to November, clutch 3–4, incubation 30–34 days. A peri-urban study, citing Marchant and Higgins 1993 and Chambers et al. 2008, says tropical birds may breed in any month and southern birds generally from June to December, and cites Thomas 1969 for 27–28 days. The draft's any-month and about-28-days each match one source and miss the others.",
+        "diet": "Insects and their larvae, and earthworms (Birds in Backyards). ClimateWatch adds spiders and snails. New Zealand Birds Online adds molluscs and crustaceans.",
+        "threats": "ClimateWatch says some urban birds seldom breed successfully because people and vehicles disturb them. Birds in Backyards describes dive-bombing and a broken-wing display, which is nest defence rather than a cause of decline. Dogs are not named on those pages.",
+        "size": "33–38 cm, average 36 cm (Birds in Backyards). New Zealand Birds Online gives 38 cm. The draft matches Birds in Backyards.",
+        "conservation": "Birds in Backyards marks it Secure federally and in every state and territory, including Victoria. The 2016 IUCN page for Vanellus miles is Least Concern with an increasing trend, and is marked as not the latest assessment. An older IUCN page says the latest assessment is 2025 and Least Concern; the 2025 trend was not in the text retrieved. A DataZone extract for the split Black-shouldered Lapwing is Least Concern in 2024 with an increasing trend. Not listed under the EPBC Act on the list extracted 28 August 2026, and not on Victoria's FFG Act Threatened List of July 2026."
+      },
+      "errorsInDraft": [
+        "Origins omit Indonesia, including the Moluccas, and New Caledonia. The 1930s arrival in New Zealand is right: first breeding near Invercargill in 1932.",
+        "Distribution says northern, eastern and southern Australia and omits central. Birds in Backyards' distribution sentence says northern, central and eastern, while the southern subspecies and the Tasmanian account cover the south, and the status table includes Western Australia.",
+        "Habitat is narrowed to open grassland and parks. Marshes, mudflats and beaches are in the Birds in Backyards habitat sentence.",
+        "Clutch 3–4 is too narrow. Birds in Backyards and ClimateWatch give 3–5. Tasmania NRE and New Zealand Birds Online give 3–4.",
+        "Incubation of about 28 days matches the lower end of the Australian 28–30 day accounts and is close to Thomas's 27–28 days. New Zealand Birds Online, citing HANZAB, gives 30–34 days. Birds in Backyards gives no incubation figure.",
+        "Breeding in any month matches Birds in Backyards, and the southern published window is seasonal: June–December, or late winter to early spring.",
+        "Dogs are not named as a threat. ClimateWatch names disturbance by people and vehicles."
+      ],
+      "conflicts": [
+        "Australian distribution wording: Birds in Backyards says northern, central and eastern, and marks Western Australia, Tasmania and Victoria Secure. Tasmania NRE says widespread throughout Australia.",
+        "Clutch: Birds in Backyards and ClimateWatch 3–5; Tasmania NRE and New Zealand Birds Online 3–4.",
+        "Incubation: no figure on Birds in Backyards; ClimateWatch and Tasmania NRE 28–30 days; Thomas 1969, cited by the peri-urban study, 27–28 days; New Zealand Birds Online 30–34 days.",
+        "Season: Birds in Backyards any time; ClimateWatch any time when suitable, and late winter to early spring in the south; Chambers et al. 2008, via the peri-urban paper, June–December in the south and any month in the tropics; New Zealand laying usually June–November.",
+        "Taxonomy and IUCN: the 2016 Vanellus miles page is Least Concern, trend increasing, and is flagged as not the latest. A 2014 page banner says the latest assessment is 2025, Least Concern, with no 2025 trend in the text retrieved. DataZone treats Vanellus novaehollandiae separately and, in the extract retrieved, assesses it Least Concern in 2024 with an increasing trend.",
+        "Length: Birds in Backyards 33–38 cm; New Zealand Birds Online 38 cm."
+      ],
+      "notWellDocumented": [
+        "The 2025 IUCN trend for Vanellus miles. The banner says Least Concern. The trend text of that assessment was not retrieved.",
+        "Dogs as a cause of nest failure. They are not named on Birds in Backyards or ClimateWatch.",
+        "The full HANZAB lapwing account. New Zealand Birds Online cites Marchant and Higgins 1993 and summarises clutch and incubation. The handbook PDF was not read.",
+        "The country table on the Black-shouldered Lapwing DataZone page. The page shell loaded without the table. The 2024 category and increasing trend come from the search extract."
+      ],
+      "sources": [
+        {
+          "url": "https://www.birdsinbackyards.net/species/Vanellus-miles",
+          "title": "Masked Lapwing — Birds in Backyards",
+          "accessed": "2026-10-25",
+          "supports": "33–38 cm, average 36 cm; any time of year; clutch 3–5; no incubation figure; northern, central and eastern Australia, also Indonesia, New Guinea, New Caledonia and New Zealand, the last two self-introduced; southern subspecies has a black hindneck and breast sides and smaller wattles; marshes, mudflats, beaches, grasslands and urban areas; insects, larvae and earthworms; scrape; both sexes incubate; dive-bombing and broken-wing display. Secure federally and in every state and territory, including Victoria, Tasmania and Western Australia."
+        },
+        {
+          "url": "https://www.nzbirdsonline.org.nz/species/spur-winged-plover",
+          "title": "Spur-winged plover — New Zealand Birds Online",
+          "accessed": "2026-10-25",
+          "supports": "V. m. miles from northern Queensland to New Guinea and the Moluccas; V. m. novaehollandiae south to Tasmania; New Zealand birds are novaehollandiae, first breeding near Invercargill in 1932. Length 38 cm. Laying usually June–November; clutch 3–4; incubation 30–34 days. Diet includes molluscs, crustaceans, insects and worms. Cites HANZAB volume 2. Not threatened in New Zealand. Woodley 2013."
+        },
+        {
+          "url": "https://nre.tas.gov.au/wildlife-management/fauna-of-tasmania/birds/complete-list-of-tasmanian-birds/masked-lapwing-%28plover%29",
+          "title": "Masked Lapwing — Tasmania NRE",
+          "accessed": "2026-10-25",
+          "supports": "Widespread through Australia, southern New Guinea and the Moluccas, with novaehollandiae in New Zealand. Breeding late winter to early spring; territories May–July; clutch 3–4; incubation 28–30 days, and addled eggs incubated 55–62 days."
+        },
+        {
+          "url": "https://climatewatch.org.au/species/birds/masked-lapwing",
+          "title": "Masked Lapwing — ClimateWatch",
+          "accessed": "2026-10-25",
+          "supports": "Clutch 3–5; incubation 28–30 days by both parents; any season when suitable; in southern Australia look from late winter to early spring. Diet: insects, worms, spiders and snails. Some urban birds seldom breed successfully because of people and vehicles."
+        },
+        {
+          "url": "https://www.researchgate.net/publication/375723597_Nesting_ecology_of_the_Masked_Lapwing_Vanellus_miles_novaehollandiae_at_two_peri-urban_sites_breeding_densities_nest_characteristics_clutch_sizes_and_hatching_success",
+          "title": "Nesting ecology of the Masked Lapwing — Mo, Corella 2020 extract",
+          "accessed": "2026-10-25",
+          "supports": "Tropical breeding any month (Marchant and Higgins 1993); southern breeding generally June–December (Chambers et al. 2008). Incubation 27–28 days cited from Thomas 1969."
+        },
+        {
+          "url": "https://www.iucnredlist.org/species/22725229/94887836",
+          "title": "Vanellus miles — IUCN Red List, 2016 page",
+          "accessed": "2026-10-25",
+          "supports": "Assessed 1 October 2016, Least Concern, trend increasing. The page says this is not the latest assessment."
+        },
+        {
+          "url": "https://www.iucnredlist.org/species/22725229/40751177",
+          "title": "Vanellus miles — IUCN Red List, 2014 page",
+          "accessed": "2026-10-25",
+          "supports": "2014 assessment Least Concern, trend increasing. Banner: latest assessment 2025 — Least Concern. The 2025 trend was not in the text retrieved. Taxonomic note that miles and novaehollandiae were previously lumped."
+        },
+        {
+          "url": "https://datazone.birdlife.org/species/factsheet/black-shouldered-lapwing-vanellus-novaehollandiae",
+          "title": "Black-shouldered Lapwing — BirdLife DataZone",
+          "accessed": "2026-10-25",
+          "supports": "Search extract: 2024 assessment, Least Concern, trend increasing, breeding endemic no, 66,700–667,000 mature individuals. The full country table did not load. Taxonomic note that Vanellus miles and V. novaehollandiae were previously lumped."
+        },
+        {
+          "url": "https://www.environment.vic.gov.au/__data/assets/excel_doc/0030/793803/FFG_Threatened_List-July_2026.xlsx",
+          "title": "Flora and Fauna Guarantee Act 1988 Threatened List, July 2026 — DEECA",
+          "accessed": "2026-10-25",
+          "supports": "Workbook titled Flora and Fauna Guarantee Act 1988 - Threatened List, creator Clare Brownridge (DEECA), last modified 1 July 2026. A search of the shared strings found no match for this species."
+        },
+        {
+          "url": "https://data.gov.au/data/dataset/ae652011-f39e-4c6c-91b8-1dc2d2dfee8f/resource/78401dce-1f40-49d3-92c4-3713d6e34974/download/20260828spcs.csv",
+          "title": "EPBC Act List of Threatened Fauna and Flora, extracted 28 August 2026 — data.gov.au",
+          "accessed": "2026-10-25",
+          "supports": "Date extracted 2026-Aug-28. No row for this species. The only eagle row among this batch is Aquila audax fleayi, Endangered."
+        }
+      ]
+    }
+  ],
+  "queries": [
+    "Pacific Black Duck Anas superciliosa Birds in Backyards breeding clutch incubation distribution habitat diet size conservation",
+    "Australian Wood Duck Chenonetta jubata Birds in Backyards breeding clutch incubation habitat diet size endemic",
+    "Whistling Kite Haliastur sphenurus Birds in Backyards breeding incubation clutch distribution diet size",
+    "Straw-necked Ibis Threskiornis spinicollis Birds in Backyards breeding incubation clutch range endemic New Guinea",
+    "White-winged Chough Corcorax melanorhamphos Birds in Backyards breeding incubation clutch endemic distribution diet",
+    "Wedge-tailed Eagle Aquila audax Birds in Backyards breeding incubation clutch size EPBC Tasmanian subspecies Endangered",
+    "Masked Lapwing Vanellus miles Birds in Backyards breeding incubation clutch distribution New Zealand New Guinea size",
+    "site:birdsinbackyards.net Pacific Black Duck Anas superciliosa size breeding clutch incubation distribution habitat diet conservation",
+    "site:birdlife.org.au \"Pacific Black Duck\" OR \"Australian Wood Duck\" OR \"Whistling Kite\" OR \"Straw-necked Ibis\" OR \"White-winged Chough\" OR \"Wedge-tailed Eagle\" OR \"Masked Lapwing\" profile clutch incubation",
+    "\"Pacific Black Duck\" OR \"Anas superciliosa\" incubation \"days\" HANZAB OR \"Marchant\" clutch \"July\" OR \"June\" Victoria OR southern",
+    "Whistling Kite Haliastur sphenurus Solomon Islands Tasmania distribution incubation \"Birds in Backyards\" OR HANZAB OR \"Marchant and Higgins\"",
+    "White-winged Chough incubation days clutch \"19\" OR \"20\" OR \"18\" Corcorax HANZAB OR \"Birds in Backyards\" OR Australian Museum",
+    "Masked Lapwing Vanellus miles incubation days HANZAB OR \"Marchant and Higgins\" clutch \"28\" southern Australia breeding season",
+    "site:datazone.birdlife.org Pacific Black Duck Anas superciliosa Least Concern assessed",
+    "\"Whistling Kite\" \"secondary poisoning\" OR rodenticide OR \"nest trees\" OR \"1080\" Haliastur threat OR decline",
+    "\"Australian Wood Duck\" OR \"Chenonetta jubata\" fox OR \"road\" OR \"vehicle\" predator OR threat OR killed",
+    "FFG Act Threatened List July 2026 DEECA Victoria \"Aquila audax\" OR \"Chenonetta\" OR birds filetype:pdf",
+    "\"FFG Threatened List July 2026\" \"Wedge-tailed Eagle\" OR \"Aquila audax\" Victoria site:environment.vic.gov.au",
+    "Anas superciliosa IUCN \"Last assessed\" OR \"Year of last assessment\" Least Concern trend datazone OR iucnredlist",
+    "Chenonetta jubata IUCN \"Year of last assessment\" OR \"Last assessed\" Least Concern 2016 OR 2024 OR 2025",
+    "\"Vanellus miles\" IUCN \"Last assessed\" OR \"Year of last assessment\" Least Concern 2016 OR 2024 OR 2025",
+    "\"Corcorax melanorhamphos\" IUCN \"Last assessed\" OR \"Year of last assessment\" 2018 OR 2024 Least Concern trend",
+    "Anas superciliosa IUCN Red List Least Concern assessed 2024 trend datazone",
+    "Vanellus miles IUCN Red List Last assessed Least Concern trend 2024 OR 2025",
+    "Haliastur sphenurus IUCN 2025 Least Concern countries Indonesia Solomon Islands datazone",
+    "site:datazone.birdlife.org Pacific Black Duck Anas superciliosa factsheet Least Concern 2024",
+    "site:datazone.birdlife.org Australian Wood Duck Chenonetta jubata factsheet 22680111",
+    "site:datazone.birdlife.org Straw-necked Ibis Threskiornis spinicollis factsheet",
+    "site:datazone.birdlife.org \"Wedge-tailed Eagle\" Aquila audax factsheet Least Concern 2025",
+    "site:datazone.birdlife.org Masked Lapwing Vanellus miles factsheet Least Concern",
+    "site:datazone.birdlife.org White-winged Chough Corcorax melanorhamphos factsheet",
+    "Pacific Black Duck Anas superciliosa breeding southern Australia June OR July clutch incubation ecolinc OR \"Birds SA\" OR HANZAB",
+    "\"Australian Wood Duck\" OR Chenonetta fox OR raven OR \"wedge-tailed\" predator duckling road",
+    "Aquila audax IUCN Red List 2025 Least Concern assessed trend \"Wedge-tailed Eagle\"",
+    "\"White-winged Chough\" breeding season August OR September incubation \"19\" Corcorax site:birdlife.org.au OR Wikipedia OR mdahlem",
+    "Masked Lapwing incubation \"28\" OR \"28–30\" OR \"27\" southern Australia ClimateWatch OR \"NRE\" OR Chambers Vanellus",
+    "\"White-winged Chough\" \"August\" OR \"September to\" breeding season Corcorax \"eggs\" site:australian.museum OR \"Birds in Backyards\" OR HANZAB OR \"Reader's Digest\"",
+    "Aquila audax IUCN native countries \"Papua New Guinea\" Indonesia Australia 2025 geographic range",
+    "\"Whistling Kite\" \"secondary poisoning\" OR rodenticide Haliastur threat",
+    "Corcorax melanorhamphos IUCN Red List Last assessed 2018 Least Concern trend Stable",
+    "\"White-winged Chough\" \"August\" \"December\" nest mud clutch Wikipedia OR \"Birds of the World\" OR HANZAB"
+  ]
+}

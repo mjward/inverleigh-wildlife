@@ -1,0 +1,562 @@
+[
+ {
+  "rank": 1,
+  "commonName": "Australian Magpie",
+  "scientificName": "Gymnorhina tibicen",
+  "alaRecords": 2450,
+  "status": "selected",
+  "reason": "Native, common, recognisable"
+ },
+ {
+  "rank": 2,
+  "commonName": "Superb Fairywren",
+  "scientificName": "Malurus cyaneus",
+  "alaRecords": 1956,
+  "status": "selected",
+  "reason": "Native, common, recognisable"
+ },
+ {
+  "rank": 3,
+  "commonName": "Red Wattlebird",
+  "scientificName": "Anthochaera carunculata",
+  "alaRecords": 1955,
+  "status": "selected",
+  "reason": "Native, common, recognisable"
+ },
+ {
+  "rank": 4,
+  "commonName": "White-plumed Honeyeater",
+  "scientificName": "Ptilotula penicillata",
+  "alaRecords": 1802,
+  "status": "selected",
+  "reason": "Native, common, recognisable"
+ },
+ {
+  "rank": 5,
+  "commonName": "New Holland Honeyeater",
+  "scientificName": "Phylidonyris novaehollandiae",
+  "alaRecords": 1558,
+  "status": "selected",
+  "reason": "Native, common, recognisable"
+ },
+ {
+  "rank": 6,
+  "commonName": "Little Raven",
+  "scientificName": "Corvus mellori",
+  "alaRecords": 1477,
+  "status": "selected",
+  "reason": "Native, common, recognisable"
+ },
+ {
+  "rank": 7,
+  "commonName": "Eastern Rosella",
+  "scientificName": "Platycercus eximius",
+  "alaRecords": 1462,
+  "status": "selected",
+  "reason": "Native, common, recognisable"
+ },
+ {
+  "rank": 8,
+  "commonName": "Grey Shrike-thrush",
+  "scientificName": "Colluricincla harmonica",
+  "alaRecords": 1421,
+  "status": "selected",
+  "reason": "Native, common, recognisable"
+ },
+ {
+  "rank": 9,
+  "commonName": "Willie Wagtail",
+  "scientificName": "Rhipidura leucophrys",
+  "alaRecords": 1415,
+  "status": "selected",
+  "reason": "Native, common, recognisable"
+ },
+ {
+  "rank": 10,
+  "commonName": "Galah",
+  "scientificName": "Eolophus roseicapilla",
+  "alaRecords": 1346,
+  "status": "selected",
+  "reason": "Native, common, recognisable"
+ },
+ {
+  "rank": 11,
+  "commonName": "Spotted Pardalote",
+  "scientificName": "Pardalotus punctatus",
+  "alaRecords": 1062,
+  "status": "selected",
+  "reason": "Native, common, recognisable"
+ },
+ {
+  "rank": 12,
+  "commonName": "Grey Fantail",
+  "scientificName": "Rhipidura albiscapa",
+  "alaRecords": 1055,
+  "status": "selected",
+  "reason": "Native, common, recognisable"
+ },
+ {
+  "rank": 13,
+  "commonName": "Welcome Swallow",
+  "scientificName": "Hirundo neoxena",
+  "alaRecords": 1017,
+  "status": "selected",
+  "reason": "Native, common, recognisable"
+ },
+ {
+  "rank": 14,
+  "commonName": "Common Blackbird",
+  "scientificName": "Turdus merula",
+  "alaRecords": 986,
+  "status": "excluded",
+  "reason": "Introduced species (kept out of the first native-birds list; could be added as an \"introduced\" section)"
+ },
+ {
+  "rank": 15,
+  "commonName": "Striated Pardalote",
+  "scientificName": "Pardalotus striatus",
+  "alaRecords": 934,
+  "status": "selected",
+  "reason": "Native, common, recognisable"
+ },
+ {
+  "rank": 16,
+  "commonName": "Yellow-faced Honeyeater",
+  "scientificName": "Caligavis chrysops",
+  "alaRecords": 885,
+  "status": "selected",
+  "reason": "Native, common, recognisable"
+ },
+ {
+  "rank": 17,
+  "commonName": "White-naped Honeyeater",
+  "scientificName": "Melithreptus lunatus",
+  "alaRecords": 861,
+  "status": "reserve",
+  "reason": "Native and regularly recorded; left out only to keep the list to ~38 recognisable species. Easy to add."
+ },
+ {
+  "rank": 18,
+  "commonName": "Magpie-lark",
+  "scientificName": "Grallina cyanoleuca",
+  "alaRecords": 834,
+  "status": "selected",
+  "reason": "Native, common, recognisable"
+ },
+ {
+  "rank": 19,
+  "commonName": "Eastern Yellow Robin",
+  "scientificName": "Eopsaltria australis",
+  "alaRecords": 807,
+  "status": "selected",
+  "reason": "Native, common, recognisable"
+ },
+ {
+  "rank": 20,
+  "commonName": "Red-browed Finch",
+  "scientificName": "Neochmia temporalis",
+  "alaRecords": 800,
+  "status": "selected",
+  "reason": "Native, common, recognisable"
+ },
+ {
+  "rank": 21,
+  "commonName": "Black-faced Cuckooshrike",
+  "scientificName": "Coracina novaehollandiae",
+  "alaRecords": 762,
+  "status": "selected",
+  "reason": "Native, common, recognisable"
+ },
+ {
+  "rank": 22,
+  "commonName": "Red-rumped Parrot",
+  "scientificName": "Psephotus haematonotus",
+  "alaRecords": 755,
+  "status": "selected",
+  "reason": "Native, common, recognisable"
+ },
+ {
+  "rank": 23,
+  "commonName": "House Sparrow",
+  "scientificName": "Passer domesticus",
+  "alaRecords": 751,
+  "status": "excluded",
+  "reason": "Introduced species (kept out of the first native-birds list; could be added as an \"introduced\" section)"
+ },
+ {
+  "rank": 24,
+  "commonName": "Common Starling",
+  "scientificName": "Sturnus vulgaris",
+  "alaRecords": 729,
+  "status": "excluded",
+  "reason": "Introduced species (kept out of the first native-birds list; could be added as an \"introduced\" section)"
+ },
+ {
+  "rank": 25,
+  "commonName": "White-eared Honeyeater",
+  "scientificName": "Nesoptilotis leucotis",
+  "alaRecords": 707,
+  "status": "selected",
+  "reason": "Native, common, recognisable"
+ },
+ {
+  "rank": 26,
+  "commonName": "Laughing Kookaburra",
+  "scientificName": "Dacelo novaeguineae",
+  "alaRecords": 704,
+  "status": "selected",
+  "reason": "Native, common, recognisable"
+ },
+ {
+  "rank": 27,
+  "commonName": "Brown Falcon",
+  "scientificName": "Falco berigora",
+  "alaRecords": 644,
+  "status": "selected",
+  "reason": "Native, common, recognisable"
+ },
+ {
+  "rank": 28,
+  "commonName": "Sulphur-crested Cockatoo",
+  "scientificName": "Cacatua galerita",
+  "alaRecords": 623,
+  "status": "selected",
+  "reason": "Native, common, recognisable"
+ },
+ {
+  "rank": 29,
+  "commonName": "Long-billed Corella",
+  "scientificName": "Cacatua tenuirostris",
+  "alaRecords": 614,
+  "status": "selected",
+  "reason": "Native, common, recognisable"
+ },
+ {
+  "rank": 30,
+  "commonName": "Common Bronzewing",
+  "scientificName": "Phaps chalcoptera",
+  "alaRecords": 567,
+  "status": "selected",
+  "reason": "Native, common, recognisable"
+ },
+ {
+  "rank": 31,
+  "commonName": "Rufous Whistler",
+  "scientificName": "Pachycephala rufiventris",
+  "alaRecords": 541,
+  "status": "selected",
+  "reason": "Native, common, recognisable"
+ },
+ {
+  "rank": 32,
+  "commonName": "Yellow-rumped Thornbill",
+  "scientificName": "Acanthiza chrysorrhoa",
+  "alaRecords": 521,
+  "status": "selected",
+  "reason": "Native, common, recognisable"
+ },
+ {
+  "rank": 33,
+  "commonName": "Dusky Woodswallow",
+  "scientificName": "Artamus cyanopterus",
+  "alaRecords": 485,
+  "status": "reserve",
+  "reason": "Native and regularly recorded; left out only to keep the list to ~38 recognisable species. Easy to add."
+ },
+ {
+  "rank": 34,
+  "commonName": "Brown-headed Honeyeater",
+  "scientificName": "Melithreptus brevirostris",
+  "alaRecords": 482,
+  "status": "reserve",
+  "reason": "Native and regularly recorded; left out only to keep the list to ~38 recognisable species. Easy to add."
+ },
+ {
+  "rank": 35,
+  "commonName": "Pacific Black Duck",
+  "scientificName": "Anas superciliosa",
+  "alaRecords": 474,
+  "status": "selected",
+  "reason": "Native, common, recognisable"
+ },
+ {
+  "rank": 36,
+  "commonName": "Weebill",
+  "scientificName": "Smicrornis brevirostris",
+  "alaRecords": 474,
+  "status": "reserve",
+  "reason": "Native and regularly recorded; left out only to keep the list to ~38 recognisable species. Easy to add."
+ },
+ {
+  "rank": 37,
+  "commonName": "Brown Thornbill",
+  "scientificName": "Acanthiza pusilla",
+  "alaRecords": 461,
+  "status": "reserve",
+  "reason": "Native and regularly recorded; left out only to keep the list to ~38 recognisable species. Easy to add."
+ },
+ {
+  "rank": 38,
+  "commonName": "Australian Wood Duck",
+  "scientificName": "Chenonetta jubata",
+  "alaRecords": 452,
+  "status": "selected",
+  "reason": "Native, common, recognisable"
+ },
+ {
+  "rank": 39,
+  "commonName": "Restless Flycatcher",
+  "scientificName": "Myiagra inquieta",
+  "alaRecords": 448,
+  "status": "reserve",
+  "reason": "Native and regularly recorded; left out only to keep the list to ~38 recognisable species. Easy to add."
+ },
+ {
+  "rank": 40,
+  "commonName": "Whistling Kite",
+  "scientificName": "Haliastur sphenurus",
+  "alaRecords": 437,
+  "status": "selected",
+  "reason": "Native, common, recognisable"
+ },
+ {
+  "rank": 41,
+  "commonName": "European Goldfinch",
+  "scientificName": "Carduelis carduelis",
+  "alaRecords": 422,
+  "status": "excluded",
+  "reason": "Introduced species (kept out of the first native-birds list; could be added as an \"introduced\" section)"
+ },
+ {
+  "rank": 42,
+  "commonName": "Straw-necked Ibis",
+  "scientificName": "Threskiornis spinicollis",
+  "alaRecords": 400,
+  "status": "selected",
+  "reason": "Native, common, recognisable"
+ },
+ {
+  "rank": 43,
+  "commonName": "White-winged Chough",
+  "scientificName": "Corcorax melanorhamphos",
+  "alaRecords": 397,
+  "status": "selected",
+  "reason": "Native, common, recognisable"
+ },
+ {
+  "rank": 44,
+  "commonName": "Fan-tailed Cuckoo",
+  "scientificName": "Cacomantis flabelliformis",
+  "alaRecords": 392,
+  "status": "reserve",
+  "reason": "Native and regularly recorded; left out only to keep the list to ~38 recognisable species. Easy to add."
+ },
+ {
+  "rank": 45,
+  "commonName": "White-browed Scrubwren",
+  "scientificName": "Sericornis frontalis",
+  "alaRecords": 359,
+  "status": "reserve",
+  "reason": "Native and regularly recorded; left out only to keep the list to ~38 recognisable species. Easy to add."
+ },
+ {
+  "rank": 46,
+  "commonName": "Wedge-tailed Eagle",
+  "scientificName": "Aquila audax",
+  "alaRecords": 343,
+  "status": "selected",
+  "reason": "Native, common, recognisable"
+ },
+ {
+  "rank": 47,
+  "commonName": "Jacky Winter",
+  "scientificName": "Microeca fascinans",
+  "alaRecords": 339,
+  "status": "reserve",
+  "reason": "Native and regularly recorded; left out only to keep the list to ~38 recognisable species. Easy to add."
+ },
+ {
+  "rank": 48,
+  "commonName": "Noisy Miner",
+  "scientificName": "Manorina melanocephala",
+  "alaRecords": 337,
+  "status": "reserve",
+  "reason": "Native and regularly recorded; left out only to keep the list to ~38 recognisable species. Easy to add."
+ },
+ {
+  "rank": 49,
+  "commonName": "Eurasian Skylark",
+  "scientificName": "Alauda arvensis",
+  "alaRecords": 334,
+  "status": "excluded",
+  "reason": "Introduced species (kept out of the first native-birds list; could be added as an \"introduced\" section)"
+ },
+ {
+  "rank": 50,
+  "commonName": "Masked Lapwing",
+  "scientificName": "Vanellus miles",
+  "alaRecords": 333,
+  "status": "selected",
+  "reason": "Native, common, recognisable"
+ },
+ {
+  "rank": 51,
+  "commonName": "Common Myna",
+  "scientificName": "Acridotheres tristis",
+  "alaRecords": 331,
+  "status": "excluded",
+  "reason": "Introduced species (kept out of the first native-birds list; could be added as an \"introduced\" section)"
+ },
+ {
+  "rank": 52,
+  "commonName": "White-faced Heron",
+  "scientificName": "Egretta novaehollandiae",
+  "alaRecords": 330,
+  "status": "reserve",
+  "reason": "Native and regularly recorded; left out only to keep the list to ~38 recognisable species. Easy to add."
+ },
+ {
+  "rank": 53,
+  "commonName": "Silvereye",
+  "scientificName": "Zosterops lateralis",
+  "alaRecords": 319,
+  "status": "selected",
+  "reason": "Native, common, recognisable"
+ },
+ {
+  "rank": 54,
+  "commonName": "Crimson Rosella",
+  "scientificName": "Platycercus elegans",
+  "alaRecords": 292,
+  "status": "reserve",
+  "reason": "Native and regularly recorded; left out only to keep the list to ~38 recognisable species. Easy to add."
+ },
+ {
+  "rank": 55,
+  "commonName": "Eastern Shrike-tit",
+  "scientificName": "Falcunculus frontatus",
+  "alaRecords": 290,
+  "status": "reserve",
+  "reason": "Native and regularly recorded; left out only to keep the list to ~38 recognisable species. Easy to add."
+ },
+ {
+  "rank": 56,
+  "commonName": "Crested Pigeon",
+  "scientificName": "Ocyphaps lophotes",
+  "alaRecords": 289,
+  "status": "selected",
+  "reason": "Native, common, recognisable"
+ },
+ {
+  "rank": 57,
+  "commonName": "Nankeen Kestrel",
+  "scientificName": "Falco cenchroides",
+  "alaRecords": 286,
+  "status": "reserve",
+  "reason": "Native and regularly recorded; left out only to keep the list to ~38 recognisable species. Easy to add."
+ },
+ {
+  "rank": 58,
+  "commonName": "Grey Teal",
+  "scientificName": "Anas gracilis",
+  "alaRecords": 241,
+  "status": "reserve",
+  "reason": "Native and regularly recorded; left out only to keep the list to ~38 recognisable species. Easy to add."
+ },
+ {
+  "rank": 59,
+  "commonName": "Dusky Moorhen",
+  "scientificName": "Gallinula tenebrosa",
+  "alaRecords": 240,
+  "status": "reserve",
+  "reason": "Native and regularly recorded; left out only to keep the list to ~38 recognisable species. Easy to add."
+ },
+ {
+  "rank": 60,
+  "commonName": "Little Corella",
+  "scientificName": "Cacatua sanguinea",
+  "alaRecords": 236,
+  "status": "reserve",
+  "reason": "Native and regularly recorded; left out only to keep the list to ~38 recognisable species. Easy to add."
+ },
+ {
+  "rank": 61,
+  "commonName": "Brown Goshawk",
+  "scientificName": "Accipiter fasciatus",
+  "alaRecords": 227,
+  "status": "reserve",
+  "reason": "Native and regularly recorded; left out only to keep the list to ~38 recognisable species. Easy to add."
+ },
+ {
+  "rank": 62,
+  "commonName": "Australian Shelduck",
+  "scientificName": "Tadorna tadornoides",
+  "alaRecords": 217,
+  "status": "reserve",
+  "reason": "Native and regularly recorded; left out only to keep the list to ~38 recognisable species. Easy to add."
+ },
+ {
+  "rank": 63,
+  "commonName": "White-throated Treecreeper",
+  "scientificName": "Cormobates leucophaea",
+  "alaRecords": 216,
+  "status": "reserve",
+  "reason": "Native and regularly recorded; left out only to keep the list to ~38 recognisable species. Easy to add."
+ },
+ {
+  "rank": 64,
+  "commonName": "Black-shouldered Kite",
+  "scientificName": "Elanus axillaris",
+  "alaRecords": 215,
+  "status": "reserve",
+  "reason": "Native and regularly recorded; left out only to keep the list to ~38 recognisable species. Easy to add."
+ },
+ {
+  "rank": 65,
+  "commonName": "Chestnut Teal",
+  "scientificName": "Anas castanea",
+  "alaRecords": 198,
+  "status": "reserve",
+  "reason": "Native and regularly recorded; left out only to keep the list to ~38 recognisable species. Easy to add."
+ },
+ {
+  "rank": 66,
+  "commonName": "Australian Golden Whistler",
+  "scientificName": "Pachycephala pectoralis",
+  "alaRecords": 188,
+  "status": "reserve",
+  "reason": "Native and regularly recorded; left out only to keep the list to ~38 recognisable species. Easy to add."
+ },
+ {
+  "rank": 67,
+  "commonName": "Sacred Kingfisher",
+  "scientificName": "Todiramphus sanctus",
+  "alaRecords": 187,
+  "status": "selected",
+  "reason": "Native, common, recognisable"
+ },
+ {
+  "rank": 68,
+  "commonName": "Tree Martin",
+  "scientificName": "Petrochelidon nigricans",
+  "alaRecords": 185,
+  "status": "reserve",
+  "reason": "Native and regularly recorded; left out only to keep the list to ~38 recognisable species. Easy to add."
+ },
+ {
+  "rank": 69,
+  "commonName": "Hoary-headed Grebe",
+  "scientificName": "Poliocephalus poliocephalus",
+  "alaRecords": 172,
+  "status": "reserve",
+  "reason": "Native and regularly recorded; left out only to keep the list to ~38 recognisable species. Easy to add."
+ },
+ {
+  "rank": 70,
+  "commonName": "White-necked Heron",
+  "scientificName": "Ardea pacifica",
+  "alaRecords": 170,
+  "status": "reserve",
+  "reason": "Native and regularly recorded; left out only to keep the list to ~38 recognisable species. Easy to add."
+ }
+]

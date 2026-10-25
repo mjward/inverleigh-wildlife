@@ -1,0 +1,611 @@
+{
+  "outOfBatch": [
+    "Welcome Swallow incubation was not checked: that species is not in this batch.",
+    "Magpie-lark presence in Tasmania was not checked: that species is not in this batch.",
+    "Little Raven natural predators are covered under that species."
+  ],
+  "birds": [
+    {
+      "commonName": "Australian Magpie",
+      "scientificName": "Gymnorhina tibicen",
+      "verdict": "corrected",
+      "fields": {
+        "origins": "Native to Australia and southern New Guinea, so not endemic to Australia. It was introduced to New Zealand from the 1860s and is established there, and it is also introduced on Taveuni, Fiji. Introductions to the Solomon Islands did not persist.",
+        "distribution": "Across most of mainland Australia and Tasmania, but missing from the densest forests and the driest deserts. A detailed account also excludes the tip of Cape York, the Gibson and Great Sandy Deserts, and the southwest of Tasmania. Birds are sedentary and defend a territory year-round. Inverleigh birds are the large white-backed southern Victorian form.",
+        "habitat": "Open country with trees nearby: woodland, farmland, parks, playing fields and towns. They shelter and nest in trees and feed on the ground.",
+        "breeding": "In southern Victoria the usual season is August to November, later to start in cooler districts and sometimes running to January in alpine areas. A western Victorian account gives June to December, usually August to October. The female builds a stick bowl lined with grass and hair, high in a fork or in the outer branches. The clutch is usually 3–5; published ranges are 2–5 and 1–6. She incubates for about 20 days.",
+        "diet": "Mostly ground invertebrates, including insect larvae, worms, spiders and other insects, found by walking and probing turf. Also small lizards and other small animals, carrion, seeds, fruit and scraps.",
+        "threats": "Named predators are snakes, monitor lizards and the barking owl, and the Australian raven may take unattended nestlings. Young birds also die from poor weather, food shortage and road traffic, and birds are killed by powerlines and by secondary poisoning after eating baited animals. Currawongs were not named as predators in these accounts.",
+        "size": "About 37–43 cm long. The Australian Museum gives 36–44 cm.",
+        "conservation": "Least Concern on the IUCN Red List (assessed 2018; trend increasing). Not on the EPBC Act threatened-species list current at 28 August 2026, and not on Victoria’s FFG Act Threatened List of July 2026."
+      },
+      "errorsInDraft": [
+        "Origins omit the introduced populations in New Zealand and Fiji.",
+        "Breeding season “mainly July–December” is earlier and longer than the usual southern Victorian season. BirdLife gives August–November; cooler regions start in August or September.",
+        "Threats over-specify nest predators. Ravens are documented taking unattended nestlings, but currawongs are not named, and the documented predators of birds are snakes, monitors and the barking owl rather than birds of prey in general.",
+        "Distribution follows BirdLife’s “densest forests and arid deserts”, but does not mention the southwest-Tasmania gap given in a more detailed range account."
+      ],
+      "conflicts": [
+        "Clutch: BirdLife Australia and the Australian Museum say 3–5; Wikipedia and New Zealand Birds Online say 2–5; a western Victorian field guide says 1–6.",
+        "Length: Wikipedia 37–43 cm; Australian Museum 36–44 cm.",
+        "Season: BirdLife August–November; Wikipedia June–September in the north and August or September onward in cooler regions, to January in alpine areas; western Victorian plains account June–December, usually August–October.",
+        "Absence from southwest Tasmania is in the detailed range account. BirdLife’s profile only says densest forests and arid deserts."
+      ],
+      "notWellDocumented": [
+        "Currawongs as predators of magpie eggs or chicks were not found in the sources checked."
+      ],
+      "sources": [
+        {
+          "url": "https://birdlife.org.au/bird-profiles/australian-magpie/",
+          "title": "Australian Magpie — BirdLife Australia",
+          "accessed": "2026-10-25",
+          "supports": "IUCN Least Concern; clutch 3–5; August–November; female incubates about 20 days; stick nest lined with grass and hair; diet of insects, frogs, lizards, carrion, seeds, fruit and scraps; absent from densest forests and arid deserts."
+        },
+        {
+          "url": "https://australian.museum/learn/animals/birds/australian-magpie/",
+          "title": "Australian Magpie — Australian Museum",
+          "accessed": "2026-10-25",
+          "supports": "Length 36–44 cm; peak breeding August–November; clutch 3–5; incubation 20 days; road traffic and unnamed natural predators kill young birds."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Australian_magpie",
+          "title": "Australian magpie — Wikipedia",
+          "accessed": "2026-10-25",
+          "supports": "Native to Australia and southern New Guinea; introduced to New Zealand and Taveuni; length 37–43 cm; clutch 2–5; incubation about 20 days; southwest Tasmania, Cape York and named deserts excluded; predators and secondary poisoning."
+        },
+        {
+          "url": "https://www.iucnredlist.org/species/22706288/131945700",
+          "title": "Gymnorhina tibicen — IUCN Red List",
+          "accessed": "2026-10-25",
+          "supports": "Least Concern, assessed 2018. Native in Australia, Indonesia and Papua New Guinea; introduced in New Zealand and Fiji."
+        },
+        {
+          "url": "https://birdlife.org.au/news/its-magpie-swooping-season-once-again/",
+          "title": "Swooping season — BirdLife Australia",
+          "accessed": "2026-10-25",
+          "supports": "Southern Victorian swooping peaks in September; breeding typically August–November, starting earlier in the north."
+        },
+        {
+          "url": "https://bwvp.ecolinc.vic.edu.au/fieldguide/fauna/australian-magpie",
+          "title": "Australian Magpie — Biodiversity of the Western Volcanic Plains",
+          "accessed": "2026-10-25",
+          "supports": "Western Victorian season June–December, usually August–October; clutch 1–6; incubation 20 days by the female; not listed under FFG or EPBC on that page."
+        },
+        {
+          "url": "https://www.environment.vic.gov.au/__data/assets/pdf_file/0028/793801/FFG_Threatened_List_July_2026.pdf",
+          "title": "FFG Act Threatened List, July 2026 — DEECA",
+          "accessed": "2026-10-25",
+          "supports": "Gymnorhina tibicen and Cracticus tibicen do not appear. The species is not listed."
+        },
+        {
+          "url": "https://data.gov.au/data/dataset/ae652011-f39e-4c6c-91b8-1dc2d2dfee8f/resource/78401dce-1f40-49d3-92c4-3713d6e34974/download/20260828spcs.csv",
+          "title": "EPBC Act threatened species list, 28 August 2026 — data.gov.au",
+          "accessed": "2026-10-25",
+          "supports": "No row for Australian Magpie, Gymnorhina tibicen or Cracticus tibicen."
+        }
+      ]
+    },
+    {
+      "commonName": "Superb Fairywren",
+      "scientificName": "Malurus cyaneus",
+      "verdict": "corrected",
+      "fields": {
+        "origins": "Native and endemic to south-eastern Australia, including Tasmania, the Bass Strait islands and Kangaroo Island. It has no wild range outside Australia.",
+        "distribution": "South-eastern Queensland, eastern New South Wales, Victoria, south-eastern South Australia including Kangaroo Island, and Tasmania, King Island and Flinders Island. Groups stay on a territory year-round.",
+        "habitat": "Open woodland, heath and gardens with dense grass or shrubs. It forages on the ground and in low vegetation.",
+        "breeding": "Usually September to January. Some seasons start in August, and late broods can fledge into March. The female builds a domed nest of grass and spider web, usually under a metre high in thick cover. The clutch is usually 3 or 4; one long study found 1–5, most often 3. She incubates for about 13–15 days, often given as 14.",
+        "diet": "Mostly insects and other small arthropods, taken on the ground or in low shrubs. Also some small seeds and fruit.",
+        "threats": "Nest predators include pied currawongs, butcherbirds, kookaburras, magpies, ravens, shrike-thrushes, snakes, cats, foxes and black rats. In towns, loss of dense low cover exposes them; BirdLife notes urban declines, while the global IUCN trend is stable.",
+        "size": "About 14 cm, including the long tail. Published figures also include 13–14 cm and 13.5–16 cm.",
+        "conservation": "Least Concern on the IUCN Red List (assessed 2024; trend stable). Not on the EPBC Act list of 28 August 2026 or Victoria’s FFG Act Threatened List of July 2026."
+      },
+      "errorsInDraft": [
+        "Breeding season is given as August–March without the usual September–January window used by the Australian Museum (citing HANZAB).",
+        "Distribution omits Kangaroo Island, King Island and Flinders Island.",
+        "Threats omit pied currawongs, which a long study names as a main nest predator, and the claim that understorey loss is “the main threat in towns” is not quantified. Globally, IUCN finds no substantial threat."
+      ],
+      "conflicts": [
+        "Season: Australian Museum, citing HANZAB volume 6, “usually September to January”; a western Victorian guide says September–December; other accounts say August–March, rarely after January, with fledging into late March in some years.",
+        "Clutch: usually 3 or 4; a study population ranged from 1 to 5 with a strong mode of 3.",
+        "Incubation: 13–15 days in a Victorian guide; 14 days in a general account. The draft’s “about 14 days” sits inside that range.",
+        "Length: 14 cm is the usual figure; also given as 13–14 cm and 13.5–16 cm."
+      ],
+      "notWellDocumented": [
+        "Whether loss of dense understorey is the main threat in towns, as against cats and larger birds, is not measured in the sources checked. IUCN treats the global population as stable."
+      ],
+      "sources": [
+        {
+          "url": "https://australian.museum/learn/animals/birds/superb-fairy-wren/",
+          "title": "Superb Fairy-wren — Australian Museum",
+          "accessed": "2026-10-25",
+          "supports": "Range including Bass Strait islands and Kangaroo Island; domed nest under 1 m; usually September–January; clutch 3 or 4; diet of insects, seeds and fruit; cites HANZAB volume 6."
+        },
+        {
+          "url": "https://birdlife.org.au/bird-profiles/superb-fairy-wren/",
+          "title": "Superb Fairy-wren — BirdLife Australia",
+          "accessed": "2026-10-25",
+          "supports": "IUCN Least Concern; south-eastern Australia; urban birds showing signs of decline."
+        },
+        {
+          "url": "https://www.iucnredlist.org/species/22703736/253995896",
+          "title": "Malurus cyaneus — IUCN Red List",
+          "accessed": "2026-10-25",
+          "supports": "Least Concern, assessed 15 January 2024; native only to Australia; trend stable."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Superb_fairywren",
+          "title": "Superb fairywren — Wikipedia",
+          "accessed": "2026-10-25",
+          "supports": "Length about 14 cm; incubation about 14 days; clutch 3 or 4; nest-predator list including currawongs, kookaburras, butcherbirds, cats, foxes and rats."
+        },
+        {
+          "url": "https://bwvp.ecolinc.vic.edu.au/fieldguide/fauna/superb-fairy-wren",
+          "title": "Superb Fairy-wren — Biodiversity of the Western Volcanic Plains",
+          "accessed": "2026-10-25",
+          "supports": "Length 13–14 cm; September–December; clutch 3–4; female incubates 13–15 days."
+        },
+        {
+          "url": "https://www.environment.vic.gov.au/__data/assets/pdf_file/0028/793801/FFG_Threatened_List_July_2026.pdf",
+          "title": "FFG Act Threatened List, July 2026 — DEECA",
+          "accessed": "2026-10-25",
+          "supports": "Malurus cyaneus does not appear."
+        },
+        {
+          "url": "https://data.gov.au/data/dataset/ae652011-f39e-4c6c-91b8-1dc2d2dfee8f/resource/78401dce-1f40-49d3-92c4-3713d6e34974/download/20260828spcs.csv",
+          "title": "EPBC Act threatened species list, 28 August 2026 — data.gov.au",
+          "accessed": "2026-10-25",
+          "supports": "No row for Malurus cyaneus or Superb Fairywren."
+        }
+      ]
+    },
+    {
+      "commonName": "Red Wattlebird",
+      "scientificName": "Anthochaera carunculata",
+      "verdict": "corrected",
+      "fields": {
+        "origins": "Native, and endemic as a breeding bird to southern mainland Australia. It does not occur in Tasmania. IUCN also lists it as a non-breeding vagrant to New Zealand.",
+        "distribution": "Southern mainland Australia from south-east Queensland through New South Wales and Victoria to South Australia and south-west Western Australia, including Kangaroo Island. Birds are resident, with local movements that follow flowering.",
+        "habitat": "Forests, woodlands, mallee and gardens, especially where nectar-rich plants are flowering.",
+        "breeding": "Mainly July to December, with one or two broods. The nest is a cup of twigs and leaves in a tree fork, often a eucalypt. The clutch is 2–3. Incubation is shared, or done by the female alone. Published lengths are about 15–16 days in a Victorian account and about 16 days in a New South Wales study; another account gives 16–21 days. Birds in Backyards does not give a figure.",
+        "diet": "Nectar, insects taken from foliage or caught in the air, berries and honeydew.",
+        "threats": "Clearing of flowering woodland has reduced numbers in places. The Eastern Koel regularly parasitises Red Wattlebird nests. Ravens and currawongs were not confirmed as nest predators in the sources checked.",
+        "size": "34–36 cm according to Birds in Backyards and the Australian Museum. A western Victorian guide gives 32–36 cm.",
+        "conservation": "Least Concern on the IUCN Red List (assessed 2018; trend stable). Not on the EPBC Act list of 28 August 2026 or Victoria’s FFG Act Threatened List of July 2026."
+      },
+      "errorsInDraft": [
+        "Length 33–37 cm is outside the 34–36 cm given by Birds in Backyards and the Australian Museum.",
+        "“Endemic to southern Australia” can be read as including Tasmania. The species is a mainland bird; Tasmania has the Yellow Wattlebird instead.",
+        "Nest predators “ravens and currawongs” were not found in BirdLife, the Australian Museum or Birds in Backyards. Brood parasitism by the Eastern Koel is the documented nest threat."
+      ],
+      "conflicts": [
+        "Length: Birds in Backyards and the Australian Museum 34–36 cm; western Victorian guide 32–36 cm; the draft 33–37 cm.",
+        "Incubation: not stated by Birds in Backyards, BirdLife or the Australian Museum; 15–16 days (western Victoria); about 16 days (Armidale, NSW); 16–21 days (Wikipedia)."
+      ],
+      "notWellDocumented": [
+        "A single incubation period. Preferred species pages leave it out, and the published figures do not agree.",
+        "Ravens and currawongs as nest predators."
+      ],
+      "sources": [
+        {
+          "url": "https://www.birdsinbackyards.net/species/Anthochaera-carunculata",
+          "title": "Red Wattlebird — Birds in Backyards",
+          "accessed": "2026-10-25",
+          "supports": "Length 34–36 cm; July–December; clutch 2–3; nestling period 15 days; no incubation figure; southern mainland; nectar, insects, berries and honeydew."
+        },
+        {
+          "url": "https://australian.museum/learn/animals/birds/red-wattlebird-anthochaera-carunculata/",
+          "title": "Red Wattlebird — Australian Museum",
+          "accessed": "2026-10-25",
+          "supports": "Length 34–36 cm; southern mainland; July–December; incubation shared or by the female."
+        },
+        {
+          "url": "https://birdlife.org.au/bird-profiles/red-wattlebird/",
+          "title": "Red Wattlebird — BirdLife Australia",
+          "accessed": "2026-10-25",
+          "supports": "IUCN Least Concern; nectar, insects, berries and honeydew; second-largest Australian honeyeater."
+        },
+        {
+          "url": "https://birdlife.org.au/news/what-bird-is-that-wattlebirds/",
+          "title": "What bird is that? Wattlebirds — BirdLife Australia",
+          "accessed": "2026-10-25",
+          "supports": "Red Wattlebirds are not in Tasmania; Tasmania has Little and Yellow Wattlebirds."
+        },
+        {
+          "url": "https://www.iucnredlist.org/species/22704466/130382437",
+          "title": "Anthochaera carunculata — IUCN Red List",
+          "accessed": "2026-10-25",
+          "supports": "Least Concern, assessed 2018; breeding native to Australia; non-breeding vagrant in New Zealand."
+        },
+        {
+          "url": "https://bwvp.ecolinc.vic.edu.au/fieldguide/fauna/red-wattlebird",
+          "title": "Red Wattlebird — Biodiversity of the Western Volcanic Plains",
+          "accessed": "2026-10-25",
+          "supports": "Length 32–36 cm; clutch 2–3; incubation mainly by the female for 15–16 days; southern mainland."
+        },
+        {
+          "url": "https://australian.museum/learn/animals/birds/eastern-koel/",
+          "title": "Eastern Koel — Australian Museum",
+          "accessed": "2026-10-25",
+          "supports": "Red Wattlebird is a common host of the brood-parasitic Eastern Koel."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Red_wattlebird",
+          "title": "Red wattlebird — Wikipedia",
+          "accessed": "2026-10-25",
+          "supports": "Cup nest in a fork; clutch 2 or 3; incubation 16–21 days; declines in places from land clearing; IUCN Least Concern."
+        },
+        {
+          "url": "https://www.environment.vic.gov.au/__data/assets/pdf_file/0028/793801/FFG_Threatened_List_July_2026.pdf",
+          "title": "FFG Act Threatened List, July 2026 — DEECA",
+          "accessed": "2026-10-25",
+          "supports": "Anthochaera carunculata does not appear. Anthochaera phrygia, the Regent Honeyeater, does."
+        },
+        {
+          "url": "https://data.gov.au/data/dataset/ae652011-f39e-4c6c-91b8-1dc2d2dfee8f/resource/78401dce-1f40-49d3-92c4-3713d6e34974/download/20260828spcs.csv",
+          "title": "EPBC Act threatened species list, 28 August 2026 — data.gov.au",
+          "accessed": "2026-10-25",
+          "supports": "No row for Anthochaera carunculata."
+        }
+      ]
+    },
+    {
+      "commonName": "White-plumed Honeyeater",
+      "scientificName": "Ptilotula penicillata",
+      "verdict": "corrected",
+      "fields": {
+        "origins": "Native and endemic to mainland Australia. It is absent from Tasmania.",
+        "distribution": "Most of the mainland except the tropical north, Cape York and the driest deserts. It is scarce in the wet south-west, where any spread is still unconfirmed. The range follows river red gums and other trees near water.",
+        "habitat": "Open forest and woodland, especially along creeks and wetlands, and also parks and gardens.",
+        "breeding": "Any month, but mainly August to December. Older accounts stretch the extremes from June or July to January or February. The female builds a small cup of grass and spider web, lined with wool, hair or feathers, in the crown from about 1 to 20 m up. Some accounts describe that cup as hanging in outer foliage. The clutch is 2–3, rarely 4. She incubates for about 14 days; one compilation gives 13–15 days.",
+        "diet": "Nectar, insects, lerps, honeydew and manna, plus some fruit and seeds, mostly taken in eucalypt crowns and sometimes in the air or on the ground.",
+        "threats": "Clearing of trees along creeks removes habitat. Cats and dogs are named as threats in towns. Several cuckoo species are reported to parasitise the nests. Predation of nests by other birds was not documented in the preferred pages.",
+        "size": "15–17 cm.",
+        "conservation": "Least Concern on the IUCN Red List (assessed 2018) and on the Australian Museum page. Not on the EPBC Act list of 28 August 2026 or Victoria’s FFG Act Threatened List of July 2026."
+      },
+      "errorsInDraft": [
+        "“Mainly July–January” does not match the usual season. Birds in Backyards and the Australian Museum say any time, mainly August to December.",
+        "Threats name nest predation by other birds and omit cats and dogs, which the Australian Museum and Birds in Backyards do name, along with clearing of creek-line trees.",
+        "“Endemic to Australia” is true, but the species is a mainland bird and is absent from Tasmania."
+      ],
+      "conflicts": [
+        "Season: Birds in Backyards and the Australian Museum, mainly August–December, any month; an older eggs-and-nests account gives extremes of June or July to February; a field compilation gives June–January.",
+        "Incubation: Birds in Backyards 14 days; a life-history compilation 13–15 days.",
+        "Nest: Birds in Backyards and the Australian Museum say a cup in the crown; other accounts say a suspended basket hanging in outer foliage.",
+        "Clutch: 2–3, rarely 4 (Birds in Backyards); overall range given elsewhere as 1–4."
+      ],
+      "notWellDocumented": [
+        "Nest predation by other birds, as stated in the draft, was not found on the Australian Museum or Birds in Backyards pages.",
+        "Whether the usual nest is a hanging basket or a cup set in foliage depends on the account."
+      ],
+      "sources": [
+        {
+          "url": "https://www.birdsinbackyards.net/species/Lichenostomus-penicillatus",
+          "title": "White-plumed Honeyeater — Birds in Backyards",
+          "accessed": "2026-10-25",
+          "supports": "Length 15–17 cm; any time but mainly August–December; clutch 2–3, rarely 4; incubation 14 days; Tasmania not present; cup nest; cats and dogs; creek-tree clearing."
+        },
+        {
+          "url": "https://australian.museum/learn/animals/birds/white-plumed-honeyeater/",
+          "title": "White-plumed Honeyeater — Australian Museum",
+          "accessed": "2026-10-25",
+          "supports": "IUCN Least Concern; length 15–17 cm; endemic to mainland Australia; absent from the tropical north, Cape York and the most arid areas; diet; breeding mainly August–December."
+        },
+        {
+          "url": "https://www.iucnredlist.org/species/22704097/130253505",
+          "title": "Ptilotula penicillata — IUCN Red List",
+          "accessed": "2026-10-25",
+          "supports": "Least Concern, assessed 2018; native to Australia. Synonym Lichenostomus penicillatus."
+        },
+        {
+          "url": "https://www.mdahlem.net/birds/18/whplmhon.php",
+          "title": "White-plumed Honeyeater — mdahlem.net",
+          "accessed": "2026-10-25",
+          "supports": "Season June–January; clutch 2–3; incubation 14 days; nest described as a suspended basket in outer foliage."
+        },
+        {
+          "url": "https://animalia.bio/white-plumed-honeyeater",
+          "title": "White-plumed honeyeater — Animalia",
+          "accessed": "2026-10-25",
+          "supports": "Clutch usually 2–3, overall 1–4; incubation 13–15 days by the female; cuckoo brood parasitism."
+        },
+        {
+          "url": "https://www.environment.vic.gov.au/__data/assets/pdf_file/0028/793801/FFG_Threatened_List_July_2026.pdf",
+          "title": "FFG Act Threatened List, July 2026 — DEECA",
+          "accessed": "2026-10-25",
+          "supports": "Ptilotula penicillata does not appear. Ptilotula plumula, the Grey-fronted Honeyeater, does."
+        },
+        {
+          "url": "https://data.gov.au/data/dataset/ae652011-f39e-4c6c-91b8-1dc2d2dfee8f/resource/78401dce-1f40-49d3-92c4-3713d6e34974/download/20260828spcs.csv",
+          "title": "EPBC Act threatened species list, 28 August 2026 — data.gov.au",
+          "accessed": "2026-10-25",
+          "supports": "No row for Ptilotula penicillata or Lichenostomus penicillatus."
+        }
+      ]
+    },
+    {
+      "commonName": "New Holland Honeyeater",
+      "scientificName": "Phylidonyris novaehollandiae",
+      "verdict": "corrected",
+      "fields": {
+        "origins": "Native and endemic to southern Australia, including Tasmania and the south-west. IUCN records it only as native to Australia.",
+        "distribution": "From about south-east Queensland to south-western Western Australia, including Tasmania, King Island, the Furneaux Group and Kangaroo Island. Birds in Backyards’ distribution sentence names only the mainland, but its status table marks Tasmania as present, and the Australian Faunal Directory includes Tasmania.",
+        "habitat": "Heath, forest, woodland and gardens, especially where banksias and grevilleas flower.",
+        "breeding": "Any month, mainly summer and winter. A cup of bark and grass bound with spider web, placed in a bush or tree from ground level to about 6 m. Clutch 2–3. Incubation about 18 days on Birds in Backyards and the Australian Museum. Other secondary accounts give 13–15 or 14 days.",
+        "diet": "Mostly nectar, plus fruit, insects and spiders. Honeydew is also reported.",
+        "threats": "No species-level threat is set out by BirdLife, the Australian Museum or IUCN, and the global trend is stable. Cats and loss of flowering understorey, as in the draft, were not confirmed on those pages.",
+        "size": "About 17–18.5 cm (Australian Museum). Birds in Backyards lists 18 cm, while that site’s size category says under 15 cm, which does not match its own measurement.",
+        "conservation": "Least Concern on the IUCN Red List (assessed 2024; trend stable). Birds in Backyards lists it as Secure federally and in Victoria. Not on the EPBC Act list of 28 August 2026 or Victoria’s FFG Act Threatened List of July 2026."
+      },
+      "errorsInDraft": [
+        "Length 17–18 cm is a little short of the Australian Museum’s 17–18.5 cm and of Birds in Backyards’ 18 cm.",
+        "“A cup nest low in a shrub” is too narrow. The nest may be from ground level to about 6 m, in a bush or a tree.",
+        "Diet omits fruit and spiders, which Birds in Backyards lists, and states honeydew, which those pages do not.",
+        "Threats (cats, and loss of flowering understorey) are not supported by BirdLife, the Australian Museum or the IUCN account."
+      ],
+      "conflicts": [
+        "Length: Australian Museum 17–18.5 cm; Birds in Backyards facts 18 cm; the same Birds in Backyards page’s size category, and a Tasmania poster, say under 15 cm.",
+        "Incubation: Birds in Backyards and the Australian Museum 18 days; secondary accounts 13–15 days or 14 days.",
+        "Tasmania: the Birds in Backyards distribution sentence does not mention it, but the status table says Tasmania is Secure, and the Australian Faunal Directory and subspecies accounts include Tasmania and Bass Strait islands."
+      ],
+      "notWellDocumented": [
+        "Cats and loss of flowering understorey as threats. The IUCN account describes a stable population and does not list a substantial threat.",
+        "Which incubation figure is right. The BirdLife-linked pages say 18 days; other summaries say about two weeks."
+      ],
+      "sources": [
+        {
+          "url": "https://www.birdsinbackyards.net/species/Phylidonyris-novaehollandiae",
+          "title": "New Holland Honeyeater — Birds in Backyards",
+          "accessed": "2026-10-25",
+          "supports": "Length listed as 18 cm; any time, mainly summer and winter; clutch 2–3; incubation 18 days; cup nest from ground level to 6 m; nectar, fruit, insects and spiders."
+        },
+        {
+          "url": "https://australian.museum/learn/animals/birds/new-holland-honeyeater/",
+          "title": "New Holland Honeyeater — Australian Museum",
+          "accessed": "2026-10-25",
+          "supports": "Length 17–18.5 cm; southern Australia; breeding any time, mainly summer and winter; clutch 2–3; incubation 18 days."
+        },
+        {
+          "url": "https://birdlife.org.au/bird-profiles/new-holland-honeyeater/",
+          "title": "New Holland Honeyeater — BirdLife Australia",
+          "accessed": "2026-10-25",
+          "supports": "IUCN Least Concern; heath, forest, woodland and gardens; the size category on the page says under 15 cm."
+        },
+        {
+          "url": "https://www.iucnredlist.org/species/22704361/253977598",
+          "title": "Phylidonyris novaehollandiae — IUCN Red List",
+          "accessed": "2026-10-25",
+          "supports": "Least Concern, assessed 15 January 2024; native only to Australia; trend stable."
+        },
+        {
+          "url": "https://biodiversity.org.au/afd/taxa/New_Holland_Honeyeater",
+          "title": "Phylidonyris novaehollandiae — Australian Faunal Directory",
+          "accessed": "2026-10-25",
+          "supports": "Occurs in Queensland, New South Wales, Victoria, South Australia, Tasmania and Western Australia."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/New_Holland_honeyeater",
+          "title": "New Holland honeyeater — Wikipedia",
+          "accessed": "2026-10-25",
+          "supports": "About 18 cm; subspecies in south-eastern Australia, Bass Strait islands, Tasmania, Kangaroo Island and south-west Australia; honeydew as well as nectar and invertebrates."
+        },
+        {
+          "url": "https://www.environment.vic.gov.au/__data/assets/pdf_file/0028/793801/FFG_Threatened_List_July_2026.pdf",
+          "title": "FFG Act Threatened List, July 2026 — DEECA",
+          "accessed": "2026-10-25",
+          "supports": "Phylidonyris novaehollandiae does not appear."
+        },
+        {
+          "url": "https://data.gov.au/data/dataset/ae652011-f39e-4c6c-91b8-1dc2d2dfee8f/resource/78401dce-1f40-49d3-92c4-3713d6e34974/download/20260828spcs.csv",
+          "title": "EPBC Act threatened species list, 28 August 2026 — data.gov.au",
+          "accessed": "2026-10-25",
+          "supports": "No row for Phylidonyris novaehollandiae. The only “New Holland” hit is the New Holland Mouse."
+        }
+      ]
+    },
+    {
+      "commonName": "Little Raven",
+      "scientificName": "Corvus mellori",
+      "verdict": "corrected",
+      "fields": {
+        "origins": "Native and endemic to south-eastern Australia. It has no wild range outside Australia.",
+        "distribution": "Southern South Australia, Victoria and New South Wales, mostly on or west of the Great Dividing Range and usually south of Sydney, plus Kangaroo Island and King Island. It is absent from mainland Tasmania. One account also says it is absent from west Gippsland, where the Forest Raven occurs. Pairs stay put while breeding, then often join wide-ranging flocks.",
+        "habitat": "Farmland, grassland, open woodland, coasts and towns, roosting in nearby dry woodland.",
+        "breeding": "Eggs are laid from May to December. A western Victorian account says April to December. Both birds build a large stick nest, often in a loose colony. The clutch is 1–6, usually 4 or 5. The female incubates for about 19 days; other accounts give 19–20 or 19–21 days.",
+        "diet": "Omnivorous. Birds in Backyards, citing HANZAB, lists insects, small birds, eggs, nestlings, carrion and occasionally seeds and fruit. A Victorian field guide puts grain, fruit and other plant food first, and also lists insects, small animals, eggs, refuse and carrion.",
+        "threats": "Natural predators are not well documented. A Canberra account says adults are not under serious predation pressure and instead take other birds’ eggs and young. Shooting is used in some farming areas because they eat grain, and land clearing reduces breeding habitat. Wedge-tailed eagles are documented predators of the Australian Raven, not, in the sources checked, of the Little Raven.",
+        "size": "48–50 cm in several accounts. Birds in Backyards gives 48–52 cm, average 49 cm.",
+        "conservation": "Least Concern on the IUCN Red List (assessed 2018; trend increasing). Birds in Backyards lists it as Secure in Victoria. Not on the EPBC Act list of 28 August 2026 or Victoria’s FFG Act Threatened List of July 2026."
+      },
+      "errorsInDraft": [
+        "“Few natural predators beyond Wedge-tailed Eagles” is not supported. Preferred pages and the HANZAB-based Birds in Backyards account do not name a predator. Wedge-tailed eagle predation is documented for the Australian Raven, a different species.",
+        "“Sometimes shot or poisoned by landholders” is only partly supported. Shooting as farm control is recorded in a Canberra account. Poisoning was not found for the Little Raven.",
+        "Distribution omits Kangaroo Island and the reported absence from west Gippsland and from mainland Tasmania.",
+        "Diet leads with grain. Birds in Backyards lists seeds and fruit as occasional, and includes small birds, eggs and nestlings."
+      ],
+      "conflicts": [
+        "Length: Wikipedia, a western Victorian guide and a Canberra key say 48–50 cm; Birds in Backyards says 48–52 cm, average 49 cm.",
+        "Clutch: Birds in Backyards, citing HANZAB volume 7, 1–6; Wikipedia usually 4 or 5, up to 6; western Victorian guide 4–5.",
+        "Incubation: Birds in Backyards 19 days; western Victorian guide 19–20 days; Rowley (1973), cited in a nesting study, 19–21 days in rural New South Wales.",
+        "Season: Birds in Backyards May–December; western Victorian guide April–December.",
+        "Diet emphasis: Birds in Backyards starts with insects and treats seeds as occasional; the western Victorian guide says mainly vegetable matter, including grain and fruit.",
+        "Tasmania: Birds in Backyards’ status table says not present, while its distribution text includes King Island, which is part of Tasmania. The species is on King Island and not on mainland Tasmania."
+      ],
+      "notWellDocumented": [
+        "Natural predators. No preferred source names the wedge-tailed eagle, or any other predator, for this species. A Canberra key says adults are not under serious predation pressure, which may itself be too absolute.",
+        "Poisoning by landholders. Not found for the Little Raven. It is documented for the Australian Raven."
+      ],
+      "sources": [
+        {
+          "url": "https://www.birdsinbackyards.net/species/Corvus-mellori",
+          "title": "Little Raven — Birds in Backyards",
+          "accessed": "2026-10-25",
+          "supports": "HANZAB volume 7 summary: length 48–52 cm; May–December; clutch 1–6; incubation 19 days; King Island and the country on or west of the Divide; omnivorous diet; land clearing reduces breeding habitat. The status table says Tasmania is not present."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Little_raven",
+          "title": "Little raven — Wikipedia",
+          "accessed": "2026-10-25",
+          "supports": "Length 48–50 cm; south-eastern Australia, Kangaroo Island and King Island; absent from west Gippsland; clutch usually 4 or 5, up to 6; IUCN Least Concern. No predator section."
+        },
+        {
+          "url": "https://www.iucnredlist.org/species/22706036/130408880",
+          "title": "Corvus mellori — IUCN Red List",
+          "accessed": "2026-10-25",
+          "supports": "Least Concern, assessed 2018; trend increasing; native to Australia."
+        },
+        {
+          "url": "https://bwvp.ecolinc.vic.edu.au/fieldguide/fauna/little-raven",
+          "title": "Little Raven — Biodiversity of the Western Volcanic Plains",
+          "accessed": "2026-10-25",
+          "supports": "Length 48–50 cm; April–December; clutch 4–5; female incubates 19–20 days; Kangaroo Island and King Island; diet heavy on grain and fruit."
+        },
+        {
+          "url": "https://keyserver.lucidcentral.org/key-server/data/03050501-000c-4503-8203-0a030507090d/media/Html/Corvus_mellori.htm",
+          "title": "Corvus mellori — Canberra birds key (Lucidcentral)",
+          "accessed": "2026-10-25",
+          "supports": "Length 48–50 cm; not listed under the EPBC Act; shooting used on farms because they eat grain; adults described as not under serious predation pressure."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Australian_raven",
+          "title": "Australian raven — Wikipedia",
+          "accessed": "2026-10-25",
+          "supports": "Wedge-tailed eagles prey on adult, nestling and fledgling Australian Ravens. That is a different species from the Little Raven. Also records shooting and poisoning of Australian Ravens."
+        },
+        {
+          "url": "https://absa.asn.au/wp-content/uploads/2019/05/10_FINAL_V43_Pg65-80_LittleRaven_ALill_V2.pdf",
+          "title": "Little Raven nesting study — Australian Field Ornithology, via ABSA",
+          "accessed": "2026-10-25",
+          "supports": "Cites Rowley (1973): incubation 19–21 days and a nestling period of 37–38 days in rural New South Wales. Female does most or all incubation."
+        },
+        {
+          "url": "https://www.environment.vic.gov.au/__data/assets/pdf_file/0028/793801/FFG_Threatened_List_July_2026.pdf",
+          "title": "FFG Act Threatened List, July 2026 — DEECA",
+          "accessed": "2026-10-25",
+          "supports": "Corvus mellori does not appear."
+        },
+        {
+          "url": "https://data.gov.au/data/dataset/ae652011-f39e-4c6c-91b8-1dc2d2dfee8f/resource/78401dce-1f40-49d3-92c4-3713d6e34974/download/20260828spcs.csv",
+          "title": "EPBC Act threatened species list, 28 August 2026 — data.gov.au",
+          "accessed": "2026-10-25",
+          "supports": "No row for Corvus mellori."
+        }
+      ]
+    },
+    {
+      "commonName": "Eastern Rosella",
+      "scientificName": "Platycercus eximius",
+      "verdict": "corrected",
+      "fields": {
+        "origins": "Native and endemic to south-eastern Australia. Introduced to New Zealand, where it has been established since the early 1900s on both main islands.",
+        "distribution": "South-eastern Queensland, New South Wales, Victoria and south-eastern South Australia, and eastern Tasmania. It is a resident of open country with trees.",
+        "habitat": "Open woodland, grassland, farmland, remnant bush, parks and gardens, and timber along watercourses in the drier inland.",
+        "breeding": "August to February. The female uses a eucalypt hollow, and sometimes a nest-box or another cavity. Birds in Backyards gives a clutch of 4–8, usually 5, and incubation of about 19 days. Other accounts give a clutch of 3–9, or usually 5–6, and incubation of 18–22 days, by the female. A lining of wood dust is often stated for parrots but was not on the Birds in Backyards or BirdLife pages.",
+        "diet": "Seeds, fruit, buds, flowers, nectar and insects.",
+        "threats": "In Tasmania, declines of this and other small hollow-nesters have been linked to fewer eucalypt hollows and to competition from Common Starlings. Around Canberra, starlings and Common Mynas win many disputes with Eastern Rosellas over hollows. Over much of the mainland the species is still common and has benefited from clearing for pasture. Cats take young birds.",
+        "size": "28–32 cm, average 30 cm, on Birds in Backyards. Another compilation gives 28–33 cm, and the Tasmanian subspecies is described as bulkier.",
+        "conservation": "Least Concern on the IUCN Red List. The 2016 species page notes that the 2024 assessment is still Least Concern, and IUCN search results show an increasing trend. Birds in Backyards lists it as Secure in Victoria and Tasmania. Not on the EPBC Act list of 28 August 2026 or Victoria’s FFG Act Threatened List of July 2026."
+      },
+      "errorsInDraft": [
+        "“Tasmania” should be eastern Tasmania. The Tasmanian subspecies is confined to the east of the island.",
+        "Length 29–33 cm does not match Birds in Backyards’ 28–32 cm. It is close to a separate compilation of 28–33 cm.",
+        "Incubation “about 19 days” matches Birds in Backyards only. Other accounts give 18–22 days.",
+        "“On a bed of wood dust” was not stated on the Birds in Backyards or BirdLife pages checked."
+      ],
+      "conflicts": [
+        "Length: Birds in Backyards 28–32 cm, average 30 cm; Wikipedia about 30 cm; a field compilation 28–33 cm.",
+        "Clutch: Birds in Backyards 4–8, usually 5; New Zealand Birds Online 3–9, mean 5.6 for Australia; Wikipedia usually 5–6.",
+        "Incubation: Birds in Backyards 19 days; New Zealand Birds Online and Wikipedia 18–22 days.",
+        "Season: Birds in Backyards August–February; one avicultural and field account also mentions occasional autumn breeding."
+      ],
+      "notWellDocumented": [
+        "Eggs laid on a bed of wood dust. Hollow nesting is well documented; that lining was not on the preferred pages.",
+        "A current statutory listing for the Tasmanian subspecies. An older regional key called it Near Threatened. The species itself is Least Concern and is not on the EPBC or Victorian FFG lists. The subspecies was not found on the July 2026 FFG list, which is a Victorian list."
+      ],
+      "sources": [
+        {
+          "url": "https://www.birdsinbackyards.net/species/Platycercus-eximius",
+          "title": "Eastern Rosella — Birds in Backyards",
+          "accessed": "2026-10-25",
+          "supports": "Length 28–32 cm; August–February; clutch 4–8, usually 5; incubation 19 days; south-eastern Australia and eastern Tasmania; introduced to New Zealand; hollow in a eucalypt; seeds, fruit, buds, flowers, nectar and insects; Secure in Victoria."
+        },
+        {
+          "url": "https://birdlife.org.au/bird-profiles/eastern-rosella/",
+          "title": "Eastern Rosella — BirdLife Australia",
+          "accessed": "2026-10-25",
+          "supports": "IUCN Least Concern; open woodland, grassland, farmland and parks; declines reported around Sydney."
+        },
+        {
+          "url": "https://www.nzbirdsonline.org.nz/species/eastern-rosella",
+          "title": "Eastern rosella — New Zealand Birds Online",
+          "accessed": "2026-10-25",
+          "supports": "Native to south-eastern Australia including Tasmania; introduced to New Zealand from 1910; Australian clutch 3–9, mean 5.6; incubation 18–22 days by the female."
+        },
+        {
+          "url": "https://www.iucnredlist.org/species/22685126/93059555",
+          "title": "Platycercus eximius — IUCN Red List (2016 page, noting the 2024 assessment)",
+          "accessed": "2026-10-25",
+          "supports": "Least Concern. The page says the latest assessment, in 2024, is still Least Concern, with an increasing trend indicated in IUCN search results."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Eastern_rosella",
+          "title": "Eastern rosella — Wikipedia",
+          "accessed": "2026-10-25",
+          "supports": "About 30 cm; subspecies in south-eastern mainland and eastern Tasmania; breeding August–February; incubation 18–22 days; clutch usually 5–6."
+        },
+        {
+          "url": "https://archive.org/download/biostor-254476/biostor-254476.pdf",
+          "title": "Green, R.H. 1983. Decline of the Eastern Rosella in Tasmania — Queen Victoria Museum",
+          "accessed": "2026-10-25",
+          "supports": "Tasmanian decline linked to loss of eucalypt hollows and competition from Common Starlings."
+        },
+        {
+          "url": "https://web.archive.org/web/20150228082055/http://indianmynaaction.org.au/documents/Pell_Tidemann_myna_impacts1997.pdf",
+          "title": "Pell and Tidemann 1997. Impact of exotic hollow-nesters on native parrots",
+          "accessed": "2026-10-25",
+          "supports": "Around Canberra, Common Starlings and Common Mynas compete with Eastern Rosellas for hollows, and starlings won most encounters with Eastern Rosellas."
+        },
+        {
+          "url": "https://parrots.org/encyclopedia/eastern-rosella/",
+          "title": "Eastern Rosella — World Parrot Trust",
+          "accessed": "2026-10-25",
+          "supports": "Least Concern; has benefited from clearing for pasture over much of its range; eastern Tasmania subspecies reported as declining."
+        },
+        {
+          "url": "https://www.environment.vic.gov.au/__data/assets/pdf_file/0028/793801/FFG_Threatened_List_July_2026.pdf",
+          "title": "FFG Act Threatened List, July 2026 — DEECA",
+          "accessed": "2026-10-25",
+          "supports": "Platycercus eximius does not appear."
+        },
+        {
+          "url": "https://data.gov.au/data/dataset/ae652011-f39e-4c6c-91b8-1dc2d2dfee8f/resource/78401dce-1f40-49d3-92c4-3713d6e34974/download/20260828spcs.csv",
+          "title": "EPBC Act threatened species list, 28 August 2026 — data.gov.au",
+          "accessed": "2026-10-25",
+          "supports": "No row for Platycercus eximius."
+        }
+      ]
+    }
+  ],
+  "queries": [
+    "Victorian FFG Act Threatened List 2025 2026 DEECA Gymnorhina Malurus Anthochaera Ptilotula Phylidonyris Corvus mellori Platycercus",
+    "site:birdsinbackyards.net Australian Magpie Gymnorhina tibicen Superb Fairy-wren Red Wattlebird",
+    "site:australian.museum Australian Magpie Superb Fairy-wren Red Wattlebird White-plumed Honeyeater New Holland Honeyeater Little Raven Eastern Rosella",
+    "BirdLife Australia Australian Magpie species profile breeding incubation clutch size distribution",
+    "EPBC Act threatened species list Australian Magpie Superb Fairy-wren Red Wattlebird White-plumed Honeyeater New Holland Honeyeater Little Raven Eastern Rosella",
+    "site:birdlife.org.au Superb Fairy-wren Red Wattlebird White-plumed Honeyeater New Holland Honeyeater Little Raven Eastern Rosella bird profile",
+    "FFG_Threatened_List July 2026 filetype:pdf environment.vic.gov.au",
+    "Gymnorhina tibicen OR Cracticus tibicen OR Malurus cyaneus OR Anthochaera carunculata OR Ptilotula penicillata OR Phylidonyris novaehollandiae OR Corvus mellori OR Platycercus eximius FFG threatened list Victoria 2025 OR 2026",
+    "Little Raven Corvus mellori breeding clutch incubation predators distribution King Island HANZAB BirdLife Australia Museum",
+    "Eastern Rosella Platycercus eximius clutch incubation breeding season size distribution Tasmania New Zealand HANZAB Birds in Backyards",
+    "Red Wattlebird Anthochaera carunculata incubation clutch nest size Tasmania endemic IUCN Birds in Backyards Australian Museum",
+    "Superb Fairy-wren Malurus cyaneus incubation period days clutch breeding season size predators HANZAB",
+    "Little Raven OR Corvus mellori predator OR predators wedge-tailed OR eagle OR shot OR poison HANZAB",
+    "White-plumed Honeyeater Ptilotula penicillata incubation clutch nest days breeding season Australian Museum OR HANZAB OR Birds in Backyards",
+    "New Holland Honeyeater Phylidonyris novaehollandiae Tasmania size incubation honeydew distribution endemic IUCN",
+    "Australian Magpie Gymnorhina tibicen New Guinea introduced New Zealand size clutch 2-5 OR 1-6 incubation predators IUCN distribution Tasmania",
+    "IUCN Red List Malurus cyaneus Anthochaera carunculata Ptilotula penicillata Corvus mellori Platycercus eximius Least Concern",
+    "Eastern Rosella hollow competition starling Common Starling OR Sturnus vulgaris nest site loss Platycercus eximius",
+    "site:iucnredlist.org Ptilotula penicillata White-plumed Honeyeater Corvus mellori Platycercus eximius Anthochaera carunculata",
+    "Corvus mellori iucnredlist.org/species Least Concern",
+    "Platycercus eximius iucnredlist.org/species Least Concern Anthochaera carunculata 2018"
+  ]
+}

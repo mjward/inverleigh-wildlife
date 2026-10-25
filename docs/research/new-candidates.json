@@ -1,0 +1,203 @@
+{
+  "rainbow-lorikeet": {
+    "commonName": "Rainbow Lorikeet",
+    "scientificName": "Trichoglossus moluccanus",
+    "verdict": "uncertain",
+    "fields": {
+      "origins": "Native to eastern and south-eastern Australia. The name moluccanus comes from a mistaken type locality, and the bird is not native to the Moluccas. Former subspecies such as the Red-collared Lorikeet are now treated as separate species. Feral populations are established around Perth and in Auckland. IUCN lists Australia as the native country and also records an introduced resident population.",
+      "distribution": "From Cape York and north-eastern Queensland south through New South Wales and Victoria to south-eastern South Australia, including Kangaroo Island. Birds of the World calls Tasmanian birds vagrants. Birds in Backyards says the species is becoming more common in Tasmania, and the World Parrot Trust includes Tasmania in the range. Birds are largely sedentary, with local movements to flowering trees.",
+      "habitat": "Rainforest, open forest, woodland, heath, mangroves and urban parks and gardens, especially where eucalypts are flowering. Birds of the World says it favours edges and disturbed vegetation.",
+      "breeding": "In southern Australia the season is August to January on Wikipedia and June to January on Birds in Backyards. Eggs are laid on wood dust in a tree hollow, usually a eucalypt, and only the female incubates. Birds in Backyards gives a clutch of 2 and incubation of 23 days, with a nestling period of 45 days. Wikipedia gives 1–3 eggs and incubation of around 25 days. Other accounts put fledging at about 7–9 weeks. Both parents feed the young.",
+      "diet": "Mainly nectar and pollen, taken with a brush-tipped tongue, plus fruit, seeds and some insects. Birds in Backyards says the species has benefited from flowering garden plants and from artificial feeding.",
+      "threats": "It is common and has increased in eastern cities, and it is treated as a pest in Perth. The 2024 IUCN text still says the population is suspected to be decreasing because of unsustainable exploitation. That global sentence conflicts with the Australian accounts of abundance. Competition for hollows is mentioned in secondary accounts and is not quantified on the pages read here.",
+      "size": "Birds in Backyards, still under the older name Trichoglossus haematodus, gives 28–32 cm, average 30 cm, and about 133 g. Other accounts give 25–30 cm or about 26 cm, and published weights run from about 75 g to 157 g.",
+      "conservation": "Least Concern, assessed 15 January 2024. The IUCN trend text says Decreasing, and the decline is not treated as fast enough to approach Vulnerable. The same page says the Action Plan for Australian Birds 2020 did not find it near threatened. It is not on the EPBC threatened-fauna list extracted 28 August 2026. It is not named in the bird tables retrieved from the June 2024 and March 2025 Victorian FFG lists. The DEECA page records one July 2026 amendment, the plant Hibbertia porcata. The July 2026 PDF and spreadsheet returned HTTP 403. Birds in Backyards marks the federal status Secure. Parrots, including this species on the World Parrot Trust page, are on CITES Appendix II."
+    },
+    "errorsInDraft": [
+      "No draft entry. This is a new candidate."
+    ],
+    "conflicts": [
+      "Tasmania: Birds of the World, vagrant; Birds in Backyards, becoming more common; World Parrot Trust, included in the range; IUCN population text, rare in Tasmania, citing del Hoyo et al. 1997.",
+      "Southern season: Birds in Backyards June–January; Wikipedia August–January. Outside the south, breeding is recorded in every month except March.",
+      "Clutch: Birds in Backyards 2; Wikipedia and several other accounts 1–3; World Parrot Trust 2–3.",
+      "Incubation: Birds in Backyards 23 days; Wikipedia around 25 days; one aviculture account 23–25 days; one secondary account 25–26 days.",
+      "Nestling period: Birds in Backyards 45 days; other accounts about 7–9 weeks or 54–57 days.",
+      "Length: Birds in Backyards 28–32 cm; Birdfact 25–30 cm; World Parrot Trust 26 cm.",
+      "Trend: IUCN 2024, suspected decrease from unsustainable exploitation; Australian accounts describe an abundant, expanding urban bird. The same IUCN page says the Action Plan for Australian Birds 2020 did not find it near threatened."
+    ],
+    "notWellDocumented": [
+      "A single wild incubation period for southern Victoria. The 23-day and 25-day figures are both published, and the handbook account was not retrieved.",
+      "Whether the IUCN decline from exploitation refers to this Australian species or was carried over from the former Coconut Lorikeet complex. The 2024 page still prints that sentence.",
+      "Current status in Tasmania: vagrant, scarce, or established. The sources disagree.",
+      "The July 2026 FFG file, which returned HTTP 403. The indexed earlier lists do not name Trichoglossus moluccanus, and the only July 2026 amendment on the DEECA page is Hibbertia porcata."
+    ],
+    "sources": [
+      {
+        "url": "https://birdsinbackyards.net/species/Trichoglossus-haematodus",
+        "title": "Rainbow Lorikeet — Birds in Backyards",
+        "accessed": "2026-10-25",
+        "supports": "Page still uses Trichoglossus haematodus. 28–32 cm, average 30 cm, 133 g. Breeding June to January. Clutch 2. Incubation 23 days. Nestling period 45 days. Largely sedentary, with nomadic movements to flowering or fruiting plants. Nectar, pollen, fruits, seeds and some insects. Eggs on chewed decayed wood in a eucalypt hollow. Only the female incubates. Federal status Secure. Has benefited from garden plantings and artificial food."
+      },
+      {
+        "url": "https://www.birdsinbackyards.net/content/article/Rainbow-Lorikeets-Fun-facts-about-fun-bird",
+        "title": "Rainbow Lorikeets: fun facts — Birds in Backyards",
+        "accessed": "2026-10-25",
+        "supports": "Introduced to Perth, where it is treated as a pest, from about 1968. Becoming more common in Tasmania. Red-collared Lorikeet is the northern Western Australian species. Hollow nester; also recorded in palms, rock crevices and a hole at the base of a tree. Brush tongue adapted to nectar."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Rainbow_lorikeet",
+        "title": "Rainbow lorikeet — Wikipedia",
+        "accessed": "2026-10-25",
+        "supports": "Trichoglossus moluccanus. Eastern seaboard from northern Queensland through New South Wales and Victoria to South Australia. Habitat rainforest, coastal bush and woodland. Southern breeding usually August–January. Clutch one to three. Incubation around 25 days by the female alone. Least Concern. Often the most commonly observed bird in the BirdLife Australia census."
+      },
+      {
+        "url": "https://www.iucnredlist.org/species/22725334/254013129",
+        "title": "Trichoglossus moluccanus — IUCN Red List",
+        "accessed": "2026-10-25",
+        "supports": "Assessed 15 January 2024. Least Concern. Native resident in Australia, with an introduced resident population also mapped. Trend Decreasing, suspected from unsustainable exploitation. Population not quantified; described as abundant in northern Australia and rare in Tasmania. Action Plan for Australian Birds 2020 did not find it near a threatened threshold."
+      },
+      {
+        "url": "https://birdsoftheworld.org/bow/species/railor5/cur/introduction",
+        "title": "Rainbow Lorikeet — Birds of the World",
+        "accessed": "2026-10-25",
+        "supports": "Split from the Coconut Lorikeet complex. Nominate subspecies from north-eastern Queensland to south-eastern South Australia, including Kangaroo Island; vagrant in Tasmania; feral in Perth and Auckland. Nectar and pollen, especially eucalypts. Least Concern, with local declines noted."
+      },
+      {
+        "url": "https://parrots.org/encyclopedia/rainbow-lorikeet/",
+        "title": "Rainbow Lorikeet — World Parrot Trust",
+        "accessed": "2026-10-25",
+        "supports": "Size 26 cm; weight 100–157 g. Two subspecies. Clutch 2–3. South-eastern season August–January; almost year-round in Queensland. Nest a deep unlined cavity. Established in Perth and Auckland. CITES Appendix II. Increasing around Melbourne, Sydney and Canberra; described as relatively rare in Victoria in an older sentence on the same page, which conflicts with the increase."
+      },
+      {
+        "url": "https://data.gov.au/data/dataset/ae652011-f39e-4c6c-91b8-1dc2d2dfee8f/resource/78401dce-1f40-49d3-92c4-3713d6e34974/download/20260828spcs.csv",
+        "title": "EPBC Act List of Threatened Fauna and Flora, extracted 28 August 2026 — data.gov.au",
+        "accessed": "2026-10-25",
+        "supports": "Date extracted 2026-Aug-28. No row for Trichoglossus moluccanus or Trichoglossus haematodus."
+      },
+      {
+        "url": "https://www.environment.vic.gov.au/__data/assets/pdf_file/0027/741627/FFG_Threatened_List_March_2025.pdf",
+        "title": "Flora and Fauna Guarantee Act 1988 Threatened List, March 2025 — DEECA",
+        "accessed": "2026-10-25",
+        "supports": "Indexed bird tables do not name Trichoglossus moluccanus. The July 2026 file could not be downloaded."
+      },
+      {
+        "url": "https://www.environment.vic.gov.au/conserving-threatened-species/threatened-list",
+        "title": "Victoria's Threatened List and Processes List — DEECA",
+        "accessed": "2026-10-25",
+        "supports": "Current lists are the July 2026 PDF, DOCX and Excel files. The only amendment recorded for 2026 is the addition of Christmas Guinea-flower (Hibbertia porcata). No bird in this batch is named in that amendment note. Direct download of the July 2026 PDF and Excel returned HTTP 403."
+      }
+    ]
+  },
+  "yellow-tailed-black-cockatoo": {
+    "commonName": "Yellow-tailed Black-Cockatoo",
+    "scientificName": "Zanda funerea",
+    "verdict": "uncertain",
+    "fields": {
+      "origins": "Native to south-eastern Australia and endemic there. The current scientific name is Zanda funerea. Calyptorhynchus funereus is the synonym still used on some Australian pages. IUCN lists Australia as the only native country.",
+      "distribution": "From south and central-eastern Queensland through New South Wales and Victoria to the Eyre Peninsula, Kangaroo Island and Tasmania, including Bass Strait islands. BirdLife gives Eyre Peninsula to south and central-eastern Queensland. Inverleigh sits in the southern Victorian part of that range. Movements are poorly known; non-breeding birds wander in small flocks.",
+      "habitat": "Eucalypt forest and woodland, coastal heath and pine plantations, from the coast into the ranges. Nesting depends on large hollows in old eucalypts.",
+      "breeding": "The season changes with latitude. Birds of the World gives October to March in South Australia, Victoria and Tasmania, and earlier months farther north. The Western Volcanic Plains guide, for country near Inverleigh, gives November to February. The nest is a large hollow lined with wood chips. The clutch is two, and usually only one chick is raised. The female incubates and the male feeds her. A local Bellarine guide says incubation is around four weeks. A secondary profile says about 29 days. Birds in Backyards does not print a day count. The young remain with the parents for about six months.",
+      "diet": "Seeds of banksias, hakeas, she-oaks and eucalypts, seeds pulled from pine cones, and wood-boring insect larvae. BirdLife says the favoured food is seeds of native trees and pine cones, with some insects. One secondary account says the southern birds eat seeds only and the eastern birds also take grubs. That split is not in the BirdLife text.",
+      "threats": "Loss and fragmentation of forest, and the loss of old hollow-bearing trees, are the threats named by BirdLife, the Australian Wildlife Conservancy and Wikipedia. Wikipedia says numbers are declining in Victoria and South Australia even though birds can be plentiful near pine plantations. On the Eyre Peninsula the birds now rely on Aleppo pine after sugar-gum woodland was broken up. Hollows are also lost to other birds, possums and feral honeybees in secondary accounts. The species was shot as an orchard pest in parts of New South Wales until the 1940s. The 2024 IUCN text says the global population is suspected to be stable and at least 25,000 birds.",
+      "size": "55–65 cm. Birds in Backyards gives an average of 60 cm and about 700 g. Australian Geographic gives 750–900 g. The two weight ranges do not match.",
+      "conservation": "Least Concern, assessed 15 January 2024, with the trend stated as stable and the population put at least at 25,000 birds. The justification says there is no evidence for declines or substantial threats, which conflicts with regional reports of decline in Victoria and South Australia. It is not on the EPBC threatened-fauna list extracted 28 August 2026, and a SPRAT search for cockatoos does not list Zanda funerea among the threatened cockatoos. South Australia lists it as Vulnerable. The Western Volcanic Plains guide says it is not listed under the Victorian FFG Act, and it is not named in the bird tables retrieved from the June 2024 and March 2025 FFG lists. The DEECA page records one July 2026 amendment, the plant Hibbertia porcata. The July 2026 PDF and spreadsheet returned HTTP 403. A 2023 taxonomic review argues that the eastern, southern-mainland and Tasmanian birds are three species. IUCN and BirdLife still treat one species, Zanda funerea, with three subspecies."
+    },
+    "errorsInDraft": [
+      "No draft entry. This is a new candidate."
+    ],
+    "conflicts": [
+      "Breeding season in the south: Birds of the World, October–March in South Australia, Victoria and Tasmania; Western Volcanic Plains guide, November–February; a secondary account, July–January in the south and March–August in the north.",
+      "Incubation: Bellarine community guide, around four weeks; a secondary species profile, about 29 days. Birds in Backyards prints no figure. The HANZAB account was not retrieved.",
+      "Weight: Birds in Backyards about 700 g; Australian Geographic 750–900 g.",
+      "Global trend against local reports: IUCN 2024, stable, in the absence of evidence for declines or substantial threats; BirdLife cites a significant east-coast decline in State of Australia’s Birds 2015; Wikipedia says the species is declining in Victoria and South Australia.",
+      "Taxonomy: one species with two or three subspecies in IUCN, BirdLife and Birds of the World; Saunders 2023 treats eastern, western and Tasmanian yellow-tailed cockatoos as three species in Zanda. The name whiteae is accepted by some lists and not by others.",
+      "Diet of southern birds: BirdLife includes some insects across the species; one secondary account says Tasmanian, western Victorian and South Australian birds eat seeds only."
+    ],
+    "notWellDocumented": [
+      "The incubation period in HANZAB. Only secondary figures of about four weeks and about 29 days were retrieved.",
+      "How steep any Victorian decline is. IUCN’s 2024 justification says it found no evidence of a decline large enough to move the species, while BirdLife and Wikipedia report regional declines.",
+      "Whether whiteae is the form at Inverleigh. Southern Victoria is variously placed in whiteae or in xanthanota.",
+      "The July 2026 FFG file, which returned HTTP 403. The older statutory lists retrieved, the Western Volcanic Plains page, and the DEECA note that the only July 2026 amendment was Hibbertia porcata, do not list the species in Victoria."
+    ],
+    "sources": [
+      {
+        "url": "https://www.birdsinbackyards.net/species/Calyptorhynchus-funereus",
+        "title": "Yellow-tailed Black-Cockatoo — Birds in Backyards",
+        "accessed": "2026-10-25",
+        "supports": "Still filed as Calyptorhynchus funereus. 55–65 cm, average 60 cm, about 700 g. Breeding season variable. Clutch two. Large tree hollow lined with wood chips. Female incubates; male feeds her. Usually one chick survives and stays with the parents for about six months. Seeds of native trees and pine cones, some insects, and seeds of ground plants."
+      },
+      {
+        "url": "https://birdlife.org.au/bird-profiles/yellow-tailed-black-cockatoo/",
+        "title": "Yellow-tailed Black-Cockatoo — BirdLife Australia",
+        "accessed": "2026-10-25",
+        "supports": "Scientific name Zanda funerea. IUCN Least Concern. South-eastern Australia from the Eyre Peninsula to south and central-eastern Queensland, and Tasmania. Pine cones are now a major food. Eyre Peninsula birds rely on Aleppo pine after sugar-gum woodland was fragmented. State of Australia’s Birds 2015 reported a significant east-coast decline. Threat listed: habitat destruction. Long breeding season that varies through the range."
+      },
+      {
+        "url": "https://www.iucnredlist.org/species/22684739/253974842",
+        "title": "Zanda funerea — IUCN Red List",
+        "accessed": "2026-10-25",
+        "supports": "Assessed 15 January 2024. Least Concern. Synonym Calyptorhynchus funereus. Native resident in Australia. Trend Stable. Population at least 25,000 individuals. Justification says there is no evidence for declines or substantial threats. Three subspecies recognised."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Yellow-tailed_black_cockatoo",
+        "title": "Yellow-tailed black cockatoo — Wikipedia",
+        "accessed": "2026-10-25",
+        "supports": "55–65 cm. Endemic to south-eastern Australia, including Tasmania. Diet of native and introduced seeds and wood-boring grubs. Nests in large hollows of old eucalypts. Least Concern and not nationally threatened, but declining in Victoria and South Australia from loss of hollow trees. Vulnerable in South Australia. Shot as a pest in some New South Wales districts until the 1940s. CITES Appendix II."
+      },
+      {
+        "url": "https://bwvp.ecolinc.vic.edu.au/fieldguide/fauna/yellow-tailed-black-cockatoo",
+        "title": "Yellow-tailed Black Cockatoo — Biodiversity of the Western Volcanic Plains",
+        "accessed": "2026-10-25",
+        "supports": "Breeds November–February. Long breeding season. Nest in a large tree hollow. South-eastern Australia from the Eyre Peninsula to south and central-eastern Queensland. FFG Act not listed. EPBC Act not listed. Advisory list not listed. The page still uses Calyptorhynchus funereus and the former department name."
+      },
+      {
+        "url": "https://www.environmentbellarine.org.au/cb_pages/files/Cockatoo%20-%20Info%20-%20Download.pdf",
+        "title": "Yellow-tailed Black-Cockatoo local note — Bellarine Catchment Network",
+        "accessed": "2026-10-25",
+        "supports": "Female incubates two eggs for around four weeks. Usually one chick survives. Young remain for about six months. Feeds on pines and on indigenous hakea, banksia and she-oak. Population described as declining in Victoria."
+      },
+      {
+        "url": "https://www.australianwildlife.org/animals/yellow-tailed-black-cockatoo",
+        "title": "Yellow-tailed Black-cockatoo — Australian Wildlife Conservancy",
+        "accessed": "2026-10-25",
+        "supports": "Eastern and south-eastern Australia, including Tasmania. Forest, woodland and coastal habitats, including modified landscapes. Threats are habitat loss and fragmentation, loss of mature nesting trees, changed fire regimes and competition for hollows. Young remain dependent for several months."
+      },
+      {
+        "url": "https://birdsoftheworld.org/bow/species/ytbcoc1/1.0/introduction",
+        "title": "Yellow-tailed Black-Cockatoo — Birds of the World, retired account",
+        "accessed": "2026-10-25",
+        "supports": "Subspecies: funereus from central-eastern Queensland to eastern Victoria; whiteae from the Eyre Peninsula and Kangaroo Island to southern Victoria; xanthanotus in Tasmania and Bass Strait. Habitat coastal heath, woodland, forest and pine plantations. Breeding October–March in South Australia, Victoria and Tasmania. Least Concern. Long-term survival tied to hollow trees."
+      },
+      {
+        "url": "https://www.environment.gov.au/cgi-bin/sprat/public/spratlookupspecies.pl?name=cockatoo",
+        "title": "SPRAT search: cockatoo",
+        "accessed": "2026-10-25",
+        "supports": "Threatened cockatoo profiles returned for Carnaby’s, Baudin’s, glossy and south-eastern red-tailed cockatoos and others. Zanda funerea is not among the threatened results."
+      },
+      {
+        "url": "https://data.gov.au/data/dataset/ae652011-f39e-4c6c-91b8-1dc2d2dfee8f/resource/78401dce-1f40-49d3-92c4-3713d6e34974/download/20260828spcs.csv",
+        "title": "EPBC Act List of Threatened Fauna and Flora, extracted 28 August 2026 — data.gov.au",
+        "accessed": "2026-10-25",
+        "supports": "Date extracted 2026-Aug-28. No row for Zanda funerea or Calyptorhynchus funereus."
+      },
+      {
+        "url": "https://www.environment.vic.gov.au/__data/assets/pdf_file/0027/741627/FFG_Threatened_List_March_2025.pdf",
+        "title": "Flora and Fauna Guarantee Act 1988 Threatened List, March 2025 — DEECA",
+        "accessed": "2026-10-25",
+        "supports": "Indexed bird tables name Gang-gang Cockatoo, Glossy Black-Cockatoo and the south-eastern Red-tailed Black-Cockatoo, and do not name Zanda funerea or Calyptorhynchus funereus. The July 2026 file could not be downloaded."
+      },
+      {
+        "url": "https://www.acf.org.au/our-work/nature/missing-wildlife/black-cockatoos",
+        "title": "Australia’s black cockatoos — Australian Conservation Foundation",
+        "accessed": "2026-10-25",
+        "supports": "Yellow-tailed Black Cockatoo treated as Secure in Australia and Vulnerable in South Australia. The page still uses Calyptorhynchus funereus."
+      },
+      {
+        "url": "https://www.environment.vic.gov.au/conserving-threatened-species/threatened-list",
+        "title": "Victoria's Threatened List and Processes List — DEECA",
+        "accessed": "2026-10-25",
+        "supports": "Current lists are the July 2026 PDF, DOCX and Excel files. The only amendment recorded for 2026 is the addition of Christmas Guinea-flower (Hibbertia porcata). No bird in this batch is named in that amendment note. Direct download of the July 2026 PDF and Excel returned HTTP 403."
+      }
+    ]
+  }
+}

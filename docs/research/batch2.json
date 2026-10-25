@@ -1,0 +1,641 @@
+{
+  "outOfBatch": [
+    "Magpie-lark presence in Tasmania was not checked: that species is not in this batch.",
+    "Little Raven natural predators were not checked: that species is not in this batch.",
+    "Welcome Swallow incubation is covered under that species."
+  ],
+  "birds": [
+    {
+      "commonName": "Grey Shrike-thrush",
+      "scientificName": "Colluricincla harmonica",
+      "verdict": "corrected",
+      "fields": {
+        "origins": "Native to Australia and southern New Guinea, including the Torres Strait and coastal south-eastern New Guinea, so it is not endemic to Australia. The IUCN also lists Indonesia, covering western New Guinea.",
+        "distribution": "Across most of Australia and Tasmania and on the larger offshore islands, but absent from the most arid deserts. Pairs keep a territory year-round.",
+        "habitat": "Forests, woodlands, mallee, coastal scrub and watercourses, and also parks and gardens. Numbers have fallen around houses in the west of the range.",
+        "breeding": "On the western Victorian plains the season is July to February. The nest is a cup of bark and grass in a tree hollow or fork, on a vine, or on a ledge, shed or hanging basket. The clutch is usually 3 (range 2–4), and both adults incubate for about 17 days (a New South Wales study mean was 17.4 days; HANZAB figures cited there are 16.9, 18 and 19 days).",
+        "diet": "Insects, spiders, small mammals, frogs and lizards, and birds’ eggs and young, taken on the ground and on trunks and logs, with carrion, fruit and seeds at times.",
+        "threats": "Named predators were not found in the sources checked. The IUCN links a tentative decline to habitat loss, and numbers have fallen around houses in the west of the range.",
+        "size": "About 22–25 cm (Australian Museum and Birds in Backyards). A western Victorian guide gives 22–26 cm.",
+        "conservation": "Least Concern on the IUCN Red List (assessed 2018). Not on the EPBC Act list current at 28 August 2026, and not on Victoria’s FFG Act Threatened List of July 2026."
+      },
+      "errorsInDraft": [
+        "“Endemic to Australia, apart from a population in southern New Guinea” is contradictory. The species is native to Australia and southern New Guinea, not endemic to Australia.",
+        "“Throughout Australia” misses the gap in the most arid deserts.",
+        "Diet omits small mammals, carrion, fruit and seeds. Eggs and nestlings are listed as part of the varied diet, not only an occasional item.",
+        "August–February starts a month later than the western Victorian season of July–February.",
+        "Cats and loss of woodland understorey were not found as documented threats."
+      ],
+      "conflicts": [
+        "Clutch: Birds in Backyards says 3–4. Nest Record Scheme means are about 2.9 in New South Wales and about 3.0 in New South Wales and Victoria, with a study range of 2–4, usually 3. One popular account says a clutch of 2.",
+        "Incubation: New South Wales study mean 17.4 days; HANZAB estimates cited there are 16.9, 18 and 19 days; other field accounts say 16–18 or 17–18 days.",
+        "Length: 22–25 cm (Australian Museum and Birds in Backyards) versus 22–26 cm (Biodiversity of the Western Volcanic Plains).",
+        "Season: western Victorian plains July–February; a general field account July–March."
+      ],
+      "notWellDocumented": [
+        "Cats, named nest predators, and loss of understorey as threats to this species."
+      ],
+      "sources": [
+        {
+          "url": "https://www.birdsinbackyards.net/species/Colluricincla-harmonica",
+          "title": "Grey Shrike-thrush — Birds in Backyards",
+          "accessed": "2026-10-25",
+          "supports": "Length 22–25 cm; clutch 3–4; all but the most arid regions of Australia and Tasmania, larger offshore islands and southern New Guinea; diet of insects, spiders, small mammals, frogs, lizards, eggs and young, carrion, fruit and seeds; cup nest; both sexes incubate."
+        },
+        {
+          "url": "https://australian.museum/learn/animals/birds/grey-shrike-thrush-colluricincla-harmonica/",
+          "title": "Grey Shrike-thrush — Australian Museum",
+          "accessed": "2026-10-25",
+          "supports": "Same range, size, diet and nest account as Birds in Backyards. Decrease around human habitation, particularly in the west."
+        },
+        {
+          "url": "https://bwvp.ecolinc.vic.edu.au/fieldguide/fauna/grey-shrike-thrush",
+          "title": "Grey Shrike-thrush — Biodiversity of the Western Volcanic Plains",
+          "accessed": "2026-10-25",
+          "supports": "Western Victorian season July–February; cup nest 2–6 m up in a cavity, fork, vine, shed or hanging basket; length 22–26 cm; not listed under FFG or EPBC on that page."
+        },
+        {
+          "url": "https://www.tandfonline.com/doi/abs/10.1071/MU04022",
+          "title": "Stevens and Watson 2005. Breeding biology of the Grey Shrike-thrush — Emu",
+          "accessed": "2026-10-25",
+          "supports": "Clutch usually 3 (range 2–4); mean incubation 17.4 days; both parents by day, female at night. Compares HANZAB means of about 2.9 eggs and incubation estimates of 16.9, 18 and 19 days."
+        },
+        {
+          "url": "https://www.iucnredlist.org/species/22705561/130407286",
+          "title": "Colluricincla harmonica — IUCN Red List",
+          "accessed": "2026-10-25",
+          "supports": "Least Concern, assessed 2018. Native in Australia, Indonesia and Papua New Guinea. Tentative decline from habitat loss."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Grey_shrikethrush",
+          "title": "Grey shrikethrush — Wikipedia",
+          "accessed": "2026-10-25",
+          "supports": "About 24 cm; absent from the driest inland deserts; also in New Guinea; Least Concern."
+        },
+        {
+          "url": "https://www.environment.vic.gov.au/__data/assets/pdf_file/0028/793801/FFG_Threatened_List_July_2026.pdf",
+          "title": "FFG Act Threatened List, July 2026 — DEECA",
+          "accessed": "2026-10-25",
+          "supports": "Colluricincla harmonica does not appear."
+        },
+        {
+          "url": "https://data.gov.au/data/dataset/ae652011-f39e-4c6c-91b8-1dc2d2dfee8f/resource/78401dce-1f40-49d3-92c4-3713d6e34974/download/20260828spcs.csv",
+          "title": "EPBC Act threatened species list, 28 August 2026 — data.gov.au",
+          "accessed": "2026-10-25",
+          "supports": "No row for Colluricincla harmonica."
+        }
+      ]
+    },
+    {
+      "commonName": "Willie Wagtail",
+      "scientificName": "Rhipidura leucophrys",
+      "verdict": "corrected",
+      "fields": {
+        "origins": "Native to Australia, New Guinea, the Solomon Islands, the Bismarck Archipelago and the Moluccas. It is not endemic to Australia. A 1920s release in Hawaii did not persist.",
+        "distribution": "Common across mainland Australia. It is not a Tasmanian resident: Birds in Backyards and a western Victorian account say absent, while the Australian Museum and Wikipedia call it a vagrant. Mostly sedentary, with some seasonal movements in northern and north-eastern Australia.",
+        "habitat": "Open forest, woodland, grassland with scattered trees, farms, wetlands and towns, often near water. It avoids rainforest and wet sclerophyll forest.",
+        "breeding": "In western Victoria the usual season is August to December, and birds can nest in any month if conditions allow. Birds in Backyards gives a main season of August to February. The nest is a grass cup bound with spider web on a horizontal branch. The clutch is usually 3 (range 2–4). Both sexes incubate, usually for about 14 days (western Victoria 14–15 days; Australian Museum 12–16 days, usually 14).",
+        "diet": "Insects taken on the ground and in flight, including flies, beetles and larvae, plus spiders and other small invertebrates.",
+        "threats": "Documented predators of nestlings are the pied butcherbird, black butcherbird, pied currawong, spangled drongo, feral cat and rats. Ravens are harassed near the nest but were not named as predators. BirdLife also lists cats, dogs and habitat loss.",
+        "size": "About 19–22 cm. Birds in Backyards gives 18–22 cm (average 20), a western Victorian guide 19–22 cm, Wikipedia 19–21.5 cm, and the Australian Museum about 20 cm.",
+        "conservation": "Least Concern on the IUCN Red List (2024 assessment). Not on the EPBC Act list current at 28 August 2026, and not on Victoria’s FFG Act Threatened List of July 2026."
+      },
+      "errorsInDraft": [
+        "“Rare in Tasmania” is not accurate. The bird is absent as a breeding resident. Museum and Wikipedia accounts call it a vagrant; Birds in Backyards marks Tasmania as not present.",
+        "Ravens are not named as nest predators. Pied currawongs and cats are; so are butcherbirds, the spangled drongo and rats.",
+        "Size 19–21 cm is narrower than the published ranges of 18–22 cm and 19–22 cm.",
+        "August–February matches the national main season, but the western Victorian account says the usual season is August to December."
+      ],
+      "conflicts": [
+        "Tasmania: Birds in Backyards and the western Victorian guide say absent. The Australian Museum and Wikipedia say vagrant.",
+        "Clutch: Birds in Backyards says three. The Australian Museum says usually three, up to four. Wikipedia and the western Victorian guide say 2–4.",
+        "Incubation: Birds in Backyards 14 days; western Victoria 14–15 days; Australian Museum, citing HANZAB volume 7, 12–16 days, usually 14.",
+        "Season: western Victoria generally August–December, any month if conditions suit; Birds in Backyards mainly August–February and can nest all year; Australian Museum mostly August–January; Wikipedia July–December.",
+        "Length: Birds in Backyards 18–22 cm; western Victoria 19–22 cm; Wikipedia 19–21.5 cm; Australian Museum about 20 cm."
+      ],
+      "notWellDocumented": [
+        "Ravens as predators of Willie Wagtail eggs or chicks were not found in the sources checked."
+      ],
+      "sources": [
+        {
+          "url": "https://www.birdsinbackyards.net/species/Rhipidura-leucophrys",
+          "title": "Willie Wagtail — Birds in Backyards",
+          "accessed": "2026-10-25",
+          "supports": "Length 18–22 cm; mainly August–February, can nest all year; clutch three; incubation 14 days; mainland Australia, absent from Tasmania; also New Guinea, Solomons, Bismarcks and Moluccas; open habitats, often near water; insects on the ground and in the air."
+        },
+        {
+          "url": "https://australian.museum/learn/animals/birds/willie-wagtail/",
+          "title": "Willie Wagtail — Australian Museum",
+          "accessed": "2026-10-25",
+          "supports": "About 20 cm; Least Concern; vagrant to Tasmania; Torres Strait, New Guinea, Moluccas and Solomons; clutch usually three, up to four; incubation 12–16 days, usually 14; season mostly August–January. Cites HANZAB volume 7."
+        },
+        {
+          "url": "https://bwvp.ecolinc.vic.edu.au/fieldguide/fauna/willie-wagtail",
+          "title": "Willie Wagtail — Biodiversity of the Western Volcanic Plains",
+          "accessed": "2026-10-25",
+          "supports": "Western Victoria generally August–December; clutch 2–4; incubation 14–15 days by both parents; length 19–22 cm; absent from Tasmania."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Willie_wagtail",
+          "title": "Willie wagtail — Wikipedia",
+          "accessed": "2026-10-25",
+          "supports": "Length 19–21.5 cm; vagrant to Tasmania; clutch 2–4; incubation 14 days; nestling predators are pied and black butcherbirds, spangled drongo, pied currawong, feral cat and rats. IUCN 2024 assessment Least Concern."
+        },
+        {
+          "url": "https://birdlife.org.au/bird-profiles/willie-wagtail/",
+          "title": "Willie Wagtail — BirdLife Australia",
+          "accessed": "2026-10-25",
+          "supports": "IUCN Least Concern. Open habitats; absent from wet sclerophyll and rainforest. Threats listed include cats, dogs and habitat destruction."
+        },
+        {
+          "url": "https://www.environment.vic.gov.au/__data/assets/pdf_file/0028/793801/FFG_Threatened_List_July_2026.pdf",
+          "title": "FFG Act Threatened List, July 2026 — DEECA",
+          "accessed": "2026-10-25",
+          "supports": "Rhipidura leucophrys does not appear."
+        },
+        {
+          "url": "https://data.gov.au/data/dataset/ae652011-f39e-4c6c-91b8-1dc2d2dfee8f/resource/78401dce-1f40-49d3-92c4-3713d6e34974/download/20260828spcs.csv",
+          "title": "EPBC Act threatened species list, 28 August 2026 — data.gov.au",
+          "accessed": "2026-10-25",
+          "supports": "No row for Rhipidura leucophrys."
+        }
+      ]
+    },
+    {
+      "commonName": "Galah",
+      "scientificName": "Eolophus roseicapilla",
+      "verdict": "corrected",
+      "fields": {
+        "origins": "Native to mainland Australia. It is not naturally Tasmanian: it was introduced there and is now widespread, and it has also been introduced to the South Auckland area of New Zealand. The current name is Eolophus roseicapilla; Birds in Backyards still uses Eolophus roseicapillus.",
+        "distribution": "Over most of Australia, including some offshore islands, but absent from the driest deserts and the far north of Cape York. The Tasmanian population is introduced. Flocks travel long distances to feed and are mostly resident otherwise.",
+        "habitat": "Open and timbered country with scattered trees, usually near water, including farmland and towns. Dense high-rainfall forest is little used. Clearing and stock water have helped it increase.",
+        "breeding": "July to December in the south, and February to July in the north. The nest is a tree hollow lined with leaves, and both sexes incubate. Clutch figures conflict (see conflicts). Incubation is about 22–26 days (Rowley) or 23–25 days (Forshaw); about 25 days is the upper end of those ranges.",
+        "diet": "Mostly seeds of grasses, herbs and grain crops, taken on the ground, plus roots, green shoots, buds, leaves, flowers, fruit, nuts and some insects and larvae.",
+        "threats": "Named predators include the wedge-tailed eagle, little eagle, peregrine falcon, black falcon and grey falcon, and cats. Birds are killed by traffic. In South Australia they may be shot, trapped or gassed as unprotected native fauna. Up to half of chicks die in the first six months, but the cause is not stated. Loss of hollow trees was not found as a main threat.",
+        "size": "About 35–36 cm (Australian Museum and Birds in Backyards). Wikipedia says about 35 cm. A western Victorian guide says 35–38 cm.",
+        "conservation": "Least Concern on the IUCN Red List (assessed 2018). Not on the EPBC Act list current at 28 August 2026, and not on Victoria’s FFG Act Threatened List of July 2026."
+      },
+      "errorsInDraft": [
+        "“Native and endemic to Australia” omits the introduced populations in Tasmania and New Zealand. The natural range is mainland Australia.",
+        "“Throughout mainland Australia” misses the driest deserts, far northern Cape York, and the established Tasmanian population.",
+        "“Few natural predators beyond falcons” misses the little eagle, wedge-tailed eagle and cats. Peregrine, black and grey falcons are documented.",
+        "Loss of hollow trees was not found as a principal threat. Clearing and water points have favoured the species."
+      ],
+      "conflicts": [
+        "Clutch: Birds in Backyards and the Australian Museum say 3–4. Wikipedia, citing Forshaw, says usually 2–5. A HANZAB-style cockatoo summary gives 2–5 for Eolophus. The western Victorian guide says 3–6. Rowley, via a zoo fact sheet, gives typically 4, range 2–6, rarely 7–8.",
+        "Incubation: Forshaw via an avicultural review 23–25 days; Rowley 22–26 days; a field compilation 24 days; Wikipedia about 25 days. A broad cockatoo summary gives 20–30 days for Eolophus.",
+        "Length: Wikipedia about 35 cm; Australian Museum and Birds in Backyards 35–36 cm; western Victorian guide 35–38 cm.",
+        "Tasmanian history: Wikipedia says no sightings before 1848, a large increase in the 1960s from escapees, and also “introduced in the mid-20th century”."
+      ],
+      "notWellDocumented": [
+        "The cause of the reported 50% mortality of chicks in the first six months.",
+        "Loss of hollow-bearing trees as a population-level threat. The species nests in hollows, but sources describe an increase, not a decline from hollow shortage."
+      ],
+      "sources": [
+        {
+          "url": "https://www.birdsinbackyards.net/species/Eolophus-roseicapillus",
+          "title": "Galah — Birds in Backyards",
+          "accessed": "2026-10-25",
+          "supports": "Length 35–36 cm; February–July in the north and July–December in the south; clutch 3–4; hollow lined with leaves; both sexes incubate; seeds of grasses and crops; most of Australia including offshore islands; increasing around people."
+        },
+        {
+          "url": "https://australian.museum/learn/animals/birds/galah/",
+          "title": "Galah — Australian Museum",
+          "accessed": "2026-10-25",
+          "supports": "Scientific name Eolophus roseicapilla; length 35–36 cm; same season, clutch, nest and diet as Birds in Backyards. Up to 50% of chicks die in the first six months."
+        },
+        {
+          "url": "https://birdlife.org.au/bird-profiles/galah/",
+          "title": "Galah — BirdLife Australia",
+          "accessed": "2026-10-25",
+          "supports": "Eolophus roseicapilla; IUCN Least Concern; location given as nationwide; July–December in the south; seeds of grasses and crops."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Galah",
+          "title": "Galah — Wikipedia",
+          "accessed": "2026-10-25",
+          "supports": "About 35 cm; endemic to mainland Australia; introduced to Tasmania and to South Auckland, New Zealand; absent from the driest areas and far northern Cape York; clutch usually 2–5; incubation about 25 days; predators include little eagle, black falcon and peregrine falcon, plus traffic. IUCN 2018 Least Concern. South Australian shooting, trapping and gassing."
+        },
+        {
+          "url": "https://bwvp.ecolinc.vic.edu.au/fieldguide/fauna/galah",
+          "title": "Galah — Biodiversity of the Western Volcanic Plains",
+          "accessed": "2026-10-25",
+          "supports": "Southern season July–December; clutch 3–6; length 35–38 cm; seeds of grasses and crops; most of Australia including offshore islands."
+        },
+        {
+          "url": "https://www.aavac.com.au/files/2003-10.pdf",
+          "title": "Doneley 2003. The Galah — AAVAC proceedings",
+          "accessed": "2026-10-25",
+          "supports": "Wild diet includes seeds, cereal grain, fruit, berries, nuts, roots, green shoots, leaf buds, blossoms and insects. Incubation 23–25 days, citing Forshaw."
+        },
+        {
+          "url": "https://ielc.libguides.com/sdzg/factsheets/galah",
+          "title": "Galah fact sheet — San Diego Zoo Wildlife Alliance",
+          "accessed": "2026-10-25",
+          "supports": "Diet of seeds, roots, shoots and insects, citing Rowley and HANZAB (Marchant and Higgins 1999). Predators include wedge-tailed eagle, peregrine falcon and cats. Incubation 22–26 days. Clutch typically 4 (2–6, rarely 7–8)."
+        },
+        {
+          "url": "https://afo.birdlife.org.au/afo/index.php/afo/article/viewFile/1092/1062",
+          "title": "Czechura and Debus 1985. The Grey Falcon — Australian Bird Watcher",
+          "accessed": "2026-10-25",
+          "supports": "Grey Falcons chase and bring Galahs to the nest."
+        },
+        {
+          "url": "https://www.environment.vic.gov.au/__data/assets/pdf_file/0028/793801/FFG_Threatened_List_July_2026.pdf",
+          "title": "FFG Act Threatened List, July 2026 — DEECA",
+          "accessed": "2026-10-25",
+          "supports": "Eolophus roseicapilla and Eolophus roseicapillus do not appear."
+        },
+        {
+          "url": "https://data.gov.au/data/dataset/ae652011-f39e-4c6c-91b8-1dc2d2dfee8f/resource/78401dce-1f40-49d3-92c4-3713d6e34974/download/20260828spcs.csv",
+          "title": "EPBC Act threatened species list, 28 August 2026 — data.gov.au",
+          "accessed": "2026-10-25",
+          "supports": "No row for Eolophus roseicapilla or roseicapillus."
+        }
+      ]
+    },
+    {
+      "commonName": "Spotted Pardalote",
+      "scientificName": "Pardalotus punctatus",
+      "verdict": "corrected",
+      "fields": {
+        "origins": "Native and endemic to Australia, including Tasmania. It does not occur in the Northern Territory.",
+        "distribution": "Eastern and southern Australia from Cooktown, Queensland, to Perth, Western Australia, on the coast and inland to the western slopes, plus eastern and north-western Tasmania. The yellow-rumped form lives in drier inland mallee. Largely sedentary, with local movements off higher country in autumn and winter.",
+        "habitat": "Eucalypt forest and woodland, and parks and gardens with a mature eucalypt canopy. The yellow-rumped form uses mallee and mulga.",
+        "breeding": "Birds in Backyards and the Australian Museum, citing HANZAB volume 6, give June to January, a clutch of 4 and incubation of 19 days, shared by both parents. Wikipedia and Australian Geographic say southern birds start later, from August or September to December or January, and Wikipedia gives a clutch of 3–4. The nest is a lined chamber at the end of a tunnel in an earth bank, and sometimes a tree hollow or an artificial site.",
+        "diet": "Insects gleaned from eucalypt leaves, especially psyllids and their sugary lerps, plus leaf exudates.",
+        "threats": "Habitat clearing is the documented pressure, and numbers have fallen in some cities. Noisy miners can exclude them. Cats and dogs are named as predators of young in low nests in one urban account, and snakes and other reptiles can enter burrows. Foxes were not named.",
+        "size": "8–10 cm.",
+        "conservation": "Least Concern on the IUCN Red List (assessed 2016). Not on the EPBC Act list current at 28 August 2026. The only listed pardalote on that list is the Forty-spotted Pardalote. Not on Victoria’s FFG Act Threatened List of July 2026."
+      },
+      "errorsInDraft": [
+        "“Partly migratory” overstates the movements. The species is largely sedentary, with local shifts away from higher country.",
+        "The distribution sentence omits Tasmania, where the nominate subspecies occurs in the east and north-west.",
+        "The nest account omits tree hollows and artificial sites, which the Australian Museum and BirdLife record.",
+        "June–January is the national season in Birds in Backyards and the Australian Museum. Accounts aimed at southern birds start in August or September.",
+        "Foxes were not found as predators of burrow nests. Cats are named in one urban account, along with dogs."
+      ],
+      "conflicts": [
+        "Season: Birds in Backyards and the Australian Museum, citing HANZAB, say June–January. Wikipedia and Australian Geographic say August or September to December or January, later in the south.",
+        "Clutch: Birds in Backyards and the Australian Museum say 4. Wikipedia says 3–4. An encyclopedia.com family account says 3–5.",
+        "Incubation: Birds in Backyards and the Australian Museum say 19 days, the museum citing HANZAB volume 6. The encyclopedia.com account says 14–16 days and is not preferred."
+      ],
+      "notWellDocumented": [
+        "Foxes at Spotted Pardalote burrows.",
+        "A southern Victorian incubation figure separate from the national HANZAB value of 19 days."
+      ],
+      "sources": [
+        {
+          "url": "https://www.birdsinbackyards.net/species/Pardalotus-punctatus",
+          "title": "Spotted Pardalote — Birds in Backyards",
+          "accessed": "2026-10-25",
+          "supports": "Length 8–10 cm; June–January; clutch 4; incubation 19 days; Cooktown to Perth; Tasmania marked secure and the Northern Territory not present; psyllids and sugary exudates; tunnel nest, sometimes a hollow."
+        },
+        {
+          "url": "https://australian.museum/learn/animals/birds/spotted-pardalote/",
+          "title": "Spotted Pardalote — Australian Museum",
+          "accessed": "2026-10-25",
+          "supports": "Length 8–10 cm; June–January; clutch 4; incubation 19 days; largely sedentary with local altitudinal movements. Cites HANZAB volume 6."
+        },
+        {
+          "url": "https://birdlife.org.au/bird-profiles/spotted-pardalote/",
+          "title": "Spotted Pardalote — BirdLife Australia",
+          "accessed": "2026-10-25",
+          "supports": "IUCN Least Concern. Tunnel in an earth bank, sometimes a hollow or an artificial site. Threat listed as habitat destruction. Diet of psyllids and sugary exudates."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Spotted_pardalote",
+          "title": "Spotted pardalote — Wikipedia",
+          "accessed": "2026-10-25",
+          "supports": "Length 8–10 cm; endemic to eastern and southern Australia, including eastern and north-western Tasmania; southern breeding August or September to December or January; clutch 3–4; incubation 19 days. IUCN 2016 Least Concern. Urban decline noted."
+        },
+        {
+          "url": "https://keyserver.lucidcentral.org/key-server/data/03050501-000c-4503-8203-0a030507090d/media/Html/Pardalotus_punctatus.htm",
+          "title": "Spotted Pardalote — Canberra Ornithologists Group bird key",
+          "accessed": "2026-10-25",
+          "supports": "Cats and dogs named as predators of young in low nests. Noisy miners exclude the species. Woodland clearing is the habitat threat."
+        },
+        {
+          "url": "https://www.australiangeographic.com.au/nature-wildlife/2021/09/the-burrowing-spotted-pardalote-is-among-australias-smallest/",
+          "title": "The burrowing spotted pardalote — Australian Geographic",
+          "accessed": "2026-10-25",
+          "supports": "Length 8–10 cm; southern breeding August or September to December or January; burrows at risk from snakes, other reptiles, collapse and parasites. The severe fly-larva toll described is for the Forty-spotted Pardalote."
+        },
+        {
+          "url": "https://www.environment.vic.gov.au/__data/assets/pdf_file/0028/793801/FFG_Threatened_List_July_2026.pdf",
+          "title": "FFG Act Threatened List, July 2026 — DEECA",
+          "accessed": "2026-10-25",
+          "supports": "Pardalotus punctatus does not appear."
+        },
+        {
+          "url": "https://data.gov.au/data/dataset/ae652011-f39e-4c6c-91b8-1dc2d2dfee8f/resource/78401dce-1f40-49d3-92c4-3713d6e34974/download/20260828spcs.csv",
+          "title": "EPBC Act threatened species list, 28 August 2026 — data.gov.au",
+          "accessed": "2026-10-25",
+          "supports": "No row for Pardalotus punctatus. Pardalotus quadragintus, the Forty-spotted Pardalote, is listed as Endangered."
+        }
+      ]
+    },
+    {
+      "commonName": "Grey Fantail",
+      "scientificName": "Rhipidura albiscapa",
+      "verdict": "corrected",
+      "fields": {
+        "origins": "Native, but not endemic to Australia. The same species breeds in Australia, including Tasmania, and on Norfolk Island, Makira in the Solomon Islands, Vanuatu and New Caledonia. The New Zealand fantail is a close relative, Rhipidura fuliginosa, which some authorities still lump with it. New Guinea is not a breeding range; south-eastern birds may reach northern Australia and possibly New Guinea on migration.",
+        "distribution": "Throughout Australia in most treed habitats, including Tasmania. South-eastern birds, including those breeding in southern Victoria, move north and west in autumn. South-western birds are mostly resident, the Queensland highland form is resident, and the inland form is nomadic. Tasmanian birds move to the mainland in winter.",
+        "habitat": "Most wooded habitats, including eucalypt forest, rainforest, heath, mangroves and, in winter, planted gardens.",
+        "breeding": "July to January. The nest is a small cup of grass, bark or moss bound with spider web, with a long hanging tail, usually in a thin fork a few metres up. Both parents incubate for about 14 days, sometimes 15. The clutch is usually 2–3 in Birds in Backyards; other accounts say usually 3, sometimes 3–4, or a wider range of 1–5.",
+        "diet": "Small flying insects, caught in the air from the edge of foliage at all levels.",
+        "threats": "Nest predation is high. Pied currawongs are named destroying nests. Cats were not named in the sources checked. The species is widespread and Least Concern.",
+        "size": "14–16 cm, average 15 cm (Birds in Backyards). Wikipedia says it grows to 16 cm. Some secondary accounts say up to 17 cm.",
+        "conservation": "Least Concern on the IUCN Red List (assessed 5 June 2025). Rhipidura albiscapa is not on the EPBC Act list current at 28 August 2026. The extinct Lord Howe Grey Fantail, Rhipidura fuliginosa cervina, is listed as Extinct under the EPBC Act and is a different taxon. Not on Victoria’s FFG Act Threatened List of July 2026."
+      },
+      "errorsInDraft": [
+        "“Related populations in New Guinea and the Pacific” misstates the range. Pacific island birds (Solomons, Vanuatu, New Caledonia, Norfolk Island) are this species. New Zealand birds are treated as a separate species by the IUCN. New Guinea is not a breeding population.",
+        "Cats were not found as documented predators. Pied currawongs are."
+      ],
+      "conflicts": [
+        "Length: Birds in Backyards 14–16 cm; Wikipedia grows to 16 cm; oiseaux.net and a Tasmanian site say 17 cm. The draft’s 14–17 cm is the outer envelope.",
+        "Clutch: Birds in Backyards and a field compilation say 2–3. Wikipedia says usually 3 or 4. A handbook-style account says usually 3 in Australia, with a range of 1–5 and sometimes 6, and usually 2 in subspecies keasti.",
+        "Incubation: Birds in Backyards 14 days; a field compilation 14–15 days; a handbook-style account usually 14, sometimes 15.",
+        "Taxonomy: IUCN and Australian Faunal Directory treat Rhipidura albiscapa as separate from the New Zealand fantail. Some authorities still consider them conspecific.",
+        "Birds in Backyards marks the Northern Territory as Critically Endangered. That status was not confirmed on a current Northern Territory list. IUCN is Least Concern, and the species is not on the FFG or EPBC lists."
+      ],
+      "notWellDocumented": [
+        "The Birds in Backyards “Critically endangered” flag for the Northern Territory. No current Northern Territory listing was found to confirm it.",
+        "Cats as predators of Grey Fantails.",
+        "A clutch or incubation study confined to southern Victoria, beyond the national figures."
+      ],
+      "sources": [
+        {
+          "url": "https://www.birdsinbackyards.net/species/Rhipidura-albiscapa",
+          "title": "Grey Fantail — Birds in Backyards",
+          "accessed": "2026-10-25",
+          "supports": "Length 14–16 cm; July–January; clutch 2–3; incubation 14 days; throughout Australia in most treed habitats; partial northern migration in winter; flying insects; wine-glass nest. Northern Territory status on that page is Critically Endangered; other states Secure."
+        },
+        {
+          "url": "https://www.iucnredlist.org/species/22735714/281006953",
+          "title": "Rhipidura albiscapa — IUCN Red List",
+          "accessed": "2026-10-25",
+          "supports": "Least Concern, assessed 5 June 2025. Range: Australia including Tasmania, Solomon Islands (Makira), Vanuatu, New Caledonia, Loyalty Islands and Norfolk Island. Split from Rhipidura fuliginosa."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Grey_fantail",
+          "title": "Grey fantail — Wikipedia",
+          "accessed": "2026-10-25",
+          "supports": "Grows to 16 cm; Australia, Solomons, Vanuatu and New Caledonia; south-eastern populations migratory; clutch usually 3 or 4; incubation about two weeks; pied currawongs destroy nests. IUCN citation is the 2016 assessment."
+        },
+        {
+          "url": "https://birdsoftheworld.org/bow/species/gryfan1/cur/introduction",
+          "title": "Gray Fantail — Birds of the World",
+          "accessed": "2026-10-25",
+          "supports": "Subspecies ranges. South-eastern alisteri migrates to northern Australia and possibly New Guinea. Tasmanian albiscapa is non-breeding in south-eastern Australia. Least Concern."
+        },
+        {
+          "url": "https://biodiversity.org.au/afd/taxa/Rhipidura_%28Rhipidura%29_albiscapa",
+          "title": "Rhipidura albiscapa — Australian Faunal Directory",
+          "accessed": "2026-10-25",
+          "supports": "Australian states including Victoria and Tasmania, plus New Caledonia, Solomon Islands and Vanuatu. Wooded habitats from rainforest to mallee and mangroves."
+        },
+        {
+          "url": "https://mdahlem.net/birds/21/greyfant.php",
+          "title": "Grey Fantail — M. Dahlem",
+          "accessed": "2026-10-25",
+          "supports": "Season July–January; clutch 2–3; incubation 14–15 days; both sexes incubate."
+        },
+        {
+          "url": "https://www.environment.gov.au/cgi-bin/sprat/public/publicspecies.pl?taxon_id=67106",
+          "title": "Lord Howe Grey Fantail — EPBC SPRAT",
+          "accessed": "2026-10-25",
+          "supports": "Rhipidura fuliginosa cervina is listed as Extinct (effective 16 July 2000). Schodde and Mason place Lord Howe and New Zealand birds in R. fuliginosa and Australian birds in R. albiscapa."
+        },
+        {
+          "url": "https://data.gov.au/data/dataset/ae652011-f39e-4c6c-91b8-1dc2d2dfee8f/resource/78401dce-1f40-49d3-92c4-3713d6e34974/download/20260828spcs.csv",
+          "title": "EPBC Act threatened species list, 28 August 2026 — data.gov.au",
+          "accessed": "2026-10-25",
+          "supports": "Rhipidura fuliginosa cervina is Extinct. No row for Rhipidura albiscapa."
+        },
+        {
+          "url": "https://www.environment.vic.gov.au/__data/assets/pdf_file/0028/793801/FFG_Threatened_List_July_2026.pdf",
+          "title": "FFG Act Threatened List, July 2026 — DEECA",
+          "accessed": "2026-10-25",
+          "supports": "Rhipidura albiscapa does not appear."
+        }
+      ]
+    },
+    {
+      "commonName": "Welcome Swallow",
+      "scientificName": "Hirundo neoxena",
+      "verdict": "corrected",
+      "fields": {
+        "origins": "Native to Australia and nearby islands, including New Caledonia, and also recorded in New Guinea. It reached New Zealand unaided. It was a rare vagrant before the late 1950s, and the first confirmed breeding was at Awanui, Northland, in 1958.",
+        "distribution": "Widespread in Australia and less common in the far north. Eastern and south-eastern birds, including those in southern Victoria, are largely migratory and winter in northern Australia. Western Australian birds are mainly sedentary. Habitat accounts exclude dense forest and the drier inland, while a BirdLife overview also places the species in deserts.",
+        "habitat": "Open country, farmland, wetlands, coasts and towns, often near water. Absent from dense forest and, on the Australian Museum and Birds in Backyards accounts, from the drier inland.",
+        "breeding": "The Australian Museum and Birds in Backyards give August to February. A Yarra Valley study found laying from August to December, and a general account says August to March. The nest is a mud-and-grass cup lined with feathers and fur, on a wall, bridge or eave. The usual clutch is 3–5; the full range is 2–7, and eastern Australian means are about 3.7–3.9. The female alone incubates. In southern Victoria the usual incubation period is 15–19 days, and an eastern Australian study found a mean of 16.0 days. Birds in Backyards’ figure of 21 days is not supported by these studies.",
+        "diet": "Flying insects, caught on the wing, sometimes low over water and paddocks.",
+        "threats": "Named predators are hawks, snakes and feral cats. Snakes take eggs and young. Nests on buildings are disturbed by people. In New Zealand, mustelids and blackbirds have taken eggs. Clearing and buildings have helped the species spread.",
+        "size": "15 cm in Australian accounts (Australian Museum and Birds in Backyards). New Zealand Birds Online gives 14–16 cm.",
+        "conservation": "Least Concern on the IUCN Red List (assessed 2017). Not on the EPBC Act list current at 28 August 2026, and not on Victoria’s FFG Act Threatened List of July 2026."
+      },
+      "errorsInDraft": [
+        "Incubation “about 15 days” is the bottom of the usual range, not the typical value. Southern Victorian and HANZAB-aligned figures are usually 15–19 days, with an eastern Australian mean of 16.0 days. Birds in Backyards’ 21 days matches nestling periods in other studies, not incubation.",
+        "“Resident in the south, partly migratory” reverses the pattern. Southern and eastern birds are the migratory ones. Western birds are mainly sedentary.",
+        "“Except the arid interior” is only partly supported. The Australian Museum excludes the drier inland, but BirdLife’s overview includes deserts.",
+        "August–March is longer than August–February in the Australian Museum and Birds in Backyards, and longer than August–December laying in the Yarra Valley.",
+        "Origins omit New Caledonia and the vagrant records before the 1958 breeding colonisation. The 1950s date for the start of New Zealand breeding is fair."
+      ],
+      "conflicts": [
+        "Incubation: Birds in Backyards 21 days. Tarburton 1993 mean 16.0 days in eastern Australia and 16.7 days in New Zealand. Lill 2014, Yarra Valley, 11–20 days, with 80.8% lasting 15–19 days, citing HANZAB (Higgins et al. 2006) for a usual period of 15–19 days. New Zealand Birds Online text says 15 days; its data table says 15–19 days. Wikipedia says the eggs hatch after two to three weeks.",
+        "Season: Australian Museum and Birds in Backyards August–February. Lill, citing HANZAB, laying August–December in southern Victoria. Wikipedia August–March.",
+        "Range in dry country: BirdLife overview includes deserts. The same site’s habitat section, and the Australian Museum, exclude the drier inland and heavily forested regions. Wikipedia says the species does not breed in desert or dense forest.",
+        "New Zealand arrival: New Zealand Birds Online and Te Ara say first breeding in 1958, with earlier vagrant records. One Wikipedia paragraph says the early 1900s.",
+        "Length: Australian sources 15 cm; New Zealand Birds Online 14–16 cm.",
+        "Clutch: Birds in Backyards 3–5. Eastern Australian mean 3.7 (Tarburton) and Yarra Valley mean 3.9, mode 4 (Lill). Full recorded range 2–7."
+      ],
+      "notWellDocumented": [
+        "Birds in Backyards’ incubation figure of 21 days. It is not supported by Tarburton, by the Yarra Valley study, or by the HANZAB duration those papers cite. It matches published nestling periods more closely than incubation.",
+        "Whether ship assistance played any part in the New Zealand colonisation. The accepted account is a natural crossing, and breeding began in 1958."
+      ],
+      "sources": [
+        {
+          "url": "https://www.birdsinbackyards.net/species/Hirundo-neoxena",
+          "title": "Welcome Swallow — Birds in Backyards",
+          "accessed": "2026-10-25",
+          "supports": "Length 15 cm; breeding August–February; clutch 3–5; incubation stated as 21 days and nestling period 21 days; widespread but less common in the far north; habitats except heavily forested regions and drier inland; female alone incubates; mud cup lined with feathers and fur."
+        },
+        {
+          "url": "https://australian.museum/learn/animals/birds/welcome-swallow/",
+          "title": "Welcome Swallow — Australian Museum",
+          "accessed": "2026-10-25",
+          "supports": "Length 15 cm; season August–February; partially migratory; same habitat exceptions and nest description; flying insects."
+        },
+        {
+          "url": "https://birdlife.org.au/bird-profiles/welcome-swallow/",
+          "title": "Welcome Swallow — BirdLife Australia",
+          "accessed": "2026-10-25",
+          "supports": "IUCN Least Concern. Overview mentions deserts as well as other habitats. Habitat section excludes heavily forested regions and drier inland areas. Female alone incubates. Flying insects."
+        },
+        {
+          "url": "https://www.tandfonline.com/doi/abs/10.1071/MU9930034",
+          "title": "Tarburton 1993. Breeding biology of the Welcome Swallow — Emu",
+          "accessed": "2026-10-25",
+          "supports": "Female alone incubates. Eastern Australian mean clutch 3.7 and mean incubation 16.0 days. New Zealand mean incubation 16.7 days and mean nestling period 21.5 days, against an Australian nestling mean of 18.9 days."
+        },
+        {
+          "url": "https://absa.asn.au/wp-content/uploads/2021/03/Vol38No1_Pg10-17_Lill.pdf",
+          "title": "Lill 2014. Welcome Swallow breeding in the Yarra Valley — Australian Field Ornithology",
+          "accessed": "2026-10-25",
+          "supports": "Southern Victoria. Laying August–December. Clutch mean 3.9, mode 4, usually 3–5. Incubation 11–20 days, 80.8% lasting 15–19 days. Cites Higgins et al. 2006 (HANZAB) for a usual incubation period of 15–19 days."
+        },
+        {
+          "url": "https://www.nzbirdsonline.org.nz/species/welcome-swallow",
+          "title": "Welcome swallow — New Zealand Birds Online",
+          "accessed": "2026-10-25",
+          "supports": "First breeding at Awanui in 1958; rare vagrants before the late 1950s. Narrative incubation 15 days by the female; data table 15–19 days. Clutch 2–7, mean 4. Length 14–16 cm. Cites HANZAB volume 7."
+        },
+        {
+          "url": "https://teara.govt.nz/en/photograph/9889/welcome-swallow",
+          "title": "Welcome swallow — Te Ara Encyclopedia of New Zealand",
+          "accessed": "2026-10-25",
+          "supports": "First New Zealand breeding record near Kaitaia in 1958. Also breeds in Australia and New Caledonia."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Welcome_swallow",
+          "title": "Welcome swallow — Wikipedia",
+          "accessed": "2026-10-25",
+          "supports": "About 15 cm; eastern populations migratory, western and New Zealand birds mainly sedentary; does not breed in desert or dense forest; breeding August–March in one account; clutch 2–7, average 4, and also 3–5; female incubates; eggs hatch after two to three weeks. Predators named as hawk, snake and feral cat. IUCN 2017 Least Concern. One paragraph says New Zealand arrival in the early 1900s."
+        },
+        {
+          "url": "https://www.environment.vic.gov.au/__data/assets/pdf_file/0028/793801/FFG_Threatened_List_July_2026.pdf",
+          "title": "FFG Act Threatened List, July 2026 — DEECA",
+          "accessed": "2026-10-25",
+          "supports": "Hirundo neoxena does not appear."
+        },
+        {
+          "url": "https://data.gov.au/data/dataset/ae652011-f39e-4c6c-91b8-1dc2d2dfee8f/resource/78401dce-1f40-49d3-92c4-3713d6e34974/download/20260828spcs.csv",
+          "title": "EPBC Act threatened species list, 28 August 2026 — data.gov.au",
+          "accessed": "2026-10-25",
+          "supports": "No row for Hirundo neoxena."
+        }
+      ]
+    },
+    {
+      "commonName": "Striated Pardalote",
+      "scientificName": "Pardalotus striatus",
+      "verdict": "corrected",
+      "fields": {
+        "origins": "Native and endemic to Australia, including Tasmania.",
+        "distribution": "Most of Australia, but absent from the most arid deserts, including parts of inland Western Australia. The Tasmanian subspecies breeds on Tasmania and the Bass Strait islands and spends the non-breeding season in eastern and south-eastern Australia. Other populations are resident or locally mobile.",
+        "habitat": "Almost any country with trees or shrubs, preferring eucalypt forest and woodland, from tall rainforest to arid scrub.",
+        "breeding": "June to January in Birds in Backyards and the Australian Museum; one account extends the season to February. Pairs or groups of up to six nest in a tree hollow, a tunnel in a bank, or a crevice in a building. The clutch is 3–5 in Birds in Backyards, 2–5 in another account, and 3–4 in others. Both sexes incubate, and helpers may feed the young. Published incubation figures cluster at about 14–16 days. A secondary compilation gives 15–23 days. The full HANZAB text was not available.",
+        "diet": "Insects and their larvae, especially psyllids and lerps, picked from eucalypt foliage. Birds sometimes feed in low shrubs.",
+        "threats": "Habitat clearing is the documented pressure, although the species remains widespread and the decline is not considered enough for a threatened listing. Competition for hollows was not found as a demonstrated threat. Many nests are dug in banks, so hollows are not the only site.",
+        "size": "Birds in Backyards gives 8–10 cm, average 9 cm. A handbook-style account gives 9.0–11.5 cm, and other accounts give 8–12 cm or an average of about 10 cm.",
+        "conservation": "Least Concern on the IUCN Red List (assessed 2017). Not on the EPBC Act list current at 28 August 2026, and not on Victoria’s FFG Act Threatened List of July 2026. A western Victorian site notes a decrease attributed to habitat destruction that does not meet a threatened threshold."
+      },
+      "errorsInDraft": [
+        "“Throughout Australia” misses the gap in the most arid deserts.",
+        "“Incubation not confirmed in sources checked (roughly two to three weeks)” is not accurate. Several accounts give about 14–16 days. “Two to three weeks” is wider than those figures.",
+        "Competition for hollows was not found as a documented threat. Habitat loss was. The species also nests in earth banks.",
+        "Size 9–11.5 cm matches a handbook-style account, but Birds in Backyards, the usual Australian source, says 8–10 cm."
+      ],
+      "conflicts": [
+        "Length: Birds in Backyards 8–10 cm, average 9. A handbook-style account says 9.0–11.5 cm. Other accounts say 8–12 cm or an average of about 10 cm.",
+        "Clutch: Birds in Backyards 3–5. Wikipedia 2–5. A Queensland account and a field compilation say 3–4.",
+        "Incubation: about 16 days (Queensland account); 14–16 days (field compilation and a family encyclopedia); 15–23 days in one secondary compilation. Birds in Backyards does not give a figure. HANZAB volume 6 is cited by banders but the incubation page was not opened.",
+        "Season: Birds in Backyards and the Australian Museum June–January. Wikipedia June–February."
+      ],
+      "notWellDocumented": [
+        "The full HANZAB incubation period. Published summaries cluster at 14–16 days, with one wider secondary range of 15–23 days.",
+        "Competition with starlings or other hollow-nesters as a population threat to the Striated Pardalote. A nest-box note says the entrance is too small for Common Mynas and Common Starlings, which cuts against that threat."
+      ],
+      "sources": [
+        {
+          "url": "https://www.birdsinbackyards.net/species/Pardalotus-striatus",
+          "title": "Striated Pardalote — Birds in Backyards",
+          "accessed": "2026-10-25",
+          "supports": "Length 8–10 cm, average 9; June–January; clutch 3–5; no incubation figure; most of Australia except the most arid areas; endemic to Australia; insects and larvae from foliage; hollow or tunnel, and artificial sites; helpers may feed young."
+        },
+        {
+          "url": "https://australian.museum/learn/animals/birds/striated-pardalote/",
+          "title": "Striated Pardalote — Australian Museum",
+          "accessed": "2026-10-25",
+          "supports": "Same distribution, habitat, diet and nest account. Breeding season June–January. Endemic to Australia."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Striated_pardalote",
+          "title": "Striated pardalote — Wikipedia",
+          "accessed": "2026-10-25",
+          "supports": "Endemic; forages for lerps; all of Australia except some Western Australian deserts; Tasmanian subspecies breeds on Bass Strait islands and Tasmania and is non-breeding in eastern and south-eastern Australia; breeding June–February; clutch 2–5. IUCN 2017 Least Concern."
+        },
+        {
+          "url": "https://www.ourlocalbirds.com/striated-pardalote",
+          "title": "Striated Pardalote — Our Local Birds",
+          "accessed": "2026-10-25",
+          "supports": "Average length about 10 cm; clutch 3 or 4; incubation about 16 days; diet mainly lerps. Southern birds migrate north. This account is written from south-east Queensland."
+        },
+        {
+          "url": "https://mdahlem.net/birds/17/stripard.php",
+          "title": "Striated Pardalote — M. Dahlem",
+          "accessed": "2026-10-25",
+          "supports": "Length 8–12 cm; season August–January; clutch 3–4; incubation 14–16 days."
+        },
+        {
+          "url": "https://www.encyclopedia.com/science/encyclopedias-almanacs-transcripts-and-maps/pardalotes-pardalotidae",
+          "title": "Pardalotes — Encyclopedia.com (handbook-style account)",
+          "accessed": "2026-10-25",
+          "supports": "Striated Pardalote length 9.0–11.5 cm. Family incubation 14–16 days and clutch 3–5. Threats given as land clearing, overgrazing and habitat fragmentation."
+        },
+        {
+          "url": "https://www.birdsinbackyards.net/sites/www.birdsinbackyards.net/files/Striated%20Pardalote_0.pdf",
+          "title": "Striated Pardalote fact sheet — Birds in Backyards",
+          "accessed": "2026-10-25",
+          "supports": "Length 8–10 cm; insects, particularly psyllids. Nest-box entrance said to be too small for Common Mynas and Common Starlings."
+        },
+        {
+          "url": "https://bwvp.ecolinc.vic.edu.au/content/point-5",
+          "title": "Striated Pardalote — Biodiversity of the Western Volcanic Plains",
+          "accessed": "2026-10-25",
+          "supports": "Endemic and still secure because of a wide distribution. A decrease is attributed to habitat destruction and is not enough for a threatened listing."
+        },
+        {
+          "url": "https://absa.asn.au/wp-content/uploads/2015/04/Striated-Pardalote.pdf",
+          "title": "Striated Pardalote — Australian Bird Study Association, Bird in the Hand",
+          "accessed": "2026-10-25",
+          "supports": "Cites HANZAB volume 6 for measurements. Both sexes incubate. The sheet does not give the incubation period."
+        },
+        {
+          "url": "https://www.environment.vic.gov.au/__data/assets/pdf_file/0028/793801/FFG_Threatened_List_July_2026.pdf",
+          "title": "FFG Act Threatened List, July 2026 — DEECA",
+          "accessed": "2026-10-25",
+          "supports": "Pardalotus striatus does not appear."
+        },
+        {
+          "url": "https://data.gov.au/data/dataset/ae652011-f39e-4c6c-91b8-1dc2d2dfee8f/resource/78401dce-1f40-49d3-92c4-3713d6e34974/download/20260828spcs.csv",
+          "title": "EPBC Act threatened species list, 28 August 2026 — data.gov.au",
+          "accessed": "2026-10-25",
+          "supports": "No row for Pardalotus striatus."
+        }
+      ]
+    }
+  ],
+  "queries": [
+    "Grey Shrike-thrush Colluricincla harmonica BirdLife Australia breeding clutch incubation size distribution New Guinea",
+    "site:birdsinbackyards.net Grey Shrike-thrush Willie Wagtail Galah Spotted Pardalote Grey Fantail Welcome Swallow Striated Pardalote",
+    "site:australian.museum Grey Shrike-thrush Colluricincla harmonica Willie Wagtail Galah Spotted Pardalote Grey Fantail Welcome Swallow Striated Pardalote",
+    "FFG Act Threatened List July 2026 Victoria Colluricincla Rhipidura Eolophus Pardalotus Hirundo neoxena",
+    "EPBC Act threatened species list 2026 Colluricincla harmonica Rhipidura leucophrys Eolophus roseicapilla Pardalotus Hirundo neoxena",
+    "Welcome Swallow Hirundo neoxena incubation period days HANZAB Birds in Backyards 14 15 16 21 clutch",
+    "site:birdlife.org.au Grey Shrike-thrush OR Willie Wagtail OR Galah OR Spotted Pardalote OR Grey Fantail OR Welcome Swallow OR Striated Pardalote bird profile",
+    "Grey Shrike-thrush OR Colluricincla harmonica incubation clutch southern Victoria breeding season nest HANZAB OR Higgins",
+    "FFG Threatened List July 2026 site:environment.vic.gov.au filetype:pdf Colluricincla OR Pardalotus OR Rhipidura OR Eolophus OR Hirundo",
+    "Grey Fantail OR Rhipidura albiscapa threatened Northern Territory critically endangered Tiwi OR subspecies",
+    "Welcome Swallow New Zealand colonisation 1958 OR 1950s nzbirdsonline first breeding Northland",
+    "Grey Shrike-thrush breeding season Victoria nest site hollow OR ledge clutch incubation Higgins Peter HANZAB",
+    "Striated Pardalote Pardalotus striatus length cm incubation days clutch HANZAB OR Birds in Backyards OR museum",
+    "site:bwvp.ecolinc.vic.edu.au Willie Wagtail OR Galah OR Spotted Pardalote OR Grey Fantail OR Welcome Swallow OR Striated Pardalote breeding",
+    "Rhipidura fuliginosa OR Rhipidura albiscapa EPBC extinct Lord Howe SPRAT 2026",
+    "Grey Fantail clutch 2 OR 3 OR 4 eggs incubation 14 Victoria OR HANZAB Rhipidura albiscapa",
+    "Spotted Pardalote OR Pardalotus punctatus predator OR fox OR cat nest burrow threat habitat loss",
+    "Galah Eolophus diet bulbs OR roots OR shoots OR grass seeds HANZAB OR Forshaw incubation 24 OR 25 days"
+  ]
+}
