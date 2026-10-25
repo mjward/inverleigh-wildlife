@@ -1,0 +1,798 @@
+[
+  {
+    "id": "little-whip-snake",
+    "commonName": "Little Whip Snake",
+    "scientificName": "Suta flagellum",
+    "tier": "5km",
+    "records": {
+      "centre": "-38.10, 144.05",
+      "note": "Counts are Atlas of Living Australia occurrence rows and iNaturalist observations. The 10 km radius includes the 5 km radius. ALA and iNaturalist overlap where the dataset is iNaturalist Australia, so the two totals must not be added. Distances are great-circle kilometres from -38.10, 144.05 using the coordinates returned by the API. An iNaturalist observation with geoprivacy obscured and a public accuracy of about 28.3 km is counted, but its public coordinate is not a place. ALA vernacular name is Little Whip Snake. iNaturalist uses Whip Hooded Snake. Victorian Biodiversity Atlas rows in this circle are stored under the synonym Parasuta flagellum; the accepted ALA species facet is Suta flagellum.",
+      "ala5": {
+        "count": 8,
+        "yearMin": 1989,
+        "yearMax": 2025,
+        "radiusKm": 5,
+        "familyCheck": "Elapidae species facet at 5 km is only Suta flagellum 8, Austrelaps superbus 3 and Pseudonaja textilis 1 (12 Elapidae in total).",
+        "datasets": {
+          "iNaturalist Australia": 7,
+          "Victorian Biodiversity Atlas": 1
+        },
+        "months": {
+          "May": 2,
+          "October": 2,
+          "April": 1,
+          "June": 1,
+          "July": 1,
+          "September": 1
+        },
+        "uncertaintyMeters": {
+          "28300": 6,
+          "5": 1,
+          "100": 1
+        }
+      },
+      "ala10": {
+        "count": 28,
+        "yearMin": 1979,
+        "yearMax": 2025,
+        "radiusKm": 10,
+        "includesAla5": true,
+        "alsoNearbyCount": 20,
+        "datasets": {
+          "iNaturalist Australia": 16,
+          "Victorian Biodiversity Atlas": 7,
+          "Geelong Field Naturalists Club": 3,
+          "ALA species sightings and OzAtlas": 1,
+          "Museums Victoria provider for OZCAM": 1
+        },
+        "months": {
+          "May": 8,
+          "October": 5,
+          "July": 3,
+          "August": 3,
+          "June": 2,
+          "September": 2,
+          "December": 2,
+          "March": 1,
+          "April": 1,
+          "November": 1
+        }
+      },
+      "inatCounts": {
+        "radius5kmAllGrades": 7,
+        "radius5kmResearch": 7,
+        "radius10kmAllGrades": 16,
+        "radius10kmResearch": 15,
+        "taxonId": 1127948,
+        "parentSearchTaxonId": 85553
+      },
+      "inatPublic": [
+        "https://www.inaturalist.org/observations/62693554",
+        "https://www.inaturalist.org/observations/100198312",
+        "https://www.inaturalist.org/observations/140143432",
+        "https://www.inaturalist.org/observations/99574882",
+        "https://www.inaturalist.org/observations/193083282",
+        "https://www.inaturalist.org/observations/61351417"
+      ],
+      "inatObscuredInside10kmNotUsedAsPlaces": [
+        "https://www.inaturalist.org/observations/284747990",
+        "https://www.inaturalist.org/observations/187753863",
+        "https://www.inaturalist.org/observations/207938108",
+        "https://www.inaturalist.org/observations/314971130",
+        "https://www.inaturalist.org/observations/158038792",
+        "https://www.inaturalist.org/observations/213329979",
+        "https://www.inaturalist.org/observations/215627420",
+        "https://www.inaturalist.org/observations/213329995",
+        "https://www.inaturalist.org/observations/237057735",
+        "https://www.inaturalist.org/observations/318582388"
+      ]
+    },
+    "identification": "The accepted name on the Atlas of Living Australia is Suta flagellum, Little Whip Snake. The Australian Faunal Directory lists Parasuta flagellum among the synonyms (https://biodiversity.org.au/afd/taxa/Suta_flagellum; https://bie.ala.org.au/species/Suta_flagellum). Museums Victoria's species page is still filed as Parasuta flagellum (McCoy, 1878). That page describes a brown body, paler underneath, a black head from the nose to the neck with a pale brown stripe across the top of the nose, and light brown lips, sides of the face and the area below the eyes. It gives a length of up to 40 cm and says the snake is mainly nocturnal (https://collections.museumsvictoria.com.au/species/8792). A direct HTML fetch of that Museums Victoria page failed in this pass. The description is from the indexed text of the same URL. DEECA's 2024 brochure names the Little Whip Snake among common Victorian snakes and does not give a field key (https://www.wildlife.vic.gov.au/__data/assets/pdf_file/0025/714580/Living-with-Wildlife-Snakes.pdf). It is an elapid. It should not be treated as a harmless snake because it is small. Better Health Channel's Victorian watch-list names tiger snake, copperhead, red-bellied black snake and common or eastern brown snake, and does not name the little whip snake. That list is not a local inventory (https://www.betterhealth.vic.gov.au/health/healthyliving/bites-and-stings-first-aid).",
+    "venom": "Museums Victoria says the little whip snake is not thought to be highly dangerous to humans, but that any snake bite must be treated with caution (https://collections.museumsvictoria.com.au/species/8792). That is the strongest species-specific danger statement retrieved for this snake. It is not a statement that the bite is harmless, and it is not a measured venom yield. DEECA says the majority of Victoria's snakes are venomous and that young snakes are as venomous as adults (https://www.wildlife.vic.gov.au/__data/assets/pdf_file/0025/714580/Living-with-Wildlife-Snakes.pdf). The older DELWP sheet says all Victorian elapids are venomous and that even a very young small snake can deliver a lethal bite. That sentence is about the family, not a clinical series for Suta flagellum (https://www.wildlife.vic.gov.au/__data/assets/pdf_file/0034/549178/Living-with-snakes-fact-sheet.pdf). Because a glance is a poor way to tell this snake from a juvenile of a larger elapid, the first-aid rule is the same as for any suspected snake bite.",
+    "firstAid": "Treat every suspected snake bite as an emergency, including a bite from a small snake and a bite where the species is unknown. Better Health Channel says signs are not always visible, a person may not feel the bite, and symptoms may not be obvious for an hour or more. Depending on the snake, symptoms can include pain at the site (immediate or delayed), swelling, bruising or local bleeding, puncture wounds or almost invisible scratches, swollen tender glands in the groin or armpit, faintness, dizziness, nausea, vomiting, headache, abdominal pain, oozing blood from the bite or gums, double or blurred vision, drooping eyelids, trouble speaking or swallowing, limb weakness or paralysis, trouble breathing, and sometimes an initial collapse or confusion followed by partial or complete recovery (https://www.betterhealth.vic.gov.au/health/healthyliving/bites-and-stings-first-aid). Snake-specific first aid on that page is: follow DRSABCD; call triple zero (000) and ask for an ambulance; lie the person down and keep them still; remove jewellery from the limb if you can; apply a broad pressure bandage over the bite and mark the site with an X; apply a further elasticised roller bandage 10–15 cm wide, starting just above the fingers or toes and moving up the limb as far as can be reached, as firmly as possible so a finger cannot easily slide under it; splint the limb; keep the person lying completely still; keep checking colour, temperature and feeling in the fingers or toes; write the time of the bite and of the bandage; mark or photograph the site; do not wash venom off skin or clothes; stay until help arrives; do not walk the person to the vehicle. Do not use a tourniquet, do not cut the bite, do not suck the venom, and do not give alcohol (https://www.betterhealth.vic.gov.au/health/healthyliving/bites-and-stings-first-aid). The same site's general pressure-bandage section, written for several kinds of bites, says the bandage should be firm but not too tight. The snake-specific list is the one to follow for a snake bite, and it matches the Australian and New Zealand Committee on Resuscitation. ANZCOR Guideline 9.4.8, current as of 29 September 2026, recommends the pressure immobilisation technique for all Australian venomous snakes, including sea snakes. If resuscitation is needed it takes precedence (Guideline 8), then apply the bandage as soon as possible. Elasticised bandages 10–15 cm wide are preferred over crepe. The bandage should be firm and tight, so a finger cannot easily slide underneath. A second bandage starts at the fingers or toes and goes up the limb, over clothing if possible, or one bandage can do both jobs by starting at the fingers or toes and including the bite. Splint the joints on both sides of the bite; use a sling for an arm. Keep the person and the limb at rest and bring transport to them. If the person is alone and cannot get help to come, immobilisation is contraindicated after local pressure and they should move to seek urgent help. Do not remove bandages or splints before hospital. A bite that is not on a limb: firm direct pressure, without restricting breathing or chest movement and without firm pressure on the neck or head. Do not cut, suck, wash, or apply an arterial tourniquet. The guideline also says field studies have not shown a clear benefit, and that this may be confounded by poorly applied bandages (https://www.anzcor.org/home/first-aid/guideline-9-4-8-envenomation-pressure-immobilisation-technique; PDF https://www.anzcor.org/assets/generated-anzcor-guideline-pdfs/guideline-9-4-8-envenomation-pressure-immobilisation-technique-296.pdf). A Better Health Channel flood page gives a shorter instruction (clean dry dressing, bite below the heart). That page is not the pressure-immobilisation procedure. It does repeat call 000, do not wash the bite, and do not tourniquet, cut or suck (https://www.betterhealth.vic.gov.au/health/healthyliving/After-a-flood-animal-and-insect-related-hazards). The Victorian Poisons Information Centre, 13 11 26, can advise on bites, but Better Health Channel says not to call it instead of 000 if the person has collapsed, stopped breathing, is fitting, or has anaphylaxis (https://www.betterhealth.vic.gov.au/health/serviceprofiles/victorian-poisons-information-centre-service). Do not catch or kill the snake to identify it. Forest Fire Management Victoria, quoting a DEECA officer, says most bites happen when people try to capture or kill a snake, and that if someone is bitten, call 000 (https://www.ffm.vic.gov.au/media-releases/snake-season-is-here,-be-prepared-and-stay-safe). The older DELWP living-with-snakes sheet says a bite should be treated as serious and that the snake does not need to be identified for antivenom (https://www.wildlife.vic.gov.au/__data/assets/pdf_file/0034/549178/Living-with-snakes-fact-sheet.pdf).",
+    "activeSeason": "Better Health Channel says Australian snakes are most active in the warmer months, spring and summer (https://www.betterhealth.vic.gov.au/health/healthyliving/bites-and-stings-first-aid). DEECA says wild snakes in southern Australia brumate in winter and often come out on sunny days, so a winter encounter is possible (https://www.wildlife.vic.gov.au/__data/assets/pdf_file/0025/714580/Living-with-Wildlife-Snakes.pdf). The Inverleigh-circle records are not an activity study. Inside 10 km the ALA month facet is May 8, October 5, July 3, August 3, June 2, September 2, December 2, and one each in March, April and November, across 1979–2025 and only 28 rows. Museums Victoria says the species is mainly nocturnal (https://collections.museumsvictoria.com.au/species/8792). Two obscured iNaturalist notes inside the 10 km search, which cannot be mapped, mention animals active together on a 15°C cloudy day (4 May 2024) and an adult with a younger animal (11 August 2024). Those notes are behaviour text, not places.",
+    "habitat": "Museums Victoria says little whip snakes are found under rocks or logs, especially on stony hills close to grasslands or eucalypt woodlands, in south-eastern mainland Australia (https://collections.museumsvictoria.com.au/species/8792). DEECA's general account, not written for this species alone, says snakes shelter under or in rocks, logs or leaf litter and often within a few hundred metres of water (https://www.wildlife.vic.gov.au/__data/assets/pdf_file/0025/714580/Living-with-Wildlife-Snakes.pdf). Named records in this circle that describe shelter are survey notes from Bannockburn, in the 5–10 km ring: under tiles in a tile grid at Bannockburn and Bannockburn Bush Reserve, and one eastern brown, not a whip snake, under discarded debris at Bannockburn Bush. Tiles are a survey shelter, not a claim about natural habitat. The Friends of Inverleigh Nature Conservation Reserve describe about 1,050 ha of grassy woodland between Inverleigh and Teesdale, with Manna Gum and River Red Gum (https://inverleigh.org.au/features/nature-conservation/). No little whip snake record inside 5 km uses the reserve's name. The 1989 VBA locality is only 'ROUGHLY 4 KM S OF TEESDALE'.",
+    "diet": "Museums Victoria says little whip snakes hunt mainly small lizards (https://collections.museumsvictoria.com.au/species/8792). No Inverleigh or Bannockburn record opened here names a prey animal. DEECA's general point that snakes eat rodents, and that untidy aviaries attract mice, is not a diet study of this species (https://www.wildlife.vic.gov.au/__data/assets/pdf_file/0025/714580/Living-with-Wildlife-Snakes.pdf).",
+    "breeding": "Museums Victoria says females give birth to about seven live young (https://collections.museumsvictoria.com.au/species/8792). The month of birth, mating season and size at birth are not on that page extract. Papers on litters of Suta flagellum from southern Victoria exist, but they were not read for this file, so they are not used. No local record is described as a birth. An obscured iNaturalist note of one adult and one younger animal is not a litter count and is not a public place.",
+    "hangouts": "Inside 5 km there are eight ALA rows and seven iNaturalist observations, and they are the same seven iNaturalist records plus one VBA record. The only named locality inside 5 km is the VBA row 'ROUGHLY 4 KM S OF TEESDALE', 6 July 1989, coordinate -38.05728, 144.05559, about 4.8 km north of the centre, uncertainty 100 m (https://biocache-ws.ala.org.au/ws/occurrence/03043515-1215-44e2-ae38-57f9055318e7). The only non-obscured iNaturalist point inside 5 km is observation 62693554, 16 October 2020, research grade, accuracy 5 m, place guess Inverleigh, VIC, coordinate about -38.06515, 144.04671, about 3.9 km north (https://www.inaturalist.org/observations/62693554). The place guess is the town name. It does not name a reserve, road or river. The other six iNaturalist rows inside 5 km are geoprivacy obscured, place guess Victoria, public accuracy about 28.3 km (observations 284747990, 187753863, 207938108, 314971130, 158038792 and 213329979). Their public coordinates are not hangouts. In the 5–10 km ring the named places are around Bannockburn, not in the Inverleigh town centre. Victorian Biodiversity Atlas: Harvey Rd Paddock off Harvey Rd, Bannockburn, -38.073, 144.143, about 8.7 km, uncertainty 50 m, on 17 May 2007 and 29 October 2007, and the same point with 100 m uncertainty on 1 December 2010; a nearby point with 900 m uncertainty on 4 March 2006 labelled 'Paddock off Harvey Rd; Bannockburn'. Also 'ROUGHLY 6 KM SW OF LOWNDE BRIDGE', 6 July 1989, -38.05025, 144.13563, about 9.3 km, uncertainty 100 m, and 'ROUGHLY 5 KM SW OF LOWNDE BRIDGE', the same day, -38.04946, 144.14021, about 9.7 km, uncertainty 100 m. Geelong Field Naturalists Club: Bannockburn Bush, 10 August 2019, about 9.0 km, under separate tiles during a fauna survey; Bannockburn Bush Reserve, 17 May 2018, about 9.0 km, under a tile in the heath tile grid; Bannockburn, 17 May 2020, about 9.3 km, four animals under a tile grid after a frosty night of 2°C. An OzAtlas row on 17 May 2018 has no locality string and sits about 9.1 km east, beside those Bannockburn Bush points. Museums Victoria specimen D52596, 28 August 1979, locality '10 km NNE of Winchelsea', coordinate -38.17, 144.02 to two decimal places, about 8.2 km. That coordinate is coarse and is not a precise paddock. Public iNaturalist points in this ring, all Suta flagellum: 100198312 (2 November 2021, research, accuracy 100 m, Bannockburn VIC 3331, about 9.1 km); 140143432 (15 June 2022, research, accuracy 3 m, Golden Plains Shire, Bannockburn, about 9.1 km); 99574882 (22 October 2021, research, accuracy 30 m, same shire place, about 9.1 km); 61351417 (27 September 2020, research, accuracy 244 m, place guess Bannockburn Bush VIC 3331, about 9.2 km); 193083282 (5 December 2023, needs identification, accuracy 50 m, Bannockburn, about 9.1 km, described as a skeleton the observer was unsure about, shorter than a full adult). The needs-identification skeleton is not a confirmed live animal. Four further iNaturalist observations between about 7.2 and 9.8 km are obscured and are not mapped (215627420, 213329995, 237057735, 318582388).",
+    "conservation": "A text search of the Flora and Fauna Guarantee Act Threatened List, July 2026, found no Suta flagellum, Parasuta flagellum or little whip snake. The only Suta name on that list is Parasuta spectabilis, the Port Lincoln Snake, originally listed as Suta spectabilis, which is a different species (https://www.environment.vic.gov.au/__data/assets/pdf_file/0028/793801/FFG_Threatened_List_July_2026.pdf; list page https://www.environment.vic.gov.au/conserving-threatened-species/threatened-list). The EPBC threatened-species extract dated 28 August 2026 has no row for Suta flagellum. The only Notechis row in that file is a different animal, Krefft's Tiger Snake of the Flinders Ranges (https://data.gov.au/data/dataset/ae652011-f39e-4c6c-91b8-1dc2d2dfee8f/resource/78401dce-1f40-49d3-92c4-3713d6e34974/download/20260828spcs.csv). The ALA species page records a New South Wales status of Vulnerable for Suta flagellum and an ACT restricted-trade status. Those are not Victorian FFG categories (https://bie.ala.org.au/species/Suta_flagellum). The same ALA page cites the 2018 IUCN assessment of Parasuta flagellum. The IUCN Red List page itself was not opened, so this file does not restate an IUCN category from the Red List site. Absence from the threatened list does not remove the Wildlife Act protection that applies to all native reptiles (https://www.vic.gov.au/authority-control-wildlife-application-guide).",
+    "safety": "All native reptiles are protected in Victoria. The Conservation Regulator says it is illegal under the Wildlife Act 1975 to wilfully disturb, hunt, take, trap or kill wildlife without a permit (https://www.vic.gov.au/authority-control-wildlife-application-guide). A wildlife-controller licence can cover indigenous reptiles only when they are damaging property or are a danger to people, as set out in the licence conditions. The controller can charge a fee. Relocation of wildlife that is not dangerous still needs an Authority to Control Wildlife even if a licensed controller does the move. Call DEECA on 136 186 (https://www.vic.gov.au/wildlife-controller-licence-guide/wildlife-licences-victoria). An Authority to Control Wildlife is not required if a DEECA-licensed Wildlife Controller is engaged for reptiles that are posing a safety risk to humans (https://www.vic.gov.au/authority-control-wildlife-application-guide). DEECA's 2024 Living with Wildlife snakes brochure says never to catch or kill a snake, to keep the yard tidy, to keep pets and children indoors, to clean aviaries so they do not attract mice, to give the snake space and walk away, and to lock dogs and cats away. If a snake is in the house, stay calm, close internal doors, open an external door so it can leave, and call a licensed snake catcher. The brochure says Victoria has more than 25 snake species and that the majority are venomous, and it names the Eastern Brown Snake, Tiger Snake, Red-bellied Black Snake, lowland and highland copperheads, and the Little Whip Snake among common species. It says snakes shelter under or in rocks, logs or leaf litter, often within a few hundred metres of water, and are drawn to houses for water. In southern Australia they brumate in winter but often emerge on sunny days. Most bites occur when people try to catch or kill a snake. Young snakes are as venomous as adults. Out walking: do first-aid training, carry snake bandages, wear closed shoes and loose pants, stay on tracks, and keep dogs on leads (https://www.wildlife.vic.gov.au/__data/assets/pdf_file/0025/714580/Living-with-Wildlife-Snakes.pdf). Forest Fire Management Victoria's October 2024 snake-season release says the same protection rule in plain words: snakes are protected under the Wildlife Act 1975, and capturing, harming or killing them is illegal. Keep dogs on leads, supervise children and pets, and if a pet is bitten seek a vet immediately. Wildlife crime can be reported to Crime Stoppers on 1800 333 000. DEECA's contact number is 136 186 (https://www.ffm.vic.gov.au/media-releases/snake-season-is-here,-be-prepared-and-stay-safe). Golden Plains Shire's October 2023 Gazette tells residents the shire has a high population of snakes, that most species seen around homes are venomous, to stay away, to tidy the yard and cut lawns and reduce rats and mice, never to touch, capture or kill a snake, to call 000 if bitten, and to call 136 186 for advice or a trained snake catcher. It repeats that snakes are protected under the Wildlife Act 1975. That notice does not name species and is not a survey of Inverleigh (https://www.goldenplains.vic.gov.au/sites/default/files/2023-10/October_2023_Gazette%20_Web_File.pdf). Zoos Victoria's emergency page says, for snakes, contact DEECA on 136 186. For injured wildlife generally it lists Wildlife Victoria on (03) 8400 7300 and Help for Wildlife on 0477 555 611 (https://www.zoo.org.au/emergency-wildlife-help/). For dogs, Animal Welfare Victoria's farm-working-dog guide says a dog bitten by a venomous snake may at first be hyper-excitable, with dilated pupils, muscle twitches, staggering, salivation or vomiting, that the signs change quickly, and that the dog should be taken immediately to a veterinarian. Snake antivenoms are available. The guide is written for farm working dogs and does not give a separate cat procedure (https://agriculture.vic.gov.au/livestock-and-animals/animal-welfare-victoria/dogs/farm-working-dogs/farm-working-dogs-routine-care/Responsible-ownership-of-farm-working-dogs.pdf). No source opened here gives clinical signs that are specific to cats, or a pressure-bandage method for pets. The instruction that is cited is to keep dogs and cats away and, if a pet is bitten, to go to a vet at once (https://www.wildlife.vic.gov.au/__data/assets/pdf_file/0025/714580/Living-with-Wildlife-Snakes.pdf; https://www.ffm.vic.gov.au/media-releases/snake-season-is-here,-be-prepared-and-stay-safe). For this species the extra point is size. A snake around 40 cm long can still be an elapid, and Museums Victoria's caution stands beside the rule to call 000 and use pressure immobilisation (https://collections.museumsvictoria.com.au/species/8792; https://www.betterhealth.vic.gov.au/health/healthyliving/bites-and-stings-first-aid). Families should not pick up a small brown snake to check the head stripe. Pets should be locked away if one is in the yard (https://www.wildlife.vic.gov.au/__data/assets/pdf_file/0025/714580/Living-with-Wildlife-Snakes.pdf). No little whip snake record in this circle describes a bite to a person, a dog or a cat.",
+    "notWellDocumented": [
+      "Six of the seven iNaturalist observations inside 5 km, and four more inside 10 km, are location-obscured. Their public coordinates and the place name Victoria are not sites.",
+      "The only street-level public point inside 5 km has the place guess Inverleigh. It does not say which reserve, road or river.",
+      "The 1989 string 'ROUGHLY 4 KM S OF TEESDALE' is about 4.8 km from the town centre used here. It does not say the animal was inside Inverleigh Nature Conservation Reserve.",
+      "The 1979 Museums Victoria point '10 km NNE of Winchelsea' is stored to two decimal degrees and has no coordinate uncertainty. It is not a precise hangout.",
+      "One 2006 Harvey Road VBA point has 900 m uncertainty.",
+      "Tile-grid remarks at Bannockburn Bush are survey shelters. They are not a description of natural habitat.",
+      "iNaturalist 193083282 is needs identification, a skeleton, and the observer was unsure of the species.",
+      "ALA totals count dataset rows. The 10 km total of 28 includes the 16 iNaturalist Australia rows. Do not add the iNaturalist species count on top.",
+      "Museums Victoria still titles the page Parasuta flagellum. The HTML page itself did not load; the identification text is the indexed page text.",
+      "Litter size 'about seven' is the Museums Victoria sentence. Local births are not in the records. Southern Victorian litter papers were not read.",
+      "Month counts are record dates, not a seasonal survey. The sample inside 5 km is eight rows.",
+      "New South Wales Vulnerable status on the ALA species page is not an FFG listing. The IUCN page was not opened.",
+      "No local bite, dog bite or cat bite involving this species was found in the records that were opened."
+    ],
+    "sources": [
+      {
+        "url": "https://biocache-ws.ala.org.au/ws/occurrence/facets?q=*:*&lat=-38.10&lon=144.05&radius=5&fq=family:Elapidae&facets=species&flimit=50",
+        "title": "ALA Elapidae species facet, 5 km",
+        "accessed": "2026-10-25",
+        "supports": "Suta flagellum 8, Austrelaps superbus 3, Pseudonaja textilis 1."
+      },
+      {
+        "url": "https://biocache-ws.ala.org.au/ws/occurrence/facets?q=*:*&lat=-38.10&lon=144.05&radius=10&fq=family:Elapidae&facets=species&flimit=50",
+        "title": "ALA Elapidae species facet, 10 km",
+        "accessed": "2026-10-25",
+        "supports": "Suta flagellum 28, Pseudonaja textilis 4, Austrelaps superbus 3."
+      },
+      {
+        "url": "https://biocache-ws.ala.org.au/ws/occurrences/search?q=species:%22Suta%20flagellum%22&lat=-38.10&lon=144.05&radius=10&pageSize=100&facet=off",
+        "title": "ALA Suta flagellum records, 10 km",
+        "accessed": "2026-10-25",
+        "supports": "28 rows. Localities come from the occurrence documents linked in hangouts."
+      },
+      {
+        "url": "https://api.inaturalist.org/v1/observations/species_counts?taxon_id=85553&lat=-38.10&lng=144.05&radius=5&per_page=200",
+        "title": "iNaturalist Serpentes species counts, 5 km",
+        "accessed": "2026-10-25",
+        "supports": "Suta flagellum 7, Austrelaps superbus 1."
+      },
+      {
+        "url": "https://api.inaturalist.org/v1/observations/species_counts?taxon_id=85553&lat=-38.10&lng=144.05&radius=10&per_page=200",
+        "title": "iNaturalist Serpentes species counts, 10 km",
+        "accessed": "2026-10-25",
+        "supports": "Suta flagellum 16, Austrelaps superbus 1."
+      },
+      {
+        "url": "https://collections.museumsvictoria.com.au/species/8792",
+        "title": "Museums Victoria, little whip snake (indexed as Parasuta flagellum)",
+        "accessed": "2026-10-25",
+        "supports": "Size, colour, nocturnal habit, lizard diet, about seven live young, shelter, bite caution."
+      },
+      {
+        "url": "https://biodiversity.org.au/afd/taxa/Suta_flagellum",
+        "title": "Australian Faunal Directory, Suta flagellum",
+        "accessed": "2026-10-25",
+        "supports": "Accepted name Little Whip Snake; Parasuta flagellum is a synonym."
+      },
+      {
+        "url": "https://bie.ala.org.au/species/Suta_flagellum",
+        "title": "ALA species page, Suta flagellum",
+        "accessed": "2026-10-25",
+        "supports": "NSW Vulnerable and the cited 2018 IUCN assessment name. IUCN site not opened."
+      },
+      {
+        "url": "https://www.environment.vic.gov.au/__data/assets/pdf_file/0028/793801/FFG_Threatened_List_July_2026.pdf",
+        "title": "FFG Threatened List July 2026",
+        "accessed": "2026-10-25",
+        "supports": "No Suta flagellum. Port Lincoln Snake is Parasuta spectabilis."
+      },
+      {
+        "url": "https://data.gov.au/data/dataset/ae652011-f39e-4c6c-91b8-1dc2d2dfee8f/resource/78401dce-1f40-49d3-92c4-3713d6e34974/download/20260828spcs.csv",
+        "title": "EPBC species list extract, 28 August 2026",
+        "accessed": "2026-10-25",
+        "supports": "No Suta flagellum."
+      },
+      {
+        "url": "https://www.wildlife.vic.gov.au/__data/assets/pdf_file/0025/714580/Living-with-Wildlife-Snakes.pdf",
+        "title": "DEECA Living with Wildlife: Snakes, 2024",
+        "accessed": "2026-10-25",
+        "supports": "Named among common Victorian snakes; shelter, brumation, protection practice."
+      },
+      {
+        "url": "https://www.betterhealth.vic.gov.au/health/healthyliving/bites-and-stings-first-aid",
+        "title": "Better Health Channel, bites and stings first aid",
+        "accessed": "2026-10-25",
+        "supports": "Snake-bite symptoms and pressure immobilisation. Little whip snake is not in the Victorian watch-list."
+      },
+      {
+        "url": "https://www.anzcor.org/home/first-aid/guideline-9-4-8-envenomation-pressure-immobilisation-technique",
+        "title": "ANZCOR Guideline 9.4.8",
+        "accessed": "2026-10-25",
+        "supports": "Pressure immobilisation, current as of 29 September 2026."
+      },
+      {
+        "url": "https://www.ffm.vic.gov.au/media-releases/snake-season-is-here,-be-prepared-and-stay-safe",
+        "title": "FFM Victoria snake-season release",
+        "accessed": "2026-10-25",
+        "supports": "Wildlife Act 1975, call 000, licensed catcher, pets."
+      },
+      {
+        "url": "https://www.goldenplains.vic.gov.au/sites/default/files/2023-10/October_2023_Gazette%20_Web_File.pdf",
+        "title": "Golden Plains Gazette, October 2023",
+        "accessed": "2026-10-25",
+        "supports": "Shire snake notice. No species named."
+      }
+    ],
+    "queries": [
+      "https://biocache-ws.ala.org.au/ws/occurrence/facets?q=*:*&lat=-38.10&lon=144.05&radius=5&fq=family:Elapidae&facets=species&flimit=50",
+      "https://biocache-ws.ala.org.au/ws/occurrence/facets?q=*:*&lat=-38.10&lon=144.05&radius=10&fq=family:Elapidae&facets=species&flimit=50",
+      "https://biocache-ws.ala.org.au/ws/occurrence/facets?q=species:%22Suta%20flagellum%22&lat=-38.10&lon=144.05&radius=5&facets=locality,year,month,dataResourceName,coordinateUncertaintyInMeters&flimit=100",
+      "https://biocache-ws.ala.org.au/ws/occurrence/facets?q=species:%22Suta%20flagellum%22&lat=-38.10&lon=144.05&radius=10&facets=locality,year,month,dataResourceName,coordinateUncertaintyInMeters&flimit=100",
+      "https://biocache-ws.ala.org.au/ws/occurrences/search?q=species:%22Suta%20flagellum%22&lat=-38.10&lon=144.05&radius=5&pageSize=0&facet=off",
+      "https://biocache-ws.ala.org.au/ws/occurrences/search?q=species:%22Suta%20flagellum%22&lat=-38.10&lon=144.05&radius=10&pageSize=100&facet=off",
+      "https://biocache-ws.ala.org.au/ws/occurrences/search?q=taxon_name:%22Parasuta%20flagellum%22&lat=-38.10&lon=144.05&radius=50&pageSize=0&facet=off",
+      "https://biocache-ws.ala.org.au/ws/occurrences/search?q=taxon_name:%22Unechis%20flagellum%22&lat=-38.10&lon=144.05&radius=50&pageSize=0&facet=off",
+      "https://biocache-ws.ala.org.au/ws/occurrences/search?q=taxon_name:%22Denisonia%20flagellum%22&lat=-38.10&lon=144.05&radius=50&pageSize=0&facet=off",
+      "https://api.inaturalist.org/v1/observations/species_counts?taxon_id=85553&lat=-38.10&lng=144.05&radius=5&per_page=200",
+      "https://api.inaturalist.org/v1/observations/species_counts?taxon_id=85553&lat=-38.10&lng=144.05&radius=5&quality_grade=research&per_page=200",
+      "https://api.inaturalist.org/v1/observations/species_counts?taxon_id=85553&lat=-38.10&lng=144.05&radius=10&per_page=200",
+      "https://api.inaturalist.org/v1/observations/species_counts?taxon_id=85553&lat=-38.10&lng=144.05&radius=10&quality_grade=research&per_page=200",
+      "https://api.inaturalist.org/v1/observations?taxon_id=85553&lat=-38.10&lng=144.05&radius=5&per_page=200&order_by=observed_on&order=desc",
+      "https://api.inaturalist.org/v1/observations?taxon_id=85553&lat=-38.10&lng=144.05&radius=10&per_page=200&order_by=observed_on&order=desc",
+      "Occurrence details: https://biocache-ws.ala.org.au/ws/occurrence/03043515-1215-44e2-ae38-57f9055318e7 and the other non-iNaturalist uuids in the 10 km Suta search.",
+      "Web search and page open: Museums Victoria species 8792; AFD Suta flagellum; ALA BIE Suta flagellum; FFG Threatened List July 2026 text search for flagellum.",
+      "Synonym taxon_name searches at 50 km for Parasuta, Unechis and Denisonia flagellum returned 0. The accepted species facet is the count used."
+    ]
+  },
+  {
+    "id": "lowland-copperhead",
+    "commonName": "Lowland Copperhead",
+    "scientificName": "Austrelaps superbus",
+    "tier": "5km",
+    "records": {
+      "centre": "-38.10, 144.05",
+      "note": "Counts are Atlas of Living Australia occurrence rows and iNaturalist observations. The 10 km radius includes the 5 km radius. ALA and iNaturalist overlap where the dataset is iNaturalist Australia, so the two totals must not be added. Distances are great-circle kilometres from -38.10, 144.05 using the coordinates returned by the API. An iNaturalist observation with geoprivacy obscured and a public accuracy of about 28.3 km is counted, but its public coordinate is not a place. ALA vernacular is Lowland Copperhead. iNaturalist uses Lowlands Copperhead. All three ALA rows inside 10 km are also inside 5 km, so the 5–10 km ring adds no further records.",
+      "ala5": {
+        "count": 3,
+        "yearMin": 1995,
+        "yearMax": 2025,
+        "radiusKm": 5,
+        "datasets": {
+          "Victorian Biodiversity Atlas": 2,
+          "iNaturalist Australia": 1
+        },
+        "months": {
+          "April": 2,
+          "February": 1
+        },
+        "localities": [
+          "Inverleigh Cemetary",
+          "Inverleigh Common"
+        ]
+      },
+      "ala10": {
+        "count": 3,
+        "yearMin": 1995,
+        "yearMax": 2025,
+        "radiusKm": 10,
+        "includesAla5": true,
+        "alsoNearbyCount": 0,
+        "datasets": {
+          "Victorian Biodiversity Atlas": 2,
+          "iNaturalist Australia": 1
+        }
+      },
+      "inatCounts": {
+        "radius5kmAllGrades": 1,
+        "radius5kmResearch": 1,
+        "radius10kmAllGrades": 1,
+        "radius10kmResearch": 1,
+        "taxonId": 94946
+      },
+      "inatPublic": [
+        "https://www.inaturalist.org/observations/261600498"
+      ]
+    },
+    "identification": "The Australian Museum treats three copperhead species. Lowland copperhead, Austrelaps superbus, is the south-eastern one, including southern Victoria and Tasmania. It gives a total length to 145 cm, with males larger. Shared copperhead features on that page: moderately robust, semi-glossy scales, blackish to grey-brown, sometimes a brownish or orange flush in lowland animals, enlarged paler lowest lateral scales, an obscure neck band or dark vertebral line that is clearer in juveniles, a cream to grey belly, a narrow head barely distinct from the neck, upper labials barred with a whitish front edge, and a round pupil. The coppery snout is not always present (https://australian.museum/learn/animals/reptiles/copperhead/, updated 16 April 2026). Museums Victoria's lowland copperhead page, also called Common Copperhead, says the body is light grey to red-brown, the underside pale white-yellow to pink-orange, the lips have faint vertical stripes, and the length is up to 1.7 m (https://collections.museumsvictoria.com.au/species/8787). Those two length figures are both published. This file does not collapse 145 cm and 1.7 m into one number. The highland copperhead, Austrelaps ramsayi, and the pygmy copperhead, Austrelaps labialis, are different species on the Australian Museum page. They are not the Inverleigh records, which are identified as Austrelaps superbus.",
+    "venom": "The Australian Museum says copperhead venom is powerfully neurotoxic, haemolytic and cytotoxic, and that a bite from an adult of any copperhead species may be potentially fatal without medical assistance. It also says copperheads tend to avoid people: if cornered they hiss, flatten and thrash, usually without biting unless provoked further (https://australian.museum/learn/animals/reptiles/copperhead/). Museums Victoria says the lowland copperhead is dangerously venomous and that the bite can be fatal (https://collections.museumsvictoria.com.au/species/8787). Better Health Channel lists the copperhead among Victorian venomous snakes to watch for, without separating lowland and highland (https://www.betterhealth.vic.gov.au/health/healthyliving/bites-and-stings-first-aid). The pygmy copperhead is the species the Australian Museum discusses as IUCN Vulnerable. That status is not a status for Austrelaps superbus.",
+    "firstAid": "Treat every suspected snake bite as an emergency, including a bite from a small snake and a bite where the species is unknown. Better Health Channel says signs are not always visible, a person may not feel the bite, and symptoms may not be obvious for an hour or more. Depending on the snake, symptoms can include pain at the site (immediate or delayed), swelling, bruising or local bleeding, puncture wounds or almost invisible scratches, swollen tender glands in the groin or armpit, faintness, dizziness, nausea, vomiting, headache, abdominal pain, oozing blood from the bite or gums, double or blurred vision, drooping eyelids, trouble speaking or swallowing, limb weakness or paralysis, trouble breathing, and sometimes an initial collapse or confusion followed by partial or complete recovery (https://www.betterhealth.vic.gov.au/health/healthyliving/bites-and-stings-first-aid). Snake-specific first aid on that page is: follow DRSABCD; call triple zero (000) and ask for an ambulance; lie the person down and keep them still; remove jewellery from the limb if you can; apply a broad pressure bandage over the bite and mark the site with an X; apply a further elasticised roller bandage 10–15 cm wide, starting just above the fingers or toes and moving up the limb as far as can be reached, as firmly as possible so a finger cannot easily slide under it; splint the limb; keep the person lying completely still; keep checking colour, temperature and feeling in the fingers or toes; write the time of the bite and of the bandage; mark or photograph the site; do not wash venom off skin or clothes; stay until help arrives; do not walk the person to the vehicle. Do not use a tourniquet, do not cut the bite, do not suck the venom, and do not give alcohol (https://www.betterhealth.vic.gov.au/health/healthyliving/bites-and-stings-first-aid). The same site's general pressure-bandage section, written for several kinds of bites, says the bandage should be firm but not too tight. The snake-specific list is the one to follow for a snake bite, and it matches the Australian and New Zealand Committee on Resuscitation. ANZCOR Guideline 9.4.8, current as of 29 September 2026, recommends the pressure immobilisation technique for all Australian venomous snakes, including sea snakes. If resuscitation is needed it takes precedence (Guideline 8), then apply the bandage as soon as possible. Elasticised bandages 10–15 cm wide are preferred over crepe. The bandage should be firm and tight, so a finger cannot easily slide underneath. A second bandage starts at the fingers or toes and goes up the limb, over clothing if possible, or one bandage can do both jobs by starting at the fingers or toes and including the bite. Splint the joints on both sides of the bite; use a sling for an arm. Keep the person and the limb at rest and bring transport to them. If the person is alone and cannot get help to come, immobilisation is contraindicated after local pressure and they should move to seek urgent help. Do not remove bandages or splints before hospital. A bite that is not on a limb: firm direct pressure, without restricting breathing or chest movement and without firm pressure on the neck or head. Do not cut, suck, wash, or apply an arterial tourniquet. The guideline also says field studies have not shown a clear benefit, and that this may be confounded by poorly applied bandages (https://www.anzcor.org/home/first-aid/guideline-9-4-8-envenomation-pressure-immobilisation-technique; PDF https://www.anzcor.org/assets/generated-anzcor-guideline-pdfs/guideline-9-4-8-envenomation-pressure-immobilisation-technique-296.pdf). A Better Health Channel flood page gives a shorter instruction (clean dry dressing, bite below the heart). That page is not the pressure-immobilisation procedure. It does repeat call 000, do not wash the bite, and do not tourniquet, cut or suck (https://www.betterhealth.vic.gov.au/health/healthyliving/After-a-flood-animal-and-insect-related-hazards). The Victorian Poisons Information Centre, 13 11 26, can advise on bites, but Better Health Channel says not to call it instead of 000 if the person has collapsed, stopped breathing, is fitting, or has anaphylaxis (https://www.betterhealth.vic.gov.au/health/serviceprofiles/victorian-poisons-information-centre-service). Do not catch or kill the snake to identify it. Forest Fire Management Victoria, quoting a DEECA officer, says most bites happen when people try to capture or kill a snake, and that if someone is bitten, call 000 (https://www.ffm.vic.gov.au/media-releases/snake-season-is-here,-be-prepared-and-stay-safe). The older DELWP living-with-snakes sheet says a bite should be treated as serious and that the snake does not need to be identified for antivenom (https://www.wildlife.vic.gov.au/__data/assets/pdf_file/0034/549178/Living-with-snakes-fact-sheet.pdf).",
+    "activeSeason": "Better Health Channel: warmer months, spring and summer, with the caveat from DEECA that southern snakes also emerge on sunny winter days (https://www.betterhealth.vic.gov.au/health/healthyliving/bites-and-stings-first-aid; https://www.wildlife.vic.gov.au/__data/assets/pdf_file/0025/714580/Living-with-Wildlife-Snakes.pdf). The Australian Museum cites a southern Victorian study of lowland copperheads: they emerged from winter quiescence in August or September, depending on the year, and entered shelters in late April or early May. They are mostly diurnal, also out on warm evenings, mostly on the ground, and sometimes climb to bask (https://australian.museum/learn/animals/reptiles/copperhead/). The three local records are April 1995, April 1997 and 14 February 2025. Three dates are not a local season.",
+    "habitat": "The Australian Museum says the lowland copperhead inhabits grassland, heath, woodland and open scrub, often near marshes, lagoons, swamps, lakes, creeks and rivers, and that it persists in farmland more than a century old, around dams, soaks, drains and road verges. Shelter includes boulders, logs, stumps, roofing iron, dense vegetation, and yabby, rabbit and rodent burrows. Overwintering sites in the account are shallow shelters near water (https://australian.museum/learn/animals/reptiles/copperhead/). Museums Victoria says damp habitats near streams or swamps (https://collections.museumsvictoria.com.au/species/8787). The local named places are Inverleigh Common and Inverleigh Cemetery. The Friends page describes the Nature Conservation Reserve, between Inverleigh and Teesdale, as grassy woodland of Manna Gum and River Red Gum (https://inverleigh.org.au/features/nature-conservation/). The VBA string is 'Inverleigh Common', not a sentence that the snake was in a particular wetland inside the reserve. The cemetery record is the atlas spelling 'Inverleigh Cemetary'.",
+    "diet": "Museums Victoria says lowland copperheads feed on frogs, lizards and small mammals (https://collections.museumsvictoria.com.au/species/8787). The Australian Museum's diet section is written for copperheads as a group: mostly ectotherms, with skinks by far the most common prey, also frogs, lizards, lizard eggs and snakes, and occasional birds and mammals. It says they are cannibalistic (https://australian.museum/learn/animals/reptiles/copperhead/). The skink-heavy diet is the genus text, not a stomach-content study from Inverleigh. No local record names a prey item.",
+    "breeding": "Both sources say copperheads bear live young. The Australian Museum says wild females do not breed every year. For Austrelaps superbus it reports mating in late summer (March), with the wild-versus-captive status of that report unclear; ovarian follicles at the end of September; oviducal young from October to February; and litters of 9 to 45, average 15, from January to March, with larger females having larger litters. Mainland maturity is given as snout-vent length at least about 477 mm in males and 436 mm in females (https://australian.museum/learn/animals/reptiles/copperhead/). Museums Victoria says females give birth to up to 30 live young in mid to late summer (https://collections.museumsvictoria.com.au/species/8787). The average-15 and up-to-30 figures are both left as published. No Inverleigh record describes a litter.",
+    "hangouts": "All three records are inside 5 km. There is no additional copperhead in the 5–10 km ring in either ALA or iNaturalist. Victorian Biodiversity Atlas, 29 April 1997, locality 'Inverleigh Cemetary', -38.10464, 144.04, about 1.0 km west of the centre, uncertainty 100 m (https://biocache-ws.ala.org.au/ws/occurrence/76b67e82-8d24-486c-90b4-37f70696701d). Victorian Biodiversity Atlas, 8 April 1995, locality 'Inverleigh Common', -38.057, 144.0442, about 4.8 km north, uncertainty 100 m (https://biocache-ws.ala.org.au/ws/occurrence/14d43913-fb73-4833-9a8c-aaf49959ca4c). iNaturalist 261600498, 14 February 2025, research grade, not obscured, positional accuracy null, place guess Inverleigh VIC 3321, coordinate about -38.09274, 144.06345, about 1.4 km north-east. There is no description and no reserve or street name (https://www.inaturalist.org/observations/261600498). Just outside the 10 km circle, and not used as Inverleigh hangouts, iNaturalist has further research-grade lowland copperheads, including Buckley School Road (about 14.7 km, 14 February 2023) and a juvenile of about 20 cm at a Winchelsea place guess (about 14.7 km, 5 March 2022). Those are outside the tier.",
+    "conservation": "The July 2026 FFG Threatened List text search found no Austrelaps and no copperhead (https://www.environment.vic.gov.au/__data/assets/pdf_file/0028/793801/FFG_Threatened_List_July_2026.pdf). The 28 August 2026 EPBC extract has no Austrelaps superbus (https://data.gov.au/data/dataset/ae652011-f39e-4c6c-91b8-1dc2d2dfee8f/resource/78401dce-1f40-49d3-92c4-3713d6e34974/download/20260828spcs.csv). The Australian Museum does not list the lowland copperhead as a threatened species. It does discuss the pygmy copperhead, Austrelaps labialis, as IUCN Vulnerable. That is a different species (https://australian.museum/learn/animals/reptiles/copperhead/). The animal remains protected as native wildlife (https://www.vic.gov.au/authority-control-wildlife-application-guide).",
+    "safety": "All native reptiles are protected in Victoria. The Conservation Regulator says it is illegal under the Wildlife Act 1975 to wilfully disturb, hunt, take, trap or kill wildlife without a permit (https://www.vic.gov.au/authority-control-wildlife-application-guide). A wildlife-controller licence can cover indigenous reptiles only when they are damaging property or are a danger to people, as set out in the licence conditions. The controller can charge a fee. Relocation of wildlife that is not dangerous still needs an Authority to Control Wildlife even if a licensed controller does the move. Call DEECA on 136 186 (https://www.vic.gov.au/wildlife-controller-licence-guide/wildlife-licences-victoria). An Authority to Control Wildlife is not required if a DEECA-licensed Wildlife Controller is engaged for reptiles that are posing a safety risk to humans (https://www.vic.gov.au/authority-control-wildlife-application-guide). DEECA's 2024 Living with Wildlife snakes brochure says never to catch or kill a snake, to keep the yard tidy, to keep pets and children indoors, to clean aviaries so they do not attract mice, to give the snake space and walk away, and to lock dogs and cats away. If a snake is in the house, stay calm, close internal doors, open an external door so it can leave, and call a licensed snake catcher. The brochure says Victoria has more than 25 snake species and that the majority are venomous, and it names the Eastern Brown Snake, Tiger Snake, Red-bellied Black Snake, lowland and highland copperheads, and the Little Whip Snake among common species. It says snakes shelter under or in rocks, logs or leaf litter, often within a few hundred metres of water, and are drawn to houses for water. In southern Australia they brumate in winter but often emerge on sunny days. Most bites occur when people try to catch or kill a snake. Young snakes are as venomous as adults. Out walking: do first-aid training, carry snake bandages, wear closed shoes and loose pants, stay on tracks, and keep dogs on leads (https://www.wildlife.vic.gov.au/__data/assets/pdf_file/0025/714580/Living-with-Wildlife-Snakes.pdf). Forest Fire Management Victoria's October 2024 snake-season release says the same protection rule in plain words: snakes are protected under the Wildlife Act 1975, and capturing, harming or killing them is illegal. Keep dogs on leads, supervise children and pets, and if a pet is bitten seek a vet immediately. Wildlife crime can be reported to Crime Stoppers on 1800 333 000. DEECA's contact number is 136 186 (https://www.ffm.vic.gov.au/media-releases/snake-season-is-here,-be-prepared-and-stay-safe). Golden Plains Shire's October 2023 Gazette tells residents the shire has a high population of snakes, that most species seen around homes are venomous, to stay away, to tidy the yard and cut lawns and reduce rats and mice, never to touch, capture or kill a snake, to call 000 if bitten, and to call 136 186 for advice or a trained snake catcher. It repeats that snakes are protected under the Wildlife Act 1975. That notice does not name species and is not a survey of Inverleigh (https://www.goldenplains.vic.gov.au/sites/default/files/2023-10/October_2023_Gazette%20_Web_File.pdf). Zoos Victoria's emergency page says, for snakes, contact DEECA on 136 186. For injured wildlife generally it lists Wildlife Victoria on (03) 8400 7300 and Help for Wildlife on 0477 555 611 (https://www.zoo.org.au/emergency-wildlife-help/). For dogs, Animal Welfare Victoria's farm-working-dog guide says a dog bitten by a venomous snake may at first be hyper-excitable, with dilated pupils, muscle twitches, staggering, salivation or vomiting, that the signs change quickly, and that the dog should be taken immediately to a veterinarian. Snake antivenoms are available. The guide is written for farm working dogs and does not give a separate cat procedure (https://agriculture.vic.gov.au/livestock-and-animals/animal-welfare-victoria/dogs/farm-working-dogs/farm-working-dogs-routine-care/Responsible-ownership-of-farm-working-dogs.pdf). No source opened here gives clinical signs that are specific to cats, or a pressure-bandage method for pets. The instruction that is cited is to keep dogs and cats away and, if a pet is bitten, to go to a vet at once (https://www.wildlife.vic.gov.au/__data/assets/pdf_file/0025/714580/Living-with-Wildlife-Snakes.pdf; https://www.ffm.vic.gov.au/media-releases/snake-season-is-here,-be-prepared-and-stay-safe). This is one of the three snakes actually recorded inside 5 km, and both museum accounts call the bite potentially fatal (https://australian.museum/learn/animals/reptiles/copperhead/; https://collections.museumsvictoria.com.au/species/8787). The cemetery and common records are places people walk. The practical advice from DEECA and the shire is distance, closed shoes, dogs on leads, and a licensed catcher rather than a stick (https://www.wildlife.vic.gov.au/__data/assets/pdf_file/0025/714580/Living-with-Wildlife-Snakes.pdf; https://www.goldenplains.vic.gov.au/sites/default/files/2023-10/October_2023_Gazette%20_Web_File.pdf). No record inside 10 km says a copperhead bit a person or a pet.",
+    "notWellDocumented": [
+      "Only three records inside 10 km, and the 10 km count equals the 5 km count. That is a thin sample, not proof the species is absent from Bannockburn.",
+      "The February 2025 iNaturalist point has no positional accuracy and no finer place than the Inverleigh postcode.",
+      "Atlas spelling is 'Inverleigh Cemetary'. The uncertainty is 100 m. It is not a particular grave or path.",
+      "'Inverleigh Common' is not automatically the same pin as every later 'Nature Conservation Reserve' koala or brown-snake record.",
+      "Length disagrees: Australian Museum to 145 cm, Museums Victoria up to 1.7 m. Litter size disagrees: average 15 (range 9–45) versus up to 30.",
+      "The skink-dominated diet is the Australian Museum genus text. Museums Victoria's lowland list is frogs, lizards and small mammals. Neither is a local prey record.",
+      "The March mating note is flagged by the Australian Museum as unclear wild versus captive.",
+      "Southern Victorian emergence months are from the study cited by the Australian Museum, not from the three local dates.",
+      "Museums Victoria HTML was not fully fetched. The lowland account is the indexed species page.",
+      "No local envenoming case was found."
+    ],
+    "sources": [
+      {
+        "url": "https://biocache-ws.ala.org.au/ws/occurrences/search?q=species:%22Austrelaps%20superbus%22&lat=-38.10&lon=144.05&radius=10&pageSize=100&facet=off",
+        "title": "ALA Austrelaps superbus, 10 km",
+        "accessed": "2026-10-25",
+        "supports": "3 records, all inside 5 km."
+      },
+      {
+        "url": "https://api.inaturalist.org/v1/observations/261600498",
+        "title": "iNaturalist 261600498",
+        "accessed": "2026-10-25",
+        "supports": "Research grade, 14 February 2025, Inverleigh VIC 3321, not obscured."
+      },
+      {
+        "url": "https://australian.museum/learn/animals/reptiles/copperhead/",
+        "title": "Australian Museum, copperheads",
+        "accessed": "2026-10-25",
+        "supports": "Identification, 145 cm, habitat, diet, breeding, season, venom."
+      },
+      {
+        "url": "https://collections.museumsvictoria.com.au/species/8787",
+        "title": "Museums Victoria, lowland copperhead",
+        "accessed": "2026-10-25",
+        "supports": "Colour, 1.7 m, diet, up to 30 young, fatal bite."
+      },
+      {
+        "url": "https://www.betterhealth.vic.gov.au/health/healthyliving/bites-and-stings-first-aid",
+        "title": "Better Health Channel",
+        "accessed": "2026-10-25",
+        "supports": "Copperhead on the Victorian watch-list; first aid."
+      },
+      {
+        "url": "https://www.environment.vic.gov.au/__data/assets/pdf_file/0028/793801/FFG_Threatened_List_July_2026.pdf",
+        "title": "FFG Threatened List July 2026",
+        "accessed": "2026-10-25",
+        "supports": "No Austrelaps."
+      },
+      {
+        "url": "https://data.gov.au/data/dataset/ae652011-f39e-4c6c-91b8-1dc2d2dfee8f/resource/78401dce-1f40-49d3-92c4-3713d6e34974/download/20260828spcs.csv",
+        "title": "EPBC extract 28 August 2026",
+        "accessed": "2026-10-25",
+        "supports": "No Austrelaps superbus."
+      },
+      {
+        "url": "https://www.wildlife.vic.gov.au/__data/assets/pdf_file/0025/714580/Living-with-Wildlife-Snakes.pdf",
+        "title": "DEECA snakes brochure 2024",
+        "accessed": "2026-10-25",
+        "supports": "Copperhead named; living with snakes."
+      },
+      {
+        "url": "https://inverleigh.org.au/features/nature-conservation/",
+        "title": "Friends of Inverleigh Nature Conservation Reserve",
+        "accessed": "2026-10-25",
+        "supports": "Grassy woodland between Inverleigh and Teesdale. Not a snake record."
+      }
+    ],
+    "queries": [
+      "https://biocache-ws.ala.org.au/ws/occurrences/search?q=species:%22Austrelaps%20superbus%22&lat=-38.10&lon=144.05&radius=5&pageSize=0&facet=off",
+      "https://biocache-ws.ala.org.au/ws/occurrences/search?q=species:%22Austrelaps%20superbus%22&lat=-38.10&lon=144.05&radius=10&pageSize=100&facet=off",
+      "https://biocache-ws.ala.org.au/ws/occurrence/facets?q=species:%22Austrelaps%20superbus%22&lat=-38.10&lon=144.05&radius=5&facets=locality,year,month,dataResourceName,coordinateUncertaintyInMeters&flimit=100",
+      "https://biocache-ws.ala.org.au/ws/occurrence/76b67e82-8d24-486c-90b4-37f70696701d",
+      "https://biocache-ws.ala.org.au/ws/occurrence/14d43913-fb73-4833-9a8c-aaf49959ca4c",
+      "https://api.inaturalist.org/v1/observations/species_counts?taxon_id=85553&lat=-38.10&lng=144.05&radius=5&per_page=200",
+      "https://api.inaturalist.org/v1/observations/species_counts?taxon_id=85553&lat=-38.10&lng=144.05&radius=10&quality_grade=research&per_page=200",
+      "https://api.inaturalist.org/v1/observations?taxon_id=85553&lat=-38.10&lng=144.05&radius=10&per_page=200",
+      "Pages: Australian Museum copperhead; Museums Victoria species 8787; FFG July 2026 PDF search for Austrelaps."
+    ]
+  },
+  {
+    "id": "eastern-brown-snake",
+    "commonName": "Eastern Brown Snake",
+    "scientificName": "Pseudonaja textilis",
+    "tier": "5km",
+    "records": {
+      "centre": "-38.10, 144.05",
+      "note": "Counts are Atlas of Living Australia occurrence rows and iNaturalist observations. The 10 km radius includes the 5 km radius. ALA and iNaturalist overlap where the dataset is iNaturalist Australia, so the two totals must not be added. Distances are great-circle kilometres from -38.10, 144.05 using the coordinates returned by the API. An iNaturalist observation with geoprivacy obscured and a public accuracy of about 28.3 km is counted, but its public coordinate is not a place. ALA vernacular on the search hits is Common Brown Snake. The Geelong Field Naturalists Club raw name and the Australian Museum and Museums Victoria use Eastern Brown Snake. One record inside 5 km and three more inside 10 km. No iNaturalist observation of this species inside 10 km.",
+      "ala5": {
+        "count": 1,
+        "yearMin": 2014,
+        "yearMax": 2014,
+        "radiusKm": 5,
+        "datasets": {
+          "Geelong Field Naturalists Club": 1
+        },
+        "locality": "Inverleigh Conservation Reserve, off Common Rd"
+      },
+      "ala10": {
+        "count": 4,
+        "yearMin": 1989,
+        "yearMax": 2019,
+        "radiusKm": 10,
+        "includesAla5": true,
+        "alsoNearbyCount": 3,
+        "undatedMuseumSpecimen": 1,
+        "datasets": {
+          "Geelong Field Naturalists Club": 2,
+          "Victorian Biodiversity Atlas": 1,
+          "Museums Victoria provider for OZCAM": 1
+        },
+        "monthsDated": {
+          "October": 2,
+          "July": 1
+        }
+      },
+      "inatCounts": {
+        "radius5kmAllGrades": 0,
+        "radius10kmAllGrades": 0,
+        "nearestOutside": {
+          "url": "https://www.inaturalist.org/observations/262778568",
+          "distanceKm": 13.42,
+          "date": "2025-02-23",
+          "placeGuess": "Bannockburn VIC 3331",
+          "note": "Outside the 10 km tier."
+        },
+        "taxonId": 35140
+      }
+    },
+    "identification": "The Australian Museum, updated 16 July 2026, says the eastern brown snake averages around 1.5 m total length, and that the largest reliably measured specimen was 2013 mm. It is slender to moderate, with the head barely distinct from the neck. Colour can be any shade of brown to near black, tan, chestnut or orange. The belly is cream, yellow or orange and may be blotched. Scales are smooth and slightly glossy. The iris is orange with a black rim and the pupil is round. Hatchlings have a dark head and nape patch, and some are banded; the pattern fades. A flesh-pink mouth lining is given as a separation from other Pseudonaja (https://australian.museum/learn/animals/reptiles/eastern-brown-snake/). Museums Victoria says the snake is usually brown, that young animals have a black head and occasionally dark stripes, and that length is up to 2 m (https://collections.museumsvictoria.com.au/species/8795). The museum maximum of 2 m and the Australian Museum's reliably measured 2013 mm are both reported rather than averaged. The single animal described inside 5 km was written up as about 1.8 m long.",
+    "venom": "The Australian Museum says this species causes more deaths than any other Australian snake. Venom includes presynaptic neurotoxins, procoagulants, cardiotoxins and nephrotoxins, and envenoming can progress to paralysis and bleeding. Fangs are small, about 3 mm, and the average venom yield is given as about 4 mg, with a record of 67 mg. The initial bite is often painless, so help should be sought without waiting for pain. The snake is alert: a defensive display includes a spread neck and strikes. If approached from a distance it more often flees or stays still. Cooler snakes, body temperature under 24°C, allow a closer approach than warmer ones (https://australian.museum/learn/animals/reptiles/eastern-brown-snake/). Museums Victoria says the bite is dangerously venomous and can be fatal (https://collections.museumsvictoria.com.au/species/8795). Better Health Channel lists the common or eastern brown snake among Victorian snakes to watch for (https://www.betterhealth.vic.gov.au/health/healthyliving/bites-and-stings-first-aid). Do not kill the snake for identification. The Australian Museum says to seek medical attention without delay (https://australian.museum/learn/animals/reptiles/eastern-brown-snake/).",
+    "firstAid": "Treat every suspected snake bite as an emergency, including a bite from a small snake and a bite where the species is unknown. Better Health Channel says signs are not always visible, a person may not feel the bite, and symptoms may not be obvious for an hour or more. Depending on the snake, symptoms can include pain at the site (immediate or delayed), swelling, bruising or local bleeding, puncture wounds or almost invisible scratches, swollen tender glands in the groin or armpit, faintness, dizziness, nausea, vomiting, headache, abdominal pain, oozing blood from the bite or gums, double or blurred vision, drooping eyelids, trouble speaking or swallowing, limb weakness or paralysis, trouble breathing, and sometimes an initial collapse or confusion followed by partial or complete recovery (https://www.betterhealth.vic.gov.au/health/healthyliving/bites-and-stings-first-aid). Snake-specific first aid on that page is: follow DRSABCD; call triple zero (000) and ask for an ambulance; lie the person down and keep them still; remove jewellery from the limb if you can; apply a broad pressure bandage over the bite and mark the site with an X; apply a further elasticised roller bandage 10–15 cm wide, starting just above the fingers or toes and moving up the limb as far as can be reached, as firmly as possible so a finger cannot easily slide under it; splint the limb; keep the person lying completely still; keep checking colour, temperature and feeling in the fingers or toes; write the time of the bite and of the bandage; mark or photograph the site; do not wash venom off skin or clothes; stay until help arrives; do not walk the person to the vehicle. Do not use a tourniquet, do not cut the bite, do not suck the venom, and do not give alcohol (https://www.betterhealth.vic.gov.au/health/healthyliving/bites-and-stings-first-aid). The same site's general pressure-bandage section, written for several kinds of bites, says the bandage should be firm but not too tight. The snake-specific list is the one to follow for a snake bite, and it matches the Australian and New Zealand Committee on Resuscitation. ANZCOR Guideline 9.4.8, current as of 29 September 2026, recommends the pressure immobilisation technique for all Australian venomous snakes, including sea snakes. If resuscitation is needed it takes precedence (Guideline 8), then apply the bandage as soon as possible. Elasticised bandages 10–15 cm wide are preferred over crepe. The bandage should be firm and tight, so a finger cannot easily slide underneath. A second bandage starts at the fingers or toes and goes up the limb, over clothing if possible, or one bandage can do both jobs by starting at the fingers or toes and including the bite. Splint the joints on both sides of the bite; use a sling for an arm. Keep the person and the limb at rest and bring transport to them. If the person is alone and cannot get help to come, immobilisation is contraindicated after local pressure and they should move to seek urgent help. Do not remove bandages or splints before hospital. A bite that is not on a limb: firm direct pressure, without restricting breathing or chest movement and without firm pressure on the neck or head. Do not cut, suck, wash, or apply an arterial tourniquet. The guideline also says field studies have not shown a clear benefit, and that this may be confounded by poorly applied bandages (https://www.anzcor.org/home/first-aid/guideline-9-4-8-envenomation-pressure-immobilisation-technique; PDF https://www.anzcor.org/assets/generated-anzcor-guideline-pdfs/guideline-9-4-8-envenomation-pressure-immobilisation-technique-296.pdf). A Better Health Channel flood page gives a shorter instruction (clean dry dressing, bite below the heart). That page is not the pressure-immobilisation procedure. It does repeat call 000, do not wash the bite, and do not tourniquet, cut or suck (https://www.betterhealth.vic.gov.au/health/healthyliving/After-a-flood-animal-and-insect-related-hazards). The Victorian Poisons Information Centre, 13 11 26, can advise on bites, but Better Health Channel says not to call it instead of 000 if the person has collapsed, stopped breathing, is fitting, or has anaphylaxis (https://www.betterhealth.vic.gov.au/health/serviceprofiles/victorian-poisons-information-centre-service). Do not catch or kill the snake to identify it. Forest Fire Management Victoria, quoting a DEECA officer, says most bites happen when people try to capture or kill a snake, and that if someone is bitten, call 000 (https://www.ffm.vic.gov.au/media-releases/snake-season-is-here,-be-prepared-and-stay-safe). The older DELWP living-with-snakes sheet says a bite should be treated as serious and that the snake does not need to be identified for antivenom (https://www.wildlife.vic.gov.au/__data/assets/pdf_file/0034/549178/Living-with-snakes-fact-sheet.pdf).",
+    "activeSeason": "Better Health Channel and DEECA give the general Victorian pattern: spring and summer, plus sunny winter days in the south (https://www.betterhealth.vic.gov.au/health/healthyliving/bites-and-stings-first-aid; https://www.wildlife.vic.gov.au/__data/assets/pdf_file/0025/714580/Living-with-Wildlife-Snakes.pdf). The Australian Museum reports a central southern New South Wales transect, not an Inverleigh study: encounters were highest in spring, then autumn, then summer and winter. Snakes were active on mild winter days and basked at an air temperature of 14°C. Males became active earlier. They hunt by day and, when it is hot, in the late afternoon (https://australian.museum/learn/animals/reptiles/eastern-brown-snake/). Dated local rows are 19 October 2014, 30 October 2019 and 6 July 1989. The museum specimen from Teesdale has no collection date. Four records do not make a local calendar.",
+    "habitat": "The Australian Museum says open woodland, scrub and savannah grassland, not rainforest or alpine country, with arid populations along watercourses. It says the species is abundant at agricultural and suburban edges and shelters in logs, rocks, soil cracks, burrows and iron (https://australian.museum/learn/animals/reptiles/eastern-brown-snake/). Museums Victoria says most areas, including coastal heath, dry sclerophyll forest and woodland (https://collections.museumsvictoria.com.au/species/8795). The Inverleigh record is in Inverleigh Conservation Reserve, off Common Road. The reserve page describes grassy woodland (https://inverleigh.org.au/features/nature-conservation/). The Bannockburn Bush record was under discarded debris, which matches the museum's point about disturbed edges, and is one observation.",
+    "diet": "The Australian Museum says wild eastern brown snakes eat frogs, reptiles and reptile eggs, birds, and mammals, particularly introduced rats and mice. Juveniles take more lizards. They may use venom and constriction, and they can chase prey (https://australian.museum/learn/animals/reptiles/eastern-brown-snake/). Museums Victoria says they mostly eat lizards and mammals (https://collections.museumsvictoria.com.au/species/8795). No stomach contents are attached to the Inverleigh or Bannockburn records. DEECA's advice to reduce mice is general snake advice (https://www.wildlife.vic.gov.au/__data/assets/pdf_file/0025/714580/Living-with-Wildlife-Snakes.pdf).",
+    "breeding": "This species lays eggs. The Australian Museum says breeding starts in mid to late spring, males wrestle, yolking follicles run from mid-September to the end of November, and oviducal eggs from late October to late January. Clutch size is up to 25, average 15. Communal nests in rabbit warrens are described. Incubation in that account is 36 days at 30°C and 95 days at 25°C (https://australian.museum/learn/animals/reptiles/eastern-brown-snake/). Museums Victoria says females lay up to 35 eggs in cracks in the soil (https://collections.museumsvictoria.com.au/species/8795). The 25 and 35 ceilings are both left standing. No local record is a nest.",
+    "hangouts": "Inside 5 km there is one record. Geelong Field Naturalists Club, catalogue Reptile-13, 19 October 2014, observers Helen Schofield and Lance Breguet, locality 'Inverleigh Conservation Reserve, off Common Rd', coordinate -38.084798, 144.048087, about 1.7 km north of the centre. Remarks: 'About 1.8m long. Wriggled very rapidly across the track, from the eastern side gully to the western side bush, in front of the car.' ALA flags include a rounded coordinate and missing coordinate uncertainty, so the point is the reserve track in the note, not a surveyed stake (https://biocache-ws.ala.org.au/ws/occurrence/a1426a55-0f05-4401-b7fd-f682f196b94d). In the 5–10 km ring: Geelong Field Naturalists Club, 30 October 2019, Bannockburn Bush, -38.059662, 144.126515, about 8.1 km, remarks 'Large adult under discarded debris' (https://biocache-ws.ala.org.au/ws/occurrence/029f2999-772e-4191-b476-b7e4df1cec1d). Victorian Biodiversity Atlas, 6 July 1989, 'ROUGHLY 6 KM SW OF LOWNDE BRIDGE', -38.05025, 144.13563, about 9.3 km, uncertainty 100 m. The same coordinate and date also holds a little whip snake VBA row (https://biocache-ws.ala.org.au/ws/occurrence/4502571c-14de-4aaa-b618-cec0ea0a0869). Museums Victoria preserved specimen NMV D3680, raw name Pseudonaja textilis textilis, vernacular on the raw record Eastern Brown Snake, locality 'Geelong area, Teesdale', coordinate -38.03, 144.05 to two decimal places, about 7.8 km due north. There is no collection date (ALA flag MISSING_COLLECTION_DATE). That coordinate is too coarse to be a Teesdale street (https://biocache-ws.ala.org.au/ws/occurrence/884f7e9c-5d63-4c04-bc3f-1367962c545b). iNaturalist has no Pseudonaja textilis inside 10 km. The nearest opened observation is 262778568, 23 February 2025, research grade, accuracy 23 m, place guess Bannockburn VIC 3331, about 13.4 km, description 'Juvenile snake a dog killed.' That is outside the 10 km tier. It is evidence of a dog killing a snake at Bannockburn, not an Inverleigh hangout (https://www.inaturalist.org/observations/262778568).",
+    "conservation": "The Australian Museum says the species is not endangered in its account, because it uses disturbed country and eats house mice (https://australian.museum/learn/animals/reptiles/eastern-brown-snake/). It is not in the July 2026 FFG Threatened List text search for Pseudonaja or brown snake. Other snakes are listed, including the inland taipan under the name Small-scaled Snake, Oxyuranus microlepidotus, which is not this species and is not in the Inverleigh radii (https://www.environment.vic.gov.au/__data/assets/pdf_file/0028/793801/FFG_Threatened_List_July_2026.pdf). It is not in the 28 August 2026 EPBC extract (https://data.gov.au/data/dataset/ae652011-f39e-4c6c-91b8-1dc2d2dfee8f/resource/78401dce-1f40-49d3-92c4-3713d6e34974/download/20260828spcs.csv). It is still protected wildlife. Killing one on a farm is not legal (https://www.vic.gov.au/authority-control-wildlife-application-guide; https://www.ffm.vic.gov.au/media-releases/snake-season-is-here,-be-prepared-and-stay-safe). The Australian Museum notes predators including birds of prey and feral cats, and that many are killed on roads and by landowners (https://australian.museum/learn/animals/reptiles/eastern-brown-snake/). Those predator statements are not local carcass records, apart from the dog-killed juvenile outside the 10 km circle.",
+    "safety": "All native reptiles are protected in Victoria. The Conservation Regulator says it is illegal under the Wildlife Act 1975 to wilfully disturb, hunt, take, trap or kill wildlife without a permit (https://www.vic.gov.au/authority-control-wildlife-application-guide). A wildlife-controller licence can cover indigenous reptiles only when they are damaging property or are a danger to people, as set out in the licence conditions. The controller can charge a fee. Relocation of wildlife that is not dangerous still needs an Authority to Control Wildlife even if a licensed controller does the move. Call DEECA on 136 186 (https://www.vic.gov.au/wildlife-controller-licence-guide/wildlife-licences-victoria). An Authority to Control Wildlife is not required if a DEECA-licensed Wildlife Controller is engaged for reptiles that are posing a safety risk to humans (https://www.vic.gov.au/authority-control-wildlife-application-guide). DEECA's 2024 Living with Wildlife snakes brochure says never to catch or kill a snake, to keep the yard tidy, to keep pets and children indoors, to clean aviaries so they do not attract mice, to give the snake space and walk away, and to lock dogs and cats away. If a snake is in the house, stay calm, close internal doors, open an external door so it can leave, and call a licensed snake catcher. The brochure says Victoria has more than 25 snake species and that the majority are venomous, and it names the Eastern Brown Snake, Tiger Snake, Red-bellied Black Snake, lowland and highland copperheads, and the Little Whip Snake among common species. It says snakes shelter under or in rocks, logs or leaf litter, often within a few hundred metres of water, and are drawn to houses for water. In southern Australia they brumate in winter but often emerge on sunny days. Most bites occur when people try to catch or kill a snake. Young snakes are as venomous as adults. Out walking: do first-aid training, carry snake bandages, wear closed shoes and loose pants, stay on tracks, and keep dogs on leads (https://www.wildlife.vic.gov.au/__data/assets/pdf_file/0025/714580/Living-with-Wildlife-Snakes.pdf). Forest Fire Management Victoria's October 2024 snake-season release says the same protection rule in plain words: snakes are protected under the Wildlife Act 1975, and capturing, harming or killing them is illegal. Keep dogs on leads, supervise children and pets, and if a pet is bitten seek a vet immediately. Wildlife crime can be reported to Crime Stoppers on 1800 333 000. DEECA's contact number is 136 186 (https://www.ffm.vic.gov.au/media-releases/snake-season-is-here,-be-prepared-and-stay-safe). Golden Plains Shire's October 2023 Gazette tells residents the shire has a high population of snakes, that most species seen around homes are venomous, to stay away, to tidy the yard and cut lawns and reduce rats and mice, never to touch, capture or kill a snake, to call 000 if bitten, and to call 136 186 for advice or a trained snake catcher. It repeats that snakes are protected under the Wildlife Act 1975. That notice does not name species and is not a survey of Inverleigh (https://www.goldenplains.vic.gov.au/sites/default/files/2023-10/October_2023_Gazette%20_Web_File.pdf). Zoos Victoria's emergency page says, for snakes, contact DEECA on 136 186. For injured wildlife generally it lists Wildlife Victoria on (03) 8400 7300 and Help for Wildlife on 0477 555 611 (https://www.zoo.org.au/emergency-wildlife-help/). For dogs, Animal Welfare Victoria's farm-working-dog guide says a dog bitten by a venomous snake may at first be hyper-excitable, with dilated pupils, muscle twitches, staggering, salivation or vomiting, that the signs change quickly, and that the dog should be taken immediately to a veterinarian. Snake antivenoms are available. The guide is written for farm working dogs and does not give a separate cat procedure (https://agriculture.vic.gov.au/livestock-and-animals/animal-welfare-victoria/dogs/farm-working-dogs/farm-working-dogs-routine-care/Responsible-ownership-of-farm-working-dogs.pdf). No source opened here gives clinical signs that are specific to cats, or a pressure-bandage method for pets. The instruction that is cited is to keep dogs and cats away and, if a pet is bitten, to go to a vet at once (https://www.wildlife.vic.gov.au/__data/assets/pdf_file/0025/714580/Living-with-Wildlife-Snakes.pdf; https://www.ffm.vic.gov.au/media-releases/snake-season-is-here,-be-prepared-and-stay-safe). This is the species the Australian Museum associates with the largest number of Australian snakebite deaths, and the local animal crossed a reserve track in front of a car. The response on a track is to stop and let it leave, not to get out and move it (https://australian.museum/learn/animals/reptiles/eastern-brown-snake/; occurrence a1426a55). Dogs are part of the local picture only outside the tier: the February 2025 Bannockburn observation is a juvenile a dog killed, about 13.4 km away. Inside 10 km there is no pet-bite record. Keep dogs on leads and lock them away if a snake is in the yard (https://www.ffm.vic.gov.au/media-releases/snake-season-is-here,-be-prepared-and-stay-safe; https://www.wildlife.vic.gov.au/__data/assets/pdf_file/0025/714580/Living-with-Wildlife-Snakes.pdf). The painless-bite warning means a person who thinks they were only scratched should still call 000 and start pressure immobilisation (https://australian.museum/learn/animals/reptiles/eastern-brown-snake/; https://www.betterhealth.vic.gov.au/health/healthyliving/bites-and-stings-first-aid).",
+    "notWellDocumented": [
+      "One record inside 5 km, and four ALA rows inside 10 km. No iNaturalist record inside 10 km. Absence of more records is not proof the species is rare on farms.",
+      "The reserve coordinate is flagged as rounded and has no uncertainty. The usable place is the written locality and the track remark.",
+      "The Teesdale museum specimen has no date and a two-decimal-degree coordinate. It is not a house or a creek bank.",
+      "The Lownde Bridge coordinate is shared with a little whip snake row on the same day. They are two species records at one atlas point, not a count of two brown snakes.",
+      "Clutch ceilings differ: Australian Museum up to 25 (average 15), Museums Victoria up to 35. Length ceilings differ: reliably measured 2013 mm versus Museums Victoria up to 2 m.",
+      "The seasonal ranking is from a New South Wales transect cited by the Australian Museum.",
+      "The dog-killed juvenile is about 13.4 km away, outside the 10 km tier.",
+      "IUCN was not opened. iNaturalist's taxon page shows a global least-concern label; that page was not used as the conservation determination.",
+      "No confirmed bite to a person in the local records."
+    ],
+    "sources": [
+      {
+        "url": "https://biocache-ws.ala.org.au/ws/occurrences/search?q=species:%22Pseudonaja%20textilis%22&lat=-38.10&lon=144.05&radius=10&pageSize=100&facet=off",
+        "title": "ALA Pseudonaja textilis, 10 km",
+        "accessed": "2026-10-25",
+        "supports": "4 records: 1 inside 5 km, 3 in the outer ring."
+      },
+      {
+        "url": "https://biocache-ws.ala.org.au/ws/occurrence/a1426a55-0f05-4401-b7fd-f682f196b94d",
+        "title": "ALA occurrence, Inverleigh Conservation Reserve",
+        "accessed": "2026-10-25",
+        "supports": "19 October 2014, about 1.8 m, across a track."
+      },
+      {
+        "url": "https://australian.museum/learn/animals/reptiles/eastern-brown-snake/",
+        "title": "Australian Museum, eastern brown snake",
+        "accessed": "2026-10-25",
+        "supports": "Identification, venom, diet, eggs, season. Updated 16 July 2026."
+      },
+      {
+        "url": "https://collections.museumsvictoria.com.au/species/8795",
+        "title": "Museums Victoria, eastern brown snake",
+        "accessed": "2026-10-25",
+        "supports": "Colour, up to 2 m, eggs up to 35, fatal bite."
+      },
+      {
+        "url": "https://www.betterhealth.vic.gov.au/health/healthyliving/bites-and-stings-first-aid",
+        "title": "Better Health Channel",
+        "accessed": "2026-10-25",
+        "supports": "Named on the Victorian watch-list; first aid, including a bite that may not be felt."
+      },
+      {
+        "url": "https://www.environment.vic.gov.au/__data/assets/pdf_file/0028/793801/FFG_Threatened_List_July_2026.pdf",
+        "title": "FFG Threatened List July 2026",
+        "accessed": "2026-10-25",
+        "supports": "No Pseudonaja textilis."
+      },
+      {
+        "url": "https://data.gov.au/data/dataset/ae652011-f39e-4c6c-91b8-1dc2d2dfee8f/resource/78401dce-1f40-49d3-92c4-3713d6e34974/download/20260828spcs.csv",
+        "title": "EPBC extract 28 August 2026",
+        "accessed": "2026-10-25",
+        "supports": "No Pseudonaja textilis."
+      },
+      {
+        "url": "https://www.inaturalist.org/observations/262778568",
+        "title": "iNaturalist 262778568",
+        "accessed": "2026-10-25",
+        "supports": "Nearest eastern brown, Bannockburn, about 13.4 km, a dog killed a juvenile. Outside 10 km."
+      }
+    ],
+    "queries": [
+      "https://biocache-ws.ala.org.au/ws/occurrences/search?q=species:%22Pseudonaja%20textilis%22&lat=-38.10&lon=144.05&radius=5&pageSize=0&facet=off",
+      "https://biocache-ws.ala.org.au/ws/occurrences/search?q=species:%22Pseudonaja%20textilis%22&lat=-38.10&lon=144.05&radius=10&pageSize=100&facet=off",
+      "https://biocache-ws.ala.org.au/ws/occurrence/facets?q=species:%22Pseudonaja%20textilis%22&lat=-38.10&lon=144.05&radius=5&facets=locality,year,month,dataResourceName,coordinateUncertaintyInMeters&flimit=100",
+      "https://biocache-ws.ala.org.au/ws/occurrence/facets?q=species:%22Pseudonaja%20textilis%22&lat=-38.10&lon=144.05&radius=10&facets=locality,year,month,dataResourceName,coordinateUncertaintyInMeters&flimit=100",
+      "https://biocache-ws.ala.org.au/ws/occurrence/a1426a55-0f05-4401-b7fd-f682f196b94d",
+      "https://biocache-ws.ala.org.au/ws/occurrence/029f2999-772e-4191-b476-b7e4df1cec1d",
+      "https://biocache-ws.ala.org.au/ws/occurrence/4502571c-14de-4aaa-b618-cec0ea0a0869",
+      "https://biocache-ws.ala.org.au/ws/occurrence/884f7e9c-5d63-4c04-bc3f-1367962c545b",
+      "https://api.inaturalist.org/v1/observations?taxon_id=35140&lat=-38.10&lng=144.05&radius=15&per_page=200&order_by=observed_on&order=desc",
+      "https://api.inaturalist.org/v1/observations/species_counts?taxon_id=85553&lat=-38.10&lng=144.05&radius=10&per_page=200"
+    ]
+  },
+  {
+    "id": "snake-safety-general",
+    "commonName": "Snake safety around Inverleigh",
+    "scientificName": null,
+    "tier": null,
+    "records": {
+      "centre": "-38.10, 144.05",
+      "accessDateRequested": "2026-10-25",
+      "whatThisObjectIs": "Not a species and not a 5 km or 10 km species tier. It holds the shared first aid, the protection and catcher route, and the honest check of snakes people expect but that are not in the 10 km records.",
+      "verifiedUserCounts": {
+        "ala5kmElapidaeSpeciesFacet": {
+          "Suta flagellum": 8,
+          "Austrelaps superbus": 3,
+          "Pseudonaja textilis": 1
+        },
+        "ala10kmElapidaeSpeciesFacet": {
+          "Suta flagellum": 28,
+          "Pseudonaja textilis": 4,
+          "Austrelaps superbus": 3
+        },
+        "inat5kmSerpentes85553AllGrades": {
+          "Suta flagellum": 7,
+          "Austrelaps superbus": 1
+        },
+        "inat5kmResearchGrade": {
+          "Suta flagellum": 7,
+          "Austrelaps superbus": 1
+        },
+        "inat10kmAllGrades": {
+          "Suta flagellum": 16,
+          "Austrelaps superbus": 1
+        },
+        "inat10kmResearchGrade": {
+          "Suta flagellum": 15,
+          "Austrelaps superbus": 1
+        },
+        "note": "These match the counts supplied with the task. ALA 5 km Elapidae total is 12 and ALA 10 km Elapidae total is 35, which is the sum of those species and no others."
+      },
+      "reptileFamilies": {
+        "ala5kmClassReptilia": {
+          "Scincidae": 13,
+          "Elapidae": 12,
+          "Agamidae": 8
+        },
+        "ala10kmClassReptilia": {
+          "Scincidae": 46,
+          "Elapidae": 35,
+          "Agamidae": 19,
+          "Chelidae": 4
+        },
+        "snakeFamiliesExplicitlyZeroAt5_10_20_and_50km": [
+          "Pythonidae",
+          "Typhlopidae",
+          "Colubridae",
+          "Boidae",
+          "Homalopsidae",
+          "Acrochordidae",
+          "Anomalepididae"
+        ]
+      },
+      "expectedButNotInside10km": {
+        "Notechis scutatus": {
+          "commonName": "Tiger Snake",
+          "ala5": 0,
+          "ala10": 0,
+          "ala20": 3,
+          "ala50": 361,
+          "inat10": 0,
+          "inat20speciesCounts": 1,
+          "nearestAla": "Museums Victoria specimen, Bannockburn, Saffin Court, 17 November 2024, coordinate -38.039, 144.16, about 11.8 km. https://biocache-ws.ala.org.au/ws/occurrence/e453de07-b4a9-4939-9dcb-a0d4d1e9a4ff",
+          "otherAlaInside20km": "Ceres Bridge, Barwon River, 11 September 2002, found dead, uncertainty 900 m, about 19.4 km; Stonehaven, Museums Victoria, 20 January 1962, coordinate to two decimals, about 19.5 km.",
+          "nearestOpenInat": "https://www.inaturalist.org/observations/407471090 Donaldson Road, Lethbridge, 11 October 2026, research grade, accuracy 169 m, about 16.6 km."
+        },
+        "Pseudechis porphyriacus": {
+          "commonName": "Red-bellied Black Snake",
+          "ala5": 0,
+          "ala10": 0,
+          "ala20": 0,
+          "ala30": 1,
+          "ala50": 23,
+          "inat20": 0,
+          "nearestAla": "Victorian Biodiversity Atlas, 5 December 1989, 'ROUGHLY 2 KM W OF FAIRY PARK', -37.90173, 144.25511, about 28.4 km, uncertainty 100 m. https://biocache-ws.ala.org.au/ws/occurrence/6341b247-dcb8-4e7b-9711-e7925624e6ad",
+          "nearestResearchGradeInat": "Staughton Vale and Brisbane Ranges National Park cluster, about 31 km and further. Example https://www.inaturalist.org/observations/137112125. A casual East Geelong observation, 324989767, is about 29.3 km and is not research grade."
+        },
+        "Drysdalia coronoides": {
+          "commonName": "White-lipped Snake",
+          "ala10": 0,
+          "ala20": 1,
+          "inat25": 0,
+          "nearestAla": "Victorian Biodiversity Atlas, 23 April 2018, Mount Mercer-Shelford road #3 Shelford, -37.96222, 143.93556, about 18.3 km, uncertainty 5 m. https://biocache-ws.ala.org.au/ws/occurrence/4a7cf47e-4915-45e1-ade6-ffc27a7def1f"
+        }
+      }
+    },
+    "identification": "Inside 5 km and inside 10 km of -38.10, 144.05, the only snakes in the Atlas of Living Australia Elapidae species facet are the little whip snake (Suta flagellum), the lowland copperhead (Austrelaps superbus) and the eastern brown snake (Pseudonaja textilis). Class Reptilia at those radii also has skinks and dragons, and at 10 km four freshwater-turtle records (Chelidae). Explicit searches for pythons, blind snakes, colubrids, boas and filesnakes returned 0 records at 5, 10, 20 and 50 km. DEECA says Victoria has only two python species, the diamond python and the carpet python (https://www.wildlife.vic.gov.au/__data/assets/pdf_file/0025/714580/Living-with-Wildlife-Snakes.pdf). Neither appears in this circle. At 20 km, ALA Elapidae adds the tiger snake (Notechis scutatus, 3) and one white-lipped snake (Drysdalia coronoides). The red-bellied black snake (Pseudechis porphyriacus) is still 0 at 20 km. At 50 km the ALA Elapidae facet is little whip snake 437, lowland copperhead 370, tiger snake 361, eastern brown snake 203, white-lipped snake 47, red-bellied black snake 23, small-eyed snake Cryptophis nigrescens 5, yellow-bellied sea snake Hydrophis platurus 5, and one Port Lincoln snake Suta spectabilis. The sea snake records are not Inverleigh animals. iNaturalist species counts for Serpentes (taxon 85553), all grades, match the task: 5 km little whip snake 7 and lowland copperhead 1; 10 km little whip snake 16 and lowland copperhead 1. Research grade is the same at 5 km, and at 10 km the little whip snake drops from 16 to 15 because one observation is needs identification. People often expect tiger snakes and red-bellied black snakes. Better Health Channel lists both, with the copperhead and the common or eastern brown snake, as Victorian venomous snakes to watch for, and says the tiger snake is the most common cause of snake envenoming in Victoria (https://www.betterhealth.vic.gov.au/health/healthyliving/bites-and-stings-first-aid). DEECA's brochure names the same set, plus the little whip snake, as common Victorian species (https://www.wildlife.vic.gov.au/__data/assets/pdf_file/0025/714580/Living-with-Wildlife-Snakes.pdf). Golden Plains Shire says the shire has a high population of snakes and that most species around houses are venomous, without naming them (https://www.goldenplains.vic.gov.au/sites/default/files/2023-10/October_2023_Gazette%20_Web_File.pdf). Those are statewide or shire statements. They are not records inside 10 km of Inverleigh. On the data pulled here, tiger snakes and red-bellied black snakes are not recorded within 5 km or 10 km. The nearest tiger snake record is a November 2024 museum specimen at Saffin Court, Bannockburn, about 11.8 km away. The nearest red-bellied black snake is a December 1989 atlas record about 28.4 km away, roughly 2 km west of Fairy Park. Lack of a record is not proof a snake never crosses the radius.",
+    "venom": "Danger is not the same for every species, and first aid is. Eastern brown snake: Australian Museum, more deaths than any other Australian snake, neurotoxic and procoagulant venom, bite often painless, can be fatal (https://australian.museum/learn/animals/reptiles/eastern-brown-snake/). Lowland copperhead: Australian Museum, powerfully neurotoxic, haemolytic and cytotoxic, a bite from an adult potentially fatal without medical help; Museums Victoria, dangerously venomous and the bite can be fatal (https://australian.museum/learn/animals/reptiles/copperhead/; https://collections.museumsvictoria.com.au/species/8787). Little whip snake: Museums Victoria, not thought highly dangerous, but any bite treated with caution. It is still an elapid (https://collections.museumsvictoria.com.au/species/8792). Tiger snake, not recorded inside 10 km: Australian Museum, venom strongly neurotoxic and coagulant, extremely dangerous (https://australian.museum/learn/animals/reptiles/tiger-snake/, updated 16 July 2026). Museums Victoria says the venom is toxic to humans and the bite potentially lethal (https://collections.museumsvictoria.com.au/species/8791). Red-bellied black snake, not recorded inside 20 km: Australian Museum, anticoagulant and myotoxic venom, probably the least dangerous Australian elapid for its size, few confirmed deaths, many bites mild, but hospitalisations occur and children and pets are at greater risk because they are smaller. Treat every suspected bite as serious (https://australian.museum/learn/animals/reptiles/red-bellied-black-snake/, updated 16 July 2026). Museums Victoria says potentially lethal (https://collections.museumsvictoria.com.au/species/8794). DEECA says young snakes are as venomous as adults, and that a non-venomous snake can still bite painfully. No non-venomous snake family was recorded within 50 km (https://www.wildlife.vic.gov.au/__data/assets/pdf_file/0025/714580/Living-with-Wildlife-Snakes.pdf).",
+    "firstAid": "Treat every suspected snake bite as an emergency, including a bite from a small snake and a bite where the species is unknown. Better Health Channel says signs are not always visible, a person may not feel the bite, and symptoms may not be obvious for an hour or more. Depending on the snake, symptoms can include pain at the site (immediate or delayed), swelling, bruising or local bleeding, puncture wounds or almost invisible scratches, swollen tender glands in the groin or armpit, faintness, dizziness, nausea, vomiting, headache, abdominal pain, oozing blood from the bite or gums, double or blurred vision, drooping eyelids, trouble speaking or swallowing, limb weakness or paralysis, trouble breathing, and sometimes an initial collapse or confusion followed by partial or complete recovery (https://www.betterhealth.vic.gov.au/health/healthyliving/bites-and-stings-first-aid). Snake-specific first aid on that page is: follow DRSABCD; call triple zero (000) and ask for an ambulance; lie the person down and keep them still; remove jewellery from the limb if you can; apply a broad pressure bandage over the bite and mark the site with an X; apply a further elasticised roller bandage 10–15 cm wide, starting just above the fingers or toes and moving up the limb as far as can be reached, as firmly as possible so a finger cannot easily slide under it; splint the limb; keep the person lying completely still; keep checking colour, temperature and feeling in the fingers or toes; write the time of the bite and of the bandage; mark or photograph the site; do not wash venom off skin or clothes; stay until help arrives; do not walk the person to the vehicle. Do not use a tourniquet, do not cut the bite, do not suck the venom, and do not give alcohol (https://www.betterhealth.vic.gov.au/health/healthyliving/bites-and-stings-first-aid). The same site's general pressure-bandage section, written for several kinds of bites, says the bandage should be firm but not too tight. The snake-specific list is the one to follow for a snake bite, and it matches the Australian and New Zealand Committee on Resuscitation. ANZCOR Guideline 9.4.8, current as of 29 September 2026, recommends the pressure immobilisation technique for all Australian venomous snakes, including sea snakes. If resuscitation is needed it takes precedence (Guideline 8), then apply the bandage as soon as possible. Elasticised bandages 10–15 cm wide are preferred over crepe. The bandage should be firm and tight, so a finger cannot easily slide underneath. A second bandage starts at the fingers or toes and goes up the limb, over clothing if possible, or one bandage can do both jobs by starting at the fingers or toes and including the bite. Splint the joints on both sides of the bite; use a sling for an arm. Keep the person and the limb at rest and bring transport to them. If the person is alone and cannot get help to come, immobilisation is contraindicated after local pressure and they should move to seek urgent help. Do not remove bandages or splints before hospital. A bite that is not on a limb: firm direct pressure, without restricting breathing or chest movement and without firm pressure on the neck or head. Do not cut, suck, wash, or apply an arterial tourniquet. The guideline also says field studies have not shown a clear benefit, and that this may be confounded by poorly applied bandages (https://www.anzcor.org/home/first-aid/guideline-9-4-8-envenomation-pressure-immobilisation-technique; PDF https://www.anzcor.org/assets/generated-anzcor-guideline-pdfs/guideline-9-4-8-envenomation-pressure-immobilisation-technique-296.pdf). A Better Health Channel flood page gives a shorter instruction (clean dry dressing, bite below the heart). That page is not the pressure-immobilisation procedure. It does repeat call 000, do not wash the bite, and do not tourniquet, cut or suck (https://www.betterhealth.vic.gov.au/health/healthyliving/After-a-flood-animal-and-insect-related-hazards). The Victorian Poisons Information Centre, 13 11 26, can advise on bites, but Better Health Channel says not to call it instead of 000 if the person has collapsed, stopped breathing, is fitting, or has anaphylaxis (https://www.betterhealth.vic.gov.au/health/serviceprofiles/victorian-poisons-information-centre-service). Do not catch or kill the snake to identify it. Forest Fire Management Victoria, quoting a DEECA officer, says most bites happen when people try to capture or kill a snake, and that if someone is bitten, call 000 (https://www.ffm.vic.gov.au/media-releases/snake-season-is-here,-be-prepared-and-stay-safe). The older DELWP living-with-snakes sheet says a bite should be treated as serious and that the snake does not need to be identified for antivenom (https://www.wildlife.vic.gov.au/__data/assets/pdf_file/0034/549178/Living-with-snakes-fact-sheet.pdf).",
+    "activeSeason": "Better Health Channel: most active in spring and summer (https://www.betterhealth.vic.gov.au/health/healthyliving/bites-and-stings-first-aid). DEECA: in southern Australia they brumate in winter and often emerge on sunny days, so winter is not a zero-risk season (https://www.wildlife.vic.gov.au/__data/assets/pdf_file/0025/714580/Living-with-Wildlife-Snakes.pdf). Golden Plains Shire's October 2023 notice expects sightings to increase as the weather warms (https://www.goldenplains.vic.gov.au/sites/default/files/2023-10/October_2023_Gazette%20_Web_File.pdf). Species accounts add detail that should not be flattened: lowland copperheads in a southern Victorian study emerged about August or September and retreated in late April or early May (https://australian.museum/learn/animals/reptiles/copperhead/); eastern brown snakes in a southern New South Wales study were most often seen in spring and were active on mild winter days (https://australian.museum/learn/animals/reptiles/eastern-brown-snake/). Local month facets are record dates. They are listed on each species object. They are not a phenology study.",
+    "habitat": "DEECA: rocks, logs, leaf litter, often within a few hundred metres of water, and yards that offer water or mice (https://www.wildlife.vic.gov.au/__data/assets/pdf_file/0025/714580/Living-with-Wildlife-Snakes.pdf). The shire notice: long grass, rubbish and rodents bring snakes closer to houses (https://www.goldenplains.vic.gov.au/sites/default/files/2023-10/October_2023_Gazette%20_Web_File.pdf). Named places that actually appear on non-obscured records inside 10 km are Inverleigh Common, Inverleigh Cemetery, Inverleigh Conservation Reserve off Common Road, a public iNaturalist point whose place guess is only Inverleigh, a VBA point 'roughly 4 km south of Teesdale', Bannockburn Bush and Bannockburn Bush Reserve, Harvey Road paddocks at Bannockburn, rough distances south-west of Lownde Bridge, a coarse 'Geelong area, Teesdale' museum point, and a coarse '10 km NNE of Winchelsea' museum point. No record string inside 10 km names the Leigh River bank, the Hamilton Highway, or a particular home. Those places are not invented here. Corangamite CMA was searched for a snake page in the earlier pass and none was found that lists species at Inverleigh. A Wadawurrung word list in a flows study names a snake as food. That is cultural text, not an occurrence, and it is not used as a species record.",
+    "diet": "Diets differ and are on the species objects: little whip snake mainly small lizards (https://collections.museumsvictoria.com.au/species/8792); lowland copperhead frogs, lizards and small mammals on the Museums Victoria page, and a skink-heavy genus account on the Australian Museum page (https://collections.museumsvictoria.com.au/species/8787; https://australian.museum/learn/animals/reptiles/copperhead/); eastern brown snake frogs, reptiles, birds and especially rats and mice (https://australian.museum/learn/animals/reptiles/eastern-brown-snake/). Tiger snakes, outside this radius, take fish, frogs, tadpoles, lizards, birds, mammals and carrion (https://australian.museum/learn/animals/reptiles/tiger-snake/). Red-bellied black snakes, also outside, take frogs, reptiles, small mammals and other snakes (https://australian.museum/learn/animals/reptiles/red-bellied-black-snake/; https://collections.museumsvictoria.com.au/species/8794). The household consequence DEECA and the shire both draw is that mice and rats are a reason a snake comes to a yard (https://www.wildlife.vic.gov.au/__data/assets/pdf_file/0025/714580/Living-with-Wildlife-Snakes.pdf; https://www.goldenplains.vic.gov.au/sites/default/files/2023-10/October_2023_Gazette%20_Web_File.pdf).",
+    "breeding": "Do not mix the modes. Little whip snake, lowland copperhead, tiger snake and red-bellied black snake bear live young in the museum accounts. The eastern brown snake lays eggs (https://collections.museumsvictoria.com.au/species/8792; https://collections.museumsvictoria.com.au/species/8787; https://collections.museumsvictoria.com.au/species/8791; https://collections.museumsvictoria.com.au/species/8794; https://australian.museum/learn/animals/reptiles/eastern-brown-snake/). Litter and clutch numbers disagree between the Australian Museum and Museums Victoria for the copperhead and the brown snake. They are quoted on the species objects and not averaged. No birth or nest is in the Inverleigh records.",
+    "hangouts": "Use the species objects for places inside 5 km and in the 5–10 km ring. This object only records the nearest evidence for the snakes that are not in those tiers, so they are not dropped into Inverleigh by expectation. Tiger snake: zero ALA and zero iNaturalist inside 10 km. Nearest ALA is Museums Victoria, Bannockburn, Saffin Court, 17 November 2024, about 11.8 km. Nearest open iNaturalist point is Donaldson Road, Lethbridge, 11 October 2026, about 16.6 km. Other tiger snake points inside 25 km on iNaturalist are around 22–25 km (Fyansford, Highton, Newtown, Lovely Banks, Gherang), including roadkill. One research-grade observation, 203092052, says the snake was killed by a domestic animal; it is location-obscured, about 22 km on the public coordinate, and is not a place. Red-bellied black snake: zero inside 20 km on ALA and on iNaturalist. Nearest ALA is about 28.4 km, 'roughly 2 km west of Fairy Park', December 1989. Research-grade iNaturalist clusters around Staughton Vale and Brisbane Ranges National Park, about 31 km and beyond. White-lipped snake: one ALA record at about 18.3 km on the Mount Mercer–Shelford road at Shelford, April 2018, and zero iNaturalist inside 25 km. It is not given a species object because it is outside 10 km. iNaturalist at 50 km, all grades, also returned one boomslang (Dispholidus typus) and one Children's python (Antaresia childreni). Both disappear from the research-grade counts. They are not treated as wild Inverleigh snakes. Obscured little whip snake coordinates inside 5 km and 10 km are counted and are not mapped.",
+    "conservation": "Protection and threatened status are different. Every native reptile is protected under the Wildlife Act 1975 whether or not it is on a threatened list (https://www.vic.gov.au/authority-control-wildlife-application-guide; https://www.vic.gov.au/wildlife-controller-licence-guide/wildlife-licences-victoria; https://www.ffm.vic.gov.au/media-releases/snake-season-is-here,-be-prepared-and-stay-safe). July 2026 FFG Threatened List: text search found no Austrelaps, no Pseudonaja, no Notechis, no Pseudechis porphyriacus, no Suta flagellum and no Drysdalia coronoides. Snake taxa that are on that list include the bandy bandy (Vermicella annulata), bardick (Echiopsis curta), common death adder (Acanthophis antarcticus), carpet python (Morelia spilota metcalfei), diamond python (Morelia spilota spilota), De Vis' banded snake (Denisonia devisi), Masters' snake (Drysdalia mastersii), Port Lincoln snake (Parasuta spectabilis), red-naped snake (Furina diadema) and small-scaled snake (Oxyuranus microlepidotus). None of those is in the 10 km Inverleigh snake facet (https://www.environment.vic.gov.au/__data/assets/pdf_file/0028/793801/FFG_Threatened_List_July_2026.pdf). EPBC extract of 28 August 2026: the only hit among these names is Notechis scutatus ater, Krefft's Tiger Snake (Flinders Ranges), Vulnerable, SPRAT taxon 82287. That is not the Victorian tiger snake. Austrelaps superbus, Pseudonaja textilis, Suta flagellum, Pseudechis porphyriacus and mainland Notechis scutatus are not rows in that extract (https://data.gov.au/data/dataset/ae652011-f39e-4c6c-91b8-1dc2d2dfee8f/resource/78401dce-1f40-49d3-92c4-3713d6e34974/download/20260828spcs.csv; http://www.environment.gov.au/cgi-bin/sprat/public/publicspecies.pl?taxon_id=82287). The Australian Museum says the Flinders Ranges tiger snake population and the Chappell Island population have separate conservation listings, and that the old split of Notechis ater is not supported as the mainland species name (https://australian.museum/learn/animals/reptiles/tiger-snake/). A direct download of the July 2026 Excel file returned an error in the earlier pass. The PDF at the URL above was opened and searched. The threatened-list amendments described on the department page for July 2026 are a plant and a carp process, not these snakes (https://www.environment.vic.gov.au/conserving-threatened-species/threatened-list).",
+    "safety": "All native reptiles are protected in Victoria. The Conservation Regulator says it is illegal under the Wildlife Act 1975 to wilfully disturb, hunt, take, trap or kill wildlife without a permit (https://www.vic.gov.au/authority-control-wildlife-application-guide). A wildlife-controller licence can cover indigenous reptiles only when they are damaging property or are a danger to people, as set out in the licence conditions. The controller can charge a fee. Relocation of wildlife that is not dangerous still needs an Authority to Control Wildlife even if a licensed controller does the move. Call DEECA on 136 186 (https://www.vic.gov.au/wildlife-controller-licence-guide/wildlife-licences-victoria). An Authority to Control Wildlife is not required if a DEECA-licensed Wildlife Controller is engaged for reptiles that are posing a safety risk to humans (https://www.vic.gov.au/authority-control-wildlife-application-guide). DEECA's 2024 Living with Wildlife snakes brochure says never to catch or kill a snake, to keep the yard tidy, to keep pets and children indoors, to clean aviaries so they do not attract mice, to give the snake space and walk away, and to lock dogs and cats away. If a snake is in the house, stay calm, close internal doors, open an external door so it can leave, and call a licensed snake catcher. The brochure says Victoria has more than 25 snake species and that the majority are venomous, and it names the Eastern Brown Snake, Tiger Snake, Red-bellied Black Snake, lowland and highland copperheads, and the Little Whip Snake among common species. It says snakes shelter under or in rocks, logs or leaf litter, often within a few hundred metres of water, and are drawn to houses for water. In southern Australia they brumate in winter but often emerge on sunny days. Most bites occur when people try to catch or kill a snake. Young snakes are as venomous as adults. Out walking: do first-aid training, carry snake bandages, wear closed shoes and loose pants, stay on tracks, and keep dogs on leads (https://www.wildlife.vic.gov.au/__data/assets/pdf_file/0025/714580/Living-with-Wildlife-Snakes.pdf). Forest Fire Management Victoria's October 2024 snake-season release says the same protection rule in plain words: snakes are protected under the Wildlife Act 1975, and capturing, harming or killing them is illegal. Keep dogs on leads, supervise children and pets, and if a pet is bitten seek a vet immediately. Wildlife crime can be reported to Crime Stoppers on 1800 333 000. DEECA's contact number is 136 186 (https://www.ffm.vic.gov.au/media-releases/snake-season-is-here,-be-prepared-and-stay-safe). Golden Plains Shire's October 2023 Gazette tells residents the shire has a high population of snakes, that most species seen around homes are venomous, to stay away, to tidy the yard and cut lawns and reduce rats and mice, never to touch, capture or kill a snake, to call 000 if bitten, and to call 136 186 for advice or a trained snake catcher. It repeats that snakes are protected under the Wildlife Act 1975. That notice does not name species and is not a survey of Inverleigh (https://www.goldenplains.vic.gov.au/sites/default/files/2023-10/October_2023_Gazette%20_Web_File.pdf). Zoos Victoria's emergency page says, for snakes, contact DEECA on 136 186. For injured wildlife generally it lists Wildlife Victoria on (03) 8400 7300 and Help for Wildlife on 0477 555 611 (https://www.zoo.org.au/emergency-wildlife-help/). For dogs, Animal Welfare Victoria's farm-working-dog guide says a dog bitten by a venomous snake may at first be hyper-excitable, with dilated pupils, muscle twitches, staggering, salivation or vomiting, that the signs change quickly, and that the dog should be taken immediately to a veterinarian. Snake antivenoms are available. The guide is written for farm working dogs and does not give a separate cat procedure (https://agriculture.vic.gov.au/livestock-and-animals/animal-welfare-victoria/dogs/farm-working-dogs/farm-working-dogs-routine-care/Responsible-ownership-of-farm-working-dogs.pdf). No source opened here gives clinical signs that are specific to cats, or a pressure-bandage method for pets. The instruction that is cited is to keep dogs and cats away and, if a pet is bitten, to go to a vet at once (https://www.wildlife.vic.gov.au/__data/assets/pdf_file/0025/714580/Living-with-Wildlife-Snakes.pdf; https://www.ffm.vic.gov.au/media-releases/snake-season-is-here,-be-prepared-and-stay-safe). Call order for a bite: 000 first, pressure immobilisation, stay still. The poisons line 13 11 26 is not the emergency number if the person has collapsed (https://www.betterhealth.vic.gov.au/health/healthyliving/bites-and-stings-first-aid; https://www.betterhealth.vic.gov.au/health/serviceprofiles/victorian-poisons-information-centre-service; https://www.anzcor.org/home/first-aid/guideline-9-4-8-envenomation-pressure-immobilisation-technique). Call order for a snake in the yard or the house, when nobody has been bitten: do not catch or kill it; lock dogs and cats away; keep people clear; call a DEECA-licensed wildlife controller. DEECA on 136 186 can provide a list. The list is not an endorsement, and the department does not itself come and remove the snake. The controller is user-pays (https://www.wildlife.vic.gov.au/__data/assets/pdf_file/0025/714580/Living-with-Wildlife-Snakes.pdf; https://www.vic.gov.au/wildlife-controller-licence-guide/wildlife-licences-victoria; https://www.wildlife.vic.gov.au/__data/assets/pdf_file/0034/549178/Living-with-snakes-fact-sheet.pdf; https://www.goldenplains.vic.gov.au/sites/default/files/2023-10/October_2023_Gazette%20_Web_File.pdf). You do not need an Authority to Control Wildlife when the controller is engaged because the reptile is a safety risk. You do need one if the animal is being moved for another reason (https://www.vic.gov.au/authority-control-wildlife-application-guide; https://www.vic.gov.au/wildlife-controller-licence-guide/wildlife-licences-victoria). For a dog or a cat: keep them away before a bite happens. If a pet is bitten, Animal Welfare Victoria's signs for dogs are a starting picture, and the cited action is an immediate vet visit, where antivenom can be used. Do not wait out the signs. Cat-specific signs were not in the sources opened (https://agriculture.vic.gov.au/livestock-and-animals/animal-welfare-victoria/dogs/farm-working-dogs/farm-working-dogs-routine-care/Responsible-ownership-of-farm-working-dogs.pdf; https://www.ffm.vic.gov.au/media-releases/snake-season-is-here,-be-prepared-and-stay-safe; https://www.wildlife.vic.gov.au/__data/assets/pdf_file/0025/714580/Living-with-Wildlife-Snakes.pdf). The one dog interaction in the nearby iNaturalist set is outside 10 km: a juvenile eastern brown snake a dog killed at Bannockburn, about 13.4 km. A tiger snake 'killed by a domestic animal' is an obscured observation about 22 km away. Neither is an Inverleigh pet-bite case. Injured wildlife that is not a snake-catcher job can go through Wildlife Victoria on (03) 8400 7300. Zoos Victoria points snake calls to DEECA 136 186 (https://www.zoo.org.au/emergency-wildlife-help/). A Wildlife Victoria FAQ URL that had been indexed did not resolve when opened, so no Wildlife Victoria snake procedure is quoted.",
+    "notWellDocumented": [
+      "Tiger snakes and red-bellied black snakes are widely expected, and Better Health Channel and DEECA name them as common Victorian snakes. They have no ALA or iNaturalist record inside 10 km of -38.10, 144.05. That is an absence of records, not a survey that proves absence.",
+      "The nearest tiger snake is about 11.8 km away at Saffin Court, Bannockburn, a museum specimen. The coordinate is to three decimal places and has no uncertainty field. It is not an Inverleigh sighting.",
+      "The nearest red-bellied black snake is about 28.4 km away, west of Fairy Park, in 1989. Fairy Park and the Brisbane Ranges are not Inverleigh hangouts.",
+      "The white-lipped snake at Shelford is about 18.3 km away. It is outside the tier and has no full species write-up.",
+      "iNaturalist at 50 km included a boomslang and a Children's python in all-grades counts only. They are not treated as local wild snakes.",
+      "Yellow-bellied sea snakes in the 50 km ALA facet are not Inverleigh records.",
+      "Python, blind snake, colubrid and boa family searches were 0 out to 50 km. DEECA's two Victorian pythons are not in this extract.",
+      "Obscured iNaturalist coordinates must not be turned into streets or reserves. Six of seven little whip snake observations inside 5 km are obscured.",
+      "ALA and iNaturalist double-count the iNaturalist Australia records. The published ALA totals already include them.",
+      "The July 2026 FFG Excel guessed URL failed earlier. The conclusion that these species are not on the threatened list is from a text search of the July 2026 PDF, which did load.",
+      "The IUCN Red List website was not opened for these species.",
+      "No Corangamite CMA snake-management page was found to cite. No Golden Plains species list names which snakes live at Inverleigh. The Gazette notice is shire-wide.",
+      "A childcare snake procedure on the shire website names taipans and death adders as Australian examples. Those species are not in the ALA radii used here, and that procedure is not used as a local fauna list.",
+      "Cat bite signs and a pet pressure-bandage method were not in the sources opened.",
+      "Wildlife Victoria's snake FAQ page returned 'page not found' when opened.",
+      "Museums Victoria species HTML was blocked or incomplete on direct fetch. Biology cited to those URLs is from indexed page text plus, for the Australian Museum, saved page text."
+    ],
+    "sources": [
+      {
+        "url": "https://www.betterhealth.vic.gov.au/health/healthyliving/bites-and-stings-first-aid",
+        "title": "Better Health Channel, bites and stings first aid",
+        "accessed": "2026-10-25",
+        "supports": "Victorian watch-list, symptoms, pressure immobilisation, call 000."
+      },
+      {
+        "url": "https://www.anzcor.org/assets/generated-anzcor-guideline-pdfs/guideline-9-4-8-envenomation-pressure-immobilisation-technique-296.pdf",
+        "title": "ANZCOR Guideline 9.4.8 PDF",
+        "accessed": "2026-10-25",
+        "supports": "Current as of 29 September 2026. Pressure immobilisation steps and do-nots."
+      },
+      {
+        "url": "https://www.betterhealth.vic.gov.au/health/serviceprofiles/victorian-poisons-information-centre-service",
+        "title": "Victorian Poisons Information Centre",
+        "accessed": "2026-10-25",
+        "supports": "13 11 26. Not a substitute for 000 if the person has collapsed."
+      },
+      {
+        "url": "https://www.betterhealth.vic.gov.au/health/healthyliving/After-a-flood-animal-and-insect-related-hazards",
+        "title": "Better Health Channel, after a flood",
+        "accessed": "2026-10-25",
+        "supports": "Call 000 and 136 186. Abbreviated dressing advice is not the PIT procedure."
+      },
+      {
+        "url": "https://www.wildlife.vic.gov.au/__data/assets/pdf_file/0025/714580/Living-with-Wildlife-Snakes.pdf",
+        "title": "DEECA Living with Wildlife: Snakes, 2024",
+        "accessed": "2026-10-25",
+        "supports": "Common species, brumation, yard and pet advice, catcher."
+      },
+      {
+        "url": "https://www.wildlife.vic.gov.au/__data/assets/pdf_file/0034/549178/Living-with-snakes-fact-sheet.pdf",
+        "title": "DELWP Living with snakes fact sheet",
+        "accessed": "2026-10-25",
+        "supports": "Wildlife Act, user-pays controller, 136 186 list not an endorsement, treat all bites as serious."
+      },
+      {
+        "url": "https://www.ffm.vic.gov.au/media-releases/snake-season-is-here,-be-prepared-and-stay-safe",
+        "title": "FFM Victoria, snake season, about 1 October 2024",
+        "accessed": "2026-10-25",
+        "supports": "Wildlife Act 1975, 000, vet for pets, dogs on leads."
+      },
+      {
+        "url": "https://www.vic.gov.au/authority-control-wildlife-application-guide",
+        "title": "Authority to Control Wildlife guide",
+        "accessed": "2026-10-25",
+        "supports": "All native reptiles protected. No ATCW needed for a licensed controller when a reptile is a safety risk."
+      },
+      {
+        "url": "https://www.vic.gov.au/wildlife-controller-licence-guide/wildlife-licences-victoria",
+        "title": "Wildlife controller licence guide",
+        "accessed": "2026-10-25",
+        "supports": "Indigenous reptiles only when damaging property or dangerous. Fee. 136 186."
+      },
+      {
+        "url": "https://www.goldenplains.vic.gov.au/sites/default/files/2023-10/October_2023_Gazette%20_Web_File.pdf",
+        "title": "Golden Plains Gazette, 10 October 2023",
+        "accessed": "2026-10-25",
+        "supports": "Snake Awareness in Golden Plains. No species list."
+      },
+      {
+        "url": "https://www.zoo.org.au/emergency-wildlife-help/",
+        "title": "Zoos Victoria emergency wildlife help",
+        "accessed": "2026-10-25",
+        "supports": "Snakes: DEECA 136 186. Injured wildlife phones."
+      },
+      {
+        "url": "https://agriculture.vic.gov.au/livestock-and-animals/animal-welfare-victoria/dogs/farm-working-dogs/farm-working-dogs-routine-care/Responsible-ownership-of-farm-working-dogs.pdf",
+        "title": "Animal Welfare Victoria, farm working dogs",
+        "accessed": "2026-10-25",
+        "supports": "Dog signs after a venomous bite; immediate vet; antivenom available."
+      },
+      {
+        "url": "https://www.environment.vic.gov.au/__data/assets/pdf_file/0028/793801/FFG_Threatened_List_July_2026.pdf",
+        "title": "FFG Threatened List July 2026 PDF",
+        "accessed": "2026-10-25",
+        "supports": "These common snakes are not listed. Other snakes are."
+      },
+      {
+        "url": "https://www.environment.vic.gov.au/conserving-threatened-species/threatened-list",
+        "title": "Victoria threatened-list page",
+        "accessed": "2026-10-25",
+        "supports": "July 2026 PDF, Word and Excel. July 2026 amendments are not these snakes."
+      },
+      {
+        "url": "https://data.gov.au/data/dataset/ae652011-f39e-4c6c-91b8-1dc2d2dfee8f/resource/78401dce-1f40-49d3-92c4-3713d6e34974/download/20260828spcs.csv",
+        "title": "EPBC list CSV, extracted 28 August 2026",
+        "accessed": "2026-10-25",
+        "supports": "Only Notechis scutatus ater, Flinders Ranges, Vulnerable."
+      },
+      {
+        "url": "https://australian.museum/learn/animals/reptiles/tiger-snake/",
+        "title": "Australian Museum, tiger snake",
+        "accessed": "2026-10-25",
+        "supports": "Danger, venom, separate island and Flinders listings. Not an Inverleigh record."
+      },
+      {
+        "url": "https://australian.museum/learn/animals/reptiles/red-bellied-black-snake/",
+        "title": "Australian Museum, red-bellied black snake",
+        "accessed": "2026-10-25",
+        "supports": "Least dangerous elapid for its size, still serious, higher risk to children and pets."
+      },
+      {
+        "url": "https://biocache-ws.ala.org.au/ws/occurrence/facets?q=*:*&lat=-38.10&lon=144.05&radius=10&fq=family:Elapidae&facets=species&flimit=50",
+        "title": "ALA 10 km Elapidae facet",
+        "accessed": "2026-10-25",
+        "supports": "Only three species. Confirms the supplied counts."
+      },
+      {
+        "url": "https://api.inaturalist.org/v1/observations/species_counts?taxon_id=85553&lat=-38.10&lng=144.05&radius=10&per_page=200",
+        "title": "iNaturalist 10 km Serpentes counts",
+        "accessed": "2026-10-25",
+        "supports": "Little whip snake 16, lowland copperhead 1. No tiger, brown or red-bellied black snake."
+      },
+      {
+        "url": "https://biocache-ws.ala.org.au/ws/occurrence/e453de07-b4a9-4939-9dcb-a0d4d1e9a4ff",
+        "title": "Nearest ALA tiger snake",
+        "accessed": "2026-10-25",
+        "supports": "Saffin Court, Bannockburn, 17 November 2024, about 11.8 km."
+      },
+      {
+        "url": "https://biocache-ws.ala.org.au/ws/occurrence/6341b247-dcb8-4e7b-9711-e7925624e6ad",
+        "title": "Nearest ALA red-bellied black snake",
+        "accessed": "2026-10-25",
+        "supports": "About 28.4 km, December 1989, west of Fairy Park."
+      }
+    ],
+    "queries": [
+      "https://biocache-ws.ala.org.au/ws/occurrence/facets?q=*:*&lat=-38.10&lon=144.05&radius=5&fq=class:Reptilia&facets=family&flimit=50",
+      "https://biocache-ws.ala.org.au/ws/occurrence/facets?q=*:*&lat=-38.10&lon=144.05&radius=10&fq=class:Reptilia&facets=family&flimit=50",
+      "https://biocache-ws.ala.org.au/ws/occurrence/facets?q=*:*&lat=-38.10&lon=144.05&radius=20&fq=class:Reptilia&facets=family&flimit=40",
+      "https://biocache-ws.ala.org.au/ws/occurrence/facets?q=*:*&lat=-38.10&lon=144.05&radius=50&fq=class:Reptilia&facets=family&flimit=40",
+      "https://biocache-ws.ala.org.au/ws/occurrence/facets?q=*:*&lat=-38.10&lon=144.05&radius=5&fq=family:Elapidae&facets=species&flimit=50",
+      "https://biocache-ws.ala.org.au/ws/occurrence/facets?q=*:*&lat=-38.10&lon=144.05&radius=10&fq=family:Elapidae&facets=species&flimit=50",
+      "https://biocache-ws.ala.org.au/ws/occurrence/facets?q=*:*&lat=-38.10&lon=144.05&radius=20&fq=family:Elapidae&facets=species&flimit=50",
+      "https://biocache-ws.ala.org.au/ws/occurrence/facets?q=*:*&lat=-38.10&lon=144.05&radius=50&fq=family:Elapidae&facets=species&flimit=80",
+      "Family total searches, pageSize 0, radii 5, 10, 20 and 50, fq family Pythonidae, Typhlopidae, Colubridae, Boidae, Homalopsidae, Acrochordidae and Anomalepididae: all totalRecords 0.",
+      "https://biocache-ws.ala.org.au/ws/occurrences/search?q=species:%22Notechis%20scutatus%22&lat=-38.10&lon=144.05&radius=5&pageSize=0&facet=off",
+      "https://biocache-ws.ala.org.au/ws/occurrences/search?q=species:%22Notechis%20scutatus%22&lat=-38.10&lon=144.05&radius=10&pageSize=0&facet=off",
+      "https://biocache-ws.ala.org.au/ws/occurrences/search?q=species:%22Notechis%20scutatus%22&lat=-38.10&lon=144.05&radius=20&pageSize=20&facet=off",
+      "https://biocache-ws.ala.org.au/ws/occurrences/search?q=species:%22Notechis%20scutatus%22&lat=-38.10&lon=144.05&radius=50&pageSize=0&facet=off",
+      "https://biocache-ws.ala.org.au/ws/occurrences/search?q=taxon_name:%22Notechis%20ater%22&lat=-38.10&lon=144.05&radius=50&pageSize=0&facet=off",
+      "https://biocache-ws.ala.org.au/ws/occurrences/search?q=species:%22Pseudechis%20porphyriacus%22&lat=-38.10&lon=144.05&radius=20&pageSize=0&facet=off",
+      "https://biocache-ws.ala.org.au/ws/occurrences/search?q=species:%22Pseudechis%20porphyriacus%22&lat=-38.10&lon=144.05&radius=30&pageSize=20&facet=off",
+      "https://biocache-ws.ala.org.au/ws/occurrences/search?q=species:%22Drysdalia%20coronoides%22&lat=-38.10&lon=144.05&radius=20&pageSize=20&facet=off",
+      "https://api.inaturalist.org/v1/observations/species_counts?taxon_id=85553&lat=-38.10&lng=144.05&radius=5&per_page=200",
+      "https://api.inaturalist.org/v1/observations/species_counts?taxon_id=85553&lat=-38.10&lng=144.05&radius=5&quality_grade=research&per_page=200",
+      "https://api.inaturalist.org/v1/observations/species_counts?taxon_id=85553&lat=-38.10&lng=144.05&radius=10&per_page=200",
+      "https://api.inaturalist.org/v1/observations/species_counts?taxon_id=85553&lat=-38.10&lng=144.05&radius=10&quality_grade=research&per_page=200",
+      "https://api.inaturalist.org/v1/observations/species_counts?taxon_id=85553&lat=-38.10&lng=144.05&radius=20&per_page=200",
+      "https://api.inaturalist.org/v1/observations/species_counts?taxon_id=85553&lat=-38.10&lng=144.05&radius=20&quality_grade=research&per_page=200",
+      "https://api.inaturalist.org/v1/observations/species_counts?taxon_id=85553&lat=-38.10&lng=144.05&radius=50&per_page=200",
+      "https://api.inaturalist.org/v1/observations/species_counts?taxon_id=85553&lat=-38.10&lng=144.05&radius=50&quality_grade=research&per_page=200",
+      "https://api.inaturalist.org/v1/observations?taxon_id=35178&lat=-38.10&lng=144.05&radius=25&per_page=200",
+      "https://api.inaturalist.org/v1/observations?taxon_id=35153&lat=-38.10&lng=144.05&radius=40&per_page=200",
+      "https://api.inaturalist.org/v1/observations?taxon_id=99620&lat=-38.10&lng=144.05&radius=25&per_page=200",
+      "https://api.inaturalist.org/v1/observations?taxon_id=35140&lat=-38.10&lng=144.05&radius=15&per_page=200",
+      "https://data.gov.au/data/dataset/ae652011-f39e-4c6c-91b8-1dc2d2dfee8f/resource/78401dce-1f40-49d3-92c4-3713d6e34974/download/20260828spcs.csv",
+      "https://www.environment.vic.gov.au/__data/assets/pdf_file/0028/793801/FFG_Threatened_List_July_2026.pdf",
+      "https://www.environment.vic.gov.au/__data/assets/pdf_file/0027/741627/FFG_Threatened_List_March_2025.pdf",
+      "https://www.environment.vic.gov.au/__data/assets/pdf_file/0025/707416/FFG_Threatened_List_June_2024.pdf",
+      "Excel URL that failed: https://www.environment.vic.gov.au/__data/assets/excel_doc/0027/793800/FFG_Threatened_List_July_2026.xlsx",
+      "https://www.betterhealth.vic.gov.au/health/healthyliving/bites-and-stings-first-aid",
+      "https://www.anzcor.org/assets/generated-anzcor-guideline-pdfs/guideline-9-4-8-envenomation-pressure-immobilisation-technique-296.pdf",
+      "https://www.wildlife.vic.gov.au/__data/assets/pdf_file/0025/714580/Living-with-Wildlife-Snakes.pdf",
+      "https://www.wildlife.vic.gov.au/__data/assets/pdf_file/0034/549178/Living-with-snakes-fact-sheet.pdf",
+      "https://www.ffm.vic.gov.au/media-releases/snake-season-is-here,-be-prepared-and-stay-safe",
+      "https://www.vic.gov.au/authority-control-wildlife-application-guide",
+      "https://www.vic.gov.au/wildlife-controller-licence-guide/wildlife-licences-victoria",
+      "https://www.goldenplains.vic.gov.au/sites/default/files/2023-10/October_2023_Gazette%20_Web_File.pdf",
+      "https://agriculture.vic.gov.au/livestock-and-animals/animal-welfare-victoria/dogs/farm-working-dogs/farm-working-dogs-routine-care/Responsible-ownership-of-farm-working-dogs.pdf",
+      "https://www.zoo.org.au/emergency-wildlife-help/",
+      "Web searches this writing pass: FFG Threatened List July 2026 file URL; species names against the July 2026, March 2025 and June 2024 PDFs; Better Health Channel snake first aid.",
+      "Full request log from the count pass is 290 lines in the session scratch query log. Every successful API URL used for a count or a locality is represented above or on the species objects. A combined facets=species,genus request to ALA returned HTTP 400; the species-only facet is the one cited."
+    ]
+  }
+]

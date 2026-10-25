@@ -20,6 +20,8 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
             <Link href="/" className="font-serif text-xl font-semibold text-emerald-900">Inverleigh Wildlife</Link>
             <div className="flex gap-5 text-sm text-stone-600">
               <Link href="/#birds" className="hover:text-emerald-800">Birds</Link>
+              <Link href="/mammals" className="hover:text-emerald-800">Mammals</Link>
+              <Link href="/reptiles" className="hover:text-emerald-800">Reptiles</Link>
               <Link href="/credits" className="hover:text-emerald-800">Credits</Link>
             </div>
           </nav>

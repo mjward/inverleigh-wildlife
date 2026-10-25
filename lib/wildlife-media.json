@@ -1,0 +1,930 @@
+{
+ "koala": {
+  "photo": {
+   "title": "File:Koala_climbing_tree.jpg",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Koala_climbing_tree.jpg",
+   "author": "Diliff",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "src": "/wildlife/koala.webp",
+   "width": 1132,
+   "height": 1113,
+   "source": "Wikimedia Commons",
+   "verifiedBy": "scientific name in Commons title/description/categories"
+  },
+  "audio": {
+   "title": "iNaturalist observation 37642590 (sound)",
+   "sourceUrl": "https://www.inaturalist.org/observations/37642590",
+   "author": "(c) Sandy, some rights reserved (CC BY-NC)",
+   "license": "CC BY NC",
+   "licenseUrl": "",
+   "src": "/sounds/koala.mp3",
+   "source": "iNaturalist",
+   "verifiedBy": "research-grade observation, taxon Phascolarctos cinereus",
+   "recordedAt": "Urliup NSW 2484, Australia",
+   "inatId": 37642590
+  },
+  "tried": [
+   "Wikipedia lead image for Phascolarctos cinereus",
+   "Commons search intitle:\"Phascolarctos cinereus\"",
+   "Commons audio search Phascolarctos cinereus",
+   "iNaturalist research-grade sounds, Phascolarctos cinereus"
+  ]
+ },
+ "platypus": {
+  "photo": {
+   "title": "File:Duck-billed_platypus_(Ornithorhynchus_anatinus)_Scottsdale.jpg",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Duck-billed_platypus_(Ornithorhynchus_anatinus)_Scottsdale.jpg",
+   "author": "Charles J. Sharp",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "src": "/wildlife/platypus.webp",
+   "width": 1600,
+   "height": 1067,
+   "source": "Wikimedia Commons",
+   "verifiedBy": "scientific name in Commons title/description/categories"
+  },
+  "audio": null,
+  "tried": [
+   "Wikipedia lead image for Ornithorhynchus anatinus",
+   "Commons search intitle:\"Ornithorhynchus anatinus\""
+  ]
+ },
+ "eastern-grey-kangaroo": {
+  "photo": {
+   "title": "File:Macropus_giganteus_-_Brunkerville.jpg",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Macropus_giganteus_-_Brunkerville.jpg",
+   "author": "JJ Harrison (https://www.jjharrison.com.au/)",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "src": "/wildlife/eastern-grey-kangaroo.webp",
+   "width": 1600,
+   "height": 1598,
+   "source": "Wikimedia Commons",
+   "verifiedBy": "scientific name in Commons title/description/categories"
+  },
+  "audio": null,
+  "tried": [
+   "Wikipedia lead image for Macropus giganteus",
+   "Commons search intitle:\"Macropus giganteus\""
+  ]
+ },
+ "short-beaked-echidna": {
+  "photo": {
+   "title": "File:Short-beaked echidna (Tachyglossus aculeatus setosus) Scottsdale.jpg",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Short-beaked_echidna_(Tachyglossus_aculeatus_setosus)_Scottsdale.jpg",
+   "author": "Charles J. Sharp",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "src": "/wildlife/short-beaked-echidna.webp",
+   "width": 1600,
+   "height": 1067,
+   "source": "Wikimedia Commons",
+   "verifiedBy": "scientific name in Commons title/description/categories"
+  },
+  "audio": null,
+  "tried": [
+   "Wikipedia lead image for Tachyglossus aculeatus",
+   "Commons search intitle:\"Tachyglossus aculeatus\""
+  ]
+ },
+ "swamp-wallaby": {
+  "photo": {
+   "title": "File:Wallabia_bicolor_Jenolan_Caves.jpg",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wallabia_bicolor_Jenolan_Caves.jpg",
+   "author": "Toby Hudson",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "src": "/wildlife/swamp-wallaby.webp",
+   "width": 1600,
+   "height": 974,
+   "source": "Wikimedia Commons",
+   "verifiedBy": "scientific name in Commons title/description/categories"
+  },
+  "audio": null,
+  "tried": [
+   "Wikipedia lead image for Wallabia bicolor",
+   "Commons search intitle:\"Wallabia bicolor\""
+  ]
+ },
+ "common-brushtail-possum": {
+  "photo": {
+   "title": "iNaturalist observation 269107274 (photo 483813674)",
+   "sourceUrl": "https://www.inaturalist.org/observations/269107274",
+   "author": "(c) Alec Karcz, some rights reserved (CC BY-NC)",
+   "license": "CC BY NC",
+   "licenseUrl": "",
+   "src": "/wildlife/common-brushtail-possum.webp",
+   "width": 1024,
+   "height": 683,
+   "source": "iNaturalist",
+   "verifiedBy": "research-grade observation, taxon Trichosurus vulpecula",
+   "inatId": 269107274
+  },
+  "audio": {
+   "title": "File:Brushtail Possum.flac",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Brushtail_Possum.flac",
+   "author": "Alhadis",
+   "license": "CC BY 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+   "src": "/sounds/common-brushtail-possum.mp3",
+   "source": "Wikimedia Commons",
+   "verifiedBy": "scientific name in Commons title/description/categories"
+  },
+  "tried": [
+   "Wikipedia lead image for Trichosurus vulpecula",
+   "Commons search intitle:\"Trichosurus vulpecula\"",
+   "Commons audio search Trichosurus vulpecula",
+   "iNaturalist research-grade photos (Australia), Trichosurus vulpecula"
+  ]
+ },
+ "rakali": {
+  "photo": {
+   "title": "File:Rakali_(Hydromys_chrysogaster)_Koondrook,_Vic.jpg",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rakali_(Hydromys_chrysogaster)_Koondrook,_Vic.jpg",
+   "author": "patrickkavanagh",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+   "src": "/wildlife/rakali.webp",
+   "width": 1600,
+   "height": 908,
+   "source": "Wikimedia Commons",
+   "verifiedBy": "scientific name in Commons title/description/categories"
+  },
+  "audio": null,
+  "tried": [
+   "Wikipedia lead image for Hydromys chrysogaster",
+   "Commons search intitle:\"Hydromys chrysogaster\""
+  ]
+ },
+ "kreffts-glider": {
+  "photo": {
+   "title": "iNaturalist observation 51765360 (photo 82264245)",
+   "sourceUrl": "https://www.inaturalist.org/observations/51765360",
+   "author": "(c) timrudman, some rights reserved (CC BY-NC)",
+   "license": "CC BY NC",
+   "licenseUrl": "",
+   "src": "/wildlife/kreffts-glider.webp",
+   "width": 1024,
+   "height": 1024,
+   "source": "iNaturalist",
+   "verifiedBy": "research-grade observation, taxon Petaurus notatus",
+   "inatId": 51765360
+  },
+  "audio": null,
+  "tried": [
+   "Wikipedia lead image for Petaurus notatus",
+   "Commons search intitle:\"Petaurus notatus\"",
+   "iNaturalist research-grade photos (Australia), Petaurus notatus"
+  ]
+ },
+ "common-ringtail-possum": {
+  "photo": {
+   "title": "iNaturalist observation 241841274 (photo 431070362)",
+   "sourceUrl": "https://www.inaturalist.org/observations/241841274",
+   "author": "(c) Jane G., some rights reserved (CC BY)",
+   "license": "CC BY",
+   "licenseUrl": "",
+   "src": "/wildlife/common-ringtail-possum.webp",
+   "width": 1022,
+   "height": 1024,
+   "source": "iNaturalist",
+   "verifiedBy": "research-grade observation, taxon Pseudocheirus peregrinus",
+   "inatId": 241841274
+  },
+  "audio": {
+   "title": "iNaturalist observation 360363183 (sound)",
+   "sourceUrl": "https://www.inaturalist.org/observations/360363183",
+   "author": "(c) Blake, some rights reserved (CC BY-NC)",
+   "license": "CC BY NC",
+   "licenseUrl": "",
+   "src": "/sounds/common-ringtail-possum.mp3",
+   "source": "iNaturalist",
+   "verifiedBy": "research-grade observation, taxon Pseudocheirus peregrinus",
+   "recordedAt": "Old Berowra Rd at Marlee St, Hornsby NSW 2077, Australia",
+   "inatId": 360363183
+  },
+  "tried": [
+   "Wikipedia lead image for Pseudocheirus peregrinus",
+   "Commons search intitle:\"Pseudocheirus peregrinus\"",
+   "Commons audio search Pseudocheirus peregrinus",
+   "iNaturalist research-grade photos (Australia), Pseudocheirus peregrinus",
+   "iNaturalist research-grade sounds, Pseudocheirus peregrinus"
+  ]
+ },
+ "bare-nosed-wombat": {
+  "photo": {
+   "title": "File:Vombatus_ursinus_-Maria_Island_National_Park.jpg",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vombatus_ursinus_-Maria_Island_National_Park.jpg",
+   "author": "JJ Harrison (jjharrison89@facebook.com)",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "src": "/wildlife/bare-nosed-wombat.webp",
+   "width": 1600,
+   "height": 1066,
+   "source": "Wikimedia Commons",
+   "verifiedBy": "scientific name in Commons title/description/categories"
+  },
+  "audio": null,
+  "tried": [
+   "Wikipedia lead image for Vombatus ursinus",
+   "Commons search intitle:\"Vombatus ursinus\""
+  ]
+ },
+ "agile-antechinus": {
+  "photo": {
+   "title": "File:Agile_Antechinus_(Antechinus_agilis)_on_hand.jpg",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Agile_Antechinus_(Antechinus_agilis)_on_hand.jpg",
+   "author": "Michael Sale",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+   "src": "/wildlife/agile-antechinus.webp",
+   "width": 1600,
+   "height": 1198,
+   "source": "Wikimedia Commons",
+   "verifiedBy": "scientific name in Commons title/description/categories"
+  },
+  "audio": null,
+  "tried": [
+   "Wikipedia lead image for Antechinus agilis",
+   "Commons search intitle:\"Antechinus agilis\""
+  ]
+ },
+ "swamp-rat": {
+  "photo": {
+   "title": "File:Rattus_lutreolus,_Swamp_Rat_11.jpg",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rattus_lutreolus,_Swamp_Rat_11.jpg",
+   "author": "David Paul\n\nMuseums Victoria",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+   "src": "/wildlife/swamp-rat.webp",
+   "width": 1600,
+   "height": 1067,
+   "source": "Wikimedia Commons",
+   "verifiedBy": "scientific name in Commons title/description/categories"
+  },
+  "audio": null,
+  "tried": [
+   "Wikipedia lead image for Rattus lutreolus",
+   "Commons search intitle:\"Rattus lutreolus\""
+  ]
+ },
+ "sugar-glider": {
+  "photo": {
+   "title": "iNaturalist observation 404692278 (photo 743228566)",
+   "sourceUrl": "https://www.inaturalist.org/observations/404692278",
+   "author": "(c) Coen, some rights reserved (CC BY)",
+   "license": "CC BY",
+   "licenseUrl": "",
+   "src": "/wildlife/sugar-glider.webp",
+   "width": 768,
+   "height": 1024,
+   "source": "iNaturalist",
+   "verifiedBy": "research-grade observation, taxon Petaurus breviceps",
+   "inatId": 404692278
+  },
+  "audio": null,
+  "tried": [
+   "Wikipedia lead image for Petaurus breviceps",
+   "Commons search intitle:\"Petaurus breviceps\"",
+   "iNaturalist research-grade photos (Australia), Petaurus breviceps"
+  ]
+ },
+ "grey-headed-flying-fox": {
+  "photo": {
+   "title": "File:Grey_headed_flying_fox_-_Mating_behaviour_-_AndrewMercer_-_DSC11277_-_crop.jpg",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Grey_headed_flying_fox_-_Mating_behaviour_-_AndrewMercer_-_DSC11277_-_crop.jpg",
+   "author": "Andrew Mercer (www.baldwhiteguy.co.nz)",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "src": "/wildlife/grey-headed-flying-fox.webp",
+   "width": 1364,
+   "height": 1600,
+   "source": "Wikimedia Commons",
+   "verifiedBy": "scientific name in Commons title/description/categories"
+  },
+  "audio": {
+   "title": "iNaturalist observation 191460155 (sound)",
+   "sourceUrl": "https://www.inaturalist.org/observations/191460155",
+   "author": "(c) Carl Ramirez, some rights reserved (CC BY)",
+   "license": "CC BY",
+   "licenseUrl": "",
+   "src": "/sounds/grey-headed-flying-fox.mp3",
+   "source": "iNaturalist",
+   "verifiedBy": "research-grade observation, taxon Pteropus poliocephalus",
+   "recordedAt": "Machattie Park, Bathurst NSW, Australia",
+   "inatId": 191460155
+  },
+  "tried": [
+   "Wikipedia lead image for Pteropus poliocephalus",
+   "Commons search intitle:\"Pteropus poliocephalus\"",
+   "Commons audio search Pteropus poliocephalus",
+   "iNaturalist research-grade sounds, Pteropus poliocephalus"
+  ]
+ },
+ "little-forest-bat": {
+  "photo": {
+   "title": "File:Vespadelus_vulturnus_thumb.jpg",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vespadelus_vulturnus_thumb.jpg",
+   "author": "Michael Pennay",
+   "license": "CC BY 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+   "src": "/wildlife/little-forest-bat.webp",
+   "width": 590,
+   "height": 536,
+   "source": "Wikimedia Commons",
+   "verifiedBy": "scientific name in Commons title/description/categories"
+  },
+  "audio": null,
+  "tried": [
+   "Wikipedia lead image for Vespadelus vulturnus",
+   "Commons search intitle:\"Vespadelus vulturnus\""
+  ]
+ },
+ "goulds-wattled-bat": {
+  "photo": {
+   "title": "File:Gould-Lappenfledermaus_-_Chalinolobus_gouldii_73885536.jpg",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gould-Lappenfledermaus_-_Chalinolobus_gouldii_73885536.jpg",
+   "author": "Chris Lindorff",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+   "src": "/wildlife/goulds-wattled-bat.webp",
+   "width": 1280,
+   "height": 848,
+   "source": "Wikimedia Commons",
+   "verifiedBy": "scientific name in Commons title/description/categories"
+  },
+  "audio": null,
+  "tried": [
+   "Wikipedia lead image for Chalinolobus gouldii",
+   "Commons search intitle:\"Chalinolobus gouldii\""
+  ]
+ },
+ "large-forest-bat": {
+  "photo": {
+   "title": "iNaturalist observation 339138757 (photo 616874975)",
+   "sourceUrl": "https://www.inaturalist.org/observations/339138757",
+   "author": "(c) andymcguire, some rights reserved (CC BY-NC)",
+   "license": "CC BY NC",
+   "licenseUrl": "",
+   "src": "/wildlife/large-forest-bat.webp",
+   "width": 768,
+   "height": 1024,
+   "source": "iNaturalist",
+   "verifiedBy": "research-grade observation, taxon Vespadelus darlingtoni",
+   "inatId": 339138757
+  },
+  "audio": null,
+  "tried": [
+   "Wikipedia lead image for Vespadelus darlingtoni",
+   "Commons search intitle:\"Vespadelus darlingtoni\"",
+   "iNaturalist research-grade photos (Australia), Vespadelus darlingtoni"
+  ]
+ },
+ "lesser-long-eared-bat": {
+  "photo": {
+   "title": "File:Lesser_Long-eared_Bat_(Nyctophilus_geoffroyi)_(8656888933).jpg",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lesser_Long-eared_Bat_(Nyctophilus_geoffroyi)_(8656888933).jpg",
+   "author": "Matt from Melbourne, Australia",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+   "src": "/wildlife/lesser-long-eared-bat.webp",
+   "width": 1600,
+   "height": 996,
+   "source": "Wikimedia Commons",
+   "verifiedBy": "scientific name in Commons title/description/categories"
+  },
+  "audio": null,
+  "tried": [
+   "Wikipedia lead image for Nyctophilus geoffroyi",
+   "Commons search intitle:\"Nyctophilus geoffroyi\""
+  ]
+ },
+ "southern-forest-bat": {
+  "photo": {
+   "title": "iNaturalist observation 150704746 (photo 259914787)",
+   "sourceUrl": "https://www.inaturalist.org/observations/150704746",
+   "author": "(c) trevorpescott, some rights reserved (CC BY-NC)",
+   "license": "CC BY NC",
+   "licenseUrl": "",
+   "src": "/wildlife/southern-forest-bat.webp",
+   "width": 1024,
+   "height": 709,
+   "source": "iNaturalist",
+   "verifiedBy": "research-grade observation, taxon Vespadelus regulus",
+   "inatId": 150704746
+  },
+  "audio": null,
+  "tried": [
+   "Wikipedia lead image for Vespadelus regulus",
+   "Commons search intitle:\"Vespadelus regulus\"",
+   "iNaturalist research-grade photos (Australia), Vespadelus regulus"
+  ]
+ },
+ "chocolate-wattled-bat": {
+  "photo": {
+   "title": "File:Chalinolobus_morio.jpg",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chalinolobus_morio.jpg",
+   "author": "Doug Beckers",
+   "license": "CC BY-SA 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+   "src": "/wildlife/chocolate-wattled-bat.webp",
+   "width": 1063,
+   "height": 1600,
+   "source": "Wikimedia Commons",
+   "verifiedBy": "scientific name in Commons title/description/categories"
+  },
+  "audio": null,
+  "tried": [
+   "Wikipedia lead image for Chalinolobus morio",
+   "Commons search intitle:\"Chalinolobus morio\""
+  ]
+ },
+ "eastern-false-pipistrelle": {
+  "photo": {
+   "title": "iNaturalist observation 377663791 (photo 690650733)",
+   "sourceUrl": "https://www.inaturalist.org/observations/377663791",
+   "author": "(c) awmccutcheon, some rights reserved (CC BY-NC)",
+   "license": "CC BY NC",
+   "licenseUrl": "",
+   "src": "/wildlife/eastern-false-pipistrelle.webp",
+   "width": 1024,
+   "height": 682,
+   "source": "iNaturalist",
+   "verifiedBy": "research-grade observation, taxon Falsistrellus tasmaniensis",
+   "inatId": 377663791
+  },
+  "audio": null,
+  "tried": [
+   "Wikipedia lead image for Falsistrellus tasmaniensis",
+   "Commons search intitle:\"Falsistrellus tasmaniensis\"",
+   "iNaturalist research-grade photos (Australia), Falsistrellus tasmaniensis"
+  ]
+ },
+ "white-striped-free-tailed-bat": {
+  "photo": {
+   "title": "iNaturalist observation 114115533 (photo 192740890)",
+   "sourceUrl": "https://www.inaturalist.org/observations/114115533",
+   "author": "no rights reserved",
+   "license": "CC0",
+   "licenseUrl": "",
+   "src": "/wildlife/white-striped-free-tailed-bat.webp",
+   "width": 768,
+   "height": 1024,
+   "source": "iNaturalist",
+   "verifiedBy": "research-grade observation, taxon Austronomus australis",
+   "inatId": 114115533
+  },
+  "audio": null,
+  "tried": [
+   "Wikipedia lead image for Austronomus australis",
+   "Commons search intitle:\"Austronomus australis\"",
+   "iNaturalist research-grade photos (Australia), Austronomus australis"
+  ]
+ },
+ "rides-free-tailed-bat": {
+  "photo": {
+   "title": "File:Ozimops_ridei_192740268.jpg",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ozimops_ridei_192740268.jpg",
+   "author": "melissadoherty",
+   "license": "CC0",
+   "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "src": "/wildlife/rides-free-tailed-bat.webp",
+   "width": 1200,
+   "height": 1600,
+   "source": "Wikimedia Commons",
+   "verifiedBy": "scientific name in Commons title/description/categories"
+  },
+  "audio": null,
+  "tried": [
+   "Wikipedia lead image for Ozimops ridei",
+   "Commons search intitle:\"Ozimops ridei\""
+  ]
+ },
+ "eastern-forest-bat": {
+  "photo": {
+   "title": "iNaturalist observation 306905368 (photo 553507398)",
+   "sourceUrl": "https://www.inaturalist.org/observations/306905368",
+   "author": "(c) Rohit Chakravarty, some rights reserved (CC BY-NC-SA)",
+   "license": "CC BY NC SA",
+   "licenseUrl": "",
+   "src": "/wildlife/eastern-forest-bat.webp",
+   "width": 1024,
+   "height": 683,
+   "source": "iNaturalist",
+   "verifiedBy": "research-grade observation, taxon Vespadelus pumilus",
+   "inatId": 306905368
+  },
+  "audio": null,
+  "tried": [
+   "Wikipedia lead image for Vespadelus pumilus",
+   "Commons search intitle:\"Vespadelus pumilus\"",
+   "iNaturalist research-grade photos (Australia), Vespadelus pumilus"
+  ]
+ },
+ "european-rabbit": {
+  "photo": {
+   "title": "File:Oryctolagus_cuniculus_-_euqirneto_-_419737670_(cropped).jpeg",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Oryctolagus_cuniculus_-_euqirneto_-_419737670_(cropped).jpeg",
+   "author": "euqirneto",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+   "src": "/wildlife/european-rabbit.webp",
+   "width": 1052,
+   "height": 1145,
+   "source": "Wikimedia Commons",
+   "verifiedBy": "scientific name in Commons title/description/categories"
+  },
+  "audio": null,
+  "tried": [
+   "Wikipedia lead image for Oryctolagus cuniculus",
+   "Commons search intitle:\"Oryctolagus cuniculus\""
+  ]
+ },
+ "red-fox": {
+  "photo": {
+   "title": "File:Portrait_of_a_red_fox_in_Rautas_fj\u00e4llurskog_(cropped).jpg",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Portrait_of_a_red_fox_in_Rautas_fj%C3%A4llurskog_(cropped).jpg",
+   "author": "ClaudiaTen",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "src": "/wildlife/red-fox.webp",
+   "width": 1600,
+   "height": 1060,
+   "source": "Wikimedia Commons",
+   "verifiedBy": "scientific name in Commons title/description/categories"
+  },
+  "audio": null,
+  "tried": [
+   "Wikipedia lead image for Vulpes vulpes",
+   "Commons search intitle:\"Vulpes vulpes\""
+  ]
+ },
+ "european-hare": {
+  "photo": {
+   "title": "File:European_hare_(_Lepus_europaeus).jpg",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:European_hare_(_Lepus_europaeus).jpg",
+   "author": "Nagusb",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "src": "/wildlife/european-hare.webp",
+   "width": 1600,
+   "height": 1066,
+   "source": "Wikimedia Commons",
+   "verifiedBy": "scientific name in Commons title/description/categories"
+  },
+  "audio": null,
+  "tried": [
+   "Wikipedia lead image for Lepus europaeus",
+   "Commons search intitle:\"Lepus europaeus\""
+  ]
+ },
+ "black-rat": {
+  "photo": {
+   "title": "File:House_Rat_David_Raju.jpg",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:House_Rat_David_Raju.jpg",
+   "author": "Davidvraju",
+   "license": "CC0",
+   "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "src": "/wildlife/black-rat.webp",
+   "width": 1600,
+   "height": 1067,
+   "source": "Wikimedia Commons",
+   "verifiedBy": "scientific name in Commons title/description/categories"
+  },
+  "audio": null,
+  "tried": [
+   "Wikipedia lead image for Rattus rattus",
+   "Commons search intitle:\"Rattus rattus\""
+  ]
+ },
+ "house-mouse": {
+  "photo": {
+   "title": "iNaturalist observation 130213640 (photo 221409222)",
+   "sourceUrl": "https://www.inaturalist.org/observations/130213640",
+   "author": "(c) Ken Harris EntSocVic, some rights reserved (CC BY-NC)",
+   "license": "CC BY NC",
+   "licenseUrl": "",
+   "src": "/wildlife/house-mouse.webp",
+   "width": 1024,
+   "height": 687,
+   "source": "iNaturalist",
+   "verifiedBy": "research-grade observation, taxon Mus musculus",
+   "inatId": 130213640
+  },
+  "audio": null,
+  "tried": [
+   "Wikipedia lead image for Mus musculus",
+   "Commons search intitle:\"Mus musculus\"",
+   "iNaturalist research-grade photos (Australia), Mus musculus"
+  ]
+ },
+ "cat": {
+  "photo": {
+   "title": "File:Felis catus-cat on snow.jpg",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Felis_catus-cat_on_snow.jpg",
+   "author": "Von.grzanka",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "src": "/wildlife/cat.webp",
+   "width": 1600,
+   "height": 1067,
+   "source": "Wikimedia Commons",
+   "verifiedBy": "scientific name in Commons title/description/categories"
+  },
+  "audio": null,
+  "tried": [
+   "Wikipedia lead image for Felis catus",
+   "Commons search intitle:\"Felis catus\""
+  ]
+ },
+ "fallow-deer": {
+  "photo": {
+   "title": "File:Fallow_deer_in_field.jpg",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fallow_deer_in_field.jpg",
+   "author": "Johann-Nikolaus Andreae",
+   "license": "CC BY-SA 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+   "src": "/wildlife/fallow-deer.webp",
+   "width": 1600,
+   "height": 1200,
+   "source": "Wikimedia Commons",
+   "verifiedBy": "scientific name in Commons title/description/categories"
+  },
+  "audio": null,
+  "tried": [
+   "Wikipedia lead image for Dama dama",
+   "Commons search intitle:\"Dama dama\""
+  ]
+ },
+ "sambar": {
+  "photo": {
+   "title": "File:Sambar_(Cervus_unicolor_unicolor)_male.jpg",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sambar_(Cervus_unicolor_unicolor)_male.jpg",
+   "author": "Charles J. Sharp",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "src": "/wildlife/sambar.webp",
+   "width": 1600,
+   "height": 1067,
+   "source": "Wikimedia Commons",
+   "verifiedBy": "scientific name in Commons title/description/categories"
+  },
+  "audio": null,
+  "tried": [
+   "Wikipedia lead image for Rusa unicolor",
+   "Commons search intitle:\"Rusa unicolor\""
+  ]
+ },
+ "red-deer": {
+  "photo": {
+   "title": "File:Cervus_elaphus_Luc_Viatour_6.jpg",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cervus_elaphus_Luc_Viatour_6.jpg",
+   "author": "Lviatour",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "src": "/wildlife/red-deer.webp",
+   "width": 1600,
+   "height": 1067,
+   "source": "Wikimedia Commons",
+   "verifiedBy": "scientific name in Commons title/description/categories"
+  },
+  "audio": null,
+  "tried": [
+   "Wikipedia lead image for Cervus elaphus",
+   "Commons search intitle:\"Cervus elaphus\""
+  ]
+ },
+ "hog-deer": {
+  "photo": {
+   "title": "File:Hog_deer12.jpg",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hog_deer12.jpg",
+   "author": "Davidvraju",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "src": "/wildlife/hog-deer.webp",
+   "width": 1600,
+   "height": 1067,
+   "source": "Wikimedia Commons",
+   "verifiedBy": "scientific name in Commons title/description/categories"
+  },
+  "audio": null,
+  "tried": [
+   "Wikipedia lead image for Axis porcinus",
+   "Commons search intitle:\"Axis porcinus\""
+  ]
+ },
+ "little-whip-snake": {
+  "photo": {
+   "title": "File:Little_Whip_Snake_(Parasuta_flagellum)_(8654702624).jpg",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Little_Whip_Snake_(Parasuta_flagellum)_(8654702624).jpg",
+   "author": "Matt from Melbourne, Australia",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+   "src": "/wildlife/little-whip-snake.webp",
+   "width": 1600,
+   "height": 988,
+   "source": "Wikimedia Commons",
+   "verifiedBy": "scientific name in Commons title/description/categories"
+  },
+  "audio": null,
+  "tried": [
+   "Wikipedia lead image for Suta flagellum",
+   "Commons search intitle:\"Suta flagellum\""
+  ]
+ },
+ "lowland-copperhead": {
+  "photo": {
+   "title": "File:LowlandcopperheadMullawallah.jpg",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:LowlandcopperheadMullawallah.jpg",
+   "author": "Ed Dunens",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+   "src": "/wildlife/lowland-copperhead.webp",
+   "width": 1600,
+   "height": 1067,
+   "source": "Wikimedia Commons",
+   "verifiedBy": "scientific name in Commons title/description/categories"
+  },
+  "audio": null,
+  "tried": [
+   "Wikipedia lead image for Austrelaps superbus",
+   "Commons search intitle:\"Austrelaps superbus\""
+  ]
+ },
+ "eastern-brown-snake": {
+  "photo": {
+   "title": "File:Eastern_Brown_Snake_-_Kempsey_NSW.jpg",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Eastern_Brown_Snake_-_Kempsey_NSW.jpg",
+   "author": "Poyt448 Peter Woodard",
+   "license": "Public domain",
+   "licenseUrl": "",
+   "src": "/wildlife/eastern-brown-snake.webp",
+   "width": 682,
+   "height": 1024,
+   "source": "Wikimedia Commons",
+   "verifiedBy": "scientific name in Commons title/description/categories"
+  },
+  "audio": null,
+  "tried": [
+   "Wikipedia lead image for Pseudonaja textilis",
+   "Commons search intitle:\"Pseudonaja textilis\""
+  ]
+ },
+ "jacky": {
+  "photo": {
+   "title": "File:Tree_Dragon444.jpg",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tree_Dragon444.jpg",
+   "author": "Benjamint444",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+   "src": "/wildlife/jacky.webp",
+   "width": 1600,
+   "height": 948,
+   "source": "Wikimedia Commons",
+   "verifiedBy": "scientific name in Commons title/description/categories"
+  },
+  "audio": null,
+  "tried": [
+   "Wikipedia lead image for Amphibolurus muricatus",
+   "Commons search intitle:\"Amphibolurus muricatus\""
+  ]
+ },
+ "eastern-three-lined-skink": {
+  "photo": {
+   "title": "iNaturalist observation 96050889 (photo 159528080)",
+   "sourceUrl": "https://www.inaturalist.org/observations/96050889",
+   "author": "(c) Lukas Clews, some rights reserved (CC BY)",
+   "license": "CC BY",
+   "licenseUrl": "",
+   "src": "/wildlife/eastern-three-lined-skink.webp",
+   "width": 1024,
+   "height": 768,
+   "source": "iNaturalist",
+   "verifiedBy": "research-grade observation, taxon Acritoscincus duperreyi",
+   "inatId": 96050889
+  },
+  "audio": null,
+  "tried": [
+   "Wikipedia lead image for Acritoscincus duperreyi",
+   "Commons search intitle:\"Acritoscincus duperreyi\"",
+   "iNaturalist research-grade photos (Australia), Acritoscincus duperreyi"
+  ]
+ },
+ "garden-skink": {
+  "photo": {
+   "title": "File:Pale-flecked Garden Sunskink Lampropholis guichenoti 74 Sunbury St Geebung P1210081.jpg",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pale-flecked_Garden_Sunskink_Lampropholis_guichenoti_74_Sunbury_St_Geebung_P1210081.jpg",
+   "author": "John Robert McPherson",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "src": "/wildlife/garden-skink.webp",
+   "width": 1600,
+   "height": 1600,
+   "source": "Wikimedia Commons",
+   "verifiedBy": "scientific name in Commons title/description/categories"
+  },
+  "audio": null,
+  "tried": [
+   "Wikipedia lead image for Lampropholis guichenoti",
+   "Commons search intitle:\"Lampropholis guichenoti\""
+  ]
+ },
+ "eastern-blue-tongue": {
+  "photo": {
+   "title": "File:Tiliqua_scincoides_tongue.jpg",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tiliqua_scincoides_tongue.jpg",
+   "author": "Doug Beckers",
+   "license": "CC BY-SA 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+   "src": "/wildlife/eastern-blue-tongue.webp",
+   "width": 1600,
+   "height": 1064,
+   "source": "Wikimedia Commons",
+   "verifiedBy": "scientific name in Commons title/description/categories"
+  },
+  "audio": null,
+  "tried": [
+   "Wikipedia lead image for Tiliqua scincoides",
+   "Commons search intitle:\"Tiliqua scincoides\""
+  ]
+ },
+ "blotched-blue-tongue": {
+  "photo": {
+   "title": "File:Blotched_blue-tongued_lizard_(Tiliqua_nigrolutea)_Ben_Lomond.jpg",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Blotched_blue-tongued_lizard_(Tiliqua_nigrolutea)_Ben_Lomond.jpg",
+   "author": "Charles J. Sharp",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "src": "/wildlife/blotched-blue-tongue.webp",
+   "width": 1600,
+   "height": 800,
+   "source": "Wikimedia Commons",
+   "verifiedBy": "scientific name in Commons title/description/categories"
+  },
+  "audio": null,
+  "tried": [
+   "Wikipedia lead image for Tiliqua nigrolutea",
+   "Commons search intitle:\"Tiliqua nigrolutea\""
+  ]
+ },
+ "whites-skink": {
+  "photo": {
+   "title": "File:White's_Skink,_Freycinet_peninsula,_cropped.jpg",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:White%27s_Skink,_Freycinet_peninsula,_cropped.jpg",
+   "author": "Liese Coulter",
+   "license": "CC BY 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+   "src": "/wildlife/whites-skink.webp",
+   "width": 1600,
+   "height": 687,
+   "source": "Wikimedia Commons",
+   "verifiedBy": "scientific name in Commons title/description/categories"
+  },
+  "audio": null,
+  "tried": [
+   "Wikipedia lead image for Liopholis whitii",
+   "Commons search intitle:\"Liopholis whitii\""
+  ]
+ },
+ "striped-legless-lizard": {
+  "photo": {
+   "title": "iNaturalist observation 326364855 (photo 591069874)",
+   "sourceUrl": "https://www.inaturalist.org/observations/326364855",
+   "author": "(c) jucktacker, some rights reserved (CC BY-NC)",
+   "license": "CC BY NC",
+   "licenseUrl": "",
+   "src": "/wildlife/striped-legless-lizard.webp",
+   "width": 1024,
+   "height": 768,
+   "source": "iNaturalist",
+   "verifiedBy": "research-grade observation, taxon Delma impar",
+   "inatId": 326364855
+  },
+  "audio": null,
+  "tried": [
+   "Wikipedia lead image for Delma impar",
+   "Commons search intitle:\"Delma impar\"",
+   "iNaturalist research-grade photos (Australia), Delma impar"
+  ]
+ },
+ "eastern-snake-necked-turtle": {
+  "photo": {
+   "title": "File:CSIRO_ScienceImage_7775_Eastern_Snakenecked_Turtle.jpg",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:CSIRO_ScienceImage_7775_Eastern_Snakenecked_Turtle.jpg",
+   "author": "John Wombey, CSIRO",
+   "license": "CC BY 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+   "src": "/wildlife/eastern-snake-necked-turtle.webp",
+   "width": 1600,
+   "height": 1160,
+   "source": "Wikimedia Commons",
+   "verifiedBy": "scientific name in Commons title/description/categories"
+  },
+  "audio": null,
+  "tried": [
+   "Wikipedia lead image for Chelodina longicollis",
+   "Commons search intitle:\"Chelodina longicollis\""
+  ]
+ }
+}

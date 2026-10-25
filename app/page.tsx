@@ -11,8 +11,12 @@ export default function Home() {
           <p className="mb-3 text-sm uppercase tracking-[0.2em] text-amber-300">Leigh &amp; Barwon rivers · Victoria</p>
           <h1 className="max-w-3xl font-serif text-4xl leading-tight sm:text-6xl">The wildlife of Inverleigh</h1>
           <p className="mt-5 max-w-2xl text-lg text-emerald-100/80">
-            Starting with the birds. Here are {birds.length} species recorded around town, drawn from the Atlas of Living Australia. Tap a card to hear its call, or open it to read more.
+            Birds, mammals and reptiles. Here are {birds.length} species recorded around town, drawn from the Atlas of Living Australia. Tap a card to hear its call, or open it to read more.
           </p>
+          <div className="mt-6 flex flex-wrap gap-3 text-sm">
+            <Link href="/mammals" className="rounded-full bg-emerald-50/10 px-4 py-2 ring-1 ring-emerald-50/30 hover:bg-emerald-50/20">Mammals →</Link>
+            <Link href="/reptiles" className="rounded-full bg-emerald-50/10 px-4 py-2 ring-1 ring-emerald-50/30 hover:bg-emerald-50/20">Reptiles &amp; snake safety →</Link>
+          </div>
         </div>
       </section>
       <section id="birds" className="mx-auto max-w-6xl px-5 py-14">
