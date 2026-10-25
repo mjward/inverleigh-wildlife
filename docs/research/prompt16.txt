@@ -1,0 +1,155 @@
+Research task for a local wildlife website about Inverleigh, Victoria, Australia (-38.10, 144.05). Use LIVE web search/fetch and APIs only, not memory. Access date 2026-10-26. Cite every claim with URL; mark uncertainty; log every query and API URL.
+INSECTS (and spiders where useful). I pulled ALA (class Insecta OR Arachnida) and iNaturalist (iconic_taxa=Insecta,Arachnida) species counts within 5 km and 10 km; raw data in /workspace/inverleigh-wildlife/docs/research/data/insects.json (ALA largely includes iNat records, so do not add the two counts). Top 150 by records (scientific | common | counts):
+Phaulacridium vittatum | Wingless Grasshopper | ALA5 40 iNat5 40 ALA10 59 iNat10 59
+Oedaleus australis |  | ALA5 50 iNat5 50 ALA10 58 iNat10 58
+Iridomyrmex purpureus | Southern Meat Ant | ALA5 15 iNat5 15 ALA10 55 iNat10 54
+Heteronympha merope | Common Brown | ALA5 26 iNat5 24 ALA10 54 iNat10 51
+Gastrimargus musicus | Australian Yellow-winged Locust | ALA5 35 iNat5 36 ALA10 44 iNat10 45
+Acrida conica | Giant Green Slantface | ALA5 27 iNat5 28 ALA10 39 iNat10 41
+Myrmecia nigriscapa | Black-scaped Bull ant | ALA5 9 iNat5 9 ALA10 28 iNat10 27
+Camponotus suffusus |  | ALA5 10 iNat5 10 ALA10 22 iNat10 21
+Vanessa kershawi | Australian Painted Lady | ALA5 10 iNat5 7 ALA10 24 iNat10 19
+Onthophagus taurus |  | ALA5 41 iNat5 0 ALA10 41 iNat10 0
+Rhytidoponera metallica | Green-head Ant | ALA5 3 iNat5 3 ALA10 20 iNat10 20
+Pycnostictus seriatus | Common Bandwing Grasshopper | ALA5 20 iNat5 20 ALA10 20 iNat10 20
+Camponotus intrepidus | Giant Sugar Ant | ALA5 9 iNat5 9 ALA10 18 iNat10 18
+Macrotona australis | Common Macrotona | ALA5 10 iNat5 10 ALA10 18 iNat10 18
+Camponotus consobrinus | Banded Sugar Ant | ALA5 1 iNat5 1 ALA10 18 iNat10 18
+Zizina otis | Lesser Grass Blue | ALA5 8 iNat5 7 ALA10 16 iNat10 16
+Pieris rapae | Small White | ALA5 7 iNat5 6 ALA10 16 iNat10 14
+Schizobothrus flavovittatus | Disappearing Grasshopper | ALA5 6 iNat5 6 ALA10 15 iNat10 15
+Euoniticellus fulvus |  | ALA5 27 iNat5 0 ALA10 27 iNat10 0
+Hemicordulia tau | Tau Emerald | ALA5 5 iNat5 5 ALA10 13 iNat10 13
+Brachyexarna lobipennis | Stripe-winged Meadow Grasshopper | ALA5 11 iNat5 11 ALA10 12 iNat10 12
+Apis mellifera | Western Honey Bee | ALA5 4 iNat5 4 ALA10 12 iNat10 12
+Cryptobothrus chrysophorus | Golden Bandwing | ALA5 8 iNat5 8 ALA10 12 iNat10 12
+Chortoicetes terminifera | Australian Plague Locust | ALA5 7 iNat5 7 ALA10 11 iNat10 11
+Geitoneura klugii | Klug's Xenica | ALA5 7 iNat5 7 ALA10 11 iNat10 11
+Macrotona securiformis | Inland Macrotona | ALA5 4 iNat5 4 ALA10 11 iNat10 11
+Scopula rubraria | Plantain moth | ALA5 3 iNat5 3 ALA10 11 iNat10 11
+Notalina spira |  | ALA5 8 iNat5 0 ALA10 21 iNat10 0
+Austroicetes vulgaris | Southeastern Austroicetes | ALA5 9 iNat5 9 ALA10 10 iNat10 10
+Myrmecia fulvipes | Tawny-legged Jack Jumper Ant | ALA5 0 iNat5 0 ALA10 10 iNat10 10
+Pollanisus viridipulverulenta | Satin-green Forester | ALA5 3 iNat5 3 ALA10 10 iNat10 10
+Myrmecia pilosula | Jack Jumper Ant | ALA5 4 iNat5 4 ALA10 10 iNat10 9
+Polypedilum nubifer |  | ALA5 6 iNat5 0 ALA10 19 iNat10 0
+Delena cancerides | Social Huntsman Spider | ALA5 6 iNat5 6 ALA10 9 iNat10 9
+Austrolestes leda | Wandering Ringtail | ALA5 9 iNat5 7 ALA10 10 iNat10 8
+Austrolestes analis | Slender Ringtail | ALA5 5 iNat5 1 ALA10 12 iNat10 6
+Myrmecia piliventris | Golden-tailed Bull Ant | ALA5 4 iNat5 4 ALA10 8 iNat10 8
+Chauliognathus tricolor | Tricolor Soldier Beetle | ALA5 2 iNat5 2 ALA10 8 iNat10 8
+Philobota arabella |  | ALA5 3 iNat5 3 ALA10 8 iNat10 8
+Goniaea australasiae | Common Gumleaf Grasshopper | ALA5 6 iNat5 6 ALA10 8 iNat10 8
+Diplacodes bipunctata | Wandering Percher | ALA5 2 iNat5 2 ALA10 8 iNat10 7
+Nacaduba biocellata | Double-spotted Line Blue | ALA5 6 iNat5 5 ALA10 7 iNat10 7
+Camponotus aeneopilosus | Golden-tailed Sugar Ant | ALA5 1 iNat5 1 ALA10 7 iNat10 7
+Laxta granicollis | bark cockroach | ALA5 0 iNat5 0 ALA10 7 iNat10 7
+Bibla papyria | White-banded Grass-dart | ALA5 2 iNat5 2 ALA10 7 iNat10 7
+Lamprima aurata | Golden Stag Beetle | ALA5 2 iNat5 2 ALA10 7 iNat10 7
+Myrmecia nigriceps | Black-headed Bull Ant | ALA5 0 iNat5 0 ALA10 7 iNat10 6
+Isopeda montana | Mountain Huntsman | ALA5 5 iNat5 6 ALA10 6 iNat10 7
+Doratifera oxleyi | Painted Cup Moth | ALA5 3 iNat5 4 ALA10 6 iNat10 7
+Junonia villida | Meadow Argus | ALA5 2 iNat5 2 ALA10 7 iNat10 6
+Diamma bicolor | Blue Ant | ALA5 2 iNat5 2 ALA10 7 iNat10 6
+Micronecta robusta |  | ALA5 0 iNat5 0 ALA10 13 iNat10 0
+Bubas bison |  | ALA5 12 iNat5 0 ALA10 12 iNat10 0
+Vespula germanica | German Yellowjacket | ALA5 0 iNat5 1 ALA10 6 iNat10 6
+Paropsis atomaria | Dotted Paropsine Leaf Beetle | ALA5 0 iNat5 0 ALA10 6 iNat10 6
+Xanthagrion erythroneurum | Red and Blue Damsel | ALA5 5 iNat5 5 ALA10 6 iNat10 6
+Rhinotia melanocephala |  | ALA5 0 iNat5 0 ALA10 6 iNat10 6
+Glyphipterix meteora | Metallic Sedge Moth | ALA5 2 iNat5 2 ALA10 6 iNat10 6
+Ischnura aurora | Aurora Bluetail | ALA5 4 iNat5 3 ALA10 7 iNat10 4
+Melangyna viridiceps | Common Halfband | ALA5 3 iNat5 3 ALA10 5 iNat10 5
+Ocybadistes walkeri | Yellow-banded Dart | ALA5 0 iNat5 0 ALA10 5 iNat10 5
+Paropsisterna cloelia | Eucalyptus variegated beetle | ALA5 1 iNat5 1 ALA10 5 iNat10 5
+Austroscolia soror |  | ALA5 2 iNat5 2 ALA10 4 iNat10 6
+Opodiphthera eucalypti | Emperor Gum Moth | ALA5 0 iNat5 0 ALA10 5 iNat10 4
+Porrostoma rhipidium | Long-nosed Lycid Beetle | ALA5 0 iNat5 0 ALA10 4 iNat10 5
+Austroaeschna unicornis |  | ALA5 0 iNat5 0 ALA10 9 iNat10 0
+Dindymus versicolor | Harlequin Red Bug | ALA5 1 iNat5 2 ALA10 5 iNat10 4
+Austrolestes annulosus | Blue Ringtail | ALA5 3 iNat5 4 ALA10 4 iNat10 5
+Sclerocyphon zwicki |  | ALA5 0 iNat5 0 ALA10 9 iNat10 0
+Uraba lugens | Gum Leaf Skeletoniser | ALA5 1 iNat5 0 ALA10 5 iNat10 4
+Eupoecila australasiae | Fiddler Beetle | ALA5 3 iNat5 3 ALA10 4 iNat10 4
+Lucia limbaria | Grassland Copper | ALA5 0 iNat5 0 ALA10 4 iNat10 4
+Perala viridis | Spring Buzzer | ALA5 4 iNat5 4 ALA10 4 iNat10 4
+Myrmecia pyriformis | Inch Ant | ALA5 2 iNat5 2 ALA10 4 iNat10 4
+Notius depressus |  | ALA5 1 iNat5 1 ALA10 4 iNat10 4
+Hellula hydralis | cabbage centre grub | ALA5 0 iNat5 0 ALA10 4 iNat10 4
+Triplectides similis |  | ALA5 3 iNat5 0 ALA10 8 iNat10 0
+Plebs eburnus | Eastern Bush Orbweaver | ALA5 3 iNat5 3 ALA10 4 iNat10 4
+Utetheisa pulchelloides | Heliotrope Moth | ALA5 2 iNat5 2 ALA10 4 iNat10 4
+Abantiades argentata | Rain Moth | ALA5 0 iNat5 0 ALA10 4 iNat10 4
+Abantiades atripalpis | Bardi Moth | ALA5 4 iNat5 4 ALA10 4 iNat10 4
+Neosparassus calligaster | Beautiful Badge Huntsman | ALA5 1 iNat5 1 ALA10 4 iNat10 4
+Polypedilum leei |  | ALA5 0 iNat5 0 ALA10 7 iNat10 0
+Ischnura heterosticta |  | ALA5 1 iNat5 0 ALA10 7 iNat10 0
+Cryptes baccatus | Wattle Tick Scale | ALA5 0 iNat5 0 ALA10 4 iNat10 3
+Belenois java | Caper White | ALA5 2 iNat5 0 ALA10 4 iNat10 3
+Vanessa itea | Yellow Admiral | ALA5 1 iNat5 1 ALA10 4 iNat10 2
+Calliphora stygia | Brown Blowfly | ALA5 3 iNat5 3 ALA10 3 iNat10 3
+Phonognatha graeffei | Leaf-curling Spider | ALA5 1 iNat5 1 ALA10 3 iNat10 3
+Jotus auripes | Red-legged Jotus | ALA5 2 iNat5 2 ALA10 3 iNat10 3
+Eutrichopidia latinus | Yellow-banded Day-moth | ALA5 0 iNat5 0 ALA10 3 iNat10 3
+Venator spenceri | Variable Wolf Spider | ALA5 3 iNat5 3 ALA10 3 iNat10 3
+Glyphipterix chrysoplanetis |  | ALA5 0 iNat5 0 ALA10 3 iNat10 3
+Doratifera quadriguttata | Four-spotted Cup Moth | ALA5 0 iNat5 0 ALA10 3 iNat10 3
+Simosyrphus grandicornis | Yellow-shouldered Stout Hover Fly | ALA5 2 iNat5 2 ALA10 3 iNat10 3
+Neosparassus diana | Badge Huntsman Spider | ALA5 0 iNat5 0 ALA10 3 iNat10 3
+Triplectides ciuskus |  | ALA5 4 iNat5 0 ALA10 6 iNat10 0
+Melanodes anthracitaria | Black Geometrid | ALA5 0 iNat5 0 ALA10 3 iNat10 3
+Neoaratus hercules |  | ALA5 2 iNat5 2 ALA10 3 iNat10 3
+Taxeotis intextata | Grey Taxeotis | ALA5 2 iNat5 2 ALA10 3 iNat10 3
+Botryocladius grapeth |  | ALA5 0 iNat5 0 ALA10 6 iNat10 0
+Euryopis umbilicata | Superb Ant-eater Spider | ALA5 2 iNat5 1 ALA10 3 iNat10 2
+Microvelia oceanica |  | ALA5 0 iNat5 0 ALA10 5 iNat10 0
+Simulium melatum |  | ALA5 0 iNat5 0 ALA10 5 iNat10 0
+Delias harpalyce | Imperial Jezebel | ALA5 1 iNat5 1 ALA10 2 iNat10 3
+Enithares woodwardi |  | ALA5 1 iNat5 0 ALA10 5 iNat10 0
+Tapeigaster nigricornis |  | ALA5 0 iNat5 0 ALA10 2 iNat10 2
+Austracantha minax | Christmas Jewel Spider | ALA5 1 iNat5 1 ALA10 2 iNat10 2
+Triplectides altenogus |  | ALA5 0 iNat5 0 ALA10 4 iNat10 0
+Steatoda capensis | Black Cobweb Spider | ALA5 2 iNat5 2 ALA10 2 iNat10 2
+Abantiades marcidus | Red-gum Ghost Moth | ALA5 1 iNat5 1 ALA10 2 iNat10 2
+Trichonephila edulis | Australian Golden Orbweaver | ALA5 2 iNat5 2 ALA10 2 iNat10 2
+Apiomorpha conica |  | ALA5 1 iNat5 1 ALA10 2 iNat10 2
+Opodiphthera helena | Helena Gum Moth | ALA5 0 iNat5 0 ALA10 2 iNat10 2
+Cosmodes elegans | Green-blotched Moth | ALA5 0 iNat5 0 ALA10 2 iNat10 2
+Servaea incana | Hoary Servaea | ALA5 2 iNat5 2 ALA10 2 iNat10 2
+Leptotarsus humilis |  | ALA5 2 iNat5 2 ALA10 2 iNat10 2
+Isala rufiventris |  | ALA5 2 iNat5 2 ALA10 2 iNat10 2
+Odontomyia decipiens |  | ALA5 0 iNat5 0 ALA10 2 iNat10 2
+Paropsisterna morio |  | ALA5 2 iNat5 2 ALA10 2 iNat10 2
+Nyssus coloripes | Spotted Ground Swift Spider | ALA5 0 iNat5 0 ALA10 2 iNat10 2
+Plebs bradleyi | Enamelled Spider | ALA5 1 iNat5 1 ALA10 2 iNat10 2
+Epidesmia tryxaria | Neat epidesmia | ALA5 0 iNat5 0 ALA10 2 iNat10 2
+Ecnolagria grandis | honeybrown beetle | ALA5 1 iNat5 1 ALA10 2 iNat10 2
+Notoncus capitatus |  | ALA5 1 iNat5 1 ALA10 2 iNat10 2
+Orthetrum caledonicum | Blue Skimmer | ALA5 0 iNat5 0 ALA10 2 iNat10 2
+Eurymela distincta |  | ALA5 1 iNat5 1 ALA10 2 iNat10 2
+Mutusca brevicornis | Long Broad-headed Bug | ALA5 0 iNat5 0 ALA10 2 iNat10 2
+Dissomorphia australiaria | Dashed Geometrid | ALA5 1 iNat5 1 ALA10 2 iNat10 2
+Apina callisto | Pasture Day Moth | ALA5 0 iNat5 0 ALA10 2 iNat10 2
+Xanthorhoe vacuaria | Vacuaria Carpet Moth | ALA5 0 iNat5 0 ALA10 2 iNat10 2
+Glyphidoptera insignana |  | ALA5 2 iNat5 2 ALA10 2 iNat10 2
+Epicyme rubropunctaria | Red-spotted delicate | ALA5 1 iNat5 1 ALA10 2 iNat10 2
+Triplectides volda |  | ALA5 0 iNat5 0 ALA10 4 iNat10 0
+Lipotriches australica | Green-and-gold Nomia Bee | ALA5 1 iNat5 1 ALA10 2 iNat10 2
+Eudonia cleodoralis |  | ALA5 1 iNat5 1 ALA10 2 iNat10 2
+Teleogryllus commodus | Australian Black Field Cricket | ALA5 0 iNat5 0 ALA10 2 iNat10 2
+Phytotrypa pretiosella |  | ALA5 0 iNat5 0 ALA10 2 iNat10 2
+Porismus strigatus | Pied Lacewing | ALA5 2 iNat5 2 ALA10 2 iNat10 2
+Epithymema incomposita |  | ALA5 1 iNat5 1 ALA10 2 iNat10 2
+Poecilometis strigatus | Brown Shield Bug | ALA5 2 iNat5 2 ALA10 2 iNat10 2
+Triplectides truncatus |  | ALA5 1 iNat5 0 ALA10 3 iNat10 0
+Adversaeschna brevistyla | Blue-spotted Hawker | ALA5 1 iNat5 1 ALA10 2 iNat10 1
+Harmonia conformis | Large Spotted Ladybird | ALA5 0 iNat5 0 ALA10 2 iNat10 1
+Anisocentropus latifascia |  | ALA5 3 iNat5 0 ALA10 3 iNat10 0
+Tortrix constrictana |  | ALA5 0 iNat5 3 ALA10 0 iNat10 3
+Taschorema rugulum |  | ALA5 0 iNat5 0 ALA10 3 iNat10 0
+Constrictana constrictana |  | ALA5 3 iNat5 0 ALA10 3 iNat10 0
+Brevicoryne brassicae | Cabbage Aphid | ALA5 1 iNat5 1 ALA10 2 iNat10 1
+Chlenias banksiaria |  | ALA5 0 iNat5 0 ALA10 2 iNat10 1
+Task: pick about 30-40 notable and commonly seen species for a general audience, covering butterflies, dragonflies/damselflies, native bees (search specifically for native bees, e.g. Lasioglossum, Homalictus, Amegilla blue-banded bee, Exoneura, Megachile, in the data file and on iNat), beetles, moths, cicadas (search for cicadas e.g. Psaltoda, Yoyetta, Galanga), grasshoppers, ants (note dangerous jack jumpers/bull ants), and notable spiders (e.g. huntsman, redback). Include introduced ones only if very common (mark introduced: European Honey Bee, Small White, German Wasp, dung beetles introduced for pasture). Include any threatened insects (e.g. Golden Sun Moth Synemon plana: check ALA records near Inverleigh, EPBC and FFG July 2026 status).
+For each: commonName, scientificName, group, tier ("5km" if any record within 5 km, else "10km"), records (ALA5, iNat5, ALA10, iNat10 from the data), origin (native/introduced), identification, season (adult flight/active months in southern Victoria), hostPlants (larval and adult food plants, or prey), whereToSeeLocally (habitats around Inverleigh: Inverleigh Nature Conservation Reserve grassy woodland, Leigh/Barwon rivers for odonates, gardens), safety (stings/bites if relevant), conservation (EPBC/FFG), notWellDocumented (list), sources [{url,title,accessed}].
+Write ONLY /workspace/inverleigh-wildlife/docs/research/batch16.json: object with keys species (list), totals (object: distinct species within 5 km and 10 km you can derive from the data file, explaining the method), queries.
