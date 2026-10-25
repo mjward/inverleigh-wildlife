@@ -1,0 +1,384 @@
+{
+  "id": "koala",
+  "commonName": "Koala",
+  "scientificName": "Phascolarctos cinereus",
+  "tier": "5km",
+  "records": {
+    "ala5": {
+      "count": 19,
+      "yearMin": 1986,
+      "yearMax": 2021,
+      "centre": "-38.10, 144.05",
+      "radiusKm": 5,
+      "datasets": {
+        "Victorian Biodiversity Atlas": 13,
+        "Geelong Field Naturalists Club": 3,
+        "iNaturalist Australia": 2,
+        "ALA species sightings and OzAtlas": 1
+      }
+    },
+    "ala10": {
+      "count": 33,
+      "yearMin": 1983,
+      "yearMax": 2025,
+      "centre": "-38.10, 144.05",
+      "radiusKm": 10,
+      "includesAla5": true,
+      "datasets": {
+        "Victorian Biodiversity Atlas": 18,
+        "iNaturalist Australia": 9,
+        "Geelong Field Naturalists Club": 4,
+        "ALA species sightings and OzAtlas": 1,
+        "Earth Guardians Weekly Feed": 1
+      }
+    },
+    "inat": [
+      "https://www.inaturalist.org/observations/408168580",
+      "https://www.inaturalist.org/observations/263127183",
+      "https://www.inaturalist.org/observations/173176918",
+      "https://www.inaturalist.org/observations/167005592",
+      "https://www.inaturalist.org/observations/149101093",
+      "https://www.inaturalist.org/observations/146446702",
+      "https://www.inaturalist.org/observations/103941110",
+      "https://www.inaturalist.org/observations/44939192",
+      "https://www.inaturalist.org/observations/41870720",
+      "https://www.inaturalist.org/observations/42374591"
+    ],
+    "inatCounts": {
+      "radius5kmAllGrades": 3,
+      "radius5kmResearch": 2,
+      "radius10kmAllGrades": 12,
+      "radius10kmResearch": 10
+    }
+  },
+  "origins": "The koala is a marsupial in the family Phascolarctidae, genus Phascolarctos, species cinereus (Australian Museum, https://australian.museum/learn/animals/mammals/koala/, updated 28 July 2026). It is endemic to Australia. The approved conservation advice for the EPBC-listed entity says the species is conventionally Phascolarctos cinereus (Goldfuss 1817), that three subspecies were once described including P. c. victor for Victoria, and that there is no genetic evidence for those subspecies (https://www.environment.gov.au/biodiversity/threatened/species/pubs/85104-conservation-advice-12022022.pdf, in effect 12 February 2022). Southern animals are the larger, longer-furred form: the same advice gives an average male weight of 12 kg in Victoria against 6.5 kg in Queensland, and DEECA says Victorian males can weigh up to 15 kg and females up to 11 kg, with longer thicker fur than Queensland koalas (https://www.wildlife.vic.gov.au/our-wildlife/koalas, page last updated 2 September 2026). Nothing opened for this batch says whether the Inverleigh animals descend from a particular translocation.",
+  "distribution": "The Australian Museum maps a patchy distribution from northern Queensland to southern Victoria and south-eastern South Australia (https://australian.museum/learn/animals/mammals/koala/). The 2022 conservation advice says the species also occurs in the ACT, that the listed threatened entity is only the combined populations of Queensland, New South Wales and the ACT, and that other populations in Victoria and South Australia are not listed under the EPBC Act. It describes the species as widespread in lowland and foothill eucalypt forests and woodlands across Victoria, and says southern populations are robust, with overpopulation and active control in some places (Menkhorst 2008, cited there). It also records translocations to French, Phillip, Raymond and Snake islands in Victoria, and reintroductions within the natural range on mainland Victoria (https://www.environment.gov.au/biodiversity/threatened/species/pubs/85104-conservation-advice-12022022.pdf). DEECA says koalas are widespread through eucalypt woodlands and forests in lowland Victoria and that the state has a large population, close to half a million, while some places hold very high densities (https://www.wildlife.vic.gov.au/our-wildlife/koalas). Zoos Victoria says southern koalas inhabit low-altitude forests and woodlands across central and southern mainland Victoria and on Raymond, Snake, French and Phillip islands (https://www.zoo.org.au/healesville/habitats/koala-forest/southern-koala/). Around Inverleigh the Atlas of Living Australia holds 19 records inside 5 km (1986–2021) and 33 inside 10 km (1983–2025) of -38.10, 144.05 (biocache queries listed under queries). A February 2024 letter from Koala Clancy Foundation in the Golden Plains Times says sightings in Inverleigh and Teesdale, and along the Moorabool downstream from She Oaks, are scarce, that the 1980s had many records and each decade since has had fewer, and that the foundation also knows of reports at Maude, Russells Bridge and Gheringhap (https://timesnewsgroup.com.au/goldenplains/news/koalas-in-need-of-accommodation/). Those extra place names were not matched to coordinates inside the 10 km circle in this pass. The foundation's 2022 Inverleigh page estimates 2 to 10 koalas left in the population it mapped, isolated mostly in Inverleigh Flora Reserve (https://www.koalaclancyfoundation.org.au/lifeline-for-inverleigh-koalas/). That figure is the foundation's estimate, not a DEECA census.",
+  "habitat": "DEECA says Victorian koalas live in eucalypt woodlands and forests in the lowlands, and that they need many healthy mature trees for food and shelter (https://www.wildlife.vic.gov.au/our-wildlife/koalas). Wildlife Victoria says the habitat of choice in Victoria is tall eucalypt forest and woodland through southern and central Victoria, and that populations are concentrated in small areas because of habitat destruction and urbanisation (https://wildlifevictoria.org.au/learn/native-species-post/koalas/). The Australian Museum says the koala lives in eucalypt forests and spends most of its time in eucalypt trees, sometimes travelling on the ground (https://australian.museum/learn/animals/mammals/koala/). At Inverleigh, the Friends of the Nature Conservation Reserve say the reserve is about 1,050 ha between Inverleigh and Teesdale, that koalas are seen occasionally, and that the dominant trees are Manna Gum (Eucalyptus viminalis) and River Red Gum (Eucalyptus camaldulensis), with Hedge Wattle (Acacia paradoxa) the main large shrub and Wallaby Grass on the ground (https://inverleigh.org.au/features/nature-conservation/). The same page says only about 1% of Victoria's former grassy woodlands remain and that two-thirds of that remainder is this reserve, classed as an endangered ecological vegetation class. The Golden Plains planning scheme Significant Landscape Overlay schedule 16 describes the Leigh River (Waywatcurtan) meeting the Barwon at Inverleigh, with riparian River Red Gum (Biyal), Yarra Gum, Blackwood and Black and Silver Wattle; the animals it names there are platypus, Great Egret, crayfish and Growling Grass Frog, not the koala (https://planning-schemes.app.planning.vic.gov.au/Golden%20Plains/ordinance/42.03-s16). Corangamite CMA's Grassy Eucalypt Woodlands Stewardship Program covers private-land woodland from Shelford east to the You Yangs, south to Inverleigh and north to Meredith. The animals named on that page are Fat-tailed Dunnart, Striped Legless Lizard, Golden Sun Moth and Growling Grass Frog, not the koala (https://ccma.vic.gov.au/projects/grassy-eucalypt-stewardship-program/).",
+  "trees": "DEECA names the eucalypts preferred by koalas in Victoria as Manna Gum (Eucalyptus viminalis), Swamp Gum (E. ovata), Blue Gum (E. globulus) and River Red Gum (E. camaldulensis). It says they feed almost exclusively on eucalypt leaves, a low-energy diet, and are sedentary most of the day (https://www.wildlife.vic.gov.au/our-wildlife/koalas). Wildlife Victoria says they mainly eat eucalypt leaves but will also take acacia, melaleuca and corymbia, and that a koala typically uses only a couple of local species out of more than 800 eucalypts (https://wildlifevictoria.org.au/learn/native-species-post/koalas/). The Australian Museum says the diet is leaves of certain eucalypts plus some flowers and stems (https://australian.museum/learn/animals/mammals/koala/). At Cape Otway, a different part of Victoria, DEECA describes over-browsing of Manna Gum and says over-abundance there is tied to the koalas' reliance on that tree (https://www.wildlife.vic.gov.au/our-wildlife/koalas/koalas-at-cape-otway). For the Barwon country, Koala Clancy Foundation says River Red Gum is the main browse tree in the You Yangs and Little River and is probably also the most preferred koala tree in the Moorabool and Barwon river systems (https://koalaclancyfoundation.org.au/what-we-plant-for-koalas-and-why/). In a February 2024 letter the same foundation says koalas in the Teesdale and Bannockburn country love River Red Gum and Swamp Gum beside creeks and on the flats, and Manna Gum, Yellow Box (Eucalyptus melliodora) and Yellow Gum (Eucalyptus leucoxylon) on the sandy plains (https://timesnewsgroup.com.au/goldenplains/news/koalas-in-need-of-accommodation/). A May 2023 Golden Plains Times report of their planting between Inverleigh and Bannockburn lists river red gum, manna gum, yellow box, yellow gum, silver wattle and black wattle, and quotes the president saying koalas in the Inverleigh common are not living with enough trees (https://timesnewsgroup.com.au/goldenplains/news/tree-effort-for-koalas-returns/). The Inverleigh Nature Conservation Reserve page confirms Manna Gum and River Red Gum as the dominant trees there, and does not mention Swamp Gum, Blue Gum, Yellow Box or Yellow Gum (https://inverleigh.org.au/features/nature-conservation/). No ALA or iNaturalist record opened for this batch names the tree a local koala was in. Shelter trees are the same food trees in the DEECA account (mature trees for food and shelter). Koala Clancy's general planting notes say koalas on hot days often use leafy non-eucalypts such as Blackwood for shade; that note is not an Inverleigh observation (https://koalaclancyfoundation.org.au/what-we-plant-for-koalas-and-why/).",
+  "hangouts": "Distances below are from -38.10, 144.05, calculated from the public coordinates. Inside 5 km the named places are versions of one reserve. ALA locality strings and dates: Inverleigh Flora Reserve, three Victorian Biodiversity Atlas rows on 3 December 1991 at -38.06127, 144.03491 (about 4.5 km north-north-west), with individual counts 4, 8 and 4, which should not be added together; Inverleigh Flora and Fauna Reserve, 15 July 2015, about 3.7 km, uncertainty 50 m, duplicated in the Geelong Field Naturalists Club; Inverleigh Flora & Fauna Reserve code IFFR40, 26 January 2002, about 4.9 km; Inverleigh Common, 8 January 2016 (Teesdale VIC 3328 Inverleigh Common in the VBA) about 4.8 km, and 16 March 2017 about 3.9 km, each duplicated between the VBA and the field naturalists; Inverleigh Native Cons Reserve, Teesdale, 10 November 2021, about 3.8 km, uncertainty 418 m, the same point as iNaturalist observation 103941110; OLD SHELFORD TK 0.75K NW OF CARRAH TK 5.2K S OF TEESDALE, 8 December 1998, and ROUGHLY 4 KM NNW OF INVERLEIGH, 27 January 1999, share the coordinate -38.07497, 144.04234 (about 2.9 km); ROUGHLY 4 KM S OF TEESDALE, 6 July 1989, about 4.8 km. A 30 September 1986 VBA record is labelled only Inverleigh, at -38.10684, 144.05967, about 1.1 km from the town centre, with 900 m uncertainty, so it is not a named street or reserve. The Friends page says koalas are seen occasionally in the Nature Conservation Reserve (https://inverleigh.org.au/features/nature-conservation/). iNaturalist research-grade records inside 5 km are https://www.inaturalist.org/observations/103941110 (10 November 2021, place guess Inverleigh Teesdale Rd, Teesdale, description 'vehicle strike, rescue') and https://www.inaturalist.org/observations/44939192 (5 May 2020, place guess Inverleigh VIC 3321, public accuracy about 2.3 km, so the point is only a general location; the VBA copy says 'Centre about Inverleigh VIC ( 4km)'). Just outside 5 km but inside 10 km, three research-grade records have the place guess Inverleigh VIC 3321 and no finer public locality: https://www.inaturalist.org/observations/263127183 (8 February 2025, description 'Mature female', accuracy 851 m, about 5.1 km), https://www.inaturalist.org/observations/408168580 (10 October 2026, about 5.8 km; not yet in the ALA extract), and https://www.inaturalist.org/observations/173176918 (15 July 2023, accuracy 150 m, about 5.9 km, description 'Sheep?'). East of town, Bannockburn Bush has a 30 October 2019 record of two koalas at about 9.6 km, duplicated in the VBA and the Geelong Field Naturalists Club. Nearby iNaturalist research-grade points are https://www.inaturalist.org/observations/42374591 (25 May 2017, place guess 'Bannockburn Reerve', accuracy 802 m, about 9.0 km) and three 2023 Bannockburn VIC 3331 records, https://www.inaturalist.org/observations/146446702 (7 January), https://www.inaturalist.org/observations/149101093 (19 February) and https://www.inaturalist.org/observations/167005592 (11 June), about 9.6 to 9.8 km. Two 6 July 1989 VBA rows are labelled ROUGHLY 5 KM SW OF LOWNDE BRIDGE and ROUGHLY 6 KM SW OF LOWNDE BRIDGE; their coordinates sit beside the later Bannockburn Bush point. A February 2024 letter says a mature male was seen in Inverleigh Nature Conservation Reserve in January 2023, and that scratches have been seen at Woolbrook and in the reserve (https://timesnewsgroup.com.au/goldenplains/news/koalas-in-need-of-accommodation/). That January 2023 reserve sighting is not among the ALA or iNaturalist records pulled for this circle.",
+  "breeding": "DEECA says koalas breed from September to March, one young is born after a pregnancy of 33 to 35 days, the joey stays in the pouch for about six months, then rides on the mother's back until weaning at about one year (https://www.wildlife.vic.gov.au/our-wildlife/koalas). Wildlife Victoria says the mating season runs from August to March, that it usually receives reports of aggressive behaviour, loud calls and sometimes injury or exhaustion of the female in that season, that there is usually one joey a year, that the joey is in the pouch for about six months and independent at about one year, and that the joey must eat the mother's pap to gain the gut microbes that digest eucalypt leaf (https://wildlifevictoria.org.au/learn/native-species-post/koalas/). The Australian Museum says breeding occurs during summer and usually one joey is produced each year, and that after six months in the pouch the joey is weaned from milk onto leaves and pap (https://australian.museum/learn/animals/mammals/koala/). Zoos Victoria says the call is a bellow (https://www.zoo.org.au/healesville/habitats/koala-forest/southern-koala/). No Inverleigh record opened here is of a joey or of a birth date. DEECA and Wildlife Victoria disagree by a month on when the season starts, so the local page should not collapse them into one date.",
+  "diet": "Leaves of a few local eucalypts, low in energy, so the animal rests most of the day. DEECA says Victorian koalas prefer Manna Gum, Swamp Gum, Blue Gum and River Red Gum, are active for about four hours, usually after dark, and usually walk on the ground between trees (https://www.wildlife.vic.gov.au/our-wildlife/koalas). Wildlife Victoria says adults eat 0.5 to 1 kg of leaves a night and may sleep for up to 20 hours, and that they also sometimes eat acacia, melaleuca and corymbia (https://wildlifevictoria.org.au/learn/native-species-post/koalas/). Zoos Victoria says they spend about 18 to 20 hours sleeping and are mainly nocturnal (https://www.zoo.org.au/healesville/habitats/koala-forest/southern-koala/). The Australian Museum adds some flowers and stems, and a long caecum for the fibrous leaf (https://australian.museum/learn/animals/mammals/koala/). Which of those trees the Inverleigh animals actually eat is not in the occurrence records. The local woodland that matches the DEECA list is Manna Gum and River Red Gum in the Nature Conservation Reserve (https://inverleigh.org.au/features/nature-conservation/), and the foundation's account of River Red Gum, Swamp Gum, Manna Gum, Yellow Box and Yellow Gum in the Teesdale–Bannockburn country (https://timesnewsgroup.com.au/goldenplains/news/koalas-in-need-of-accommodation/).",
+  "threats": "DEECA says Victoria's population is currently secure but faces habitat loss and fragmentation, climate change, bushfire, drought and disease, that koalas are prone to heat stress and dehydration, and that dogs and vehicle collisions are further threats. Fragmented habitat matters because the low-energy diet leaves little spare energy for travel between food trees (https://www.wildlife.vic.gov.au/our-wildlife/koalas). The same page asks drivers to notice koala road signs, slow down, and take extra care at dawn and dusk. That is statewide advice. Searches for a koala warning sign on the Hamilton Highway at Inverleigh did not find a published source, so this file does not say such a sign is there. A local vehicle strike is documented: iNaturalist observation 103941110, 10 November 2021, description 'vehicle strike, rescue', place guess Inverleigh Teesdale Rd, Teesdale, about 3.8 km from the town centre, accuracy 418 m, and the VBA locality for the same point is Inverleigh Native Cons Reserve, Teesdale (https://www.inaturalist.org/observations/103941110). Wildlife Victoria says the most common koala reports it receives are animals hit by a vehicle, animals on the ground, and animals displaced from habitat, and that koalas are also at risk from oxalate nephrosis, mange, chlamydia and retrovirus (https://wildlifevictoria.org.au/learn/native-species-post/koalas/). The 2022 conservation advice treats vehicles, dogs, chlamydia, koala retrovirus, drought and heatwaves as threats to the listed northern populations, and says Victorian and South Australian populations are in a different position, including overpopulation in some places (https://www.environment.gov.au/biodiversity/threatened/species/pubs/85104-conservation-advice-12022022.pdf). No source opened here reports chlamydia, mange or heat deaths in the Inverleigh animals. Habitat loss locally is the foundation's account: clearing for farming and housing, an estimate that 87% of habitat in its map area has gone, and a planting program because koalas in the Inverleigh common do not have enough trees (https://www.koalaclancyfoundation.org.au/lifeline-for-inverleigh-koalas/ and https://timesnewsgroup.com.au/goldenplains/news/tree-effort-for-koalas-returns/). The February 2024 letter says the cause of fewer sightings is not known, and that a drying and warming climate is the likely cause (https://timesnewsgroup.com.au/goldenplains/news/koalas-in-need-of-accommodation/). The reserve page also records off-road vehicles and thickets of Hedge Wattle as problems in the reserve, but it does not tie those problems to koalas (https://inverleigh.org.au/features/nature-conservation/).",
+  "conservation": "The EPBC listing is the combined populations of Queensland, New South Wales and the Australian Capital Territory, listed Endangered with effect from 12 February 2022. The conservation advice says populations in Victoria and South Australia are not part of that listed entity and are not listed (https://www.environment.gov.au/biodiversity/threatened/species/pubs/85104-conservation-advice-12022022.pdf). The Australian Museum page, updated 28 July 2026, says the same: koala populations in New South Wales, Queensland and the ACT are Endangered under the EPBC Act (https://australian.museum/learn/animals/mammals/koala/). DEECA's koala facts paragraph still says the EPBC listing is Vulnerable in those three jurisdictions (https://www.wildlife.vic.gov.au/our-wildlife/koalas, page last updated 2 September 2026). That sentence is the 2012 category. The 2022 advice is the later instrument. A search of the Flora and Fauna Guarantee Act Threatened List, July 2026, for Koala, Phascolarctos and cinereus found no koala entry. The only cinereus hits were Xenus cinereus and Alectryon subcinereus (https://www.environment.vic.gov.au/__data/assets/pdf_file/0028/793801/FFG_Threatened_List_July_2026.pdf). The koala is therefore not on the current Victorian threatened list. Zoos Victoria's southern koala page says koalas are Vulnerable in Queensland, NSW and the ACT and Near Threatened in Victoria (https://www.zoo.org.au/healesville/habitats/koala-forest/southern-koala/). Near Threatened is that page's wording. It is not an FFG category. DEECA says Victoria has a large, thriving population and that in some areas high densities defoliate preferred food trees. Management is set out in the Victorian Koala Management Strategy (May 2023), whose themes include overpopulation, rehabilitation, genetics, disease, habitat, population knowledge, climate and fire, plantations, and community views. The strategy page says close to half a million koalas live in Victoria and that the population still faces disease, climate change and poor genetic diversity (https://www.wildlife.vic.gov.au/our-wildlife/koalas). At Cape Otway, DEECA runs programs because koalas over-browse Manna Gum (https://www.wildlife.vic.gov.au/our-wildlife/koalas/koalas-at-cape-otway). A May 2023 summary of the strategy, retrieved via search index of the DEECA PDF, names Cape Otway, French Island and Raymond Island as places where koalas can reach unsustainable densities (https://www.wildlife.vic.gov.au/__data/assets/pdf_file/0030/633576/Final_VKMS_Summary_May_2023.pdf). Inverleigh is not named on those pages. The local story in the sources above is a small, sparse population in remnant grassy woodland, not an overabundance site. Golden Plains Shire publishes a Koala Habitat polygon dataset, based on a 2006 study, described as a koala overlay aimed at keeping native vegetation that koalas use for food, shelter and movement (https://data.gov.au/data/dataset/golden-plains-koala-habitat, updated 9 August 2023). This pass did not find a planning-scheme schedule with that title. What was read in the ordinance near Inverleigh is ESO4, the Inverleigh remnant vegetation area, which protects mature remnant trees, Clover Glycine and the link to the Nature Conservation Reserve, and does not name the koala (https://planning-schemes.app.planning.vic.gov.au/Golden%20Plains/ordinance/42.01-s4), and SLO16 on the Leigh, which also does not name the koala. The IUCN Red List page was not opened.",
+  "safetyAndWhatToDo": "Do not approach or handle a koala. Wildlife Victoria says to stop only if it is safe, assess from a distance, and call its 24/7 Emergency Response Service on (03) 8400 7300. A koala that has climbed a tree after a strike may still need a vet. A koala that stays on the ground, or walks slowly, is a reason to call. If a koala is in a garden tree and looks uninjured, keep dogs and other pets away and tell neighbours with dogs; it may move on in a day or two, or take up to 24 hours if dogs have been present (https://wildlifevictoria.org.au/learn/native-species-post/koalas/ and https://www.wildlifevictoria.org.au/news/safety-on-roads). The reporting page is https://wildlifevictoria.org.au/report-a-wildlife-emergency/. DEECA says to slow where koala road signs are posted, especially at dawn and dusk, give an animal on the road time to move, restrain dogs, and report a sick or injured koala to the nearest wildlife shelter. Its Customer Service Centre is 136 186, and it points people to the Help for Injured Wildlife tool (https://www.wildlife.vic.gov.au/our-wildlife/koalas and https://www.wildlife.vic.gov.au/injured-native-wildlife/help-for-injured-wildlife). Better Health Channel has no koala fact sheet. Its bushfire-aftermath page says not to try to catch injured wildlife, and to call DEECA on 136 186 for wildlife carers (https://www.betterhealth.vic.gov.au/health/healthyliving/bushfire-aftermath-safety-tips). A search of betterhealth.vic.gov.au for koala did not return a koala page. On the road, Wildlife Victoria says never step into traffic and, on freeways, its volunteers do not attend alone and the case is reported to 000 (https://www.wildlifevictoria.org.au/news/safety-on-roads).",
+  "notWellDocumented": [
+    "No occurrence opened for this batch names the tree species a koala was sitting in at Inverleigh, Teesdale or Bannockburn. Preference for Manna Gum, River Red Gum, Swamp Gum and Blue Gum is the statewide DEECA list, plus Koala Clancy Foundation's account of the Barwon and Moorabool. It is not a feeding study at Inverleigh.",
+    "Swamp Gum, Blue Gum, Yellow Box and Yellow Gum are not named on the Inverleigh Nature Conservation Reserve plant page. The reserve page names Manna Gum and River Red Gum as the dominant trees.",
+    "The Koala Clancy Foundation estimate of 2 to 10 koalas, and of 87% of habitat gone inside its map, is the foundation's 2022 appeal text. It is not a DEECA or ALA population count. Three VBA rows on 3 December 1991 at one Flora Reserve point carry counts of 4, 8 and 4. They are the same day and the same coordinate and must not be added up.",
+    "Several ALA rows are the same sighting in two datasets (VBA plus Geelong Field Naturalists Club, or VBA plus iNaturalist). The published totals, 19 inside 5 km and 33 inside 10 km, count those rows separately.",
+    "The January 2023 mature male reported in the Nature Conservation Reserve is in a February 2024 letter. It is not in the ALA year facets (latest inside 5 km is 2021; the 2023 ALA rows inside 10 km are iNaturalist points at Bannockburn and one Inverleigh point on 15 July 2023) and it was not in the iNaturalist research-grade pull.",
+    "Reports of koalas at Maude, Russells Bridge, Gheringhap, Woolbrook and along the Moorabool below She Oaks come from that letter. Their coordinates were not verified inside the 10 km circle.",
+    "iNaturalist observation 41870720 (26 September 2018) is research grade but obscured, with a public accuracy of about 28 km. Its public coordinate is not a place. Two casual observations inside the 10 km search, 195147651 and 201334892, are also obscured. They are not hangouts.",
+    "The 5 May 2020 point has a public accuracy of about 2.3 km and the VBA text 'Centre about Inverleigh VIC ( 4km)'. It is not a precise tree or street.",
+    "The 1983 and 1988 VBA records labelled Teesdale use one coordinate with 4.5 km uncertainty, about 6.7 km north of the town centre. They are not a precise Teesdale hangout. The 1986 record labelled only Inverleigh has 900 m uncertainty.",
+    "An ALA row from Earth Guardians Weekly Feed, October 2018, sits about 9.1 km east and has no locality string in the extract. It is not used as a named place.",
+    "No published source found in this pass places a koala road sign on the Hamilton Highway at Inverleigh. DEECA's advice about koala signs is general. The documented local vehicle case is the 10 November 2021 iNaturalist record described as a vehicle strike and rescue, with a place guess of Inverleigh Teesdale Road and a VBA locality of the nature conservation reserve.",
+    "No local survey of chlamydia, mange, heat stress or dog attack at Inverleigh was found. Those threats are statewide or northern-population sources.",
+    "DEECA says koalas are not territorial and have overlapping home ranges of about 1.2 to 1.7 ha in ideal habitat. Wildlife Victoria says they are territorial and mark with chest glands. Both pages were read. They are not reconciled here.",
+    "Breeding start month differs: DEECA September, Wildlife Victoria August, Australian Museum summer. No Inverleigh breeding record was found.",
+    "The Museums Victoria Eastern Kulin seasonal calendar page did not load, so a search snippet about Gurrborra mating in Poorneet season was not used.",
+    "The IUCN Red List assessment page was not opened. Zoos Victoria's 'Near Threatened in Victoria' is not the FFG status. The July 2026 FFG list does not contain the koala.",
+    "DEECA's koala facts still say the EPBC status is Vulnerable. The conservation advice in effect from 12 February 2022, and the Australian Museum page updated 28 July 2026, say Endangered for Queensland, New South Wales and the ACT only.",
+    "The Golden Plains Koala Habitat dataset describes a koala overlay from a 2006 study. No planning-scheme schedule of that name was opened. ESO4 and SLO16 near Inverleigh do not name the koala.",
+    "The Great Victorian Koala Survey section on the DEECA page still says results will be available in 2025, on a page last updated 2 September 2026. This pass did not find a published result for Inverleigh.",
+    "A direct fetch of the Victorian Koala Management Strategy summary PDF returned a Cloudflare block via curl. The Cape Otway, French Island and Raymond Island overabundance line is from the search-index text of that PDF, not a full read of the file. The live DEECA HTML pages for koalas and for Cape Otway were opened.",
+    "A search snippet of the Corangamite CMA 2025–26 Moorabool seasonal watering proposal mentions koalas and a Lethbridge anecdote of animals moving to the river in hot months. That PDF was not opened page by page, Lethbridge was not measured inside the 10 km circle, and the anecdote is not used as an Inverleigh record.",
+    "Better Health Channel returned no koala page. The only wildlife-rescue guidance used from it is the bushfire-aftermath page, which is about injured wildlife in general."
+  ],
+  "sources": [
+    {
+      "url": "https://biocache-ws.ala.org.au/ws/occurrences/search?q=taxon_name:%22Phascolarctos%20cinereus%22&lat=-38.10&lon=144.05&radius=5&pageSize=0",
+      "title": "ALA occurrence search, koala, 5 km of Inverleigh",
+      "accessed": "2026-10-25",
+      "supports": "19 records. Status OK."
+    },
+    {
+      "url": "https://biocache-ws.ala.org.au/ws/occurrences/search?q=taxon_name:%22Phascolarctos%20cinereus%22&lat=-38.10&lon=144.05&radius=10&pageSize=0",
+      "title": "ALA occurrence search, koala, 10 km of Inverleigh",
+      "accessed": "2026-10-25",
+      "supports": "33 records. Status OK."
+    },
+    {
+      "url": "https://biocache-ws.ala.org.au/ws/occurrence/facets?q=taxon_name:%22Phascolarctos%20cinereus%22&lat=-38.10&lon=144.05&radius=5&facets=year&flimit=100",
+      "title": "ALA year facet, koala, 5 km",
+      "accessed": "2026-10-25",
+      "supports": "Years 1986, 1989, 1991, 1998, 1999, 2002, 2015, 2016, 2017, 2020 and 2021. Counts sum to 19. Latest year 2021."
+    },
+    {
+      "url": "https://biocache-ws.ala.org.au/ws/occurrence/facets?q=taxon_name:%22Phascolarctos%20cinereus%22&lat=-38.10&lon=144.05&radius=10&facets=year&flimit=100",
+      "title": "ALA year facet, koala, 10 km",
+      "accessed": "2026-10-25",
+      "supports": "Years 1983 through 2025 as listed in the research notes. Latest year 2025, one record. Counts sum to 33."
+    },
+    {
+      "url": "https://biocache-ws.ala.org.au/ws/occurrence/facets?q=taxon_name:%22Phascolarctos%20cinereus%22&lat=-38.10&lon=144.05&radius=5&facets=locality,data_resource,state,cl1048,month&flimit=50",
+      "title": "ALA locality and dataset facets, koala, 5 km",
+      "accessed": "2026-10-25",
+      "supports": "Localities are Inverleigh Flora Reserve, Inverleigh Common and related reserve strings, Old Shelford Track, and rough distances from Inverleigh and Teesdale. Datasets: VBA 13, Geelong Field Naturalists Club 3, iNaturalist Australia 2, ALA species sightings and OzAtlas 1. All 19 are Victoria and the Southern Volcanic Plain."
+    },
+    {
+      "url": "https://biocache-ws.ala.org.au/ws/occurrence/facets?q=taxon_name:%22Phascolarctos%20cinereus%22&lat=-38.10&lon=144.05&radius=10&facets=locality,data_resource,month&flimit=80",
+      "title": "ALA locality and dataset facets, koala, 10 km",
+      "accessed": "2026-10-25",
+      "supports": "Adds Teesdale, Bannockburn Bush and Lownde Bridge locality strings. Datasets: VBA 18, iNaturalist Australia 9, Geelong Field Naturalists Club 4, ALA species sightings and OzAtlas 1, Earth Guardians Weekly Feed 1."
+    },
+    {
+      "url": "https://biocache-ws.ala.org.au/ws/occurrences/search?q=taxon_name:%22Phascolarctos%20cinereus%22&lat=-38.10&lon=144.05&radius=10&pageSize=100",
+      "title": "ALA occurrence records, koala, 10 km",
+      "accessed": "2026-10-25",
+      "supports": "All 33 rows, with coordinates, dates, uncertainties, dataset names and locality strings in otherProperties. Used for distances and hangouts. Paired VBA and club or iNaturalist rows share coordinates and dates."
+    },
+    {
+      "url": "https://api.inaturalist.org/v1/observations/408168580",
+      "title": "iNaturalist observation 408168580",
+      "accessed": "2026-10-25",
+      "supports": "Research grade koala, 10 October 2026, 11:13 am AEST, place guess Inverleigh VIC 3321, coordinates about -38.0506, 144.0278, about 5.8 km from the town centre, not obscured, no description. Not in the ALA 10 km extract."
+    },
+    {
+      "url": "https://api.inaturalist.org/v1/observations/263127183",
+      "title": "iNaturalist observation 263127183",
+      "accessed": "2026-10-25",
+      "supports": "Research grade, 8 February 2025, description 'Mature female', place guess Inverleigh VIC 3321, accuracy 851 m, about 5.1 km from the town centre. Also in ALA."
+    },
+    {
+      "url": "https://api.inaturalist.org/v1/observations/173176918",
+      "title": "iNaturalist observation 173176918",
+      "accessed": "2026-10-25",
+      "supports": "Research grade, 15 July 2023, description 'Sheep?', place guess Inverleigh VIC 3321, accuracy 150 m, about 5.9 km from the town centre. Also in ALA."
+    },
+    {
+      "url": "https://api.inaturalist.org/v1/observations/103941110",
+      "title": "iNaturalist observation 103941110",
+      "accessed": "2026-10-25",
+      "supports": "Research grade, 10 November 2021, description 'vehicle strike, rescue', place guess Inverleigh Teesdale Rd, Teesdale, accuracy 418 m, about 3.8 km from the town centre. Matches the VBA locality Inverleigh Native Cons Reserve, Teesdale."
+    },
+    {
+      "url": "https://api.inaturalist.org/v1/observations/44939192",
+      "title": "iNaturalist observation 44939192",
+      "accessed": "2026-10-25",
+      "supports": "Research grade, 5 May 2020, place guess Inverleigh VIC 3321, public accuracy about 2335 m, about 3.7 km from the town centre. Coarse location only."
+    },
+    {
+      "url": "https://api.inaturalist.org/v1/observations/42374591",
+      "title": "iNaturalist observation 42374591",
+      "accessed": "2026-10-25",
+      "supports": "Research grade, 25 May 2017, place guess 'Bannockburn Reerve', accuracy 802 m, about 9.0 km from the Inverleigh centre."
+    },
+    {
+      "url": "https://api.inaturalist.org/v1/observations/146446702",
+      "title": "iNaturalist observation 146446702",
+      "accessed": "2026-10-25",
+      "supports": "Research grade, 7 January 2023, place guess Bannockburn VIC 3331, about 9.6 km east of the Inverleigh centre."
+    },
+    {
+      "url": "https://api.inaturalist.org/v1/observations/149101093",
+      "title": "iNaturalist observation 149101093",
+      "accessed": "2026-10-25",
+      "supports": "Research grade, 19 February 2023, place guess Bannockburn VIC 3331, about 9.7 km from the Inverleigh centre."
+    },
+    {
+      "url": "https://api.inaturalist.org/v1/observations/167005592",
+      "title": "iNaturalist observation 167005592",
+      "accessed": "2026-10-25",
+      "supports": "Research grade, 11 June 2023, place guess Bannockburn VIC 3331, about 9.8 km from the Inverleigh centre."
+    },
+    {
+      "url": "https://api.inaturalist.org/v1/observations/41870720",
+      "title": "iNaturalist observation 41870720",
+      "accessed": "2026-10-25",
+      "supports": "Research grade but geoprivacy obscured, 26 September 2018, public accuracy about 28.3 km. Public coordinate is not a locality."
+    },
+    {
+      "url": "https://api.inaturalist.org/v1/observations?taxon_name=Phascolarctos%20cinereus&lat=-38.10&lng=144.05&radius=5&per_page=50",
+      "title": "iNaturalist observations, koala, 5 km, all grades",
+      "accessed": "2026-10-25",
+      "supports": "total_results 3. Two research grade (2021-11-10 and 2020-05-05) and one obscured casual (195147651, 17 December 2023)."
+    },
+    {
+      "url": "https://api.inaturalist.org/v1/observations?taxon_name=Phascolarctos%20cinereus&lat=-38.10&lng=144.05&radius=10&per_page=50",
+      "title": "iNaturalist observations, koala, 10 km, all grades",
+      "accessed": "2026-10-25",
+      "supports": "total_results 12, of which 10 are research grade and 2 are obscured casual (195147651 and 201334892)."
+    },
+    {
+      "url": "https://api.inaturalist.org/v1/observations?taxon_name=Phascolarctos%20cinereus&lat=-38.10&lng=144.05&radius=5&quality_grade=research&per_page=50",
+      "title": "iNaturalist research-grade koala, 5 km",
+      "accessed": "2026-10-25",
+      "supports": "total_results 2."
+    },
+    {
+      "url": "https://api.inaturalist.org/v1/observations?taxon_name=Phascolarctos%20cinereus&lat=-38.10&lng=144.05&radius=10&quality_grade=research&per_page=50",
+      "title": "iNaturalist research-grade koala, 10 km",
+      "accessed": "2026-10-25",
+      "supports": "total_results 10. Includes the three Inverleigh 3321 observations from 2026, 2025 and 2023, which sit 5.1 to 5.9 km from the town centre."
+    },
+    {
+      "url": "https://australian.museum/learn/animals/mammals/koala/",
+      "title": "Koala — Australian Museum",
+      "accessed": "2026-10-25",
+      "supports": "Updated 28 July 2026. Family Phascolarctidae, size 68–82 cm, eucalypt forests, patchy range from northern Queensland to southern Victoria and south-eastern South Australia, EPBC Endangered in NSW, Queensland and the ACT, diet of certain eucalypt leaves plus some flowers and stems, breeding in summer, usually one joey, pap after six months in the pouch."
+    },
+    {
+      "url": "https://www.environment.gov.au/biodiversity/threatened/species/pubs/85104-conservation-advice-12022022.pdf",
+      "title": "Conservation Advice for Phascolarctos cinereus (Koala) combined populations of Queensland, New South Wales and the Australian Capital Territory",
+      "accessed": "2026-10-25",
+      "supports": "In effect 12 February 2022. Listed entity Endangered. Victoria and South Australia populations are not listed. Species widespread in lowland and foothill eucalypt forest and woodland in Victoria. Southern populations described as robust, with control programs where overpopulated. Former subspecies including P. c. victor not supported genetically. Threats named for the listed population include drought, heatwaves, vehicles, dogs, chlamydia and KoRV. Average Victorian male about 12 kg."
+    },
+    {
+      "url": "https://www.wildlife.vic.gov.au/our-wildlife/koalas",
+      "title": "Koalas — DEECA wildlife.vic.gov.au",
+      "accessed": "2026-10-25",
+      "supports": "Page last updated 2 September 2026. Widespread in lowland Victorian eucalypt woodland and forest. Preferred trees Manna Gum, Swamp Gum, Blue Gum and River Red Gum. Breeding September to March, gestation 33–35 days, one joey, pouch about six months, weaned at about one year. Males up to 15 kg, females up to 11 kg. Threats: habitat loss and fragmentation, climate change, bushfire, drought, disease, heat stress, dogs, vehicles. Advice to heed koala road signs, drive carefully at dawn and dusk, restrain dogs, and call 136 186 or use Help for Injured Wildlife. Victorian Koala Management Strategy, close to half a million koalas, over-browsing where densities are high. Facts paragraph still says EPBC Vulnerable, which is older than the 2022 Endangered listing. Survey section still says results will be available in 2025."
+    },
+    {
+      "url": "https://www.wildlife.vic.gov.au/our-wildlife/koalas/koalas-at-cape-otway",
+      "title": "Koalas at Cape Otway — DEECA",
+      "accessed": "2026-10-25",
+      "supports": "Over-abundance at Cape Otway linked to reliance on Manna Gum, reluctance to change food source, climate and a lack of predators. Management of over-browsing on private properties. Not an Inverleigh program."
+    },
+    {
+      "url": "https://www.wildlife.vic.gov.au/__data/assets/pdf_file/0030/633576/Final_VKMS_Summary_May_2023.pdf",
+      "title": "Victorian Koala Management Strategy summary, May 2023",
+      "accessed": "2026-10-25",
+      "supports": "Search-index text only. Curl received a Cloudflare block. Indexed text names unsustainable densities at Cape Otway, French Island and Raymond Island, and management by habitat monitoring and evidence-based programs. Not used for any Inverleigh claim."
+    },
+    {
+      "url": "https://www.environment.vic.gov.au/__data/assets/pdf_file/0028/793801/FFG_Threatened_List_July_2026.pdf",
+      "title": "Flora and Fauna Guarantee Act 1988 Threatened List, July 2026",
+      "accessed": "2026-10-25",
+      "supports": "DEECA, July 2026. A text search for Koala and Phascolarctos found no entries. cinereus matched only Xenus cinereus and Alectryon subcinereus. The koala is not on this threatened list."
+    },
+    {
+      "url": "https://www.environment.vic.gov.au/conserving-threatened-species/threatened-list",
+      "title": "Victoria's Threatened List and Processes List",
+      "accessed": "2026-10-25",
+      "supports": "Points to the July 2026 FFG Threatened List PDF as the current list."
+    },
+    {
+      "url": "https://wildlifevictoria.org.au/learn/native-species-post/koalas/",
+      "title": "Koala — Wildlife Victoria",
+      "accessed": "2026-10-25",
+      "supports": "Secure in Victoria compared with other states but concentrated by habitat loss. Diet, August to March mating season, one joey, pap, threats including vehicle strike, dogs via displaced animals, chlamydia, mange, oxalate nephrosis and retrovirus. Do not handle. Call (03) 8400 7300. Ground-dwelling or slow animals, and animals that climb after a strike, still need a call. Keep pets away."
+    },
+    {
+      "url": "https://wildlifevictoria.org.au/report-a-wildlife-emergency/",
+      "title": "Report a wildlife emergency — Wildlife Victoria",
+      "accessed": "2026-10-25",
+      "supports": "24/7 hotline (03) 8400 7300 for sick, injured, trapped or orphaned native animals anywhere in Victoria, or the online form."
+    },
+    {
+      "url": "https://www.wildlifevictoria.org.au/news/safety-on-roads",
+      "title": "Safety on roads — Wildlife Victoria",
+      "accessed": "2026-10-25",
+      "supports": "Stop only if safe, use hazard lights, do not step into traffic, call (03) 8400 7300, and on freeways the service reports cases to 000 rather than sending a volunteer alone."
+    },
+    {
+      "url": "https://www.zoo.org.au/healesville/habitats/koala-forest/southern-koala/",
+      "title": "Southern Koala — Healesville Sanctuary, Zoos Victoria",
+      "accessed": "2026-10-25",
+      "supports": "Page text: Vulnerable in Queensland, NSW and the ACT, and Near Threatened in Victoria. Habitat loss the greatest threat, about 80% of habitat gone since European settlement, chlamydia contributes to declines. Mainly nocturnal, 18–20 hours asleep, low-altitude forests and woodlands in central and southern mainland Victoria and on Raymond, Snake, French and Phillip islands. Bellow. The Near Threatened line is the zoo page, not the FFG list."
+    },
+    {
+      "url": "https://www.betterhealth.vic.gov.au/health/healthyliving/bushfire-aftermath-safety-tips",
+      "title": "Bushfire aftermath — safety tips — Better Health Channel",
+      "accessed": "2026-10-25",
+      "supports": "Do not try to catch injured wildlife. Call DEECA on 136 186 for wildlife carers. Not koala-specific. A guessed wildlife-safety URL on this site returned 404, and a site search did not return a koala page."
+    },
+    {
+      "url": "https://inverleigh.org.au/features/nature-conservation/",
+      "title": "Inverleigh Nature Conservation Reserve — Biodiversity & Trails",
+      "accessed": "2026-10-25",
+      "supports": "About 1,050 ha between Inverleigh and Teesdale. Koalas seen occasionally, with Eastern Grey Kangaroos, Black-tailed Swamp Wallabies and echidnas. Dominant trees Manna Gum and River Red Gum. Hedge Wattle, Banksia, Sheoak, Wallaby Grass. About 1% of former grassy woodland remains and two-thirds of that is this reserve. Does not name a food tree used by a koala, and does not mention Swamp Gum."
+    },
+    {
+      "url": "https://www.koalaclancyfoundation.org.au/lifeline-for-inverleigh-koalas/",
+      "title": "Lifeline for Inverleigh Koalas — Koala Clancy Foundation",
+      "accessed": "2026-10-25",
+      "supports": "Foundation estimate of 2 to 10 koalas left, mostly in Inverleigh Flora Reserve, and an estimate that 87% of habitat in its map area has been cleared. 2022 planting appeal, including 40.9 ha beside the reserve. Not a government census. Describes former woodland from west of Geelong through Inverleigh, Teesdale and Shelford toward Ballarat."
+    },
+    {
+      "url": "https://koalaclancyfoundation.org.au/what-we-plant-for-koalas-and-why/",
+      "title": "What we plant for koalas and why — Koala Clancy Foundation",
+      "accessed": "2026-10-25",
+      "supports": "River Red Gum called the primary browse tree in the You Yangs and Little River, and probably the most preferred koala tree in the Moorabool and Barwon systems. Hot-day shelter in non-eucalypts such as Blackwood is a general planting note, not an Inverleigh sighting."
+    },
+    {
+      "url": "https://timesnewsgroup.com.au/goldenplains/news/koalas-in-need-of-accommodation/",
+      "title": "Koalas in need of accommodation — Golden Plains Times, 11 February 2024",
+      "accessed": "2026-10-25",
+      "supports": "Letter from Janine Duffy, Koala Clancy Foundation. Scarce sightings at Inverleigh, Teesdale and the Moorabool below She Oaks. Mature male in the Nature Conservation Reserve in January 2023. iNaturalist individuals in May 2020 and November 2021. Reports at Maude, Russells Bridge and Gheringhap. Scratches at Woolbrook and in the reserve. Decline since the 1980s, cause not known, drying and warming climate the suggested cause. Local preference stated for River Red Gum and Swamp Gum by creeks and flats, and Manna Gum, Yellow Box and Yellow Gum on sandy plains."
+    },
+    {
+      "url": "https://timesnewsgroup.com.au/goldenplains/news/tree-effort-for-koalas-returns/",
+      "title": "Tree effort for koalas returns — Golden Plains Times, 27 May 2023",
+      "accessed": "2026-10-25",
+      "supports": "Koala Clancy Foundation planting between Inverleigh and Bannockburn. Species named: river red gum, manna gum, yellow box, yellow gum, silver wattle, black wattle. Quote that koalas in the Inverleigh common are not living with enough, and that Native Hut Creek and Stony Creek vegetation has been reduced. Locals tell the foundation they have not seen many koalas lately."
+    },
+    {
+      "url": "https://data.gov.au/data/dataset/golden-plains-koala-habitat",
+      "title": "Golden Plains Koala Habitat — data.gov.au",
+      "accessed": "2026-10-25",
+      "supports": "Shire polygon dataset, created 5 May 2017, updated 9 August 2023, based on a 2006 study. Description says the koala overlay covers significant, preferred or important koala habitat and aims to avoid unnecessary removal of native vegetation used for food, shelter and movement. This pass did not open a matching planning-scheme schedule."
+    },
+    {
+      "url": "https://planning-schemes.app.planning.vic.gov.au/Golden%20Plains/ordinance/42.01-s4",
+      "title": "Golden Plains Planning Scheme, Environmental Significance Overlay Schedule 4, Inverleigh remnant vegetation",
+      "accessed": "2026-10-25",
+      "supports": "ESO4 protects large mature remnant vegetation, Clover Glycine, and the link with the Inverleigh Golf Course and the Inverleigh Nature Conservation Reserve. Does not name the koala."
+    },
+    {
+      "url": "https://planning-schemes.app.planning.vic.gov.au/Golden%20Plains/ordinance/42.03-s16",
+      "title": "Golden Plains Planning Scheme, Significant Landscape Overlay Schedule 16, Leigh River corridor",
+      "accessed": "2026-10-25",
+      "supports": "Leigh River (Waywatcurtan) meets the Barwon (Parwan) at Inverleigh. Riparian vegetation includes River Red Gum (Biyal), Yarra Gum, Blackwood and Black and Silver Wattle. Named fauna are platypus, Great Egret, crayfish and Growling Grass Frog. Koala is not named. Wadawurrung Traditional Owners are named for this corridor."
+    },
+    {
+      "url": "https://ccma.vic.gov.au/projects/grassy-eucalypt-stewardship-program/",
+      "title": "Grassy Eucalypt Woodlands Stewardship Program — Corangamite CMA",
+      "accessed": "2026-10-25",
+      "supports": "Target region from Shelford east to the You Yangs, south to Inverleigh and north to Meredith. Open grassy woodland on the Victorian Volcanic Plain. Animals named are Fat-tailed Dunnart, Striped Legless Lizard, Golden Sun Moth and Growling Grass Frog. Koala is not named. Page says the project runs until 2023."
+    }
+  ],
+  "queries": [
+    "ALA count 5 km: https://biocache-ws.ala.org.au/ws/occurrences/search?q=taxon_name:%22Phascolarctos%20cinereus%22&lat=-38.10&lon=144.05&radius=5&pageSize=0",
+    "ALA count 10 km: https://biocache-ws.ala.org.au/ws/occurrences/search?q=taxon_name:%22Phascolarctos%20cinereus%22&lat=-38.10&lon=144.05&radius=10&pageSize=0",
+    "ALA year facet 5 km: https://biocache-ws.ala.org.au/ws/occurrence/facets?q=taxon_name:%22Phascolarctos%20cinereus%22&lat=-38.10&lon=144.05&radius=5&facets=year&flimit=100",
+    "ALA year facet 10 km: https://biocache-ws.ala.org.au/ws/occurrence/facets?q=taxon_name:%22Phascolarctos%20cinereus%22&lat=-38.10&lon=144.05&radius=10&facets=year&flimit=100",
+    "ALA facets 5 km locality, data_resource, state, cl1048, month: https://biocache-ws.ala.org.au/ws/occurrence/facets?q=taxon_name:%22Phascolarctos%20cinereus%22&lat=-38.10&lon=144.05&radius=5&facets=locality,data_resource,state,cl1048,month&flimit=50",
+    "ALA facets 10 km locality, data_resource, month: https://biocache-ws.ala.org.au/ws/occurrence/facets?q=taxon_name:%22Phascolarctos%20cinereus%22&lat=-38.10&lon=144.05&radius=10&facets=locality,data_resource,month&flimit=80",
+    "ALA records 10 km with fields: https://biocache-ws.ala.org.au/ws/occurrences/search?q=taxon_name:%22Phascolarctos%20cinereus%22&lat=-38.10&lon=144.05&radius=10&pageSize=100&fl=id,scientificName,decimalLatitude,decimalLongitude,eventDate,year,month,locality,dataResourceName,dataResourceUid,occurrenceID,recordedBy,individualCount,basisOfRecord,coordinateUncertaintyInMeters,raw_locality,cl1048",
+    "ALA single record check: https://biocache-ws.ala.org.au/ws/occurrences/search?q=occurrence_id:170846402&pageSize=1",
+    "ALA field list: https://biocache-ws.ala.org.au/ws/index/fields",
+    "iNat observation: https://api.inaturalist.org/v1/observations/408168580",
+    "iNat observation: https://api.inaturalist.org/v1/observations/263127183",
+    "iNat observation: https://api.inaturalist.org/v1/observations/173176918",
+    "iNat observation: https://api.inaturalist.org/v1/observations/103941110",
+    "iNat observation: https://api.inaturalist.org/v1/observations/44939192",
+    "iNat observation: https://api.inaturalist.org/v1/observations/42374591",
+    "iNat observation: https://api.inaturalist.org/v1/observations/167005592",
+    "iNat observation: https://api.inaturalist.org/v1/observations/149101093",
+    "iNat observation: https://api.inaturalist.org/v1/observations/146446702",
+    "iNat observation: https://api.inaturalist.org/v1/observations/41870720",
+    "iNat 5 km all grades: https://api.inaturalist.org/v1/observations?taxon_name=Phascolarctos%20cinereus&lat=-38.10&lng=144.05&radius=5&per_page=50&order=desc&order_by=observed_on",
+    "iNat 10 km all grades: https://api.inaturalist.org/v1/observations?taxon_name=Phascolarctos%20cinereus&lat=-38.10&lng=144.05&radius=10&per_page=50&order=desc&order_by=observed_on",
+    "iNat 5 km research grade: https://api.inaturalist.org/v1/observations?taxon_name=Phascolarctos%20cinereus&lat=-38.10&lng=144.05&radius=5&quality_grade=research&per_page=50&order=desc&order_by=observed_on",
+    "iNat 10 km research grade: https://api.inaturalist.org/v1/observations?taxon_name=Phascolarctos%20cinereus&lat=-38.10&lng=144.05&radius=10&quality_grade=research&per_page=50&order=desc&order_by=observed_on",
+    "iNat count probes with per_page=1 for 5 km and 10 km, same taxon and centre, all grades.",
+    "Web search: Phascolarctos cinereus koala Victoria FFG listing status EPBC Queensland NSW ACT not Victoria",
+    "Web search: koala Golden Plains Shire Inverleigh Hamilton Highway road signs Wildlife Victoria injured koala phone",
+    "Web search: koala preferred food trees Victoria Manna Gum Eucalyptus viminalis River Red Gum Swamp Gum breeding season chlamydia on museum, zoo and Australian Museum domains",
+    "Web search: koala Inverleigh OR Hamilton Highway koala sign OR koala crossing Golden Plains OR Teesdale",
+    "Web search: koala Victoria FFG threatened list DEECA overabundance management Cape Otway French Island on vic.gov.au",
+    "Web search: Wildlife Victoria injured koala call 03 8400 7300 site:wildlifevictoria.org.au",
+    "Web search: FFG Act threatened list 2025 or 2026 Phascolarctos or koala Victoria",
+    "Web search: Golden Plains planning scheme Environmental Significance Overlay koala habitat schedule Inverleigh",
+    "Web search: site:ccma.vic.gov.au koala OR manna gum Barwon Leigh Inverleigh woodland",
+    "Web search: koala preferred food trees Victoria Manna Gum Swamp Gum River Red Gum",
+    "Web search: site:betterhealth.vic.gov.au koala OR injured wildlife OR wildlife rescue",
+    "Web search: Lownde Bridge OR Lowndes Bridge koala OR Bannockburn OR Inverleigh Victoria",
+    "Web search: Golden Plains planning scheme koala habitat overlay",
+    "Pages opened: https://www.wildlife.vic.gov.au/our-wildlife/koalas ; https://www.wildlife.vic.gov.au/our-wildlife/koalas/koalas-at-cape-otway ; https://australian.museum/learn/animals/mammals/koala/ ; https://www.zoo.org.au/healesville/habitats/koala-forest/southern-koala/ ; https://wildlifevictoria.org.au/learn/native-species-post/koalas/ ; https://www.environment.gov.au/biodiversity/threatened/species/pubs/85104-conservation-advice-12022022.pdf ; https://www.environment.vic.gov.au/conserving-threatened-species/threatened-list ; https://www.environment.vic.gov.au/__data/assets/pdf_file/0028/793801/FFG_Threatened_List_July_2026.pdf ; https://inverleigh.org.au/features/nature-conservation/ ; https://www.koalaclancyfoundation.org.au/lifeline-for-inverleigh-koalas/ ; https://koalaclancyfoundation.org.au/what-we-plant-for-koalas-and-why/ ; https://timesnewsgroup.com.au/goldenplains/news/koalas-in-need-of-accommodation/ ; https://timesnewsgroup.com.au/goldenplains/news/tree-effort-for-koalas-returns/ ; https://ccma.vic.gov.au/projects/grassy-eucalypt-stewardship-program/ ; https://www.betterhealth.vic.gov.au/health/healthyliving/bushfire-aftermath-safety-tips",
+    "Blocked or not used as body text: curl to https://www.wildlife.vic.gov.au/our-wildlife/koalas and the VKMS summary PDF returned Cloudflare challenges; those DEECA HTML pages were then opened with the page tool. https://museumsvictoria.com.au/bunjilaka/about-us/eastern-kulin-seasonal-calendar/ failed to fetch. https://www.betterhealth.vic.gov.au/health/healthyliving/wildlife-safety returned 404. SPRAT HTML https://www.environment.gov.au/cgi-bin/sprat/public/publicspecies.pl?taxon_id=85104 returned a Cloudflare challenge; the conservation-advice PDF was used instead. The July 2026 FFG Excel download was Cloudflare-blocked; the PDF text search was used.",
+    "Hamilton Highway koala-sign search returned no Inverleigh sign. Hits were other roads, including Western Port Highway and NSW koala zones, and were not used as local evidence."
+  ]
+}

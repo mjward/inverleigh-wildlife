@@ -26,66 +26,162 @@
       "Trend: IUCN 2024, suspected decrease from unsustainable exploitation; Australian accounts describe an abundant, expanding urban bird. The same IUCN page says the Action Plan for Australian Birds 2020 did not find it near threatened."
     ],
     "notWellDocumented": [
-      "A single wild incubation period for southern Victoria. The 23-day and 25-day figures are both published, and the handbook account was not retrieved.",
-      "Whether the IUCN decline from exploitation refers to this Australian species or was carried over from the former Coconut Lorikeet complex. The 2024 page still prints that sentence.",
-      "Current status in Tasmania: vagrant, scarce, or established. The sources disagree.",
-      "The July 2026 FFG file, which returned HTTP 403. The indexed earlier lists do not name Trichoglossus moluccanus, and the only July 2026 amendment on the DEECA page is Hibbertia porcata."
+      "Of 56 ALA records inside 5 km, the dataset split is: eBird Australia 52; BirdLife Australia, Birdata 4.",
+      "ALA locality strings split one place across several labels, including track names and an Inverleigh VIC 3321 prefix. Each count belongs to that string alone.",
+      "A direct fetch of eBird hotspot L2547650 returned a bot-check page, so species totals on eBird were not read.",
+      "Street addresses and properties marked restricted access, including Maguire and UBLN sites on the Leigh, are listed in the evidence where they appear and are not treated as public hangouts.",
+      "A search for a Corangamite CMA plant guide for the Leigh and Barwon at Inverleigh did not return a catchment plant list for this town. Results were for the Goulburn Broken CMA, the New South Wales Barwon–Darling, or the Corangamite Shire coastal planting guide, which covers a different shire. Those pages were not used.",
+      "Yellow Box is on the Golden Plains plains planting list. No Inverleigh vegetation page read for this batch confirms it in the reserve or on the Leigh, and no local record links it to this species.",
+      "The Birds in Backyards URL under Trichoglossus moluccanus returned 404. The live page uses the older name Trichoglossus haematodus. ALA has moved the local records to Trichoglossus moluccanus.",
+      "No Inverleigh study names the nest hollow or the garden trees used for nectar. Grevillea and Pittosporum are named by Wikipedia for the species and were not confirmed as the trees in these town records.",
+      "HANZAB volume 4 is listed on the Birds in Backyards page and on the Australian Museum page."
     ],
     "sources": [
       {
-        "url": "https://birdsinbackyards.net/species/Trichoglossus-haematodus",
-        "title": "Rainbow Lorikeet — Birds in Backyards",
-        "accessed": "2026-10-25",
-        "supports": "Page still uses Trichoglossus haematodus. 28–32 cm, average 30 cm, 133 g. Breeding June to January. Clutch 2. Incubation 23 days. Nestling period 45 days. Largely sedentary, with nomadic movements to flowering or fruiting plants. Nectar, pollen, fruits, seeds and some insects. Eggs on chewed decayed wood in a eucalypt hollow. Only the female incubates. Federal status Secure. Has benefited from garden plantings and artificial food."
+        "url": "https://inverleigh.org.au/features/nature-conservation/",
+        "title": "Inverleigh Nature Conservation Reserve – Biodiversity & Trails",
+        "accessed": "2026-10-26",
+        "supports": "Dominant trees are Manna Gum (Eucalyptus viminalis) and River Red Gum (Eucalyptus camaldulensis). The predominant large shrub is Hedge Wattle (Acacia paradoxa), which forms prickly thickets. Areas of Banksia and Sheoak are present. The ground layer is dominated by Wallaby Grass. The reserve is about 1,050 ha of grassy woodland between Inverleigh and Teesdale. The page says 119 bird species have been recorded there, and that bats, gliders and possums use tree hollows. It does not name a nest tree for any bird in this batch."
       },
       {
-        "url": "https://www.birdsinbackyards.net/content/article/Rainbow-Lorikeets-Fun-facts-about-fun-bird",
-        "title": "Rainbow Lorikeets: fun facts — Birds in Backyards",
-        "accessed": "2026-10-25",
-        "supports": "Introduced to Perth, where it is treated as a pest, from about 1968. Becoming more common in Tasmania. Red-collared Lorikeet is the northern Western Australian species. Hollow nester; also recorded in palms, rock crevices and a hole at the base of a tree. Brush tongue adapted to nectar."
+        "url": "https://www.recreatingthecountry.com.au/wild-plants-of-inverleigh.html",
+        "title": "Wild plants of Inverleigh — Recreating the Country",
+        "accessed": "2026-10-26",
+        "supports": "Lawson's Tree is a River Red Gum, and many River Red Gums grow along the Leigh River and on the local plains. The local mix named on the page includes Golden Wattle, Black Wattle, Blackwood, Lightwood, Hedge Wattle, Black Sheoak, Drooping Sheoak and Silver Banksia. Sweet Bursaria is described as now quite rare in the local bushland. The Nature Conservation Reserve is the old Inverleigh Common, about 1,000 ha, three kilometres north of town. A spring list for the reserve includes Kangaroo Grass and Supple Spear Grass. Yellow Box is not named on this page."
+      },
+      {
+        "url": "https://www.goldenplains.vic.gov.au/sites/default/files/Plains%20and%20Rivers%20Planting%20Guide.pdf",
+        "title": "Plains and Rivers Planting Guide — Golden Plains Shire",
+        "accessed": "2026-10-26",
+        "supports": "The southern part of the shire was open grassland of Kangaroo, Wallaby and Spear grasses, with open grassy woodland of scattered River Red Gum, Drooping She-oak and, on fertile ground, Manna Gum. River valleys held River Red Gum and Blackwood. The species table lists River Red Gum and Manna Gum for plains and rivers, Yellow Box and Yellow Gum and Drooping She-oak and Golden Wattle and Silver Banksia for plains, and Sweet Bursaria for plains and rivers. This is a planting list for the shire, not a survey of which of those plants stand inside the Inverleigh reserve."
+      },
+      {
+        "url": "https://www.parks.vic.gov.au/places-to-see/parks/inverleigh-flora-reserve",
+        "title": "Inverleigh Flora Reserve — Parks Victoria",
+        "accessed": "2026-10-26",
+        "supports": "The page titles the place Inverleigh Flora Reserve and links a reserve map. The fetched text did not list plant species. A template line said the area is closed. That line was not treated as a confirmed closure."
+      },
+      {
+        "url": "https://www.melbourneplaygrounds.com.au/inverleigh-leigh-river-environmental-heritage-walk",
+        "title": "Inverleigh – Leigh River Environmental Heritage Walk",
+        "accessed": "2026-10-26",
+        "supports": "The walk starts at the corner of the Hamilton Highway and Cambridge Street and is described as ancient River Red Gums and other remnant vegetation, with native understorey and grasses of the Leigh River."
+      },
+      {
+        "url": "https://www.melbourneplaygrounds.com.au/lawson-reserve-playground-cnr-cambridge-street-and-hamilton-highway-inverleigh",
+        "title": "Lawson Reserve Playground, Inverleigh",
+        "accessed": "2026-10-26",
+        "supports": "Lawson Reserve playground is at the corner of Cambridge Street and the Hamilton Highway, Inverleigh, with a grassy area, tables and a shelter. The River Red Gum known as Lawson's Tree is described on the Wild plants of Inverleigh page, not on this playground page."
+      },
+      {
+        "url": "https://ebird.org/hotspot/L2547650",
+        "title": "eBird hotspot L2547650 — Inverleigh Nature Conservation Reserve",
+        "accessed": "2026-10-26",
+        "supports": "A direct fetch returned an Anubis bot-check page and no species totals. A web search result for this URL named the hotspot Inverleigh Nature Conservation Reserve, Golden Plains, and showed checklist locations that use the same track names as the ALA localities, including Old Shelford Track and Carrah Track."
+      },
+      {
+        "url": "https://www.birdsinbackyards.net/species/Trichoglossus-haematodus",
+        "title": "Rainbow Lorikeet — Birds in Backyards",
+        "accessed": "2026-10-26",
+        "supports": "The live page uses the older name Trichoglossus haematodus. Wide range of treed habitats, including rainforest, woodland and well-treed urban areas. Nectar and pollen from flowers of shrubs or trees, plus fruit, seeds and some insects. Eggs on chewed decayed wood, usually in a hollow limb of a eucalypt. References include HANZAB volume 4. The Trichoglossus moluccanus URL returned 404."
+      },
+      {
+        "url": "https://australian.museum/learn/animals/birds/rainbow-lorikeet/",
+        "title": "Rainbow Lorikeet — Australian Museum",
+        "accessed": "2026-10-26",
+        "supports": "Classification on the page is Trichoglossus moluccanus. Same habitat as Birds in Backyards: treed habitats including rainforest, woodland and well-treed urban areas. References Higgins 1999, HANZAB volume 4."
       },
       {
         "url": "https://en.wikipedia.org/wiki/Rainbow_lorikeet",
         "title": "Rainbow lorikeet — Wikipedia",
-        "accessed": "2026-10-25",
-        "supports": "Trichoglossus moluccanus. Eastern seaboard from northern Queensland through New South Wales and Victoria to South Australia. Habitat rainforest, coastal bush and woodland. Southern breeding usually August–January. Clutch one to three. Incubation around 25 days by the female alone. Least Concern. Often the most commonly observed bird in the BirdLife Australia census."
-      },
-      {
-        "url": "https://www.iucnredlist.org/species/22725334/254013129",
-        "title": "Trichoglossus moluccanus — IUCN Red List",
-        "accessed": "2026-10-25",
-        "supports": "Assessed 15 January 2024. Least Concern. Native resident in Australia, with an introduced resident population also mapped. Trend Decreasing, suspected from unsustainable exploitation. Population not quantified; described as abundant in northern Australia and rare in Tasmania. Action Plan for Australian Birds 2020 did not find it near a threatened threshold."
-      },
-      {
-        "url": "https://birdsoftheworld.org/bow/species/railor5/cur/introduction",
-        "title": "Rainbow Lorikeet — Birds of the World",
-        "accessed": "2026-10-25",
-        "supports": "Split from the Coconut Lorikeet complex. Nominate subspecies from north-eastern Queensland to south-eastern South Australia, including Kangaroo Island; vagrant in Tasmania; feral in Perth and Auckland. Nectar and pollen, especially eucalypts. Least Concern, with local declines noted."
-      },
-      {
-        "url": "https://parrots.org/encyclopedia/rainbow-lorikeet/",
-        "title": "Rainbow Lorikeet — World Parrot Trust",
-        "accessed": "2026-10-25",
-        "supports": "Size 26 cm; weight 100–157 g. Two subspecies. Clutch 2–3. South-eastern season August–January; almost year-round in Queensland. Nest a deep unlined cavity. Established in Perth and Auckland. CITES Appendix II. Increasing around Melbourne, Sydney and Canberra; described as relatively rare in Victoria in an older sentence on the same page, which conflicts with the increase."
-      },
-      {
-        "url": "https://data.gov.au/data/dataset/ae652011-f39e-4c6c-91b8-1dc2d2dfee8f/resource/78401dce-1f40-49d3-92c4-3713d6e34974/download/20260828spcs.csv",
-        "title": "EPBC Act List of Threatened Fauna and Flora, extracted 28 August 2026 — data.gov.au",
-        "accessed": "2026-10-25",
-        "supports": "Date extracted 2026-Aug-28. No row for Trichoglossus moluccanus or Trichoglossus haematodus."
-      },
-      {
-        "url": "https://www.environment.vic.gov.au/__data/assets/pdf_file/0027/741627/FFG_Threatened_List_March_2025.pdf",
-        "title": "Flora and Fauna Guarantee Act 1988 Threatened List, March 2025 — DEECA",
-        "accessed": "2026-10-25",
-        "supports": "Indexed bird tables do not name Trichoglossus moluccanus. The July 2026 file could not be downloaded."
-      },
-      {
-        "url": "https://www.environment.vic.gov.au/conserving-threatened-species/threatened-list",
-        "title": "Victoria's Threatened List and Processes List — DEECA",
-        "accessed": "2026-10-25",
-        "supports": "Current lists are the July 2026 PDF, DOCX and Excel files. The only amendment recorded for 2026 is the addition of Christmas Guinea-flower (Hibbertia porcata). No bird in this batch is named in that amendment note. Direct download of the July 2026 PDF and Excel returned HTTP 403."
+        "accessed": "2026-10-26",
+        "supports": "Diet is mainly fruit, pollen and nectar. Eucalypt nectar is important in Australia. Other nectar sources named include Pittosporum and Grevillea, and the account also lists garden fruit. Nests in hollows of tall trees such as eucalypts, and also palm trunks or overhanging rock. In southern Australia breeding is usually August to January."
       }
+    ],
+    "trees": "Rainbow Lorikeets feed on nectar and pollen in flowering trees and nest in a eucalypt hollow. The live Birds in Backyards page is still filed as Trichoglossus haematodus. It says they use a wide range of treed habitats, including well-treed suburbs, lay eggs on chewed decayed wood in a hollow limb of a eucalypt, and take nectar and pollen plus fruit, seeds and some insects. The Australian Museum uses the name Trichoglossus moluccanus and gives the same habitat. Wikipedia lists eucalypt nectar as important in Australia, and also Pittosporum, Grevillea and garden fruit. Manna Gum and River Red Gum are the local eucalypts that flower. Which street or garden trees on High Street the birds use is not documented. An ALA query for Trichoglossus haematodus inside 5 km returned 0 records. The 56 records are under Trichoglossus moluccanus.",
+    "hangouts": "Within 5 km of Inverleigh, the Atlas of Living Australia holds 56 records of this species. They cluster in town and on the Leigh: Lawson Reserve (14), the Leigh River south of the Hamilton Highway (9), High Street (7), the Leigh River north of the highway (4) and the Barwon–Leigh junction (3). Inverleigh Nature Conservation Reserve has 4 under that label, and only 1 on the Old Shelford Track string. The Inverleigh Recreation Reserve has 2, and the Leigh downstream of Lawson Reserve has 2. One string is only the words river walk, with 1 record. This is a thin sample beside the other parrots.",
+    "alaLocalityEvidence": [
+      {
+        "locality": "Lawson Reserve",
+        "count": 14
+      },
+      {
+        "locality": "Leigh River, Inverleigh, S of Hamilton Hwy",
+        "count": 9
+      },
+      {
+        "locality": "High Street, Inverleigh (-38.101, 144.06)",
+        "count": 7
+      },
+      {
+        "locality": "Inverleigh Nature Conservation Reserve",
+        "count": 4
+      },
+      {
+        "locality": "Leigh River, Inverleigh, N of Hamilton Hwy",
+        "count": 4
+      },
+      {
+        "locality": "Barwon River and Leigh River Junction",
+        "count": 3
+      },
+      {
+        "locality": "Inverleigh",
+        "count": 2
+      },
+      {
+        "locality": "Inverleigh Recreation Reserve",
+        "count": 2
+      },
+      {
+        "locality": "Leigh River downstream of Lawson Reserve (-38.101, 144.063)",
+        "count": 2
+      },
+      {
+        "locality": "Barwon River at Olivers Property",
+        "count": 1
+      },
+      {
+        "locality": "High Street, Inverleigh (-38.101, 144.058)",
+        "count": 1
+      },
+      {
+        "locality": "Inverleigh Nature Conservation Reserve--Old Shelford Track b/w Common Rd and Carrah Track",
+        "count": 1
+      },
+      {
+        "locality": "Inverleigh, Victoria, AU (-38.102, 144.053)",
+        "count": 1
+      },
+      {
+        "locality": "river walk",
+        "count": 1
+      }
+    ],
+    "queries": [
+      "https://biocache-ws.ala.org.au/ws/occurrence/facets?q=species%3A%22Trichoglossus%20moluccanus%22&lat=-38.10&lon=144.05&radius=5&facets=locality&flimit=20",
+      "https://biocache-ws.ala.org.au/ws/occurrence/facets?q=species%3A%22Trichoglossus%20moluccanus%22&lat=-38.10&lon=144.05&radius=5&facets=dataResourceName&flimit=20",
+      "https://biocache-ws.ala.org.au/ws/occurrences/search?q=species%3A%22Trichoglossus%20moluccanus%22&lat=-38.10&lon=144.05&radius=5&pageSize=0&facet=off",
+      "https://biocache-ws.ala.org.au/ws/occurrences/search?q=species%3A%22Trichoglossus%20moluccanus%22&lat=-38.10&lon=144.05&radius=5&pageSize=5&fl=decimalLatitude,decimalLongitude,locality,dataResourceName,year&facet=off",
+      "https://biocache-ws.ala.org.au/ws/occurrence/facets?q=species%3A%22Trichoglossus%20haematodus%22&lat=-38.10&lon=144.05&radius=5&facets=locality&flimit=20",
+      "https://biocache-ws.ala.org.au/ws/occurrence/facets?q=species%3A%22Trichoglossus%20haematodus%22&lat=-38.10&lon=144.05&radius=5&facets=dataResourceName&flimit=20",
+      "https://biocache-ws.ala.org.au/ws/occurrences/search?q=species%3A%22Trichoglossus%20haematodus%22&lat=-38.10&lon=144.05&radius=5&pageSize=0&facet=off",
+      "https://biocache-ws.ala.org.au/ws/occurrences/search?q=species%3A%22Trichoglossus%20haematodus%22&lat=-38.10&lon=144.05&radius=5&pageSize=5&fl=decimalLatitude,decimalLongitude,locality,dataResourceName,year&facet=off",
+      "Inverleigh Nature Conservation Reserve vegetation Manna Gum River Red Gum Drooping Sheoak Hedge Wattle",
+      "eBird hotspot Inverleigh Nature Conservation Reserve Leigh River Barwon Bell Bridge Lawson",
+      "Corangamite CMA Leigh River Barwon Inverleigh River Red Gum riparian vegetation guide",
+      "https://inverleigh.org.au/features/nature-conservation/",
+      "https://www.recreatingthecountry.com.au/wild-plants-of-inverleigh.html",
+      "https://www.goldenplains.vic.gov.au/sites/default/files/Plains%20and%20Rivers%20Planting%20Guide.pdf",
+      "https://www.parks.vic.gov.au/places-to-see/parks/inverleigh-flora-reserve",
+      "https://www.melbourneplaygrounds.com.au/inverleigh-leigh-river-environmental-heritage-walk",
+      "https://www.melbourneplaygrounds.com.au/lawson-reserve-playground-cnr-cambridge-street-and-hamilton-highway-inverleigh",
+      "https://issuu.com/leighnews/docs/leigh_news_july_2023/s/27359474",
+      "https://ebird.org/hotspot/L2547650",
+      "https://www.birdsinbackyards.net/species/Trichoglossus-moluccanus",
+      "https://www.birdsinbackyards.net/species/Trichoglossus-haematodus",
+      "https://australian.museum/learn/animals/birds/rainbow-lorikeet/",
+      "https://en.wikipedia.org/wiki/Rainbow_lorikeet"
     ]
   },
   "yellow-tailed-black-cockatoo": {
@@ -114,90 +210,207 @@
       "Diet of southern birds: BirdLife includes some insects across the species; one secondary account says Tasmanian, western Victorian and South Australian birds eat seeds only."
     ],
     "notWellDocumented": [
-      "The incubation period in HANZAB. Only secondary figures of about four weeks and about 29 days were retrieved.",
-      "How steep any Victorian decline is. IUCN’s 2024 justification says it found no evidence of a decline large enough to move the species, while BirdLife and Wikipedia report regional declines.",
-      "Whether whiteae is the form at Inverleigh. Southern Victoria is variously placed in whiteae or in xanthanota.",
-      "The July 2026 FFG file, which returned HTTP 403. The older statutory lists retrieved, the Western Volcanic Plains page, and the DEECA note that the only July 2026 amendment was Hibbertia porcata, do not list the species in Victoria."
+      "Of 50 ALA records inside 5 km, the dataset split is: eBird Australia 32; Victorian Biodiversity Atlas 11; BirdLife Australia, Birdata 6; iNaturalist Australia 1.",
+      "ALA locality strings split one place across several labels, including track names and an Inverleigh VIC 3321 prefix. Each count belongs to that string alone.",
+      "A direct fetch of eBird hotspot L2547650 returned a bot-check page, so species totals on eBird were not read.",
+      "Street addresses and properties marked restricted access, including Maguire and UBLN sites on the Leigh, are listed in the evidence where they appear and are not treated as public hangouts.",
+      "A search for a Corangamite CMA plant guide for the Leigh and Barwon at Inverleigh did not return a catchment plant list for this town. Results were for the Goulburn Broken CMA, the New South Wales Barwon–Darling, or the Corangamite Shire coastal planting guide, which covers a different shire. Those pages were not used.",
+      "Yellow Box is on the Golden Plains plains planting list. No Inverleigh vegetation page read for this batch confirms it in the reserve or on the Leigh, and no local record links it to this species.",
+      "An ALA species query for Calyptorhynchus funereus inside 5 km returned 0 records. The 50 records are under Zanda funerea. The Birds in Backyards URL under Zanda funerea returned 404. The live page is filed as Calyptorhynchus funereus. The Australian Museum page still uses Calyptorhynchus funereus.",
+      "No Inverleigh observation in this set names a feeding tree or a nest hollow. Hakea is named by BirdLife and was not in the Inverleigh plant pages read here. Monterey Pine feeding is a species account, not a local record.",
+      "Birds in Backyards references for this species are field guides, not HANZAB. The Wikipedia feeding list is the source for Drooping Sheoak and Silver Banksia by scientific name."
     ],
     "sources": [
       {
+        "url": "https://inverleigh.org.au/features/nature-conservation/",
+        "title": "Inverleigh Nature Conservation Reserve – Biodiversity & Trails",
+        "accessed": "2026-10-26",
+        "supports": "Dominant trees are Manna Gum (Eucalyptus viminalis) and River Red Gum (Eucalyptus camaldulensis). The predominant large shrub is Hedge Wattle (Acacia paradoxa), which forms prickly thickets. Areas of Banksia and Sheoak are present. The ground layer is dominated by Wallaby Grass. The reserve is about 1,050 ha of grassy woodland between Inverleigh and Teesdale. The page says 119 bird species have been recorded there, and that bats, gliders and possums use tree hollows. It does not name a nest tree for any bird in this batch."
+      },
+      {
+        "url": "https://www.recreatingthecountry.com.au/wild-plants-of-inverleigh.html",
+        "title": "Wild plants of Inverleigh — Recreating the Country",
+        "accessed": "2026-10-26",
+        "supports": "Lawson's Tree is a River Red Gum, and many River Red Gums grow along the Leigh River and on the local plains. The local mix named on the page includes Golden Wattle, Black Wattle, Blackwood, Lightwood, Hedge Wattle, Black Sheoak, Drooping Sheoak and Silver Banksia. Sweet Bursaria is described as now quite rare in the local bushland. The Nature Conservation Reserve is the old Inverleigh Common, about 1,000 ha, three kilometres north of town. A spring list for the reserve includes Kangaroo Grass and Supple Spear Grass. Yellow Box is not named on this page."
+      },
+      {
+        "url": "https://www.goldenplains.vic.gov.au/sites/default/files/Plains%20and%20Rivers%20Planting%20Guide.pdf",
+        "title": "Plains and Rivers Planting Guide — Golden Plains Shire",
+        "accessed": "2026-10-26",
+        "supports": "The southern part of the shire was open grassland of Kangaroo, Wallaby and Spear grasses, with open grassy woodland of scattered River Red Gum, Drooping She-oak and, on fertile ground, Manna Gum. River valleys held River Red Gum and Blackwood. The species table lists River Red Gum and Manna Gum for plains and rivers, Yellow Box and Yellow Gum and Drooping She-oak and Golden Wattle and Silver Banksia for plains, and Sweet Bursaria for plains and rivers. This is a planting list for the shire, not a survey of which of those plants stand inside the Inverleigh reserve."
+      },
+      {
+        "url": "https://www.parks.vic.gov.au/places-to-see/parks/inverleigh-flora-reserve",
+        "title": "Inverleigh Flora Reserve — Parks Victoria",
+        "accessed": "2026-10-26",
+        "supports": "The page titles the place Inverleigh Flora Reserve and links a reserve map. The fetched text did not list plant species. A template line said the area is closed. That line was not treated as a confirmed closure."
+      },
+      {
+        "url": "https://www.melbourneplaygrounds.com.au/inverleigh-leigh-river-environmental-heritage-walk",
+        "title": "Inverleigh – Leigh River Environmental Heritage Walk",
+        "accessed": "2026-10-26",
+        "supports": "The walk starts at the corner of the Hamilton Highway and Cambridge Street and is described as ancient River Red Gums and other remnant vegetation, with native understorey and grasses of the Leigh River."
+      },
+      {
+        "url": "https://www.melbourneplaygrounds.com.au/lawson-reserve-playground-cnr-cambridge-street-and-hamilton-highway-inverleigh",
+        "title": "Lawson Reserve Playground, Inverleigh",
+        "accessed": "2026-10-26",
+        "supports": "Lawson Reserve playground is at the corner of Cambridge Street and the Hamilton Highway, Inverleigh, with a grassy area, tables and a shelter. The River Red Gum known as Lawson's Tree is described on the Wild plants of Inverleigh page, not on this playground page."
+      },
+      {
+        "url": "https://ebird.org/hotspot/L2547650",
+        "title": "eBird hotspot L2547650 — Inverleigh Nature Conservation Reserve",
+        "accessed": "2026-10-26",
+        "supports": "A direct fetch returned an Anubis bot-check page and no species totals. A web search result for this URL named the hotspot Inverleigh Nature Conservation Reserve, Golden Plains, and showed checklist locations that use the same track names as the ALA localities, including Old Shelford Track and Carrah Track."
+      },
+      {
+        "url": "https://issuu.com/leighnews/docs/leigh_news_july_2023/s/27359474",
+        "title": "Friends of Inverleigh Nature Conservation Reserve — Leigh News, July 2023",
+        "accessed": "2026-10-26",
+        "supports": "A direct fetch did not return the article body. Indexed search text says Manna Gums have sugary leaf deposits favoured by birds, River Red Gums prefer moist gullies and hold hollows used by birds, Hedge Wattle shelters small birds, and female Drooping Sheoak cones are a favourite with cockatoos and parrots. A phone number was interleaved in the indexed cone sentence, so that line is not a clean quote."
+      },
+      {
         "url": "https://www.birdsinbackyards.net/species/Calyptorhynchus-funereus",
         "title": "Yellow-tailed Black-Cockatoo — Birds in Backyards",
-        "accessed": "2026-10-25",
-        "supports": "Still filed as Calyptorhynchus funereus. 55–65 cm, average 60 cm, about 700 g. Breeding season variable. Clutch two. Large tree hollow lined with wood chips. Female incubates; male feeds her. Usually one chick survives and stays with the parents for about six months. Seeds of native trees and pine cones, some insects, and seeds of ground plants."
+        "accessed": "2026-10-26",
+        "supports": "The live page is filed as Calyptorhynchus funereus. The Zanda funerea URL returned 404. Favours eucalypt woodland and pine plantations. Seeds of native trees and pine cones, seeds of ground plants, and some insects. Nest is a large tree hollow lined with wood chips. References are field guides, not HANZAB."
       },
       {
-        "url": "https://birdlife.org.au/bird-profiles/yellow-tailed-black-cockatoo/",
-        "title": "Yellow-tailed Black-Cockatoo — BirdLife Australia",
-        "accessed": "2026-10-25",
-        "supports": "Scientific name Zanda funerea. IUCN Least Concern. South-eastern Australia from the Eyre Peninsula to south and central-eastern Queensland, and Tasmania. Pine cones are now a major food. Eyre Peninsula birds rely on Aleppo pine after sugar-gum woodland was fragmented. State of Australia’s Birds 2015 reported a significant east-coast decline. Threat listed: habitat destruction. Long breeding season that varies through the range."
-      },
-      {
-        "url": "https://www.iucnredlist.org/species/22684739/253974842",
-        "title": "Zanda funerea — IUCN Red List",
-        "accessed": "2026-10-25",
-        "supports": "Assessed 15 January 2024. Least Concern. Synonym Calyptorhynchus funereus. Native resident in Australia. Trend Stable. Population at least 25,000 individuals. Justification says there is no evidence for declines or substantial threats. Three subspecies recognised."
+        "url": "https://australian.museum/learn/animals/birds/yellow-tailed-black-cockatoo/",
+        "title": "Yellow-tailed Black-Cockatoo — Australian Museum",
+        "accessed": "2026-10-26",
+        "supports": "The page still classifies the bird as Calyptorhynchus funereus. Same habitat and feeding summary as Birds in Backyards: eucalypt woodland and pine plantations, native seeds and pine cones."
       },
       {
         "url": "https://en.wikipedia.org/wiki/Yellow-tailed_black_cockatoo",
         "title": "Yellow-tailed black cockatoo — Wikipedia",
-        "accessed": "2026-10-25",
-        "supports": "55–65 cm. Endemic to south-eastern Australia, including Tasmania. Diet of native and introduced seeds and wood-boring grubs. Nests in large hollows of old eucalypts. Least Concern and not nationally threatened, but declining in Victoria and South Australia from loss of hollow trees. Vulnerable in South Australia. Shot as a pest in some New South Wales districts until the 1940s. CITES Appendix II."
+        "accessed": "2026-10-26",
+        "supports": "Prefers native temperate forests and is also in pine plantations. Breeding needs large old trees. Nests in large vertical hollows of tall trees, generally eucalypts. Roosts in tall emergent eucalypts. The feeding account names she-oaks including Allocasuarina verticillata, Banksia including B. marginata, Acacia, Hakea, and introduced Pinus radiata and Cupressus torulosa. Also wood-boring larvae."
       },
       {
-        "url": "https://bwvp.ecolinc.vic.edu.au/fieldguide/fauna/yellow-tailed-black-cockatoo",
-        "title": "Yellow-tailed Black Cockatoo — Biodiversity of the Western Volcanic Plains",
-        "accessed": "2026-10-25",
-        "supports": "Breeds November–February. Long breeding season. Nest in a large tree hollow. South-eastern Australia from the Eyre Peninsula to south and central-eastern Queensland. FFG Act not listed. EPBC Act not listed. Advisory list not listed. The page still uses Calyptorhynchus funereus and the former department name."
+        "url": "https://birdlife.org.au/bird-profiles/yellow-tailed-black-cockatoo/",
+        "title": "Yellow-tailed Black-Cockatoo — BirdLife Australia",
+        "accessed": "2026-10-26",
+        "supports": "Scientific name on the page is Zanda funerea. Once fed on seeds of banksias, hakeas and casuarinas, and on insect larvae in wattle branches. Monterey Pine cones are now a frequent food. Habitat tags on the page are woodland and forest. The feeding and breeding blocks on the fetched page match the Birds in Backyards account: native seeds and pine cones, and a large tree hollow lined with wood chips."
       },
       {
-        "url": "https://www.environmentbellarine.org.au/cb_pages/files/Cockatoo%20-%20Info%20-%20Download.pdf",
-        "title": "Yellow-tailed Black-Cockatoo local note — Bellarine Catchment Network",
-        "accessed": "2026-10-25",
-        "supports": "Female incubates two eggs for around four weeks. Usually one chick survives. Young remain for about six months. Feeds on pines and on indigenous hakea, banksia and she-oak. Population described as declining in Victoria."
-      },
-      {
-        "url": "https://www.australianwildlife.org/animals/yellow-tailed-black-cockatoo",
-        "title": "Yellow-tailed Black-cockatoo — Australian Wildlife Conservancy",
-        "accessed": "2026-10-25",
-        "supports": "Eastern and south-eastern Australia, including Tasmania. Forest, woodland and coastal habitats, including modified landscapes. Threats are habitat loss and fragmentation, loss of mature nesting trees, changed fire regimes and competition for hollows. Young remain dependent for several months."
-      },
-      {
-        "url": "https://birdsoftheworld.org/bow/species/ytbcoc1/1.0/introduction",
-        "title": "Yellow-tailed Black-Cockatoo — Birds of the World, retired account",
-        "accessed": "2026-10-25",
-        "supports": "Subspecies: funereus from central-eastern Queensland to eastern Victoria; whiteae from the Eyre Peninsula and Kangaroo Island to southern Victoria; xanthanotus in Tasmania and Bass Strait. Habitat coastal heath, woodland, forest and pine plantations. Breeding October–March in South Australia, Victoria and Tasmania. Least Concern. Long-term survival tied to hollow trees."
-      },
-      {
-        "url": "https://www.environment.gov.au/cgi-bin/sprat/public/spratlookupspecies.pl?name=cockatoo",
-        "title": "SPRAT search: cockatoo",
-        "accessed": "2026-10-25",
-        "supports": "Threatened cockatoo profiles returned for Carnaby’s, Baudin’s, glossy and south-eastern red-tailed cockatoos and others. Zanda funerea is not among the threatened results."
-      },
-      {
-        "url": "https://data.gov.au/data/dataset/ae652011-f39e-4c6c-91b8-1dc2d2dfee8f/resource/78401dce-1f40-49d3-92c4-3713d6e34974/download/20260828spcs.csv",
-        "title": "EPBC Act List of Threatened Fauna and Flora, extracted 28 August 2026 — data.gov.au",
-        "accessed": "2026-10-25",
-        "supports": "Date extracted 2026-Aug-28. No row for Zanda funerea or Calyptorhynchus funereus."
-      },
-      {
-        "url": "https://www.environment.vic.gov.au/__data/assets/pdf_file/0027/741627/FFG_Threatened_List_March_2025.pdf",
-        "title": "Flora and Fauna Guarantee Act 1988 Threatened List, March 2025 — DEECA",
-        "accessed": "2026-10-25",
-        "supports": "Indexed bird tables name Gang-gang Cockatoo, Glossy Black-Cockatoo and the south-eastern Red-tailed Black-Cockatoo, and do not name Zanda funerea or Calyptorhynchus funereus. The July 2026 file could not be downloaded."
-      },
-      {
-        "url": "https://www.acf.org.au/our-work/nature/missing-wildlife/black-cockatoos",
-        "title": "Australia’s black cockatoos — Australian Conservation Foundation",
-        "accessed": "2026-10-25",
-        "supports": "Yellow-tailed Black Cockatoo treated as Secure in Australia and Vulnerable in South Australia. The page still uses Calyptorhynchus funereus."
-      },
-      {
-        "url": "https://www.environment.vic.gov.au/conserving-threatened-species/threatened-list",
-        "title": "Victoria's Threatened List and Processes List — DEECA",
-        "accessed": "2026-10-25",
-        "supports": "Current lists are the July 2026 PDF, DOCX and Excel files. The only amendment recorded for 2026 is the addition of Christmas Guinea-flower (Hibbertia porcata). No bird in this batch is named in that amendment note. Direct download of the July 2026 PDF and Excel returned HTTP 403."
+        "url": "https://birdlife.org.au/news/funeral-rites-yellow-tailed-black-cockatoo/",
+        "title": "Funeral Rites — BirdLife Australia",
+        "accessed": "2026-10-26",
+        "supports": "Describes birds feeding in a pine, tearing cones apart, and says the older foods were banksias, hakeas and she-oaks. Monterey Pine plantations since the 1920s shifted much of the feeding onto exotic conifers. Eucalypts form the hollows pines in plantations do not. The scene is not located at Inverleigh."
       }
+    ],
+    "trees": "Yellow-tailed Black-Cockatoos feed on hard native seeds and pine cones, and they nest in a large eucalypt hollow. Birds in Backyards and the Australian Museum say they favour eucalypt woodland and pine plantations, eat seeds of native trees and pine cones, plus some ground-plant seeds and insects, and nest in a large tree hollow lined with wood chips. BirdLife Australia says the older foods are banksia, hakea and casuarina seeds, and insect larvae in wattle branches, and that Monterey Pine cones are now a major food. Wikipedia's feeding account names Drooping Sheoak (Allocasuarina verticillata), Silver Banksia (Banksia marginata), wattles, and introduced Pinus radiata and a cypress, Cupressus torulosa. Nests are large hollows in tall eucalypts, and roosts are tall emergent eucalypts. Drooping Sheoak, Silver Banksia and several wattles are named for Inverleigh, and River Red Gum and Manna Gum are the local eucalypts. Indexed Leigh News text says sheoak cones are used by cockatoos and parrots, without naming this species. No 5 km record says which tree the birds were feeding in, and pine feeding at Inverleigh is not documented.",
+    "hangouts": "Within 5 km of Inverleigh, the Atlas of Living Australia holds 50 records of this species, and no locality string has more than 3. The highest are Hamilton Highway at Native Hut Creek, Murgheboluc (3) and Inverleigh Nature Conservation Reserve (3). Old Shelford Track at Carrah Track, Old Shelford Track between Common Road and Carrah Track, Inverleigh–Winchelsea Road between Thomas Road and Gnarwarre Road, and Lawson Reserve each have 2. Single records include High Street, the Barwon River south of town, and the misspelt Inverleifh Common. The counts are too sparse to name a favourite local spot.",
+    "alaLocalityEvidence": [
+      {
+        "locality": "Hamilton Hwy at Native Hut Creek, Murgheboluc",
+        "count": 3
+      },
+      {
+        "locality": "Inverleigh Nature Conservation Reserve",
+        "count": 3
+      },
+      {
+        "locality": "2565 Hamilton Highway, Inverleigh, Victoria, AU (-38.097, 144.084)",
+        "count": 2
+      },
+      {
+        "locality": "2637–2677 Hamilton Highway, Inverleigh AU-VIC -38.09826, 144.07771",
+        "count": 2
+      },
+      {
+        "locality": "Inverleigh Nature Conservation Reserve--Old Shelford Track at Carrah Track",
+        "count": 2
+      },
+      {
+        "locality": "Inverleigh Nature Conservation Reserve--Old Shelford Track b/w Common Rd and Carrah Track",
+        "count": 2
+      },
+      {
+        "locality": "Inverleigh VIC 3321 Inverleigh-Winchelsea Rd b/w Thomas Rd and Gnarwarre Rd",
+        "count": 2
+      },
+      {
+        "locality": "Inverleigh-Winchelsea Rd b/w Thomas Rd and Gnarwarre Rd",
+        "count": 2
+      },
+      {
+        "locality": "Lawson Reserve",
+        "count": 2
+      },
+      {
+        "locality": "UBLN Site 69 Maguire Property Leigh River (restricted access)",
+        "count": 2
+      },
+      {
+        "locality": "2766 Hamilton Hwy, Inverleigh AU-VIC -38.10007, 144.06129",
+        "count": 1
+      },
+      {
+        "locality": "Barwon River: Inverleigh 1km SSE of Inverleigh",
+        "count": 1
+      },
+      {
+        "locality": "Barwon River: S of Inverleigh",
+        "count": 1
+      },
+      {
+        "locality": "Hamilton Highway, Inverleigh (-38.096, 144.017)",
+        "count": 1
+      },
+      {
+        "locality": "Hamilton Highway, Inverleigh (-38.096, 144.018)",
+        "count": 1
+      },
+      {
+        "locality": "Hamilton Hwy at Dawber Rd, Inverleigh",
+        "count": 1
+      },
+      {
+        "locality": "Hamilton Hwy at Inverleigh-Shelford Rd",
+        "count": 1
+      },
+      {
+        "locality": "High Street, Inverleigh (-38.101, 144.058)",
+        "count": 1
+      },
+      {
+        "locality": "Inverleifh Common 3km N of Inverleigh",
+        "count": 1
+      },
+      {
+        "locality": "Inverleigh",
+        "count": 1
+      }
+    ],
+    "queries": [
+      "https://biocache-ws.ala.org.au/ws/occurrence/facets?q=species%3A%22Zanda%20funerea%22&lat=-38.10&lon=144.05&radius=5&facets=locality&flimit=20",
+      "https://biocache-ws.ala.org.au/ws/occurrence/facets?q=species%3A%22Zanda%20funerea%22&lat=-38.10&lon=144.05&radius=5&facets=dataResourceName&flimit=20",
+      "https://biocache-ws.ala.org.au/ws/occurrences/search?q=species%3A%22Zanda%20funerea%22&lat=-38.10&lon=144.05&radius=5&pageSize=0&facet=off",
+      "https://biocache-ws.ala.org.au/ws/occurrences/search?q=species%3A%22Zanda%20funerea%22&lat=-38.10&lon=144.05&radius=5&pageSize=5&fl=decimalLatitude,decimalLongitude,locality,dataResourceName,year&facet=off",
+      "https://biocache-ws.ala.org.au/ws/occurrence/facets?q=species%3A%22Calyptorhynchus%20funereus%22&lat=-38.10&lon=144.05&radius=5&facets=locality&flimit=20",
+      "https://biocache-ws.ala.org.au/ws/occurrence/facets?q=species%3A%22Calyptorhynchus%20funereus%22&lat=-38.10&lon=144.05&radius=5&facets=dataResourceName&flimit=20",
+      "https://biocache-ws.ala.org.au/ws/occurrences/search?q=species%3A%22Calyptorhynchus%20funereus%22&lat=-38.10&lon=144.05&radius=5&pageSize=0&facet=off",
+      "https://biocache-ws.ala.org.au/ws/occurrences/search?q=species%3A%22Calyptorhynchus%20funereus%22&lat=-38.10&lon=144.05&radius=5&pageSize=5&fl=decimalLatitude,decimalLongitude,locality,dataResourceName,year&facet=off",
+      "Inverleigh Nature Conservation Reserve vegetation Manna Gum River Red Gum Drooping Sheoak Hedge Wattle",
+      "eBird hotspot Inverleigh Nature Conservation Reserve Leigh River Barwon Bell Bridge Lawson",
+      "Corangamite CMA Leigh River Barwon Inverleigh River Red Gum riparian vegetation guide",
+      "https://inverleigh.org.au/features/nature-conservation/",
+      "https://www.recreatingthecountry.com.au/wild-plants-of-inverleigh.html",
+      "https://www.goldenplains.vic.gov.au/sites/default/files/Plains%20and%20Rivers%20Planting%20Guide.pdf",
+      "https://www.parks.vic.gov.au/places-to-see/parks/inverleigh-flora-reserve",
+      "https://www.melbourneplaygrounds.com.au/inverleigh-leigh-river-environmental-heritage-walk",
+      "https://www.melbourneplaygrounds.com.au/lawson-reserve-playground-cnr-cambridge-street-and-hamilton-highway-inverleigh",
+      "https://issuu.com/leighnews/docs/leigh_news_july_2023/s/27359474",
+      "https://ebird.org/hotspot/L2547650",
+      "Yellow-tailed Black-Cockatoo sheoak banksia pine feeding nest hollow Zanda funerea",
+      "https://www.birdsinbackyards.net/species/Zanda-funerea",
+      "https://www.birdsinbackyards.net/species/Calyptorhynchus-funereus",
+      "https://australian.museum/learn/animals/birds/yellow-tailed-black-cockatoo/",
+      "https://en.wikipedia.org/wiki/Yellow-tailed_black_cockatoo",
+      "https://birdlife.org.au/bird-profiles/yellow-tailed-black-cockatoo/",
+      "https://birdlife.org.au/news/funeral-rites-yellow-tailed-black-cockatoo/"
     ]
   }
 }

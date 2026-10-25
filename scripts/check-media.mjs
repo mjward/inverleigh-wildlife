@@ -5,6 +5,13 @@ import fs from "node:fs";
 const birds = JSON.parse(fs.readFileSync(new URL("../lib/birds.json", import.meta.url)));
 const UA = { "User-Agent": "InverleighWildlife-check/1.0 (mjward@pm.me)" };
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+const rawFetch = globalThis.fetch;
+// Retry transient network errors so one dropped socket doesn't fail the whole check.
+const fetch = async (u, o) => {
+  for (let i = 0; ; i++) {
+    try { return await rawFetch(u, o); } catch (e) { if (i >= 3) throw e; await sleep(2000 * (i + 1)); }
+  }
+};
 
 async function commonsBlob(title) {
   const u = "https://commons.wikimedia.org/w/api.php?action=query&format=json&prop=imageinfo|categories&cllimit=50&iiprop=extmetadata&titles=" + encodeURIComponent(title);
@@ -46,7 +53,7 @@ for (const b of birds) {
       aok = (await xcTaxon(b.audio.xcId)) === sci;
     } else if (b.audio.source === "iNaturalist") {
       const t = await inatTaxon(b.audio.sourceUrl);
-      aok = t.name.toLowerCase() === sci && t.grade === "research";
+      aok = (t.name.toLowerCase() + " ").startsWith(sci + " ") && t.grade === "research";
     } else {
       const ab = await commonsBlob(b.audio.title);
       aok = ab.includes(sci) || ab.includes(sci.replace(" ", "_"));
@@ -55,6 +62,33 @@ for (const b of birds) {
     if (!aok) fail++;
   } else console.log(`– audio  ${b.commonName}: none`);
   if (!fs.existsSync(new URL(`../public${b.photo.src}`, import.meta.url))) { console.log(`✗ missing file ${b.photo.src}`); fail++; }
+  await sleep(400);
+}
+// Mammals and reptiles (lib/wildlife-media.json). Scientific names come from content/*.ts.
+const media = JSON.parse(fs.readFileSync(new URL("../lib/wildlife-media.json", import.meta.url)));
+const sciOf = {};
+for (const f of ["mammals", "reptiles"]) {
+  const src = fs.readFileSync(new URL(`../content/${f}.ts`, import.meta.url), "utf8");
+  for (const x of JSON.parse(src.slice(src.indexOf("= [") + 2, src.lastIndexOf("]") + 1))) sciOf[x.id] = x.scientificName;
+}
+async function checkOne(label, m, sci) {
+  let ok;
+  if (m.source === "iNaturalist") {
+    const t = await inatTaxon(m.sourceUrl);
+    ok = (t.name.toLowerCase() + " ").startsWith(sci + " ") && t.grade === "research";
+  } else {
+    const blob = await commonsBlob(m.title);
+    ok = blob.includes(sci) || blob.includes(sci.replace(" ", "_"));
+  }
+  if (!fs.existsSync(new URL(`../public${m.src}`, import.meta.url))) ok = false;
+  console.log(`${ok ? "✓" : "✗"} ${label}: ${m.title}`);
+  if (!ok) fail++;
+}
+for (const [slug, e] of Object.entries(media)) {
+  const sci = (sciOf[slug] || "").toLowerCase();
+  if (!sci) { console.log(`✗ ${slug}: unknown species`); fail++; continue; }
+  if (e.photo) await checkOne(`photo  ${slug}`, e.photo, sci); else console.log(`– photo  ${slug}: none (placeholder)`);
+  if (e.audio) await checkOne(`audio  ${slug}`, e.audio, sci);
   await sleep(400);
 }
 console.log(fail ? `\n${fail} problem(s)` : "\nAll media verified");
