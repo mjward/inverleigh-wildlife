@@ -2,7 +2,7 @@ import { snakeFirstAid as s } from "@/content/safety";
 
 export function SnakeSafety({ compact = false }: { compact?: boolean }) {
   return (
-    <section id="snake-safety" className="rounded-3xl border-2 border-red-700 bg-red-50 p-6 text-stone-800">
+    <section id="snake-safety" className="scroll-mt-24 rounded-3xl border-2 border-red-700 bg-red-50 p-6 text-stone-800">
       <h2 className="font-serif text-2xl text-red-900">Snake safety &amp; first aid</h2>
       <p className="mt-1 font-semibold text-red-900">Snake bite is a medical emergency. Call triple zero (000).</p>
       <div className={`mt-4 grid gap-6 ${compact ? "" : "md:grid-cols-2"}`}>

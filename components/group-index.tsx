@@ -21,7 +21,7 @@ function Article({ id }: { id: string }) {
   const a = article(id);
   if (!a) return null;
   return (
-    <section className="rounded-2xl bg-white p-6 ring-1 ring-stone-200">
+    <section id={id} className="scroll-mt-24 rounded-2xl bg-white p-6 ring-1 ring-stone-200">
       <h2 className="font-serif text-2xl text-emerald-950">{a.title}</h2>
       <div className="mt-3 space-y-2 text-stone-700">
         {Object.entries(a.text).filter(([k]) => !["size"].includes(k)).map(([k, v]) => <p key={k}>{v}</p>)}
