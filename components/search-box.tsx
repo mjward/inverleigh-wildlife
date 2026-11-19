@@ -111,7 +111,7 @@ export function SearchBox({ items }: { items: SearchItem[] }) {
           aria-autocomplete="list"
           aria-activedescendant={showList && active >= 0 ? `${id}-opt-${active}` : undefined}
           autoComplete="off"
-          placeholder="Search birds, mammals, reptiles…"
+          placeholder="Search birds, mammals, insects…"
           value={value}
           onChange={(e) => { setValue(e.target.value); setOpen(true); }}
           onFocus={() => setOpen(true)}

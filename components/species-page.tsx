@@ -1,30 +1,35 @@
 import Image from "next/image";
 import Link from "next/link";
 import type { Group, Species } from "@/lib/wildlife";
-import { NO_LOCAL_RECORDS } from "@/lib/wildlife";
+import { NO_LOCAL_RECORDS, THREATENED_CAVEAT, WEAK_EVIDENCE } from "@/lib/wildlife";
 import { koalaWhatToDo } from "@/content/safety";
 import { PlayButton } from "./play-button";
 import { Credit } from "./credit";
 import { SnakeSafety } from "./snake-safety";
+import { RedbackSafety } from "./redback-safety";
 import { PhotoPlaceholder, TierNote } from "./species-card";
 
 const LABELS: [string, string][] = [
   ["identification", "Identification"],
+  ["season", "Season"],
   ["venom", "Venom"],
   ["origins", "Origins"],
   ["distribution", "Distribution"],
   ["habitat", "Habitat"],
   ["trees", "Trees and shelter"],
   ["hangouts", "Around Inverleigh"],
+  ["whereToSeeLocally", "Where to look around Inverleigh"],
   ["activity", "When it's active"],
   ["activeSeason", "Active season"],
   ["bestViewing", "Best chance of seeing one"],
   ["breeding", "Breeding"],
   ["diet", "Diet"],
+  ["hostPlants", "Food and host plants"],
   ["threats", "Predators & threats"],
   ["impacts", "Impacts"],
   ["legalStatus", "Legal status"],
   ["whatToDo", "What to do"],
+  ["safety", "Stings, bites & handling"],
   ["conservation", "Conservation status"],
 ];
 
@@ -51,7 +56,8 @@ export function SpeciesPage({ s, back }: { s: Species; back: { href: string; lab
           {NO_LOCAL_RECORDS.has(s.slug) && (
             <p className="mt-3 rounded-xl bg-stone-100 p-3 text-sm text-stone-700">There are no Atlas of Living Australia or iNaturalist records of this species within 10 km of Inverleigh. It's included because it's discussed locally, not because it's been seen here.</p>
           )}
-          {s.tier === "10km" && !NO_LOCAL_RECORDS.has(s.slug) && (
+          {s.group === "insects" && <InsectNotes s={s} />}
+          {s.group !== "insects" && s.tier === "10km" && !NO_LOCAL_RECORDS.has(s.slug) && (
             <p className="mt-3 rounded-xl bg-amber-50 p-3 text-sm text-amber-900">Occasionally recorded: only recorded 5–10 km from town, and rarely.</p>
           )}
           {t.size && <p className="mt-4 text-sm"><span className="text-stone-500">Size: </span>{t.size}</p>}
@@ -70,6 +76,7 @@ export function SpeciesPage({ s, back }: { s: Species; back: { href: string; lab
         </div>
       </div>
       {s.kind === "snake" && <div className="mt-10"><SnakeSafety /></div>}
+      {s.slug === "redback-spider" && <div className="mt-10"><RedbackSafety /></div>}
       <div className="mt-8 grid gap-x-12 lg:grid-cols-2">
         {LABELS.filter(([k]) => t[k]).map(([k, label]) => (
           <section key={k} className="border-t border-stone-200 py-5">
@@ -78,6 +85,12 @@ export function SpeciesPage({ s, back }: { s: Species; back: { href: string; lab
           </section>
         ))}
       </div>
+      {s.group === "insects" && s.notWellDocumented.length > 0 && (
+        <section className="border-t border-stone-200 py-6">
+          <h2 className="mb-2 font-serif text-xl text-emerald-950">Not well documented</h2>
+          <ul className="list-disc space-y-1 pl-5 text-sm text-stone-700">{s.notWellDocumented.map((x) => <li key={x}>{x}</li>)}</ul>
+        </section>
+      )}
       <section className="border-t border-stone-200 py-6">
         <h2 className="mb-2 font-serif text-xl text-emerald-950">Sources</h2>
         <ul className="list-disc space-y-1 pl-5 text-sm">
@@ -89,6 +102,37 @@ export function SpeciesPage({ s, back }: { s: Species; back: { href: string; lab
   );
 }
 
+function InsectNotes({ s }: { s: Species }) {
+  const threatened = THREATENED_CAVEAT[s.slug];
+  const weak = WEAK_EVIDENCE[s.slug];
+  const r = s.records;
+  return (
+    <>
+      {threatened && (
+        <div className="mt-4 rounded-xl border-2 border-red-700 bg-red-50 p-4 text-sm text-red-950">
+          <p className="font-semibold">Threatened: {threatened.status}</p>
+          <p className="mt-1"><span className="font-semibold">Caveat: </span>{threatened.caveat}</p>
+        </div>
+      )}
+      {weak && (
+        <p className="mt-3 rounded-xl bg-orange-50 p-3 text-sm text-orange-950 ring-1 ring-orange-200"><span className="font-semibold">Weak local evidence: </span>{weak}</p>
+      )}
+      {s.introduced && <p className="mt-3 rounded-xl bg-stone-100 p-3 text-sm text-stone-700">Introduced: not native to Australia.</p>}
+      {s.noCommonName && <p className="mt-3 text-sm text-stone-600">This bee has no standard common name.</p>}
+      {r && (
+        <p className="mt-3 text-xs text-stone-500">
+          Records within 5 km: ALA {r.ALA5}, iNaturalist {r.iNat5}. Within 10 km: ALA {r.ALA10}, iNaturalist {r.iNat10}.
+        </p>
+      )}
+    </>
+  );
+}
+
+const BACK: Record<Group, { href: string; label: string }> = {
+  mammals: { href: "/mammals", label: "All mammals" },
+  reptiles: { href: "/reptiles", label: "All reptiles" },
+  insects: { href: "/insects", label: "All insects & spiders" },
+};
 export function groupBack(g: Group) {
-  return g === "mammals" ? { href: "/mammals", label: "All mammals" } : { href: "/reptiles", label: "All reptiles" };
+  return BACK[g];
 }
