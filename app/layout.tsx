@@ -29,6 +29,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
               <Link href="/#birds" className="hover:text-emerald-800">Birds</Link>
               <Link href="/mammals" className="hover:text-emerald-800">Mammals</Link>
               <Link href="/reptiles" className="hover:text-emerald-800">Reptiles</Link>
+              <Link href="/insects" className="hover:text-emerald-800">Insects</Link>
               <Link href="/credits" className="hover:text-emerald-800">Credits</Link>
             </div>
           </nav>

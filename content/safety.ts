@@ -32,3 +32,25 @@ export const snakeFirstAid = {
 
 export const koalaWhatToDo =
   "Don't approach or handle a koala. If one is hurt, on the ground or moving slowly, stop only if it's safe, watch from a distance and call Wildlife Victoria's 24/7 emergency line on (03) 8400 7300. A koala that climbed a tree after being hit by a car may still need a vet. If an uninjured koala is in a garden tree, keep dogs inside; it will usually move on within a day or two.";
+
+// Written for this site from the Better Health Channel "Bites and stings – first aid"
+// page (spider bites section), checked 20 Nov 2026. Not a substitute for a first-aid course.
+export const redbackFirstAid = {
+  sourceLabel: "Better Health Channel — Bites and stings: first aid (spider bites)",
+  sourceUrl: "https://www.betterhealth.vic.gov.au/health/healthyliving/bites-and-stings-first-aid",
+  avoid: [
+    "Only the female's bite is dangerous. Redback bites usually aren't life-threatening, but they can be very painful.",
+    "Redbacks rarely leave their webs, so bites happen when a hand goes into one. Wear gloves in sheds, meter boxes and woodpiles, and shake out shoes and gloves left outside.",
+    "Symptoms can include pain that gets worse and spreads, patchy sweating, hairs standing on end, headache, nausea and muscle weakness.",
+  ],
+  steps: [
+    "Wash the bite well with soap and water.",
+    "Soothe the pain with a cold pack or iced water for 15 minutes, and reapply if the pain continues. Simple pain relief such as paracetamol can help.",
+    "Seek medical help if symptoms get worse. Call the Victorian Poisons Information Centre on 13 11 26 for advice.",
+    "Call triple zero (000) if the person has trouble breathing, collapses or becomes confused.",
+  ],
+  dont: [
+    "Don't bandage the bite. Unlike snake bites, pressure makes redback pain worse.",
+    "Don't cut the bite or use a tourniquet.",
+  ],
+};

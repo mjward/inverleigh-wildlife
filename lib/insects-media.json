@@ -1,0 +1,688 @@
+{
+ "common-brown": {
+  "photo": {
+   "title": "File:Common_brown_(Heteronympha_merope_merope)_male_Kangaroo_Island.jpg",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Common_brown_(Heteronympha_merope_merope)_male_Kangaroo_Island.jpg",
+   "author": "Charles J. Sharp",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source": "Wikimedia Commons",
+   "verifiedBy": "scientific name in Commons title/description/categories",
+   "src": "/wildlife/common-brown.webp",
+   "width": 1600,
+   "height": 1067
+  },
+  "audio": null,
+  "tried": []
+ },
+ "australian-painted-lady": {
+  "photo": {
+   "title": "File:Vanessa kershawi 33423797.jpg",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vanessa_kershawi_33423797.jpg",
+   "author": "Rolf Lawrenz",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+   "source": "Wikimedia Commons",
+   "verifiedBy": "scientific name in Commons title/description/categories",
+   "src": "/wildlife/australian-painted-lady.webp",
+   "width": 1600,
+   "height": 1087
+  },
+  "audio": null,
+  "tried": [
+   "Wikipedia lead image for Vanessa kershawi: File:Australian_painted_lady_feeding.jpg rejected (licence GFDL 1.2)"
+  ]
+ },
+ "common-grass-blue": {
+  "photo": {
+   "title": "iNaturalist observation 321556101",
+   "sourceUrl": "https://www.inaturalist.org/observations/321556101",
+   "author": "themaskedlapwing (CC0, no rights reserved)",
+   "license": "CC0",
+   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "source": "iNaturalist",
+   "verifiedBy": "research-grade observation, taxon Zizina otis",
+   "src": "/wildlife/common-grass-blue.webp",
+   "width": 1024,
+   "height": 1024
+  },
+  "audio": null,
+  "tried": [
+   "Wikimedia Commons: File:Lesser_grass_blue_(Zizina_otis_lampa)_male_I.jpg not used (Wikipedia lead image was Z. otis lampa photographed in Indonesia; replaced with an Australian research-grade observation)"
+  ]
+ },
+ "small-white": {
+  "photo": {
+   "title": "File:Pieris.rapae.mounted.jpg",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pieris.rapae.mounted.jpg",
+   "author": "Sarefo",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+   "source": "Wikimedia Commons",
+   "verifiedBy": "scientific name in Commons title/description/categories",
+   "src": "/wildlife/small-white.webp",
+   "width": 1520,
+   "height": 964
+  },
+  "audio": null,
+  "tried": []
+ },
+ "klugs-xenica": {
+  "photo": {
+   "title": "iNaturalist observation 18124174",
+   "sourceUrl": "https://www.inaturalist.org/observations/18124174",
+   "author": "(c) Rolf Lawrenz, some rights reserved (CC BY)",
+   "license": "CC BY",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "source": "iNaturalist",
+   "verifiedBy": "research-grade observation, taxon Geitoneura klugii",
+   "src": "/wildlife/klugs-xenica.webp",
+   "width": 1024,
+   "height": 656
+  },
+  "audio": null,
+  "tried": [
+   "Wikipedia lead image for Geitoneura klugii: File:Geitoneura_klugii3.jpg rejected (licence GFDL 1.2)",
+   "Wikimedia Commons: File:Geitoneura klugii (32703207425).jpg not used (Wikipedia lead image showed the butterfly barely visible against leaf litter; replaced with a clearer photo)"
+  ]
+ },
+ "imperial-jezebel": {
+  "photo": {
+   "title": "File:Delias_harpalyce_Common_White_Longford_Victoria_Australia_2005.jpg",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Delias_harpalyce_Common_White_Longford_Victoria_Australia_2005.jpg",
+   "author": "Neil Hamilton Mansfield",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "source": "Wikimedia Commons",
+   "verifiedBy": "scientific name in Commons title/description/categories",
+   "src": "/wildlife/imperial-jezebel.webp",
+   "width": 1600,
+   "height": 1062
+  },
+  "audio": null,
+  "tried": []
+ },
+ "grassland-copper": {
+  "photo": {
+   "title": "iNaturalist observation 109108594",
+   "sourceUrl": "https://www.inaturalist.org/observations/109108594",
+   "author": "(c) Rod Lowther, some rights reserved (CC BY)",
+   "license": "CC BY",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "source": "iNaturalist",
+   "verifiedBy": "research-grade observation, taxon Lucia limbaria",
+   "src": "/wildlife/grassland-copper.webp",
+   "width": 1024,
+   "height": 713
+  },
+  "audio": null,
+  "tried": [
+   "Wikimedia Commons: File:Lucia_limbaria_(ento-csiro-au).jpg not used (Commons file is a CSIRO illustration (Category: Lepidoptera illustrations from CSIRO), not a photo)"
+  ]
+ },
+ "tau-emerald": {
+  "photo": {
+   "title": "File:Hemicordulia_tau_-_Sandford.jpg",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hemicordulia_tau_-_Sandford.jpg",
+   "author": "JJ Harrison (https://www.jjharrison.com.au/)",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "source": "Wikimedia Commons",
+   "verifiedBy": "scientific name in Commons title/description/categories",
+   "src": "/wildlife/tau-emerald.webp",
+   "width": 1600,
+   "height": 1067
+  },
+  "audio": null,
+  "tried": []
+ },
+ "wandering-ringtail": {
+  "photo": {
+   "title": "File:Male_Wandering_Ringtail_on_persicaria_(16855913987).jpg",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Male_Wandering_Ringtail_on_persicaria_(16855913987).jpg",
+   "author": "John Tann from Sydney, Australia",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+   "source": "Wikimedia Commons",
+   "verifiedBy": "scientific name in Commons title/description/categories",
+   "src": "/wildlife/wandering-ringtail.webp",
+   "width": 1600,
+   "height": 899
+  },
+  "audio": null,
+  "tried": []
+ },
+ "red-and-blue-damsel": {
+  "photo": {
+   "title": "File:Xanthagrion_erythroneurum_1.jpg",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Xanthagrion_erythroneurum_1.jpg",
+   "author": "JJ Harrison (https://www.jjharrison.com.au/)",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "source": "Wikimedia Commons",
+   "verifiedBy": "scientific name in Commons title/description/categories",
+   "src": "/wildlife/red-and-blue-damsel.webp",
+   "width": 1093,
+   "height": 1640
+  },
+  "audio": null,
+  "tried": []
+ },
+ "wandering-percher": {
+  "photo": {
+   "title": "File:Diplacodes_bipunctata_1673.jpg",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Diplacodes_bipunctata_1673.jpg",
+   "author": "Summerdrought",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source": "Wikimedia Commons",
+   "verifiedBy": "scientific name in Commons title/description/categories",
+   "src": "/wildlife/wandering-percher.webp",
+   "width": 1600,
+   "height": 1200
+  },
+  "audio": null,
+  "tried": []
+ },
+ "blue-skimmer": {
+  "photo": {
+   "title": "File:Orthetrum_caledonicum_male.jpg",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Orthetrum_caledonicum_male.jpg",
+   "author": "Toby Hudson",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "source": "Wikimedia Commons",
+   "verifiedBy": "scientific name in Commons title/description/categories",
+   "src": "/wildlife/blue-skimmer.webp",
+   "width": 1600,
+   "height": 1067
+  },
+  "audio": null,
+  "tried": []
+ },
+ "western-honey-bee": {
+  "photo": {
+   "title": "File:Apis_mellifera_Western_honey_bee.jpg",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Apis_mellifera_Western_honey_bee.jpg",
+   "author": "Andreas Trepte",
+   "license": "CC BY-SA 2.5",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+   "source": "Wikimedia Commons",
+   "verifiedBy": "scientific name in Commons title/description/categories",
+   "src": "/wildlife/western-honey-bee.webp",
+   "width": 1600,
+   "height": 1331
+  },
+  "audio": null,
+  "tried": []
+ },
+ "woolly-sweat-bee": {
+  "photo": {
+   "title": "File:Lasioglossum_lanarium_f.jpg",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lasioglossum_lanarium_f.jpg",
+   "author": "Ken Walker, Museum Victoria",
+   "license": "CC BY 3.0 au",
+   "licenseUrl": "https://creativecommons.org/licenses/by/3.0/au/deed.en",
+   "source": "Wikimedia Commons",
+   "verifiedBy": "scientific name in Commons title/description/categories",
+   "src": "/wildlife/woolly-sweat-bee.webp",
+   "width": 720,
+   "height": 540
+  },
+  "audio": null,
+  "tried": []
+ },
+ "green-and-gold-nomia-bee": {
+  "photo": {
+   "title": "File:Lipotriches_australica_male.jpg",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lipotriches_australica_male.jpg",
+   "author": "Heath Hunter",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source": "Wikimedia Commons",
+   "verifiedBy": "scientific name in Commons title/description/categories",
+   "src": "/wildlife/green-and-gold-nomia-bee.webp",
+   "width": 1600,
+   "height": 1666
+  },
+  "audio": null,
+  "tried": []
+ },
+ "megachile-ferox": {
+  "photo": {
+   "title": "File:Megachile_ferox.jpg",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Megachile_ferox.jpg",
+   "author": "Nora Peters, Oz Wild Birds",
+   "license": "CC BY 3.0 au",
+   "licenseUrl": "https://creativecommons.org/licenses/by/3.0/au/deed.en",
+   "source": "Wikimedia Commons",
+   "verifiedBy": "scientific name in Commons title/description/categories",
+   "src": "/wildlife/megachile-ferox.webp",
+   "width": 720,
+   "height": 540
+  },
+  "audio": null,
+  "tried": []
+ },
+ "golden-stag-beetle": {
+  "photo": {
+   "title": "File:Lamprima aurata (6475747331).jpg",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lamprima_aurata_(6475747331).jpg",
+   "author": "Donald Hobern from Copenhagen, Denmark",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+   "source": "Wikimedia Commons",
+   "verifiedBy": "scientific name in Commons title/description/categories",
+   "src": "/wildlife/golden-stag-beetle.webp",
+   "width": 1600,
+   "height": 1200
+  },
+  "audio": null,
+  "tried": [
+   "Wikipedia lead image for Lamprima aurata: File:Golden_stag_beetle.jpg rejected (licence GFDL 1.2)",
+   "Commons search intitle:\"Lamprima aurata\": File:COLE Lucanidae Lamprima aurata m.png skipped (not a photo JPEG)"
+  ]
+ },
+ "tricolor-soldier-beetle": {
+  "photo": {
+   "title": "File:Tricolor_Soldier_Beetle_(Chauliognathus_tricolor)_(32807583493).jpg",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tricolor_Soldier_Beetle_(Chauliognathus_tricolor)_(32807583493).jpg",
+   "author": "patrickkavanagh",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+   "source": "Wikimedia Commons",
+   "verifiedBy": "scientific name in Commons title/description/categories",
+   "src": "/wildlife/tricolor-soldier-beetle.webp",
+   "width": 1200,
+   "height": 712
+  },
+  "audio": null,
+  "tried": []
+ },
+ "fiddler-beetle": {
+  "photo": {
+   "title": "File:Eupoecila australasiae 248260832.jpg",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Eupoecila_australasiae_248260832.jpg",
+   "author": "tjeales",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source": "Wikimedia Commons",
+   "verifiedBy": "scientific name in Commons title/description/categories",
+   "src": "/wildlife/fiddler-beetle.webp",
+   "width": 1600,
+   "height": 1280
+  },
+  "audio": null,
+  "tried": [
+   "Wikipedia lead image for Eupoecila australasiae: File:Fiddler_beetle_nov07.jpg rejected (licence GFDL 1.2)",
+   "Commons search intitle:\"Eupoecila australasiae\": File:Eupoecila australasiae (Donovan, 1805) (16492933178).png skipped (not a photo JPEG)"
+  ]
+ },
+ "bull-horned-dung-beetle": {
+  "photo": {
+   "title": "File:Bull-headed_Dung_Beetle_imported_from_iNaturalist_photo_308636278_on_6_August_2024.jpg",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bull-headed_Dung_Beetle_imported_from_iNaturalist_photo_308636278_on_6_August_2024.jpg",
+   "author": "(c) Don Loarie, some rights reserved (CC BY)",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+   "source": "Wikimedia Commons",
+   "verifiedBy": "scientific name in Commons title/description/categories",
+   "src": "/wildlife/bull-horned-dung-beetle.webp",
+   "width": 1600,
+   "height": 1118
+  },
+  "audio": null,
+  "tried": []
+ },
+ "fulvus-dung-beetle": {
+  "photo": {
+   "title": "iNaturalist observation 174493405",
+   "sourceUrl": "https://www.inaturalist.org/observations/174493405",
+   "author": "(c) Samuele, some rights reserved (CC BY)",
+   "license": "CC BY",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "source": "iNaturalist",
+   "verifiedBy": "research-grade observation, taxon Euoniticellus fulvus",
+   "src": "/wildlife/fulvus-dung-beetle.webp",
+   "width": 1024,
+   "height": 768
+  },
+  "audio": null,
+  "tried": [
+   "Wikipedia lead image for Euoniticellus fulvus: none",
+   "Wikimedia Commons: File:Euoniticellus.fulvus.-.calwer.21.12.jpg not used (Commons result was a 19th-century illustration, not a photo)"
+  ]
+ },
+ "emperor-gum-moth": {
+  "photo": {
+   "title": "File:Opodiphthera eucalypti (3239197371).jpg",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Opodiphthera_eucalypti_(3239197371).jpg",
+   "author": "Donald Hobern from Copenhagen, Denmark",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+   "source": "Wikimedia Commons",
+   "verifiedBy": "scientific name in Commons title/description/categories",
+   "src": "/wildlife/emperor-gum-moth.webp",
+   "width": 1600,
+   "height": 1200
+  },
+  "audio": null,
+  "tried": [
+   "Wikipedia lead image for Opodiphthera eucalypti: File:Female_emperor_gum_moth.jpg rejected (licence GFDL 1.2)"
+  ]
+ },
+ "painted-cup-moth": {
+  "photo": {
+   "title": "iNaturalist observation 46798968",
+   "sourceUrl": "https://www.inaturalist.org/observations/46798968",
+   "author": "(c) Cathy Powers, some rights reserved (CC BY)",
+   "license": "CC BY",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "source": "iNaturalist",
+   "verifiedBy": "research-grade observation, taxon Doratifera oxleyi",
+   "src": "/wildlife/painted-cup-moth.webp",
+   "width": 1024,
+   "height": 807
+  },
+  "audio": null,
+  "tried": [
+   "Wikimedia Commons: File:Doratifera_oxleyi_(ento-csiro-au).jpg not used (Commons file is a CSIRO illustration (Category: Lepidoptera illustrations from CSIRO), not a photo)"
+  ]
+ },
+ "satin-green-forester": {
+  "photo": {
+   "title": "iNaturalist observation 47688317",
+   "sourceUrl": "https://www.inaturalist.org/observations/47688317",
+   "author": "(c) Russell Best, some rights reserved (CC BY)",
+   "license": "CC BY",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "source": "iNaturalist",
+   "verifiedBy": "research-grade observation, taxon Pollanisus viridipulverulenta",
+   "src": "/wildlife/satin-green-forester.webp",
+   "width": 1024,
+   "height": 834
+  },
+  "audio": null,
+  "tried": [
+   "Wikipedia lead image for Pollanisus viridipulverulenta: File:Pollanisus_viridipulverulentus.jpg rejected (scientific name not in Commons title/description/categories)",
+   "Commons search intitle:\"Pollanisus viridipulverulenta\": no files"
+  ]
+ },
+ "golden-sun-moth": {
+  "photo": {
+   "title": "iNaturalist observation 17234771",
+   "sourceUrl": "https://www.inaturalist.org/observations/17234771",
+   "author": "(c) Rolf Lawrenz, some rights reserved (CC BY)",
+   "license": "CC BY",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "source": "iNaturalist",
+   "verifiedBy": "research-grade observation, taxon Synemon plana",
+   "src": "/wildlife/golden-sun-moth.webp",
+   "width": 1024,
+   "height": 680
+  },
+  "audio": null,
+  "tried": [
+   "Wikimedia Commons: File:Synemon_plana_at_Australian_Museum.jpg not used (Commons file shows two pinned museum specimens; replaced with a live research-grade photo)"
+  ]
+ },
+ "wingless-grasshopper": {
+  "photo": {
+   "title": "File:Phaulacridium_vittatum_(4590719032).jpg",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Phaulacridium_vittatum_(4590719032).jpg",
+   "author": "Donald Hobern from Copenhagen, Denmark",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+   "source": "Wikimedia Commons",
+   "verifiedBy": "scientific name in Commons title/description/categories",
+   "src": "/wildlife/wingless-grasshopper.webp",
+   "width": 1600,
+   "height": 1200
+  },
+  "audio": null,
+  "tried": []
+ },
+ "australian-yellow-winged-locust": {
+  "photo": {
+   "title": "File:Gastrimargus_musicus.jpg",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gastrimargus_musicus.jpg",
+   "author": "Toby Hudson",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "source": "Wikimedia Commons",
+   "verifiedBy": "scientific name in Commons title/description/categories",
+   "src": "/wildlife/australian-yellow-winged-locust.webp",
+   "width": 1600,
+   "height": 1000
+  },
+  "audio": null,
+  "tried": []
+ },
+ "giant-green-slantface": {
+  "photo": {
+   "title": "File:Acrida conica (14576964094).jpg",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Acrida_conica_(14576964094).jpg",
+   "author": "Graham Wise from Brisbane, Australia",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+   "source": "Wikimedia Commons",
+   "verifiedBy": "scientific name in Commons title/description/categories",
+   "src": "/wildlife/giant-green-slantface.webp",
+   "width": 1600,
+   "height": 2400
+  },
+  "audio": null,
+  "tried": [
+   "Wikipedia lead image for Acrida conica: File:Acrida_Conica.jpg rejected (licence GFDL 1.2)"
+  ]
+ },
+ "eastern-oedaleus": {
+  "photo": {
+   "title": "File:Oedaleus_australis_(23931527789).jpg",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Oedaleus_australis_(23931527789).jpg",
+   "author": "Donald Hobern from Copenhagen, Denmark",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+   "source": "Wikimedia Commons",
+   "verifiedBy": "scientific name in Commons title/description/categories",
+   "src": "/wildlife/eastern-oedaleus.webp",
+   "width": 1600,
+   "height": 1067
+  },
+  "audio": null,
+  "tried": []
+ },
+ "australian-plague-locust": {
+  "photo": {
+   "title": "iNaturalist observation 67840301",
+   "sourceUrl": "https://www.inaturalist.org/observations/67840301",
+   "author": "(c) dhfischer, some rights reserved (CC BY)",
+   "license": "CC BY",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "source": "iNaturalist",
+   "verifiedBy": "research-grade observation, taxon Chortoicetes terminifera",
+   "src": "/wildlife/australian-plague-locust.webp",
+   "width": 1024,
+   "height": 682
+  },
+  "audio": null,
+  "tried": [
+   "Wikimedia Commons: File:Chortoicetes_terminifera_(Walker)_cain629.jpg not used (Commons file is a CSIRO pinned-specimen image; replaced with a live research-grade photo)"
+  ]
+ },
+ "southern-meat-ant": {
+  "photo": {
+   "title": "File:Meat Ant (Iridomyrmex purpureus).jpg",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Meat_Ant_(Iridomyrmex_purpureus).jpg",
+   "author": "patrickkavanagh",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+   "source": "Wikimedia Commons",
+   "verifiedBy": "scientific name in Commons title/description/categories",
+   "src": "/wildlife/southern-meat-ant.webp",
+   "width": 1400,
+   "height": 934
+  },
+  "audio": null,
+  "tried": [
+   "Wikipedia lead image for Iridomyrmex purpureus: File:Meat_eater_ant_feeding_on_honey02.jpg rejected (licence GFDL 1.2)",
+   "Wikimedia Commons: File:Iridomyrmex purpureus 'meat ant' nest 7th Brigade Park Chermside L1100387.jpg not used (Wikipedia lead image shows a nest mound with ants barely visible)"
+  ]
+ },
+ "jack-jumper-ant": {
+  "photo": {
+   "title": "File:Myrmecia.pilosula.jpg",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Myrmecia.pilosula.jpg",
+   "author": "en:User:Ways",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+   "source": "Wikimedia Commons",
+   "verifiedBy": "scientific name in Commons title/description/categories",
+   "src": "/wildlife/jack-jumper-ant.webp",
+   "width": 800,
+   "height": 600
+  },
+  "audio": null,
+  "tried": [
+   "Wikipedia lead image for Myrmecia pilosula: File:Shattuck_C25795-1,_ANIC32-023626,_Myrmecia,_near_Bungendore,_NSW.png skipped (not a photo JPEG)",
+   "Commons search intitle:\"Myrmecia pilosula\": File:Myrmecia pilosula distribution map.png skipped (not a photo JPEG)",
+   "Wikimedia Commons: File:Myrmecia pilosula specimen mandibles.jpg not used (Wikipedia lead image is a museum close-up of the mandibles)"
+  ]
+ },
+ "black-scaped-bull-ant": {
+  "photo": {
+   "title": "File:Communication_in_bulldog_ants_(Myrmecia_nigriscapa)_Sydney,_Australia.jpeg",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Communication_in_bulldog_ants_(Myrmecia_nigriscapa)_Sydney,_Australia.jpeg",
+   "author": "Sylvain Dubey (University of Lausanne)",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+   "source": "Wikimedia Commons",
+   "verifiedBy": "scientific name in Commons title/description/categories",
+   "src": "/wildlife/black-scaped-bull-ant.webp",
+   "width": 1600,
+   "height": 996
+  },
+  "audio": null,
+  "tried": []
+ },
+ "banded-sugar-ant": {
+  "photo": {
+   "title": "iNaturalist observation 91405799",
+   "sourceUrl": "https://www.inaturalist.org/observations/91405799",
+   "author": "Claudia Schipp (CC0, no rights reserved)",
+   "license": "CC0",
+   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "source": "iNaturalist",
+   "verifiedBy": "research-grade observation, taxon Camponotus consobrinus",
+   "src": "/wildlife/banded-sugar-ant.webp",
+   "width": 1024,
+   "height": 1024
+  },
+  "audio": null,
+  "tried": [
+   "Wikimedia Commons: File:Black-headed_sugar_ant.jpg not used (Commons file is labelled C. consobrinus but titled 'Black-headed sugar ant' (a name used for C. nigriceps); replaced with a research-grade observation to avoid ambiguity)"
+  ]
+ },
+ "european-wasp": {
+  "photo": {
+   "title": "File:Vespula germanica Richard Bartz.jpg",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vespula_germanica_Richard_Bartz.jpg",
+   "author": "Richard Bartz, Munich aka Makro Freak",
+   "license": "CC BY-SA 2.5",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+   "source": "Wikimedia Commons",
+   "verifiedBy": "scientific name in Commons title/description/categories",
+   "src": "/wildlife/european-wasp.webp",
+   "width": 1499,
+   "height": 2000
+  },
+  "audio": null,
+  "tried": [
+   "Wikipedia lead image for Vespula germanica: File:European_wasp_white_bg.jpg rejected (licence GFDL 1.2)"
+  ]
+ },
+ "social-huntsman-spider": {
+  "photo": {
+   "title": "File:Huntsman-Spider-Delena-cancerides.jpg",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Huntsman-Spider-Delena-cancerides.jpg",
+   "author": "Bryce McQuillan",
+   "license": "CC BY-SA 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+   "source": "Wikimedia Commons",
+   "verifiedBy": "scientific name in Commons title/description/categories",
+   "src": "/wildlife/social-huntsman-spider.webp",
+   "width": 640,
+   "height": 426
+  },
+  "audio": null,
+  "tried": [
+   "Wikipedia lead image for Delena cancerides: File:ARAN_Sparassidae_Delena_cancerides_f.png skipped (not a photo JPEG)"
+  ]
+ },
+ "redback-spider": {
+  "photo": {
+   "title": "File:Latrodectus_hasselti_close.jpg",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Latrodectus_hasselti_close.jpg",
+   "author": "Toby Hudson",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "source": "Wikimedia Commons",
+   "verifiedBy": "scientific name in Commons title/description/categories",
+   "src": "/wildlife/redback-spider.webp",
+   "width": 1600,
+   "height": 849
+  },
+  "audio": null,
+  "tried": []
+ },
+ "australian-golden-orbweaver": {
+  "photo": {
+   "title": "File:Australian golden orb weaver – Trichonephila edulis.jpg",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Australian_golden_orb_weaver_%E2%80%93_Trichonephila_edulis.jpg",
+   "author": "Krigore",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source": "Wikimedia Commons",
+   "verifiedBy": "scientific name in Commons title/description/categories",
+   "src": "/wildlife/australian-golden-orbweaver.webp",
+   "width": 1600,
+   "height": 1205
+  },
+  "audio": null,
+  "tried": [
+   "Wikipedia lead image for Trichonephila edulis: File:Female_Nephila_Edulis_SeanMcClean_2007.jpg rejected (scientific name not in Commons title/description/categories)"
+  ]
+ },
+ "christmas-jewel-spider": {
+  "photo": {
+   "title": "File:Austracantha_minax_1_cropped.jpg",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Austracantha_minax_1_cropped.jpg",
+   "author": "Donald Hobern",
+   "license": "CC BY 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+   "source": "Wikimedia Commons",
+   "verifiedBy": "scientific name in Commons title/description/categories",
+   "src": "/wildlife/christmas-jewel-spider.webp",
+   "width": 1240,
+   "height": 908
+  },
+  "audio": null,
+  "tried": []
+ },
+ "leaf-curling-spider": {
+  "photo": {
+   "title": "File:LeafCurlingSpider01.jpg",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:LeafCurlingSpider01.jpg",
+   "author": "Mjoyce",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source": "Wikimedia Commons",
+   "verifiedBy": "scientific name in Commons title/description/categories",
+   "src": "/wildlife/leaf-curling-spider.webp",
+   "width": 1600,
+   "height": 2400
+  },
+  "audio": null,
+  "tried": []
+ }
+}

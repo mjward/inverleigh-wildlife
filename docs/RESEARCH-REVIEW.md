@@ -2446,3 +2446,384 @@ Full text: `docs/research/species-list.md`. Every source and query is logged the
   - `content/reptiles.ts`: 14 rows. That is 3 snakes plus a safety entry, 6 lizards, Striped Legless Lizard (no local record), Eastern Snake-necked Turtle, a lizard-friendly garden entry and a legless-lizard-versus-snake entry.
 - Koala appeared in both batch 9 and batch 12. I kept the batch 9 version.
 - Batches 9–13 were able to open the July 2026 FFG list PDF. Batches 0–6 (the birds) could not, and used SPRAT/SWIFFT/the March 2025 list instead. Re-checking the bird FFG categories against the July 2026 PDF is still open.
+
+## 9. Insect and spider data pull, 26 Oct 2026, 7:00 AM AEDT; research completed 19 Nov 2026
+The threatened-species (batch 14) and lost-species (batch 15) pulls from the same run are not part of this branch.
+
+**Insects and spiders:**
+- Queries: ALA `fq=class:(Insecta OR Arachnida)` and iNaturalist `iconic_taxa=Insecta,Arachnida`, each at 5 km and 10 km. Saved in `research/data/insects.json`.
+- Species counts: ALA 192 within 5 km and 344 within 10 km. iNat 218 within 5 km and 365 within 10 km.
+- Combining the two sources gives **358 distinct species within 10 km and 201 within 5 km**. This counts every ALA species plus every iNat taxon identified to species or subspecies. Names that differ between the two systems may inflate it slightly.
+
+<!-- batch16 -->
+## Insects and spiders (Grok batch 16, completed 19 Nov 2026, 11:54 PM AEDT)
+
+Grok CLI 1.0, model **grok-4.7**, prompt `docs/research/prompt16.txt`, log `docs/research/run16.b2.log`, output `docs/research/batch16.json`. The first attempt on 26 Oct 2026 failed when the Grok Build balance ran out. This pass is attempt 2, launched as `docs/research/runinsects.sh`, finished at 11:54 PM AEDT on 19 Nov 2026 (`INSECTSDONE` in `status2.log`, exit 0). Access date on the live sources in the batch file is still written as 26 Oct 2026 in the original prompt; the run itself was 19 Nov 2026. Site file: `content/insects.ts` (wired into the site at `/insects` on 20 Nov 2026). Batch 15 (lost species) was not rerun.
+
+### Totals (from `docs/research/data/insects.json`, confirmed in the batch)
+
+Combining the ALA species facet (`class:(Insecta OR Arachnida)`) with iNaturalist `iconic_taxa=Insecta,Arachnida` taxa identified to species:
+
+- **201 distinct species within 5 km** (151 shared, 41 ALA-only, 9 iNaturalist-only).
+- **358 distinct species within 10 km** (237 shared, 107 ALA-only, 14 iNaturalist-only). A spelling-collapsed 10 km total would be **357**, because Redback is *Latrodectus hasseltii* in ALA and *Latrodectus hasselti* in iNaturalist.
+- ALA names: 192 within 5 km, 344 within 10 km. iNaturalist rank-species: 160 within 5 km, 251 within 10 km (218 and 365 taxa of any rank).
+- ALA already includes most iNaturalist Australia records, so the two counts must not be added.
+
+### Species researched (40)
+
+The batch is a general-audience shortlist, not a complete inventory: 7 butterflies, 3 dragonflies, 2 damselflies, 4 bees, 5 beetles, 4 moths, 5 grasshoppers, 4 ants, 1 wasp and 5 spiders. 35 are native and 5 are introduced (Small White, Western Honey Bee, two pasture dung beetles, European Wasp). **34 are tier 5 km** and **6 are tier 10 km** (Grassland Copper, Blue Skimmer, *Megachile ferox*, Emperor Gum Moth, Golden Sun Moth, Redback Spider).
+
+Record counts in the batch were checked against `data/insects.json`. Every species except the Redback spelling difference matches exactly. For Redback, Grok correctly reported iNat 10 km = 2 using the ALA spelling *hasseltii*; the data file stores those two iNaturalist observations under *hasselti*. Tiers all match the 5 km / 10 km rule.
+
+| Species | Group | Tier | Origin | Records (5 km / 10 km) | Conservation | Not well documented |
+|---|---|---|---|---|---|---|
+| Common Brown *Heteronympha merope* | butterfly | 5km | native | ALA 26/54, iNat 24/51 | Not listed. The July 2026 FFG Threatened List insect table does not contain this scientific name. The ALA species profile returned no conservationStatuses value. The same field lis | Which of the published grass hosts are the ones used inside Inverleigh Nature Conservation Reserve was not separated in these sources. |
+| Australian Painted Lady *Vanessa kershawi* | butterfly | 5km | native | ALA 10/24, iNat 7/19 | Not listed. The July 2026 FFG Threatened List insect table does not contain this scientific name. The ALA species profile returned no conservationStatuses value. The same field lis | The species-level host list (which everlasting genera) was not in the Wikipedia summary retrieved, only 'everlastings and other daisies'.; Whether the Inverleigh insects are resident or spring migrants is not resolved by |
+| Common Grass-blue *Zizina otis* | butterfly | 5km | native | ALA 8/16, iNat 7/16 | Not listed. The July 2026 FFG Threatened List insect table does not contain this scientific name. The ALA species profile returned no conservationStatuses value. The same field lis | The species boundary between Zizina otis and Zizina labradus is disputed, so the name on local records may not match every field guide.; Which pea species the Inverleigh larvae use was not checked plant by plant. |
+| Small White *Pieris rapae* | butterfly | 5km | introduced | ALA 7/16, iNat 6/14 | Not listed. The July 2026 FFG Threatened List insect table does not contain this scientific name. The ALA species profile returned no conservationStatuses value. The same field lis | The year it arrived in Victoria was not in the pages retrieved. |
+| Klug's Xenica *Geitoneura klugii* | butterfly | 5km | native | ALA 7/11, iNat 7/11 | Not listed. The July 2026 FFG Threatened List insect table does not contain this scientific name. The ALA species profile returned no conservationStatuses value. The same field lis | Larval grass species are not named in the Wikipedia account retrieved. |
+| Imperial Jezebel *Delias harpalyce* | butterfly | 5km | native | ALA 1/2, iNat 1/3 | Not listed. The July 2026 FFG Threatened List insect table does not contain this scientific name. The ALA species profile returned no conservationStatuses value. The same field lis | Which mistletoe species grows at Inverleigh was not checked.; The common-name disagreement (Jezebel versus White) is unresolved beyond the sources named here. |
+| Grassland Copper *Lucia limbaria* | butterfly | 10km | native | ALA 0/4, iNat 0/4 | Not listed. The July 2026 FFG Threatened List insect table does not contain this scientific name. The ALA species profile returned no conservationStatuses value. The same field lis | The local Oxalis and Iridomyrmex species were not identified.; With only four records, and none inside 5 km, it is unclear whether a breeding colony is in the reserve. |
+| Tau Emerald *Hemicordulia tau* | dragonfly | 5km | native | ALA 5/13, iNat 5/13 | Not listed. The July 2026 FFG Threatened List insect table does not contain this scientific name. The ALA species profile returned no conservationStatuses value. The same field lis | Adult colour characters that separate it from other emeralds were not in the Wikipedia extract retrieved. |
+| Wandering Ringtail *Austrolestes leda* | damselfly | 5km | native | ALA 9/10, iNat 7/8 | Not listed. The July 2026 FFG Threatened List insect table does not contain this scientific name. The ALA species profile returned no conservationStatuses value. The same field lis | The precise thoracic pattern that separates it from the Slender Ringtail, Austrolestes analis, which is also in the local data, was not copied from a field guide here. |
+| Red and Blue Damsel *Xanthagrion erythroneurum* | damselfly | 5km | native | ALA 5/6, iNat 5/6 | Not listed. The July 2026 FFG Threatened List insect table does not contain this scientific name. The ALA species profile returned no conservationStatuses value. The same field lis | A character-by-character separation from other red damsels was not retrieved beyond the genus being monotypic. |
+| Wandering Percher *Diplacodes bipunctata* | dragonfly | 5km | native | ALA 2/8, iNat 2/7 | Not listed. The July 2026 FFG Threatened List insect table does not contain this scientific name. The ALA species profile returned no conservationStatuses value. The same field lis | Male versus female colour change with age was not described in the short Wikipedia extract. |
+| Blue Skimmer *Orthetrum caledonicum* | dragonfly | 10km | native | ALA 0/2, iNat 0/2 | Not listed. The July 2026 FFG Threatened List insect table does not contain this scientific name. The ALA species profile returned no conservationStatuses value. The same field lis | With two records, it is not yet a regularly confirmed town insect. |
+| Western Honey Bee *Apis mellifera* | bee | 5km | introduced | ALA 4/12, iNat 4/12 | Not listed. The July 2026 FFG Threatened List insect table does not contain this scientific name. The ALA species profile returned no conservationStatuses value. The same field lis | The ALA profile did not return a normal accepted-name classification on this access.; No Tetragonula or Austroplebeia was in the 10 km insect extract, so stingless bees are not confirmed locally. |
+| Woolly Sweat Bee *Lasioglossum lanarium* | bee | 5km | native | ALA 1/1, iNat 1/1 | Not listed. The July 2026 FFG Threatened List insect table does not contain this scientific name. The ALA species profile returned no conservationStatuses value. The same field lis | Nest type, social behaviour and pollen plants are unpublished in the sources retrieved.; Most local Lasioglossum records are not identified to species, so this bee is under-counted. |
+| Green-and-gold Nomia Bee *Lipotriches australica* | bee | 5km | native | ALA 1/2, iNat 1/2 | Not listed. The July 2026 FFG Threatened List insect table does not contain this scientific name. The ALA species profile returned no conservationStatuses value. The same field lis | The local pollen plants are not documented.; With one or two records, abundance is unknown. |
+| no standard common name *Megachile ferox* | bee | 10km | native | ALA 0/1, iNat 0/1 | Not listed. The July 2026 FFG Threatened List insect table does not contain this scientific name. The ALA species profile returned no conservationStatuses value. The same field lis | No common name, no nest description, and no host plant were found.; One record does not show how often the species occurs. |
+| Golden Stag Beetle *Lamprima aurata* | beetle | 5km | native | ALA 2/7, iNat 2/7 | Not listed. The July 2026 FFG Threatened List insect table does not contain this scientific name. The ALA species profile returned no conservationStatuses value. The same field lis | How long local larvae take, and which eucalypts the adults prefer, was not measured at Inverleigh. |
+| Tricolor Soldier Beetle *Chauliognathus tricolor* | beetle | 5km | native | ALA 2/8, iNat 2/8 | Not listed. The July 2026 FFG Threatened List insect table does not contain this scientific name. The ALA species profile returned no conservationStatuses value. The same field lis | Adult and larval food of this species, as distinct from Chauliognathus lugubris, was not found. |
+| Fiddler Beetle *Eupoecila australasiae* | beetle | 5km | native | ALA 3/4, iNat 3/4 | Not listed. The July 2026 FFG Threatened List insect table does not contain this scientific name. The ALA species profile returned no conservationStatuses value. The same field lis | Preferred nectar plants at Inverleigh were not listed. |
+| Bull-horned Dung Beetle *Onthophagus taurus* | beetle | 5km | introduced | ALA 41/41, iNat 0/0 | Not listed. The July 2026 FFG Threatened List insect table does not contain this scientific name. The ALA species profile returned no conservationStatuses value. The same field lis | The local ALA records were not opened one by one, so the year and the exact paddock are unknown.; iNaturalist has no local observations, so the beetle is common in the ALA extract and almost absent from public photos. |
+| Fulvus dung beetle *Euoniticellus fulvus* | beetle | 5km | introduced | ALA 27/27, iNat 0/0 | Not listed. The July 2026 FFG Threatened List insect table does not contain this scientific name. The ALA species profile returned no conservationStatuses value. The same field lis | The Agriculture Victoria species page returned HTTP 403 to a direct download, so size, season and origin are taken from the Museum key, the search-indexed Agriculture Victoria page, and NatureMapr.; A widely used common  |
+| Emperor Gum Moth *Opodiphthera eucalypti* | moth | 10km | native | ALA 0/5, iNat 0/4 | Not listed. The July 2026 FFG Threatened List insect table does not contain this scientific name. The ALA species profile returned no conservationStatuses value. The same field lis | No record inside 5 km in this extract.; Which local eucalypt species is used was not tested; the Museum says eucalypt leaves generally. |
+| Painted Cup Moth *Doratifera oxleyi* | moth | 5km | native | ALA 3/6, iNat 4/7 | Not listed. The July 2026 FFG Threatened List insect table does not contain this scientific name. The ALA species profile returned no conservationStatuses value. The same field lis | The Museum's abundance statement is for central New South Wales, not Inverleigh. Local counts show the species is present, not that outbreaks occur. |
+| Satin-green Forester *Pollanisus viridipulverulenta* | moth | 5km | native | ALA 3/10, iNat 3/10 | Not listed. The July 2026 FFG Threatened List insect table does not contain this scientific name. The ALA species profile returned no conservationStatuses value. The same field lis | Presence of the named Hibbertia species at Inverleigh was not checked.; Adult food plants were not stated. |
+| Golden Sun Moth *Synemon plana* | moth | 10km | native | ALA 0/3, iNat 0/0 | Vulnerable under the EPBC Act. It was listed as Critically Endangered in 2002 and reassessed as Vulnerable in 2021 after more survey increased the known area of occupancy; the nati | Whether the three 2009 atlas rows are one observation stored three times.; No iNaturalist record within 10 km, and nothing more recent than 2009 in the rows returned.; A current population at Inverleigh is not establishe |
+| Wingless Grasshopper *Phaulacridium vittatum* | grasshopper | 5km | native | ALA 40/59, iNat 40/59 | Not listed. The July 2026 FFG Threatened List insect table does not contain this scientific name. The ALA species profile returned no conservationStatuses value. The same field lis | Larval and adult food plants were not retrieved.; The proportion of long-winged versus short-winged adults at Inverleigh is unknown. |
+| Australian Yellow-winged Locust *Gastrimargus musicus* | grasshopper | 5km | native | ALA 35/44, iNat 36/45 | Not listed. The July 2026 FFG Threatened List insect table does not contain this scientific name. The ALA species profile returned no conservationStatuses value. The same field lis | Host plants were not retrieved.; When local numbers become the dark swarming form was not documented. |
+| Giant Green Slantface *Acrida conica* | grasshopper | 5km | native | ALA 27/39, iNat 28/41 | Not listed. The July 2026 FFG Threatened List insect table does not contain this scientific name. The ALA species profile returned no conservationStatuses value. The same field lis | Food plants were not retrieved. |
+| Eastern Oedaleus *Oedaleus australis* | grasshopper | 5km | native | ALA 50/58, iNat 50/58 | Not listed. The July 2026 FFG Threatened List insect table does not contain this scientific name. The ALA species profile returned no conservationStatuses value. The same field lis | Common name is unstable: Eastern Oedaleus, Australian Oedaleus, and eastern plague grasshopper are all in use.; Host plants were not retrieved.; The Department of Agriculture identification page later returned HTTP 503 t |
+| Australian Plague Locust *Chortoicetes terminifera* | grasshopper | 5km | native | ALA 7/11, iNat 7/11 | Not listed. The July 2026 FFG Threatened List insect table does not contain this scientific name. The ALA species profile returned no conservationStatuses value. The same field lis | A reliable adult colour diagnosis was not retrieved because the DAFF identification site returned HTTP 503.; Local host grasses were not listed. |
+| Southern Meat Ant *Iridomyrmex purpureus* | ant | 5km | native | ALA 15/55, iNat 15/54 | Not listed. The July 2026 FFG Threatened List insect table does not contain this scientific name. The ALA species profile returned no conservationStatuses value. The same field lis | Whether local records are the species or the broader meat-ant complex was not re-identified from photos.; Bite symptoms were not taken from a clinical guideline. |
+| Jack Jumper Ant *Myrmecia pilosula* | ant | 5km | native | ALA 4/10, iNat 4/9 | Not listed. The July 2026 FFG Threatened List insect table does not contain this scientific name. The ALA species profile returned no conservationStatuses value. The same field lis | The local 5 km records were not re-checked against the pilosula species complex, so some may be look-alike jack jumpers.; Which other Myrmecia at Inverleigh have caused allergy locally was not studied. A 2011 Australian  |
+| Black-scaped Bull Ant *Myrmecia nigriscapa* | ant | 5km | native | ALA 9/28, iNat 9/27 | Not listed. The July 2026 FFG Threatened List insect table does not contain this scientific name. The ALA species profile returned no conservationStatuses value. The same field lis | A field description sufficient to separate it from other local bull ants was not retrieved.; Prey and nest structure were not retrieved. |
+| Banded Sugar Ant *Camponotus consobrinus* | ant | 5km | native | ALA 1/18, iNat 1/18 | Not listed. The July 2026 FFG Threatened List insect table does not contain this scientific name. The ALA species profile returned no conservationStatuses value. The same field lis | Night activity at Inverleigh was not measured.; The giant sugar ant is more often recorded inside 5 km but is not given its own entry. |
+| European Wasp *Vespula germanica* | wasp | 5km | introduced | ALA 0/6, iNat 1/6 | Not listed. The July 2026 FFG Threatened List insect table does not contain this scientific name. The ALA species profile returned no conservationStatuses value. The same field lis | The 5 km record is a single iNaturalist observation and was not re-checked.; A current Agriculture Victoria fact sheet was not retrieved (HTTP 404). |
+| Social Huntsman Spider *Delena cancerides* | spider | 5km | native | ALA 6/9, iNat 6/9 | Not listed. The July 2026 FFG Threatened List has no spider table. Its invertebrate sections are crustaceans, insects, molluscs, flatworms, annelids, cnidarians and echinoderms, an | How to separate Delena cancerides from other local huntsmen, including Isopeda montana, was not set out from a key.; The Museum huntsman page is family-level, not this species alone. |
+| Redback Spider *Latrodectus hasseltii* | spider | 10km | native | ALA 0/2, iNat 0/2 | Not listed. The July 2026 FFG Threatened List has no spider table. Its invertebrate sections are crustaceans, insects, molluscs, flatworms, annelids, cnidarians and echinoderms, an | Whether the ALA and iNaturalist pairs are the same two observations was not checked record by record.; No 5 km record, so redbacks are not shown as common in the town centre by this extract.; The pressure-bandage warning |
+| Australian Golden Orbweaver *Trichonephila edulis* | spider | 5km | native | ALA 2/2, iNat 2/2 | Not listed. The July 2026 FFG Threatened List has no spider table. Its invertebrate sections are crustaceans, insects, molluscs, flatworms, annelids, cnidarians and echinoderms, an | The Museum page is written for golden orb-weavers as a group and mentions Nephila edulis in the distribution text, so some sentences are genus-level.; A species-level prey list and venom study were not retrieved. The Wik |
+| Christmas Jewel Spider *Austracantha minax* | spider | 5km | native | ALA 1/2, iNat 1/2 | Not listed. The July 2026 FFG Threatened List has no spider table. Its invertebrate sections are crustaceans, insects, molluscs, flatworms, annelids, cnidarians and echinoderms, an | A bite case series was not retrieved. 'Harmless' is the Wikipedia statement, not a hospital guideline. |
+| Leaf-curling Spider *Phonognatha graeffei* | spider | 5km | native | ALA 1/3, iNat 1/3 | Not listed. The July 2026 FFG Threatened List has no spider table. Its invertebrate sections are crustaceans, insects, molluscs, flatworms, annelids, cnidarians and echinoderms, an | Family placement differs between Wikipedia (Araneidae) and the iNaturalist taxon used here (Phonognathidae). |
+
+### Threatened insects
+
+- **Golden Sun Moth** *Synemon plana*: **EPBC Vulnerable** (reassessed from Critically Endangered in 2021; national recovery plan took effect 10 June 2026) and **FFG Vulnerable** (July 2026 list, extinction risk Australia). The only insect in the local ALA threatened-species facets. **3 ALA records within 10 km, all 2009, none within 5 km, none on iNaturalist.** The points lie about 10 km north of the town centre. A current local population is **not established** by these records; the three rows may even be one event stored three times. Surveys, if done, should follow the recovery plan and the flying season, in open native grassland, not shaded woodland.
+- **Matchstick Grasshopper** *Keyacris scurra* was listed in the threatened-wildlife batch (EPBC/FFG Endangered) but has **no records** in the 5 km or 10 km insect extracts, so it is not in this shortlist.
+- No other shortlisted species is listed under EPBC or the July 2026 FFG insect table. Conservation wording for the unlisted species is based on a search of that FFG insect table plus an empty ALA `conservationStatuses` field (which does return a value for Golden Sun Moth). Grok notes that this is not a formal name-by-name search of the full EPBC CSV for every unlisted insect.
+
+### Gaps and flags
+
+- **No cicadas** within 10 km. Live ALA and iNaturalist checks for Cicadidae and the genera *Psaltoda*, *Yoyetta* and *Galanga* (iNaturalist taxon 473988) all returned zero. *Perala viridis* (“Spring Buzzer” on iNaturalist) is a grasshopper (Acrididae), not a cicada.
+- **Native bees are sparse at species rank:** *Lasioglossum lanarium* and *Lipotriches australica* within 5 km; *Megachile ferox* within 10 km only. *Hyleoides concinna* (Common Wasp-mimic Bee) has one iNaturalist record within 10 km and was not given a full write-up. *Amegilla* and *Homalictus* appear only above species rank; *Exoneura* is absent.
+- **Jack jumper and bull ants** are included with sting/safety notes (Jack Jumper *Myrmecia pilosula* and Black-scaped Bull Ant *Myrmecia nigriscapa*). Tawny-legged Jack Jumper *Myrmecia fulvipes* has 10 records, all in the 5–10 km band, and was not given its own write-up.
+- Many common grasshoppers, ants, midges and caddis in the top 150 were left out of the 40-species shortlist by design.
+- Weak local evidence is flagged in `notWellDocumented`: Golden Sun Moth (2009 only; possible duplicate rows); Grassland Copper (four records, none inside 5 km, breeding colony unconfirmed); European Wasp (the 5 km tier rests on one iNaturalist observation); Redback (no 5 km record; ALA/iNat spelling split). Host plants at Inverleigh itself are often not identified to the local plant species.
+- An Agriculture Victoria European Wasp fact sheet returned HTTP 404 and was not used. An Australian Faunal Directory *Galanga* page also returned 404.
+
+### Type-check
+
+`content/insects.ts` was generated from `batch16.json` in the same proposed style as `content/threatened.ts`. `./node_modules/.bin/tsc --noEmit -p .` reports **no errors in any `content/*.ts` file**. It does report seven pre-existing errors in `app/` pages (`PageProps` / `LayoutProps` are not defined in `app/birds/[slug]/page.tsx`, `app/mammals/[slug]/page.tsx`, `app/reptiles/[slug]/page.tsx` and `app/layout.tsx`). Those are unrelated to this batch and were not changed.
+
+### Queries and sources
+
+71 queries were logged in `batch16.json` (37 API, 18 page fetches, 14 searches, 2 data-file reads). 192 unique URLs appear in the species sources and query log. Every URL and query from the batch is listed below.
+
+**Queries**
+
+- [data-file] /workspace/inverleigh-wildlife/docs/research/data/insects.json — Pre-pulled ALA and iNaturalist counts. Record numbers in this file come from that JSON, not from adding the two databases.
+- [api] https://biocache-ws.ala.org.au/ws/occurrence/facets?q=%2A%3A%2A&fq=class%3A%28Insecta+OR+Arachnida%29&lat=-38.10&lon=144.05&radius=5&facets=species&flimit=500 — ALA species facet, Insecta or Arachnida, radius 5 km, flimit 500. 192 species names returned.
+- [api] https://biocache-ws.ala.org.au/ws/occurrence/facets?q=%2A%3A%2A&fq=class%3A%28Insecta+OR+Arachnida%29&lat=-38.10&lon=144.05&radius=10&facets=species&flimit=500 — ALA species facet, Insecta or Arachnida, radius 10 km, flimit 500. 344 species names returned.
+- [api] https://api.inaturalist.org/v1/observations/species_counts?lat=-38.10&lng=144.05&radius=5&iconic_taxa=Insecta,Arachnida&per_page=500&page=1 — iNaturalist species counts, 5 km. 218 taxa, 160 of rank species.
+- [api] https://api.inaturalist.org/v1/observations/species_counts?lat=-38.10&lng=144.05&radius=10&iconic_taxa=Insecta,Arachnida&per_page=500&page=1 — iNaturalist species counts, 10 km. 365 taxa, 251 of rank species.
+- [api] https://api.inaturalist.org/v1/places/autocomplete?q=Victoria&per_page=20 — Resolve Victoria, Australia to iNaturalist place id 7830.
+- [api] https://api.inaturalist.org/v1/taxa/autocomplete?q=NAME — Taxon ids for the 40 species plus Amegilla, Homalictus, Exoneura, Cicadidae, Psaltoda, Yoyetta, Galanga, Hyleoides concinna, Perala viridis and Megachile.
+- [api] https://api.inaturalist.org/v1/observations/histogram?taxon_id=ID&place_id=7830&interval=month_of_year&date_field=observed — Victoria month-of-year histograms for each featured species. An earlier call with interval=month returned year-month buckets and was not used.
+- [api] https://api.inaturalist.org/v1/observations/species_counts?lat=-38.10&lng=144.05&radius=10&taxon_id=50186 — Cicadidae within 10 km. Zero results.
+- [api] https://api.inaturalist.org/v1/observations/species_counts?lat=-38.10&lng=144.05&radius=10&taxon_id=207996 — Genus Psaltoda within 10 km. Zero results.
+- [api] https://api.inaturalist.org/v1/observations/species_counts?lat=-38.10&lng=144.05&radius=10&taxon_id=473974 — Genus Yoyetta within 10 km. Zero results.
+- [api] https://biocache-ws.ala.org.au/ws/occurrences/search?q=family:Cicadidae&lat=-38.10&lon=144.05&radius=10&pageSize=5 — ALA Cicadidae within 10 km. totalRecords 0.
+- [api] https://biocache-ws.ala.org.au/ws/occurrences/search?q=family:Cicadidae&lat=-38.10&lon=144.05&radius=5&pageSize=0 — ALA Cicadidae within 5 km. totalRecords 0.
+- [api] https://biocache-ws.ala.org.au/ws/occurrences/search?q=genus:Psaltoda&lat=-38.10&lon=144.05&radius=10&pageSize=0 — ALA Psaltoda within 10 km. totalRecords 0.
+- [api] https://biocache-ws.ala.org.au/ws/occurrences/search?q=genus:Yoyetta&lat=-38.10&lon=144.05&radius=10&pageSize=0 — ALA Yoyetta within 10 km. totalRecords 0.
+- [api] https://api.inaturalist.org/v1/taxa/autocomplete?q=Galanga&per_page=10 — iNaturalist autocomplete. The cicada genus Galanga is taxon 473988 (Double-spotted Cicadas). Alpinia galanga, the plant galangal, was a separate hit and was not used.
+- [api] https://api.inaturalist.org/v1/observations/species_counts?lat=-38.10&lng=144.05&radius=10&taxon_id=473988&per_page=5 — Genus Galanga within 10 km. total_results 0.
+- [api] https://api.inaturalist.org/v1/observations/species_counts?lat=-38.10&lng=144.05&radius=5&taxon_id=473988&per_page=5 — Genus Galanga within 5 km. total_results 0.
+- [api] https://biocache-ws.ala.org.au/ws/occurrences/search?q=genus:Galanga&lat=-38.10&lon=144.05&radius=10&pageSize=0 — ALA Galanga within 10 km. totalRecords 0.
+- [api] https://biocache-ws.ala.org.au/ws/occurrences/search?q=genus:Galanga&lat=-38.10&lon=144.05&radius=5&pageSize=0 — ALA Galanga within 5 km. totalRecords 0.
+- [api] https://api.inaturalist.org/v1/observations/species_counts?lat=-38.10&lng=144.05&radius=10&taxon_id=199450 — Amegilla within 10 km. One observation identified only to genus.
+- [api] https://api.inaturalist.org/v1/observations/species_counts?lat=-38.10&lng=144.05&radius=10&taxon_id=542680 — Exoneura within 10 km. Zero results.
+- [api] https://api.inaturalist.org/v1/observations/species_counts?lat=-38.10&lng=144.05&radius=10&taxon_id=464697 — Homalictus within 10 km. One observation at subgenus rank.
+- [api] https://biocache-ws.ala.org.au/ws/occurrences/search?q=genus:Amegilla&lat=-38.10&lon=144.05&radius=10&pageSize=5 — ALA Amegilla within 10 km. One 2019 record at about -38.034, 144.064, genus only.
+- [api] https://biocache-ws.ala.org.au/ws/occurrences/search?q=genus:Exoneura&lat=-38.10&lon=144.05&radius=10&pageSize=5 — ALA Exoneura within 10 km. totalRecords 0.
+- [api] https://biocache-ws.ala.org.au/ws/occurrences/search?q=genus:Homalictus&lat=-38.10&lon=144.05&radius=10&pageSize=5 — ALA genus Homalictus within 10 km. totalRecords 0. The iNaturalist subgenus record may sit under Lasioglossum.
+- [api] https://biocache-ws.ala.org.au/ws/occurrences/search?q=genus:Lasioglossum&lat=-38.10&lon=144.05&radius=10&pageSize=5&facets=species&flimit=20 — ALA Lasioglossum within 10 km. 12 occurrences, only L. lanarium identified to species (1).
+- [api] https://biocache-ws.ala.org.au/ws/occurrences/search?q=genus:Megachile&lat=-38.10&lon=144.05&radius=10&pageSize=5 — ALA Megachile within 10 km. One record, Megachile ferox, 2020, about -38.052, 144.137.
+- [api] https://biocache-ws.ala.org.au/ws/occurrences/search?q=taxon_name:%22Synemon%20plana%22&lat=-38.10&lon=144.05&radius=10&pageSize=10 — Golden Sun Moth within 10 km. Three Victorian Biodiversity Atlas rows, all year 2009, about -38.0106, 144.0569.
+- [api] https://biocache-ws.ala.org.au/ws/occurrences/search?q=taxon_name:%22Synemon%20plana%22&lat=-38.10&lon=144.05&radius=5&pageSize=0 — Golden Sun Moth within 5 km. totalRecords 0.
+- [api] https://api.inaturalist.org/v1/observations?taxon_id=417379&lat=-38.10&lng=144.05&radius=10&per_page=5 — iNaturalist Golden Sun Moth within 10 km. Zero observations.
+- [api] https://api.inaturalist.org/v1/taxa/755900 — Perala viridis. iNaturalist common name Spring Buzzer, but the order is Orthoptera and the family is Acrididae, not a cicada.
+- [api] https://api.ala.org.au/species/species/Perala%20viridis — ALA places Perala viridis in Orthoptera, family Acrididae.
+- [api] https://api.ala.org.au/species/species/NAME — ALA species profiles for common names, families and conservationStatuses. Only Synemon plana returned a conservation status (AUS, VIC, NSW, ACT Vulnerable). Apis mellifera returned taxonomicStatus synonym without a family.
+- [api] https://en.wikipedia.org/api/rest_v1/page/summary/TITLE — Wikipedia summaries for identification.
+- [api] https://en.wikipedia.org/w/api.php?action=query&prop=extracts&explaintext=1&redirects=1&titles=TITLE — Wikipedia plain-text extracts for host plants, prey and sting notes.
+- [search] Synemon plana Golden Sun Moth EPBC conservation status Victoria FFG — Find the current national status and the 2026 recovery plan.
+- [search] Oedaleus australis common name grasshopper Australia — Common name and the DAFF identification page.
+- [search] Latrodectus hasselti OR hasseltii accepted name Australia redback AFD — Accepted spelling Latrodectus hasseltii.
+- [search] Zizina otis labradus Lesser Grass Blue taxonomy Australia ALA — Grass-blue name and subspecies.
+- [search] Perala viridis Spring Buzzer cicada Victoria season host — Test whether Spring Buzzer is a cicada. Catalogue of Life and ALA place it in Acrididae.
+- [search] Inverleigh Nature Conservation Reserve grassy woodland Parks Victoria Leigh River — Local habitat for whereToSeeLocally.
+- [search] iNaturalist Cicadidae OR Psaltoda OR Yoyetta observations Inverleigh Victoria — Cicadas near Inverleigh. No local occurrences; Yoyetta pages are statewide context only.
+- [search] Galanga cicada genus Australia Psaltoda Yoyetta — Confirm Galanga is an Australian cicada genus before the local zero counts.
+- [page] https://biodiversity.org.au/afd/taxa/Galanga/complete — Australian Faunal Directory genus page suggested by search. Direct request returned HTTP 404, so it was not used for a state list. The ALA species API for the name Galanga returned HTTP 301 and was not used.
+- [api] https://api.inaturalist.org/v1/taxa/473988 — iNaturalist taxon Galanga: genus, family Cicadidae, preferred common name Double-spotted Cicadas. The linked Wikipedia URL is the plant page; the cicada summary was taken from the Wikipedia REST summary instead.
+- [api] https://en.wikipedia.org/api/rest_v1/page/summary/Galanga — Wikipedia summary: Galanga is a monotypic cicada genus described by Moulds in 2012; the single species occurs in subtropical and warm temperate eastern Australia.
+- [search] Australian Museum redback spider bite identification Latrodectus hasselti — Redback identification and bite.
+- [search] Better Health Victoria jack jumper ant Myrmecia pilosula sting allergy — Jack jumper sting and allergy sources (ASCIA and Allergy & Anaphylaxis Australia).
+- [search] Onthophagus taurus Euoniticellus fulvus introduced dung beetle Australia agriculture Victoria origin — Introduced dung-beetle origin and season.
+- [search] Heteronympha merope Common Brown host plant season Victoria butterflyhouse — Common Brown hosts and season.
+- [search] Euoniticellus fulvus dung beetle introduced Australia origin Europe season — Fulvus dung beetle introduction years.
+- [search] EPBC Act list of threatened fauna CSV Synemon plana current status 2026 site:dcceew.gov.au — Confirm Golden Sun Moth Vulnerable in the 2026 recovery plan. The SPRAT HTML list returned HTTP 403.
+- [page] https://www.environment.vic.gov.au/__data/assets/pdf_file/0028/793801/FFG_Threatened_List_July_2026.pdf — July 2026 FFG list. Synemon plana is Vulnerable. No other featured species is in the insect table.
+- [page] https://www.dcceew.gov.au/sites/default/files/documents/national-recovery-plan-golden-sun-moth-2026.pdf — Flight season, host grasses, description and EPBC Vulnerable status.
+- [page] https://australian.museum/learn/animals/insects/common-brown-butterfly/ — Common Brown habitat and life cycle.
+- [page] https://australian.museum/learn/animals/insects/cup-moths/ — Painted cup moth host and stinging spines.
+- [page] https://australian.museum/learn/animals/insects/emperor-gum-moth/ — Emperor gum moth eucalypt host and adult life.
+- [page] https://australian.museum/learn/animals/insects/honey-bee/ — Honey bee origin, flowers and sting.
+- [page] https://australian.museum/learn/animals/spiders/redback-spider/ — Redback identification, prey and bite.
+- [page] https://australian.museum/learn/animals/spiders/huntsman-spiders/ — Huntsman habitat, prey and bite.
+- [page] https://australian.museum/learn/animals/spiders/golden-orb-weaving-spiders/ — Golden orb web, prey and bite.
+- [page] https://www.rch.org.au/clinicalguide/guideline_index/Spider_Bite_%E2%80%93_Redback_Spider — Victorian paediatric guidance on redback bite.
+- [page] https://lepidoptera.butterflyhouse.com.au/lyca/otis.html — Grass-blue caterpillar and pea hosts. Other butterflyhouse species pages returned a bot-check page and were not used.
+- [page] https://keys.lucidcentral.org/keys/v3/aus_museum/dung_beetles/key/thyregis/Media/Html/efulvus.html — Euoniticellus fulvus origin, size and dung habitat.
+- [page] https://agriculture.vic.gov.au/support-and-resources/funds-grants-programs/on-farm-demonstrations-program/onthophagus-taurus — Onthophagus taurus size, horns, season and dung burial.
+- [page] https://inverleigh.org.au/features/nature-conservation/ — Reserve trees and wallaby-grass ground layer.
+- [page] https://www.environment.gov.au/cgi-bin/sprat/public/publicthreatenedlist.pl?wanted=fauna — EPBC fauna list. HTTP 403, so it was not used as a negative-list source.
+- [page] https://agriculture.vic.gov.au/biosecurity/pest-insects-and-mites/priority-pest-insects-and-mites/european-wasps — European wasp fact sheet. HTTP 404.
+- [page] https://www.agriculture.gov.au/biosecurity-trade/pests-diseases-weeds/locusts/about/australian-plague-locust — Plague locust page. HTTP 503.
+- [data-file] /workspace/inverleigh-wildlife/docs/research/data/threatened_ala10.json — Synemon plana is the only insect in the 10 km stateConservation and countryConservation facets, with 3 records and latest year 2009.
+
+**Source URLs**
+
+- https://agriculture.vic.gov.au/biosecurity/pest-insects-and-mites/priority-pest-insects-and-mites/european-wasps
+- https://agriculture.vic.gov.au/support-and-resources/funds-grants-programs/on-farm-demonstrations-program/euoniticellus-fulvus
+- https://agriculture.vic.gov.au/support-and-resources/funds-grants-programs/on-farm-demonstrations-program/onthophagus-taurus
+- https://allergyfacts.org.au/allergy/jack-jumper-ant/
+- https://api.ala.org.au/species/species/Acrida%20conica
+- https://api.ala.org.au/species/species/Apis%20mellifera
+- https://api.ala.org.au/species/species/Austracantha%20minax
+- https://api.ala.org.au/species/species/Austrolestes%20leda
+- https://api.ala.org.au/species/species/Camponotus%20consobrinus
+- https://api.ala.org.au/species/species/Chauliognathus%20tricolor
+- https://api.ala.org.au/species/species/Chortoicetes%20terminifera
+- https://api.ala.org.au/species/species/Delena%20cancerides
+- https://api.ala.org.au/species/species/Delias%20harpalyce
+- https://api.ala.org.au/species/species/Diplacodes%20bipunctata
+- https://api.ala.org.au/species/species/Doratifera%20oxleyi
+- https://api.ala.org.au/species/species/Euoniticellus%20fulvus
+- https://api.ala.org.au/species/species/Eupoecila%20australasiae
+- https://api.ala.org.au/species/species/Gastrimargus%20musicus
+- https://api.ala.org.au/species/species/Geitoneura%20klugii
+- https://api.ala.org.au/species/species/Hemicordulia%20tau
+- https://api.ala.org.au/species/species/Heteronympha%20merope
+- https://api.ala.org.au/species/species/Iridomyrmex%20purpureus
+- https://api.ala.org.au/species/species/Lamprima%20aurata
+- https://api.ala.org.au/species/species/Lasioglossum%20lanarium
+- https://api.ala.org.au/species/species/Latrodectus%20hasseltii
+- https://api.ala.org.au/species/species/Lipotriches%20australica
+- https://api.ala.org.au/species/species/Lucia%20limbaria
+- https://api.ala.org.au/species/species/Megachile%20ferox
+- https://api.ala.org.au/species/species/Myrmecia%20nigriscapa
+- https://api.ala.org.au/species/species/Myrmecia%20pilosula
+- https://api.ala.org.au/species/species/NAME
+- https://api.ala.org.au/species/species/Oedaleus%20australis
+- https://api.ala.org.au/species/species/Onthophagus%20taurus
+- https://api.ala.org.au/species/species/Opodiphthera%20eucalypti
+- https://api.ala.org.au/species/species/Orthetrum%20caledonicum
+- https://api.ala.org.au/species/species/Perala%20viridis
+- https://api.ala.org.au/species/species/Phaulacridium%20vittatum
+- https://api.ala.org.au/species/species/Phonognatha%20graeffei
+- https://api.ala.org.au/species/species/Pieris%20rapae
+- https://api.ala.org.au/species/species/Pollanisus%20viridipulverulenta
+- https://api.ala.org.au/species/species/Synemon%20plana
+- https://api.ala.org.au/species/species/Trichonephila%20edulis
+- https://api.ala.org.au/species/species/Vanessa%20kershawi
+- https://api.ala.org.au/species/species/Vespula%20germanica
+- https://api.ala.org.au/species/species/Xanthagrion%20erythroneurum
+- https://api.ala.org.au/species/species/Zizina%20otis
+- https://api.inaturalist.org/v1/observations/histogram?taxon_id=122515&place_id=7830&interval=month_of_year&date_field=observed
+- https://api.inaturalist.org/v1/observations/histogram?taxon_id=123898&place_id=7830&interval=month_of_year&date_field=observed
+- https://api.inaturalist.org/v1/observations/histogram?taxon_id=124223&place_id=7830&interval=month_of_year&date_field=observed
+- https://api.inaturalist.org/v1/observations/histogram?taxon_id=125537&place_id=7830&interval=month_of_year&date_field=observed
+- https://api.inaturalist.org/v1/observations/histogram?taxon_id=126155&place_id=7830&interval=month_of_year&date_field=observed
+- https://api.inaturalist.org/v1/observations/histogram?taxon_id=146765&place_id=7830&interval=month_of_year&date_field=observed
+- https://api.inaturalist.org/v1/observations/histogram?taxon_id=149448&place_id=7830&interval=month_of_year&date_field=observed
+- https://api.inaturalist.org/v1/observations/histogram?taxon_id=155504&place_id=7830&interval=month_of_year&date_field=observed
+- https://api.inaturalist.org/v1/observations/histogram?taxon_id=157753&place_id=7830&interval=month_of_year&date_field=observed
+- https://api.inaturalist.org/v1/observations/histogram?taxon_id=157762&place_id=7830&interval=month_of_year&date_field=observed
+- https://api.inaturalist.org/v1/observations/histogram?taxon_id=196689&place_id=7830&interval=month_of_year&date_field=observed
+- https://api.inaturalist.org/v1/observations/histogram?taxon_id=197077&place_id=7830&interval=month_of_year&date_field=observed
+- https://api.inaturalist.org/v1/observations/histogram?taxon_id=198923&place_id=7830&interval=month_of_year&date_field=observed
+- https://api.inaturalist.org/v1/observations/histogram?taxon_id=201621&place_id=7830&interval=month_of_year&date_field=observed
+- https://api.inaturalist.org/v1/observations/histogram?taxon_id=201859&place_id=7830&interval=month_of_year&date_field=observed
+- https://api.inaturalist.org/v1/observations/histogram?taxon_id=201925&place_id=7830&interval=month_of_year&date_field=observed
+- https://api.inaturalist.org/v1/observations/histogram?taxon_id=201978&place_id=7830&interval=month_of_year&date_field=observed
+- https://api.inaturalist.org/v1/observations/histogram?taxon_id=202000&place_id=7830&interval=month_of_year&date_field=observed
+- https://api.inaturalist.org/v1/observations/histogram?taxon_id=202106&place_id=7830&interval=month_of_year&date_field=observed
+- https://api.inaturalist.org/v1/observations/histogram?taxon_id=210339&place_id=7830&interval=month_of_year&date_field=observed
+- https://api.inaturalist.org/v1/observations/histogram?taxon_id=226435&place_id=7830&interval=month_of_year&date_field=observed
+- https://api.inaturalist.org/v1/observations/histogram?taxon_id=236884&place_id=7830&interval=month_of_year&date_field=observed
+- https://api.inaturalist.org/v1/observations/histogram?taxon_id=243489&place_id=7830&interval=month_of_year&date_field=observed
+- https://api.inaturalist.org/v1/observations/histogram?taxon_id=244649&place_id=7830&interval=month_of_year&date_field=observed
+- https://api.inaturalist.org/v1/observations/histogram?taxon_id=321672&place_id=7830&interval=month_of_year&date_field=observed
+- https://api.inaturalist.org/v1/observations/histogram?taxon_id=323555&place_id=7830&interval=month_of_year&date_field=observed
+- https://api.inaturalist.org/v1/observations/histogram?taxon_id=388489&place_id=7830&interval=month_of_year&date_field=observed
+- https://api.inaturalist.org/v1/observations/histogram?taxon_id=417379&place_id=7830&interval=month_of_year&date_field=observed
+- https://api.inaturalist.org/v1/observations/histogram?taxon_id=450911&place_id=7830&interval=month_of_year&date_field=observed
+- https://api.inaturalist.org/v1/observations/histogram?taxon_id=47219&place_id=7830&interval=month_of_year&date_field=observed
+- https://api.inaturalist.org/v1/observations/histogram?taxon_id=483563&place_id=7830&interval=month_of_year&date_field=observed
+- https://api.inaturalist.org/v1/observations/histogram?taxon_id=488765&place_id=7830&interval=month_of_year&date_field=observed
+- https://api.inaturalist.org/v1/observations/histogram?taxon_id=526565&place_id=7830&interval=month_of_year&date_field=observed
+- https://api.inaturalist.org/v1/observations/histogram?taxon_id=55626&place_id=7830&interval=month_of_year&date_field=observed
+- https://api.inaturalist.org/v1/observations/histogram?taxon_id=566174&place_id=7830&interval=month_of_year&date_field=observed
+- https://api.inaturalist.org/v1/observations/histogram?taxon_id=574588&place_id=7830&interval=month_of_year&date_field=observed
+- https://api.inaturalist.org/v1/observations/histogram?taxon_id=577607&place_id=7830&interval=month_of_year&date_field=observed
+- https://api.inaturalist.org/v1/observations/histogram?taxon_id=604067&place_id=7830&interval=month_of_year&date_field=observed
+- https://api.inaturalist.org/v1/observations/histogram?taxon_id=68135&place_id=7830&interval=month_of_year&date_field=observed
+- https://api.inaturalist.org/v1/observations/histogram?taxon_id=904337&place_id=7830&interval=month_of_year&date_field=observed
+- https://api.inaturalist.org/v1/observations/histogram?taxon_id=ID&place_id=7830&interval=month_of_year&date_field=observed
+- https://api.inaturalist.org/v1/observations/species_counts?lat=-38.10&lng=144.05&radius=10&iconic_taxa=Insecta,Arachnida&per_page=500&page=1
+- https://api.inaturalist.org/v1/observations/species_counts?lat=-38.10&lng=144.05&radius=10&taxon_id=199450
+- https://api.inaturalist.org/v1/observations/species_counts?lat=-38.10&lng=144.05&radius=10&taxon_id=207996
+- https://api.inaturalist.org/v1/observations/species_counts?lat=-38.10&lng=144.05&radius=10&taxon_id=464697
+- https://api.inaturalist.org/v1/observations/species_counts?lat=-38.10&lng=144.05&radius=10&taxon_id=473974
+- https://api.inaturalist.org/v1/observations/species_counts?lat=-38.10&lng=144.05&radius=10&taxon_id=473988&per_page=5
+- https://api.inaturalist.org/v1/observations/species_counts?lat=-38.10&lng=144.05&radius=10&taxon_id=50186
+- https://api.inaturalist.org/v1/observations/species_counts?lat=-38.10&lng=144.05&radius=10&taxon_id=542680
+- https://api.inaturalist.org/v1/observations/species_counts?lat=-38.10&lng=144.05&radius=5&iconic_taxa=Insecta,Arachnida&per_page=500&page=1
+- https://api.inaturalist.org/v1/observations/species_counts?lat=-38.10&lng=144.05&radius=5&taxon_id=473988&per_page=5
+- https://api.inaturalist.org/v1/observations?taxon_id=417379&lat=-38.10&lng=144.05&radius=10&per_page=5
+- https://api.inaturalist.org/v1/places/autocomplete?q=Victoria&per_page=20
+- https://api.inaturalist.org/v1/taxa/473988
+- https://api.inaturalist.org/v1/taxa/566174
+- https://api.inaturalist.org/v1/taxa/755900
+- https://api.inaturalist.org/v1/taxa/autocomplete?q=Galanga&per_page=10
+- https://api.inaturalist.org/v1/taxa/autocomplete?q=Megachile&rank=genus&per_page=3
+- https://api.inaturalist.org/v1/taxa/autocomplete?q=NAME
+- https://australian.museum/learn/animals/insects/common-brown-butterfly/
+- https://australian.museum/learn/animals/insects/cup-moths/
+- https://australian.museum/learn/animals/insects/emperor-gum-moth/
+- https://australian.museum/learn/animals/insects/honey-bee/
+- https://australian.museum/learn/animals/spiders/golden-orb-weaving-spiders/
+- https://australian.museum/learn/animals/spiders/huntsman-spiders/
+- https://australian.museum/learn/animals/spiders/redback-spider/
+- https://bie.ala.org.au/species/Latrodectus+hasseltii
+- https://bie.ala.org.au/species/Oedaleus_australis
+- https://bie.ala.org.au/species/Zizina+otis+labradus
+- https://biocache-ws.ala.org.au/ws/occurrence/facets?q=%2A%3A%2A&fq=class%3A%28Insecta+OR+Arachnida%29&lat=-38.10&lon=144.05&radius=10&facets=species&flimit=500
+- https://biocache-ws.ala.org.au/ws/occurrence/facets?q=%2A%3A%2A&fq=class%3A%28Insecta+OR+Arachnida%29&lat=-38.10&lon=144.05&radius=5&facets=species&flimit=500
+- https://biocache-ws.ala.org.au/ws/occurrences/search?q=family:Cicadidae&lat=-38.10&lon=144.05&radius=10&pageSize=5
+- https://biocache-ws.ala.org.au/ws/occurrences/search?q=family:Cicadidae&lat=-38.10&lon=144.05&radius=5&pageSize=0
+- https://biocache-ws.ala.org.au/ws/occurrences/search?q=genus:Amegilla&lat=-38.10&lon=144.05&radius=10&pageSize=5
+- https://biocache-ws.ala.org.au/ws/occurrences/search?q=genus:Exoneura&lat=-38.10&lon=144.05&radius=10&pageSize=5
+- https://biocache-ws.ala.org.au/ws/occurrences/search?q=genus:Galanga&lat=-38.10&lon=144.05&radius=10&pageSize=0
+- https://biocache-ws.ala.org.au/ws/occurrences/search?q=genus:Galanga&lat=-38.10&lon=144.05&radius=5&pageSize=0
+- https://biocache-ws.ala.org.au/ws/occurrences/search?q=genus:Homalictus&lat=-38.10&lon=144.05&radius=10&pageSize=5
+- https://biocache-ws.ala.org.au/ws/occurrences/search?q=genus:Lasioglossum&lat=-38.10&lon=144.05&radius=10&pageSize=5&facets=species&flimit=20
+- https://biocache-ws.ala.org.au/ws/occurrences/search?q=genus:Megachile&lat=-38.10&lon=144.05&radius=10&pageSize=5
+- https://biocache-ws.ala.org.au/ws/occurrences/search?q=genus:Psaltoda&lat=-38.10&lon=144.05&radius=10&pageSize=0
+- https://biocache-ws.ala.org.au/ws/occurrences/search?q=genus:Yoyetta&lat=-38.10&lon=144.05&radius=10&pageSize=0
+- https://biocache-ws.ala.org.au/ws/occurrences/search?q=taxon_name:%22Synemon%20plana%22&lat=-38.10&lon=144.05&radius=10&pageSize=10
+- https://biocache-ws.ala.org.au/ws/occurrences/search?q=taxon_name:%22Synemon%20plana%22&lat=-38.10&lon=144.05&radius=5&pageSize=0
+- https://biodiversity.org.au/afd/taxa/Galanga/complete
+- https://biodiversity.org.au/afd/taxa/Theridiidae
+- https://canberra.naturemapr.org/species/sightings/5275?conservationlevelid=3
+- https://en.wikipedia.org/api/rest_v1/page/summary/Galanga
+- https://en.wikipedia.org/api/rest_v1/page/summary/TITLE
+- https://en.wikipedia.org/w/api.php?action=query&prop=extracts&explaintext=1&redirects=1&titles=TITLE
+- https://en.wikipedia.org/wiki/Acrida_conica
+- https://en.wikipedia.org/wiki/Austracantha
+- https://en.wikipedia.org/wiki/Australian_painted_lady
+- https://en.wikipedia.org/wiki/Australian_plague_locust
+- https://en.wikipedia.org/wiki/Austrolestes_leda
+- https://en.wikipedia.org/wiki/Banded_sugar_ant
+- https://en.wikipedia.org/wiki/Chauliognathus_lugubris
+- https://en.wikipedia.org/wiki/Chauliognathus_tricolor
+- https://en.wikipedia.org/wiki/Delena_cancerides
+- https://en.wikipedia.org/wiki/Delias_harpalyce
+- https://en.wikipedia.org/wiki/Diplacodes_bipunctata
+- https://en.wikipedia.org/wiki/Doratifera_oxleyi
+- https://en.wikipedia.org/wiki/Eupoecila_australasiae
+- https://en.wikipedia.org/wiki/Gastrimargus_musicus
+- https://en.wikipedia.org/wiki/Geitoneura_klugii
+- https://en.wikipedia.org/wiki/Heteronympha_merope
+- https://en.wikipedia.org/wiki/Jack_jumper_ant
+- https://en.wikipedia.org/wiki/Lamprima_aurata
+- https://en.wikipedia.org/wiki/Lasioglossum_lanarium
+- https://en.wikipedia.org/wiki/Lipotriches_australica
+- https://en.wikipedia.org/wiki/Lucia_(butterfly)
+- https://en.wikipedia.org/wiki/Meat_ant
+- https://en.wikipedia.org/wiki/Megachile_ferox
+- https://en.wikipedia.org/wiki/Myrmecia_nigriscapa
+- https://en.wikipedia.org/wiki/Oedaleus_australis
+- https://en.wikipedia.org/wiki/Onthophagus_taurus
+- https://en.wikipedia.org/wiki/Opodiphthera_eucalypti
+- https://en.wikipedia.org/wiki/Orthetrum_caledonicum
+- https://en.wikipedia.org/wiki/Phaulacridium_vittatum
+- https://en.wikipedia.org/wiki/Phonognatha_graeffei
+- https://en.wikipedia.org/wiki/Pieris_rapae
+- https://en.wikipedia.org/wiki/Pollanisus_viridipulverulenta
+- https://en.wikipedia.org/wiki/Red_and_blue_damsel
+- https://en.wikipedia.org/wiki/Redback_spider
+- https://en.wikipedia.org/wiki/Synemon_plana
+- https://en.wikipedia.org/wiki/Tau_emerald
+- https://en.wikipedia.org/wiki/Trichonephila_edulis
+- https://en.wikipedia.org/wiki/Vespula_germanica
+- https://en.wikipedia.org/wiki/Western_honey_bee
+- https://en.wikipedia.org/wiki/Zizina_labradus
+- https://en.wikipedia.org/wiki/Zizina_otis
+- https://inverleigh.org.au/features/nature-conservation/
+- https://keys.lucidcentral.org/keys/v3/aus_museum/dung_beetles/key/thyregis/Media/Html/efulvus.html
+- https://lepidoptera.butterflyhouse.com.au/lyca/otis.html
+- https://www.agriculture.gov.au/biosecurity-trade/pests-diseases-weeds/locusts/about/australian-plague-locust
+- https://www.agriculture.gov.au/biosecurity-trade/pests-diseases-weeds/locusts/about/id-guide/description_of_adults/6_eastern_plague_grasshopper_oedaleus_australis
+- https://www.allergy.org.au/patients/insect-allergy-bites-and-stings/jack-jumper-ant-allergy
+- https://www.dcceew.gov.au/environment/biodiversity/threatened/publications/national-recovery-plan-golden-sun-moth
+- https://www.dcceew.gov.au/sites/default/files/documents/national-recovery-plan-golden-sun-moth-2026.pdf
+- https://www.dungbeetles.com.au/news/little-golden-dung-beetles-genus-euoniticellus.html
+- https://www.dungbeetles.com.au/news/onthophagus-taurus-bullhorned-dung-beetle.html
+- https://www.environment.gov.au/cgi-bin/sprat/public/publicthreatenedlist.pl?wanted=fauna
+- https://www.environment.vic.gov.au/__data/assets/pdf_file/0028/793801/FFG_Threatened_List_July_2026.pdf
+- https://www.environment.vic.gov.au/conserving-threatened-species/threatened-list
+- https://www.mja.com.au/journal/2011/195/2/causes-ant-sting-anaphylaxis-australia-australian-ant-venom-allergy-study
+- https://www.rch.org.au/clinicalguide/guideline_index/Spider_Bite_%E2%80%93_Redback_Spider
+
+### Photos for insects and spiders (20 Nov 2026)
+
+All 40 species have a photo of the exact species. None uses a placeholder, a substitute species or a genus-level image. Credits are on `/credits`; per-species sources and everything tried are in `lib/insects-media.json` (`tried`).
+
+- Order tried: the Wikipedia lead image for the scientific name, then a Commons search on the scientific name, then iNaturalist research-grade observations with a CC BY or CC0 photo. A Commons file was accepted only if the scientific name appears in its title, description or categories and its licence is CC BY, CC BY-SA, CC0 or public domain.
+- Sources: 31 from Wikimedia Commons and 9 from iNaturalist (CC BY or CC0 only, no NC licences).
+- Every image was checked by eye. These first picks were rejected and replaced:
+  - `common-grass-blue`: Wikimedia Commons: File:Lesser_grass_blue_(Zizina_otis_lampa)_male_I.jpg not used (Wikipedia lead image was Z. otis lampa photographed in Indonesia; replaced with an Australian research-grade observation)
+  - `klugs-xenica`: Wikimedia Commons: File:Geitoneura klugii (32703207425).jpg not used (Wikipedia lead image showed the butterfly barely visible against leaf litter; replaced with a clearer photo)
+  - `grassland-copper`: Wikimedia Commons: File:Lucia_limbaria_(ento-csiro-au).jpg not used (Commons file is a CSIRO illustration (Category: Lepidoptera illustrations from CSIRO), not a photo)
+  - `fulvus-dung-beetle`: Wikimedia Commons: File:Euoniticellus.fulvus.-.calwer.21.12.jpg not used (Commons result was a 19th-century illustration, not a photo)
+  - `painted-cup-moth`: Wikimedia Commons: File:Doratifera_oxleyi_(ento-csiro-au).jpg not used (Commons file is a CSIRO illustration (Category: Lepidoptera illustrations from CSIRO), not a photo)
+  - `golden-sun-moth`: Wikimedia Commons: File:Synemon_plana_at_Australian_Museum.jpg not used (Commons file shows two pinned museum specimens; replaced with a live research-grade photo)
+  - `australian-plague-locust`: Wikimedia Commons: File:Chortoicetes_terminifera_(Walker)_cain629.jpg not used (Commons file is a CSIRO pinned-specimen image; replaced with a live research-grade photo)
+  - `southern-meat-ant`: Wikimedia Commons: File:Iridomyrmex purpureus 'meat ant' nest 7th Brigade Park Chermside L1100387.jpg not used (Wikipedia lead image shows a nest mound with ants barely visible)
+  - `jack-jumper-ant`: Wikimedia Commons: File:Myrmecia pilosula specimen mandibles.jpg not used (Wikipedia lead image is a museum close-up of the mandibles)
+  - `banded-sugar-ant`: Wikimedia Commons: File:Black-headed_sugar_ant.jpg not used (Commons file is labelled C. consobrinus but titled 'Black-headed sugar ant' (a name used for C. nigriceps); replaced with a research-grade observation to avoid ambiguity)
